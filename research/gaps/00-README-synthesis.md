@@ -23,6 +23,7 @@ Date: 22 October 2026. Inputs: four AI briefings (Claude, GPT, Gemini, Grok), th
 | 12 | Carbon credits, nature markets and a new economy | subsidies-tax-incentives, forestry | WCC / Peatland / BNG prices, CBAM on fertiliser, Denmark livestock tax, soil-credit integrity, food as foundational infrastructure |
 | 13 | How other countries store food: reserves, plans, costs | international-comparison, supply-chain-reserves | Finland, Switzerland, Norway, Sweden, Germany, Japan, Singapore, Israel, Egypt, India, China, Gulf vs UK; UK cost scaling |
 | 14 | Who has reserves, why six months, is it enough? | international-comparison, scale-up-emergency | Data limits; sizing logic; UK reserve-vs-feed trade-off (model) |
+| 15 | Feed to food and full system restructure | calories-protein, diets-livestock-externalities, agroecology-biology | Can people eat feed grain; rotating reserve; fewer animals; swill; full-cost; carbon-negative options; blueprint |
 
 Model: `research/model/cereal_balance.py` (run with `python3`).
 

@@ -3,7 +3,7 @@
 Illustrative only. Nutrient values are rounded typical composition figures
 (UK McCance & Widdowson / USDA FoodData order of magnitude); prices are
 rounded 2025-26 wholesale assumptions; storage and rotation costs are
-assumptions. See research/gaps/16-storable-full-diet-reserve.md.
+assumptions. See research/notes/16-storable-full-diet-reserve.md.
 
 Run:  python3 research/model/reserve_basket.py
 """

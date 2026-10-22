@@ -1,7 +1,7 @@
 """First-cut monthly UK cereal balance under import-stop scenarios.
 
 Illustrative only. Every input is a rounded assumption listed in BASE and
-documented in research/gaps/09-diet-shift-mass-balance.md. The model tracks one
+documented in research/notes/09-diet-shift-mass-balance.md. The model tracks one
 pooled stock of wheat, barley and oats (Mt), starting 1 July (pre-harvest low).
 It answers one question: under a given shock, in which month does the pooled
 cereal stock run out, and how much feed must be cut to keep food milling whole?

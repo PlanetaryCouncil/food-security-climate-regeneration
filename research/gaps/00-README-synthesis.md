@@ -52,19 +52,19 @@ Tags the dossier already covers well and this folder leaves alone: `baseline-sel
 - **Lagi "210" riot threshold:** don't apply it to today's FAO index (rebased in 2020), and it is not a UK model (05).
 - **SFI26:** Window 2 is £180m base (+ rollover); the dossier's "~£253m" needs reconciling (08).
 
-## Proposed 12-page structure (for when content is settled)
-1. Can Britain feed itself? Headline numbers, three denominators
-2. The natural endowment: climate, soils, water (existing)
-3. Climate is changing the odds: compound extremes, correlated Europe, pests (07)
-4. Inputs: nitrogen, phosphorus, potash, diesel, CO₂ (03, 01, 06)
-5. Protein: soya, livestock, fish, "less but better" with numbers (09, 02)
-6. Stocks and chokepoints: days of cover, single points of failure, the power-cut test (01, 06)
-7. Geopolitics and prices: Hormuz, Black Sea, the lag (05)
-8. People: food insecurity, fairness, unrest, local plans (10, 05)
-9. Work: nature, wellbeing and the AI economy (04)
-10. Culture: diets already changing, seafood, waste (05, 09, 02)
-11. Money and policy: four nations, Roadmap 2050, tax, the missing resilience tier (08)
-12. The plan: store, grow, rebalance, plant, with timelines and costs
+## Proposed 12-page structure (updated 22 Oct 2026; one page per chapter)
+1. **Can Britain feed itself?** Three denominators; resilient on paper, fragile in practice (dossier Part 1; 09)
+2. **Nature's gift: climate, soils, water** (dossier Parts 4–6)
+3. **Climate is changing the odds:** compound extremes, Europe failing together, new pests (07)
+4. **Hidden dependencies:** nitrogen, phosphorus, potash, diesel, CO₂, cyber, cold chain (01, 03, 06)
+5. **Protein, livestock and the sea:** soya, feed-to-food, fewer and better animals, fish (02, 09, 15)
+6. **Geopolitics and prices:** Hormuz, Black Sea, the lagged shock (05)
+7. **Food and stability:** "nine meals", unrest evidence, fairness, local plans (10, 11)
+8. **How other countries prepare:** Finland, Switzerland, Norway, Japan… and the UK's empty shelf (13, 14)
+9. **The £2 insurance policy:** storable full diet, rotation, no waste, ROI (16, 17)
+10. **Work, wellbeing and the AI economy:** meaningful work in nature (04)
+11. **A new economy of food:** full-cost accounting, carbon credits, CBAM, the four nations' schemes (08, 12)
+12. **The plan:** store, repurpose, rebalance, close loops, draw down carbon, with timelines and costs (15, 17)
 
 ## Top open items (next session)
 1. Fetch the primary pages behind every [P] figure (NAO full report, AHDB Sep 2026 tables, ONS CPI Sep 2026, Food Foundation).

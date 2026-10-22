@@ -13,10 +13,10 @@ Labels: [P] primary or official, [S] secondary, [E] my estimate, [?] unresolved.
 ## 2. Country by country
 
 ### Finland: the benchmark (NESA, Huoltovarmuuskeskus)
-- **Storage:** legal minimum of **6 months** of normal human grain consumption (Government Decision 568/2024). Raised to **~8.5–9 months** in 2022–23 by buying domestic oats (64%) and wheat (36%); a 2025 plan to cut back to 6 months to save ~€20m caused a political row [P/S].
+- **Storage:** legal minimum of **6 months** of normal human grain consumption (Government Decision 568/2024). Raised to **~8.5–9 months** in 2022–23 by buying domestic oats (64%) and wheat (36%); a 2025 plan to cut back to 6 months to save ~€20m (~£17m) caused a political row [P/S].
 - **Also stores** seed grain (released 15,000 t of spring cereal seed and 50 t of rapeseed after the poor 2021 harvest; rebuilding takes 1–3 years), fertiliser inputs, feed and medicines [P].
 - **Model:** NESA owns little stock directly. It contracts companies to hold stock that "keeps circulating through normal business"; there are also compulsory company stocks and agreement-based stocks. Critical firms must keep continuity plans. A legal backstop lets the state take temporary control of critical functions [P].
-- **Cost and funding:** National Emergency Supply Fund of **~€2bn**, mostly tied up in stocks. Funded by a **strategic stockpile fee on electricity**: ~€66m in 2026, ~€92m in 2027 under the new Security of Supply Act (in force 1 Apr 2026). Plus ~€25m/yr admin from the budget; can borrow up to €600m. This covers *all* security of supply, not only food: about **€16 per person per year** [P].
+- **Cost and funding:** National Emergency Supply Fund of **~€2bn (~£1.7bn)**, mostly tied up in stocks. Funded by a **strategic stockpile fee on electricity**: ~€66m (~£57m) in 2026, ~€92m (~£79m) in 2027 under the new Security of Supply Act (in force 1 Apr 2026). Plus ~€25m/yr admin from the budget; can borrow up to €600m. This covers *all* security of supply, not only food: about **€16 (~£14) per person per year** [P].
 - **Households:** 72-hour kit guidance.
 
 ### Switzerland: compulsory private stocks (FONES / BWL)
@@ -38,7 +38,7 @@ Labels: [P] primary or official, [S] secondary, [E] my estimate, [?] unresolved.
 ### Germany: an old reserve being modernised
 - **Storage:** *Bundesreserve Getreide* **705,000 t** (582k soft wheat, 67k rye, 56k oats; end-2021) plus the *Zivile Notfallreserve* (~126,000 t rice, peas and lentils, plus 5,000 t condensed milk held at dairies). About **one month of bread** [P via top agrar, Bundestag answers].
 - **Model:** ~150 private sites (2,000–8,000 t each) chosen by tender; BLE inspects every 4–6 weeks; stock rotated about every 10 years [P/S].
-- **Reform:** Agriculture Minister Rainer wants to add **ready-to-eat canned meals** (the "ravioli reserve"), because raw grain needs working mills, bakeries and power. Cost **€80–90m**; prompted by the attack on Berlin's power grid (early 2026) [S].
+- **Reform:** Agriculture Minister Rainer wants to add **ready-to-eat canned meals** (the "ravioli reserve"), because raw grain needs working mills, bakeries and power. Cost **€80–90m (~£70–78m)**; prompted by the attack on Berlin's power grid (early 2026) [S].
 - **Households:** 10-day stock advice (BBK) [S].
 
 ### Japan: what goes wrong
@@ -78,7 +78,7 @@ Labels: [P] primary or official, [S] secondary, [E] my estimate, [?] unresolved.
 
 | Country | Grain / staple cover | Who holds it | Funding | Indicative cost |
 |---|---|---|---|---|
-| Finland | 6 months legal minimum, ~9 actual | Contracted firms, rotating; plus compulsory company stocks | Electricity levy → €2bn fund | ~€16/person/yr (all security of supply) |
+| Finland | 6 months legal minimum, ~9 actual | Contracted firms, rotating; plus compulsory company stocks | Electricity levy → €2bn fund | ~€16 (~£14)/person/yr (all security of supply) |
 | Switzerland | 3–4 months (wheat 4, sugar 3, rice 4, protein feed 2, N fertiliser ⅓ season) | Compulsory private stocks | Built into import prices; federal guarantees | ~CHF 14/person/yr (incl. fuel and medicines) |
 | Norway | 3 months bread grain by 2029 (82,500 t) | State-owned, millers store | State budget | NOK 300m to buy + ~NOK 50m/yr to run |
 | Sweden | Not disclosed; building 2026–28 | State-owned, contractors | Defence / civil-defence budget | SEK 575m (2026) |

@@ -96,7 +96,7 @@ With domestic production continuing (cereal model, notes 09 and 14):
 | **Capital tied up** | £0.9–5.3bn of stock | Recovered at rotation; can be held by contracted firms with state guarantees (Swiss CHF 540–750m guarantee model) |
 | **Moves prices when building** | Japan's 2026 buyback was criticised as "too late", and buying big stocks in a tight market raises prices | Buy gradually over 3–5 years, at harvest, in surplus years |
 | **Spoilage through mismanagement** | India: CAG found 4.72 lakh t of wheat (₹700 crore) deteriorated in Punjab 2011–16 (open storage, first-in-first-out not followed) | Covered storage, FIFO, independent audit, published stock reports |
-| **Political raiding** | Finland's 2025 attempt to cut from 9 to 6 months to save €20m; Japan ran its reserve down from 1 Mt to 0.32 Mt managing prices | Statutory minimum; release rules set in law; refill obligation within 12 months (Japan's rule) |
+| **Political raiding** | Finland's 2025 attempt to cut from 9 to 6 months to save €20m (~£17m); Japan ran its reserve down from 1 Mt to 0.32 Mt managing prices | Statutory minimum; release rules set in law; refill obligation within 12 months (Japan's rule) |
 | **Hazardous inputs** | Ammonium nitrate stores are an explosion and security risk (Beirut, 2020) | Dispersed, regulated sites; store as safer products or hold contracts for supply rather than bulk |
 | **Crowding out private stocks** | If the state holds stock, firms may hold less | Contract existing firms to hold extra on top of their working stock (Finland, Norway) |
 | **Monotonous diet** | Acceptability in a long crisis | Recipes and public communication planned in advance; rationing that people see as fair (note 11) |

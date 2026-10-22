@@ -19,6 +19,8 @@ Date: 22 October 2026. Inputs: four AI briefings (Claude, GPT, Gemini, Grok), th
 | 08 | Devolved policy and incentives | subsidies-tax-incentives, governance-policy | Four nations' schemes, Roadmap 2050, IHT |
 | 09 | Diet shift and mass balance (+ model) | calories-protein, scale-up-emergency | Monthly cereal balance; protein; waste |
 | 10 | Household equity and local response | supply-chain-reserves, governance-policy | LRFs, food insecurity, three-layer design |
+| 11 | Food as the foundation of social stability | governance-policy, supply-chain-reserves | "Nine meals", unrest evidence, Egypt / Sri Lanka / Japan / WWII, reserves abroad, ports and strikes, the Defra FOI |
+| 12 | Carbon credits, nature markets and a new economy | subsidies-tax-incentives, forestry | WCC / Peatland / BNG prices, CBAM on fertiliser, Denmark livestock tax, soil-credit integrity, food as foundational infrastructure |
 
 Model: `research/model/cereal_balance.py` (run with `python3`).
 

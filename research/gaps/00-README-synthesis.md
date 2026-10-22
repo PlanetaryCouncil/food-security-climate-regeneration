@@ -25,7 +25,7 @@ Date: 22 October 2026. Inputs: four AI briefings (Claude, GPT, Gemini, Grok), th
 | 14 | Who has reserves, why six months, is it enough? | international-comparison, scale-up-emergency | Data limits; sizing logic; UK reserve-vs-feed trade-off (model) |
 | 15 | Feed to food and full system restructure | calories-protein, diets-livestock-externalities, agroecology-biology | Can people eat feed grain; rotating reserve; fewer animals; swill; full-cost; carbon-negative options; blueprint |
 | 16 | Storable full-diet reserve and rotation | supply-chain-reserves, calories-protein | Complete storable ration, costs (£1–13/person/yr), rotation outlets, honest downsides |
-| 17 | The €2 insurance framing | supply-chain-reserves | What €2/person/yr buys, ROI break-even odds, economies of scale, slogans |
+| 17 | The £2 insurance framing | supply-chain-reserves | What £2/person/yr buys, ROI break-even odds, economies of scale, slogans |
 
 Models: `research/model/cereal_balance.py` and `research/model/reserve_basket.py` (run with `python3`).
 

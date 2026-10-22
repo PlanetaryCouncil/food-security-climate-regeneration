@@ -100,3 +100,41 @@ if __name__ == "__main__":
         print(f"- {label}: feed at {f:.0%} of today")
     june_low_days = BASE["opening_stock"] * 1e6 * KCAL_PER_T / NEED_KCAL_DAY
     print(f"\nPooled 1 July stock = {june_low_days:.0f} days of total population energy need")
+
+
+def reserve_needed(harvest_factors, feed_factor, other_hi_factor=0.25, years=2):
+    """Smallest extra reserve (Mt, added 1 Jul) that keeps the pooled stock >= 0."""
+    lo, hi = 0.0, 30.0
+    for _ in range(40):
+        mid = (lo + hi) / 2
+        r = run("probe", years, harvest_factors, other_hi_factor=other_hi_factor,
+                feed_factor=feed_factor, extra_reserve=mid)
+        if r["lowest_stock_Mt"] >= 0:
+            hi = mid
+        else:
+            lo = mid
+    return hi
+
+
+def reserve_table():
+    days_per_mt = 1e6 * KCAL_PER_T / NEED_KCAL_DAY
+    cases = [
+        ("Normal harvests, feed kept at 100%", (1.0, 1.0), 1.0),
+        ("Two -15% harvests, feed kept at 100%", (0.85, 0.85), 1.0),
+        ("Two -15% harvests, feed cut to 80%", (0.85, 0.85), 0.8),
+        ("2nd harvest -35% (N cut), feed 100%", (1.0, 0.65), 1.0),
+        ("2nd harvest -35% (N cut), feed 80%", (1.0, 0.65), 0.8),
+        ("Two -30% harvests (N and weather), feed 80%", (0.7, 0.7), 0.8),
+        ("Two -30% harvests, feed cut to 50%", (0.7, 0.7), 0.5),
+    ]
+    print("\n| Case (imports stop 1 Jul; ethanol/distilling cut 75%; no exports) |"
+          " Extra reserve needed (Mt) | ≈ days of national energy |")
+    print("|---|---|---|")
+    for label, hf, ff in cases:
+        mt = reserve_needed(hf, ff)
+        mt = 0.0 if mt < 0.05 else mt
+        print(f"| {label} | {mt:.1f} | {mt * days_per_mt:.0f} |")
+
+
+if __name__ == "__main__":
+    reserve_table()

@@ -19,7 +19,8 @@ Status: web-search research, 22 Oct 2026. Labels: [P] primary, [S] secondary, [E
 | Powers | Defra lacks a power to **direct businesses** to take emergency action | [P] NAO |
 | Household food insecurity | **12.2%** of households (Jul 2026); 16.7% of households with children; 35.9% of UC households; 27.1% of single parents; 19.2% with a disabled member | [P] Food Foundation |
 | Food banks | Trussell: **2.6 m parcels in 2025** (−12% vs 2024); 2.9 m in Apr 2024–Mar 2025 (+51% on five years earlier) | [P] Trussell |
-| Household preparedness | Prepare website launched 22 May 2024; government urges households to plan for **72 hours** without outside help; retailers warned against panic buying. **No public take-up figure found** [?] | [S] |
+| Household preparedness | Prepare website launched 22 May 2024; government urges households to plan for **72 hours** without outside help; retailers warned against panic buying | [S] |
+| Household stocks (UK Public Survey of Risk Perception, Resilience and Preparedness 2026, n = 10,791, fieldwork Feb–May 2026) | **60%** have three days of food needing no cooking (down from 66%); 85% have three days of cupboard food; **4%** have three days of bottled water (3 L/person/day); 13% feel largely or totally prepared, 50% slightly or not at all | [P] Cabinet Office/Defra (found in dossier Part 8) |
 | Local food partnerships | Sustain's 2026 "civil food resilience" briefing: local food partnerships are the proven vehicle; asks for food in local risk registers and a remit for resilience bodies | [S] Sustain |
 | Expert letter (Oct 2026) | Calls for storage at national, regional, local **and community** level | [S] |
 

@@ -77,3 +77,72 @@ if __name__ == "__main__":
     ]:
         t, v, a = reserve_costs(days, share)
         print(f"| {label} | {t/1e6:.1f} | {v/1e9:.2f} | {a/1e6:.0f} | {a/POP:.2f} |")
+
+
+# ---------------------------------------------------------------------------
+# £10 multi-purpose package (see research/notes/20-ten-pound-multipurpose-reserve.md)
+# ---------------------------------------------------------------------------
+
+def per_tonne_carry(price, store, finance=0.04, rotation_share=0.25, discount=0.05):
+    """Annual carrying cost per tonne: storage + financing + rotation discount."""
+    return store + price * finance + price * rotation_share * discount
+
+
+def ten_pound_package(budget_per_person=10.0):
+    budget = budget_per_person * POP
+    rows = []
+    # A. 90-day complete ration for everyone
+    tA, vA, aA = reserve_costs(90)
+    rows.append(("A. 90-day complete ration (whole population)", tA, vA, aA))
+    # B. extra 92 days of the import-dependent items (oil, rice, pulses) -> 6 months total
+    extra_days = 92
+    tB = vB = aB = 0.0
+    for key in ("Rapeseed oil", "Rice (white)", "Pulses (peas, beans, lentils)"):
+        g, _, _, _, _, _, price, _, store, _ = BASKET[key]
+        t = g / 1e6 * POP * extra_days
+        tB += t; vB += t * price; aB += t * per_tonne_carry(price, store)
+    rows.append(("B. Oils, rice and pulses topped up to 6 months", tB, vB, aB))
+    # C. farm inputs: seed grain 0.3 Mt; nitrogen fertiliser ~1/3 of a season (~1 Mt product)
+    tC_seed, tC_n = 0.3e6, 1.0e6
+    vC = tC_seed * 300 + tC_n * 350
+    aC = tC_seed * per_tonne_carry(300, 15) + tC_n * per_tonne_carry(350, 20)
+    rows.append(("C. Seed (0.3 Mt) + nitrogen fertiliser (~1/3 season, ~1 Mt product)", tC_seed + tC_n, vC, aC))
+    # D. micronutrients, infant formula, fortificants (allowance)
+    aD = 0.30 * POP
+    rows.append(("D. Vitamins, fortificants, infant formula (allowance)", None, aD * 3, aD))
+    # E. multi-purpose grain: capped at a realistic size (~a quarter of one harvest),
+    #    needing new storage (capex ~£200/t capacity, 25-year annuity at 4%)
+    tE = 5.0e6
+    capex_annuity = 200 * 0.064
+    carry_grain = per_tonne_carry(200, 15) + capex_annuity
+    rows.append(("E. Multi-purpose grain, 5 Mt (human backup / feed buffer / overseas aid), incl. new stores",
+                 tE, tE * 200, tE * carry_grain))
+    # F. the rest of the budget runs the system: agency, audit, LRF food plans, exercises,
+    #    backup power at key distribution/cold-store nodes, regional hubs
+    used = sum(r[3] for r in rows)
+    rows.append(("F. Operations: agency, audit, local food plans, exercises, backup power at key nodes",
+                 None, 0.0, max(0.0, budget - used)))
+    return rows, budget
+
+
+def print_ten_pound_package():
+    rows, budget = ten_pound_package()
+    print("\n| Component | Tonnes (Mt) | Stock value (£bn) | Annual cost (£m) | £/person/yr |")
+    print("|---|---|---|---|---|")
+    tot_v = tot_a = 0.0
+    for label, t, v, a in rows:
+        tot_v += v; tot_a += a
+        ts = f"{t/1e6:.1f}" if t else "-"
+        print(f"| {label} | {ts} | {v/1e9:.2f} | {a/1e6:.0f} | {a/POP:.2f} |")
+    print(f"| **Total** | | **{tot_v/1e9:.2f}** | **{tot_a/1e6:.0f}** | **{tot_a/POP:.2f}** |")
+    tE = rows[-2][1]
+    food_grain_months = tE / 6.0e6 * 12
+    days_energy = tE * KCAL_ENERGY_PER_T / (POP * 2250)
+    print(f"\nMulti-purpose grain {tE/1e6:.1f} Mt = ~{food_grain_months:.0f} months of UK food-grain use,"
+          f" or ~{days_energy:.0f} days of total national calories, or ~{tE/13.4e6*12:.1f} months of UK livestock cereal feed.")
+
+
+KCAL_ENERGY_PER_T = 3.3e6
+
+if __name__ == "__main__":
+    print_ten_pound_package()

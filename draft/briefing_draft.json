@@ -1,0 +1,290 @@
+{
+  "title": "Can Britain Feed Itself? Food security, resilience and regeneration",
+  "subtitle": "A £2 insurance policy, a smarter farm system, and meaningful work",
+  "version": "draft-1",
+  "date": "2026-10-22",
+  "status": "Draft for fact-checking. Not a government publication.",
+  "label_key": {
+    "P": "primary source (seen via search extract, not opened directly)",
+    "S": "secondary source (press, trade, NGO)",
+    "E": "own estimate or model; method in research/notes or research/model",
+    "?": "not yet verified"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "title": "Can Britain feed itself?",
+      "headline": "Resilient on paper, fragile in practice.",
+      "body": [
+        "UK farms produce about 60% of the food the UK consumes by value, and about 72% of foods that can be grown here.",
+        "Calories are covered on paper; protein looks generous only because imported animal feed is counted in.",
+        "The fragility lies in inputs (gas-based fertiliser, imported soya), weather and the absence of any public food reserve."
+      ],
+      "claims": [
+        {"claim": "All-food production-to-supply ratio", "value": "60%", "year": 2025, "geo": "UK", "basis": "farmgate value, provisional", "source": "Defra, Agriculture in the UK 2025, ch.14", "label": "P"},
+        {"claim": "Indigenous-type food production-to-supply ratio", "value": "72%", "year": 2025, "geo": "UK", "source": "Defra, Agriculture in the UK 2025, ch.14", "label": "P"},
+        {"claim": "Farm output covers dietary energy need", "value": "about 101%", "year": 2025, "geo": "UK", "basis": "before waste; statistics in development", "source": "Defra, Nutritional supply of agriculture 2025 (15 Oct 2026)", "label": "P"},
+        {"claim": "Farm output covers protein need", "value": "about 190-195%", "year": 2025, "geo": "UK", "basis": "relies on imported feed; not closed-loop", "source": "Defra, Nutritional supply of agriculture 2025", "label": "P"},
+        {"claim": "Imported soya meal carries roughly the population's entire protein requirement", "value": "~1.1 Mt protein vs ~1.17 Mt need", "geo": "UK", "source": "LSE/AIC soya imports 2020-22; own arithmetic", "label": "E"}
+      ],
+      "notes": ["09", "dossier Part 1"]
+    },
+    {
+      "n": 2,
+      "title": "Nature's gift",
+      "headline": "World-class per hectare, land-poor per person, with soils that can recover.",
+      "body": [
+        "A mild, wet Köppen Cfb climate gives a long growing season and rain-fed farming almost everywhere.",
+        "UK wheat yields are about double the world average; the world wheat-yield record was set in Lincolnshire.",
+        "Each person has about a third of the arable land a French person has, so what we grow, and who eats it, matters more than how much land we have.",
+        "Grass-clover leys at Rothamsted raised soil carbon by about a quarter in 28 years."
+      ],
+      "claims": [
+        {"claim": "Average UK wheat yield (implied 5-year average)", "value": "~7.8 t/ha", "geo": "UK", "source": "AHDB 2026 harvest: 6.9 t/ha = 11% below 5-yr average", "label": "E"},
+        {"claim": "World average wheat yield", "value": "~3.5-3.7 t/ha", "source": "FAOSTAT", "label": "?"},
+        {"claim": "World record wheat yield", "value": "17.95 t/ha", "year": 2022, "geo": "Louth, Lincolnshire", "source": "Guinness World Records (Tim Lamyman)", "label": "P"},
+        {"claim": "Arable land per person, UK vs France", "value": "~0.09 ha vs ~0.27-0.29 ha", "source": "FAO arable totals ÷ population", "label": "E"},
+        {"claim": "Utilised agricultural area", "value": "16.8 Mha (69% of UK land); croppable 6.1 Mha", "year": 2025, "source": "Defra land use June 2025", "label": "P"},
+        {"claim": "Soil degradation cost", "value": "~£1.2bn/yr (range £0.9-1.4bn; 47% organic matter loss, 39% compaction, 12% erosion)", "geo": "England & Wales", "source": "Graves et al. 2015, Ecological Economics 119:399-413", "label": "P"},
+        {"claim": "Ley rotation raised topsoil organic carbon", "value": "0.98% to 1.23% in 28 years, then plateau", "source": "Johnston et al. 2017, Rothamsted/Woburn ley-arable experiment", "label": "P"}
+      ],
+      "notes": ["18"]
+    },
+    {
+      "n": 3,
+      "title": "Climate is changing the odds",
+      "headline": "One bad week doesn't hurt British wheat. Bad weather stacked across a season does, and that is now the pattern.",
+      "body": [
+        "UK yields absorb single extremes but fail when extremes combine across one season (2020: wet autumn, dry spring, wet harvest).",
+        "Four of the five worst UK harvests on record fall in 2020-2026.",
+        "In 2026 the UK, France and Germany lost harvests together, so the neighbours trade relies on were failing too.",
+        "Warming brings new pests and diseases."
+      ],
+      "claims": [
+        {"claim": "Single extremes absorbed; compound extremes drive losses", "source": "Slater et al. 2022, Earth System Dynamics 13:1377", "label": "P"},
+        {"claim": "2026 winter wheat yield", "value": "6.9 t/ha, 11% below 5-yr avg; spring barley -17%", "source": "AHDB final harvest report 2026", "label": "P"},
+        {"claim": "French cereal output fall in 2026", "value": "~8 Mt vs 2025", "source": "European Commission via Carbon Brief", "label": "S"},
+        {"claim": "2025 was the UK's warmest year on record", "source": "Met Office, Feb 2026", "label": "P"},
+        {"claim": "Bluetongue BTV-3 cases in England", "value": "160 (Aug 2024 - May 2025), new season from Jul 2025", "source": "GOV.UK bluetongue latest situation", "label": "P"}
+      ],
+      "notes": ["07"]
+    },
+    {
+      "n": 4,
+      "title": "Hidden dependencies",
+      "headline": "A loaf of bread runs on gas, diesel, ships and software.",
+      "body": [
+        "The UK no longer makes its own ammonia, the starting material for nitrogen fertiliser. Food-grade CO2, a by-product of the same plants, is a recurring chokepoint.",
+        "All phosphate is imported, and less than half is used productively.",
+        "Over half of UK food is chilled or frozen, and cyber attacks have already halted supermarket supply systems.",
+        "A long power cut would break the food system faster than a bad harvest."
+      ],
+      "claims": [
+        {"claim": "CF Billingham ammonia plant closed", "year": 2023, "source": "CF Fertilisers / industry press", "label": "S"},
+        {"claim": "Phosphorus imports", "value": "~174 kt P/yr; under half used productively", "source": "UK Phosphorus Transformation Strategy (Lancaster, 2022)", "label": "P"},
+        {"claim": "P reaching wastewater works", "value": "~55 kt/yr (2009 data)", "source": "Birmingham substance-flow analysis", "label": "P"},
+        {"claim": "Government-backed restart of Ensus bioethanol/CO2 plant", "value": "£100m, three months", "year": "2025-26", "source": "Farmers Weekly, Gasworld", "label": "S"},
+        {"claim": "Share of UK food that is chilled or frozen", "value": ">50%", "source": "Cold Chain Federation", "label": "S"},
+        {"claim": "Ransomware at Peter Green Chilled halted order processing for major grocers", "year": 2025, "source": "Food Ingredients First", "label": "S"},
+        {"claim": "Implied UK farm diesel volume", "value": "~0.9 bn litres/yr", "source": "£384m rebate ÷ 42.8p/L duty gap", "label": "E"}
+      ],
+      "notes": ["01", "03", "06"]
+    },
+    {
+      "n": 5,
+      "title": "Protein, livestock and the sea",
+      "headline": "Grain isn't the weak point. Imported protein feed is.",
+      "body": [
+        "About half of UK wheat, barley and oats goes to animal feed, more than the global third.",
+        "Most UK feed grain could be eaten by people after mould-toxin testing, as porridge, flatbreads and biscuits if not bread.",
+        "Pigs and poultry depend on imported soya; cattle and sheep on grass use land nothing else can use.",
+        "We export the fish we catch and import the fish we eat. Mackerel and herring are an unused protein buffer."
+      ],
+      "claims": [
+        {"claim": "Share of wheat, barley and oats used for feed", "value": "~52%", "year": 2023, "source": "Defra (dossier)", "label": "P"},
+        {"claim": "Cereals fed to livestock", "value": "~13.4 Mt", "year": "2025/26", "source": "AHDB", "label": "P"},
+        {"claim": "Global feed: 86% not human-edible; 2.8 kg (ruminant) and 3.2 kg (monogastric) human-edible feed per kg boneless meat", "source": "Mottet et al. 2017, Global Food Security 14:1-8", "label": "P"},
+        {"claim": "EU food limit for DON mould toxin in unprocessed cereals", "value": "1,000 µg/kg from 1 Jul 2024 (was 1,250)", "source": "Regulation (EU) 2024/1022", "label": "P"},
+        {"claim": "Halving pigs and poultry and diverting half of feed grain to people", "value": "net +~17 trillion kcal/yr ≈ 29% of annual need", "source": "own estimate", "label": "E"},
+        {"claim": "UK landings + aquaculture as share of seafood consumed", "value": "89% (1975) to 40% (2019)", "source": "Harrison et al. 2023, Rev Fish Biol Fisheries", "label": "P"},
+        {"claim": "Scottish farmed salmon production", "value": "197,836 t", "year": 2025, "source": "Scottish Fish Farm Production Survey 2025", "label": "P"},
+        {"claim": "CCC pathway", "value": "cattle and sheep -27% by 2040; meat -25%, dairy -20% by 2040 (not government policy)", "source": "Climate Change Committee, Seventh Carbon Budget (Feb 2025)", "label": "S"}
+      ],
+      "notes": ["02", "09", "15"]
+    },
+    {
+      "n": 6,
+      "title": "Geopolitics and prices",
+      "headline": "Two chokepoints in one year. Britain buys neither directly, and pays for both.",
+      "body": [
+        "The Strait of Hormuz has been disrupted since February 2026; it carries LNG and up to 30% of traded fertiliser.",
+        "Black Sea grain exports have been hit since July 2026.",
+        "In a crisis, export bans spread fast and supply flows towards countries that hold stocks.",
+        "A reserve is foreign policy: no panic-buying, no hoarding, a reliable partner."
+      ],
+      "claims": [
+        {"claim": "Urea price spike after Hormuz closure", "value": "~$400/t to >$850/t (Apr 2026), $453 by June", "source": "WTO data blog, Jul 2026", "label": "P"},
+        {"claim": "Ukraine 2026/27 wheat export forecast", "value": "8.3 Mt, -53%", "source": "S&P Global / Ukraine Agriculture Ministry", "label": "S"},
+        {"claim": "FAO Food Price Index", "value": "136.0, highest since Nov 2022", "year": "Sep 2026", "source": "FAO", "label": "P"},
+        {"claim": "Food export restrictions in 2022", "value": "32 countries, 77 measures; ~17% of traded calories at the late-May peak", "source": "IFPRI Food & Fertilizer Export Restrictions Tracker", "label": "P"},
+        {"claim": "UK food inflation", "value": "1.3%", "year": "Aug 2026", "source": "ONS via Trading Economics", "label": "S"}
+      ],
+      "notes": ["05", "19"]
+    },
+    {
+      "n": 7,
+      "title": "Food and stability",
+      "headline": "It is rising prices, not empty fields, that break the peace. And people forgive scarcity sooner than unfairness.",
+      "body": [
+        "'Nine meals from anarchy' (Alfred Henry Lewis, 1906) is a slogan, not evidence. The evidence says food price levels, not volatility, are followed by unrest.",
+        "In rich countries logistics fail first: in the 2000 fuel protests Sainsbury's warned it would run out of food within days.",
+        "One household in eight is food-insecure today.",
+        "Most local resilience forums do not plan for food disruption, and Defra lacks a power to direct businesses."
+      ],
+      "claims": [
+        {"claim": "Origin of 'nine meals' saying", "value": "Alfred Henry Lewis, 1896 / Cosmopolitan 1906", "source": "Quote Investigator", "label": "P"},
+        {"claim": "Food price increases followed by more unrest; volatility not", "source": "Bellemare 2015, American Journal of Agricultural Economics 97(1):1-21", "label": "P"},
+        {"claim": "Household food insecurity", "value": "12.2% of households (35.9% of Universal Credit households)", "year": "Jul 2026", "source": "Food Foundation tracker", "label": "P"},
+        {"claim": "NAO: LRF capability insufficient; most don't plan for food disruption; no power to direct; no food assets in CNI database", "year": "4 Sep 2026", "source": "NAO, Resilience of the food supply chain to disruptions", "label": "P"},
+        {"claim": "Households with 3 days of bottled water / 3 days of no-cook food", "value": "4% / 60%", "year": 2026, "source": "UK Public Survey of Risk Perception, Resilience and Preparedness 2026 (Cabinet Office/Defra)", "label": "P"},
+        {"claim": "Infant mortality during WWII rationing", "value": "58 to 45 per 1,000 (1937 to 1944)", "source": "secondary, citing Ministry of Health 1946", "label": "S"}
+      ],
+      "notes": ["10", "11"]
+    },
+    {
+      "n": 8,
+      "title": "How other countries prepare",
+      "headline": "Finland, Switzerland, Norway, Sweden, Germany and Japan hold food reserves. Britain has none.",
+      "body": [
+        "Comparable countries hold 1-9 months of bread grain, rotate it through private firms, and fund it with small levies or defence budgets.",
+        "Switzerland drew on its protein-feed reserve in August 2026 when drought stalled river transport.",
+        "Japan shows what goes wrong: its rice reserve was run down to a third of its target and refilled too late.",
+        "The UK has no public or compulsory food stock and 'no current plans' for one."
+      ],
+      "claims": [
+        {"claim": "Finland grain reserve", "value": "legal minimum 6 months; ~8.5-9 months held after 2022-23", "source": "NESA (Huoltovarmuuskeskus)", "label": "P"},
+        {"claim": "Finland funding", "value": "~€2bn (~£1.7bn) fund; electricity levy ~€66m (~£57m) in 2026", "source": "NESA funding page", "label": "P"},
+        {"claim": "Switzerland compulsory stocks", "value": "3-4 months overall; wheat 4, sugar 3, rice 4, protein feed 2 months; ~CHF 14 per person per year (2019)", "source": "FONES/BWL; SRF 2019", "label": "P"},
+        {"claim": "Swiss protein-feed release", "value": "up to 20% (~16,000 t), Sep 2026 - Feb 2027", "source": "cash.ch, 31 Aug 2026", "label": "S"},
+        {"claim": "Norway grain reserve", "value": "82,500 t ≈ 3 months by 2029; state-owned, millers store", "source": "Norwegian government / Landbruksdirektoratet", "label": "P"},
+        {"claim": "Sweden food-chain stockpile law", "value": "in force 1 Jul 2026; SEK 575m in 2026 budget", "source": "Riksdag MJU25; Regeringen", "label": "P"},
+        {"claim": "Germany federal grain reserve", "value": "705,000 t (end-2021) ≈ 1 month of bread", "source": "top agrar citing government answer", "label": "S"},
+        {"claim": "Japan rice reserve", "value": "target 1 Mt; 320,000 t in Sep 2026 after 590,000 t released", "source": "Jiji / Adnkronos", "label": "S"},
+        {"claim": "UK government position", "value": "'no national food stockpiles or plans to create these'", "year": "31 Mar 2026", "source": "Written answer HL15829", "label": "P"},
+        {"claim": "Countries actively using public food stocks", "value": "about 30", "source": "World Bank/FAO/WFP 2025, Strengthening Strategic Grain Reserves", "label": "P"}
+      ],
+      "notes": ["13", "14"]
+    },
+    {
+      "n": 9,
+      "title": "The £2 insurance policy",
+      "headline": "From £2 per person per year: eight weeks of complete food for everyone. Nothing wasted.",
+      "body": [
+        "A complete diet can be stored: grain, pulses, oil, milk powder, canned fish, vitamins.",
+        "Old stock rotates to school meals, hospitals, food banks, millers and animal feed, so nothing is wasted. Japan already sells five-year-old reserve rice as feed.",
+        "The state can store food about ten times more cheaply than households can.",
+        "Minimal downside: a small premium, managed by buying gradually, independent audit and a legal minimum."
+      ],
+      "claims": [
+        {"claim": "Complete storable daily ration", "value": "660 g dry: ~2,450 kcal, ~89 g protein, ~1,060 mg calcium, ~3.9 µg B12, ~£0.42 wholesale", "source": "own model (reserve_basket.py)", "label": "E"},
+        {"claim": "Cost per person per year, whole population", "value": "30 days ~£1.10; 55 days ~£2; 90 days ~£3.25; 6 months ~£6.50; 12 months ~£13", "source": "own model; 12-month figure matches Swiss ~CHF 14", "label": "E"},
+        {"claim": "£2/person/yr alternatively buys", "value": "~10 months of food grain", "source": "own estimate (6 months of grain ≈ £1.20)", "label": "E"},
+        {"claim": "Full 'smart backup' (90-day ration + 6 months of imported items + seed and part-season nitrogen)", "value": "~£4-7 per person per year", "source": "own estimate", "label": "E"},
+        {"claim": "Break-even: £2 tier pays for itself if a severe shock (1-2% of GDP) happens", "value": "about once in 200-400 years", "source": "own estimate", "label": "E"},
+        {"claim": "Commercial wheat stocks at pre-harvest low", "value": "1.514 Mt ≈ 1 month of national calories", "year": "30 Jun 2026", "source": "AHDB end-of-season balance; own arithmetic", "label": "E"},
+        {"claim": "Japan rotating rice reserve", "value": "buys ~200,000 t/yr, holds 5 years, then sells as feed", "source": "Asia News Network", "label": "S"},
+        {"claim": "Mismanagement risk example", "value": "4.72 lakh t wheat (₹700 crore) deteriorated, Punjab 2011-16", "source": "CAG of India", "label": "S"}
+      ],
+      "notes": ["16", "17"]
+    },
+    {
+      "n": 10,
+      "title": "Work, wellbeing and the AI economy",
+      "headline": "Meaningful work in nature: tens of thousands of good jobs, not millions. AI is the enabler, not the enemy.",
+      "body": [
+        "Entry-level jobs are shrinking as AI and automation spread.",
+        "Structured time in nature measurably improves mental health, and a 1930s conservation corps improved participants' health and earnings for decades.",
+        "Farm work today is often poorly designed: seasonal, isolated and stressful.",
+        "Proposal: a regenerative transition corps working on hedges, trees, peat, AI-assisted soil monitoring, glasshouses on data-centre heat, and reserve logistics."
+      ],
+      "claims": [
+        {"claim": "Graduate job adverts", "value": "8,383 in Jul 2026, -45.6% y/y", "source": "Adzuna via press", "label": "S"},
+        {"claim": "Youth (16-24) unemployment", "value": "16.2%", "year": "Q1 2026", "source": "ONS via press", "label": "S"},
+        {"claim": "UK jobs exposed to generative AI, worst case", "value": "up to 8 million", "source": "IPPR, Mar 2024", "label": "P"},
+        {"claim": "Nature-based outdoor activity effect sizes", "value": "SMD -0.64 depression, -0.94 anxiety; best at 8-12 weeks", "source": "Coventry et al. 2021, SSM Population Health 16:100934", "label": "P"},
+        {"claim": "Civilian Conservation Corps long-run effects", "value": "higher lifetime earnings, health, longevity; no short-run job gains", "source": "Aizer, Eli, Lee & Lleras-Muney, NBER w27103", "label": "P"},
+        {"claim": "Pick for Britain 2020", "value": "UK workers filled ~5-11% of 70,000 roles", "source": "NFU survey via FarmingUK", "label": "S"},
+        {"claim": "Young farmers citing poor mental health as biggest hidden problem", "value": "91% of 750", "year": 2025, "source": "Farm Safety Foundation", "label": "S"},
+        {"claim": "Robotic spot-spraying herbicide reduction", "value": "-35% at 97% efficacy", "source": "2025 peer-reviewed trial (JCU, sugarcane, Australia)", "label": "P"},
+        {"claim": "Gemini's '+300% farm labour' would cost", "value": "~£33bn/yr ≈ 4x total income from farming", "source": "own arithmetic", "label": "E"}
+      ],
+      "notes": ["04", "19"]
+    },
+    {
+      "n": 11,
+      "title": "A new economy of food",
+      "headline": "Price what harms, pay for what protects, and give the revenue back.",
+      "body": [
+        "A carbon price arrives on imported fertiliser in 2027; carbon money is moving to durable removals such as trees, peat and biochar.",
+        "Soil-carbon offsets remain low-trust: pay for soil health directly instead.",
+        "Denmark taxes livestock emissions from 2030 and recycles the revenue into land use change.",
+        "System change fails when it is imposed on farmers and works when it pays them."
+      ],
+      "claims": [
+        {"claim": "UK CBAM covers imported fertiliser", "value": "from 1 Jan 2027; +£50/t or more on-farm in some cases", "source": "Farmers Weekly, NFU", "label": "S"},
+        {"claim": "UK ETS to integrate engineered removals", "value": "by end-2029; 200-year storage minimum; woodland undecided", "source": "UK Government via Sustainability Magazine", "label": "S"},
+        {"claim": "EU carbon-farming certification methodologies adopted", "value": "Jul 2026 (mineral soils/agroforestry, peat rewetting, afforestation; ≥10% uncertainty deduction)", "source": "Reg. (EU) 2024/3012 delegated act; LexisNexis", "label": "S"},
+        {"claim": "UK voluntary carbon prices", "value": "Woodland Carbon Code ~£28/t; Peatland Code ~£40/t", "year": 2025, "source": "Woodland Carbon Code", "label": "P"},
+        {"claim": "Soil carbon credit integrity problem", "value": "Australian credited gains mostly explained by rainfall", "source": "Mitchell et al. 2024, Carbon Management", "label": "P"},
+        {"claim": "Denmark livestock tax", "value": "from 2030; effective ~120 DKK/t CO2e (2030), ~300 DKK (2035) after 60% deduction", "source": "Green Tripartite agreement", "label": "P"},
+        {"claim": "Danish-style rates applied to UK agriculture (47 MtCO2e)", "value": "~£0.65bn/yr rising to ~£1.6bn/yr", "source": "own arithmetic", "label": "E"},
+        {"claim": "Agri-environment spending in England", "value": "£1.8bn (2025/26) rising to >£2bn by 2028/29", "source": "Farming Roadmap 2050 (24 Jun 2026)", "label": "S"},
+        {"claim": "EU withdrew pesticide-halving regulation after farmer protests", "year": "Feb 2024", "source": "Euronews", "label": "S"}
+      ],
+      "notes": ["08", "12", "19"]
+    },
+    {
+      "n": 12,
+      "title": "The plan",
+      "headline": "Store. Grow for people. Fewer, better animals. Close the loops. Price the truth. Draw down carbon. Bring people with us.",
+      "body": [
+        "Store: a rotating national reserve from £2 per person per year, plus seed, nitrogen and oils.",
+        "Grow for people: less feed grain; more pulses, vegetables and fruit; glasshouses on waste heat.",
+        "Fewer, better animals: pigs and poultry sized to UK protein supply; cattle and sheep on grass.",
+        "Close the loops: phosphorus recovery from sewage; licensed heat-treated food waste for pigs (Japan/Korea model).",
+        "Price the truth: carbon tax on imported fertiliser, a livestock levy, revenue recycled to farmers and households.",
+        "Draw down carbon: hedges and trees on poor land, peat rewetting where it makes sense, verified rock-dust trials.",
+        "People: a regenerative transition corps, local food plans, fair rationing rules, a legal power to direct."
+      ],
+      "timeline": [
+        {"horizon": "0-12 months", "moves": ["legislate reserve and power to direct", "start buying grain at harvest", "LRF food plans", "public-catering rotation contracts"]},
+        {"horizon": "1-3 years", "moves": ["90-day full reserve built", "pulse expansion", "phosphorus recovery mandate", "transition corps pilots"]},
+        {"horizon": "3-10 years", "moves": ["protein shift reduces soya imports by ~a third", "glasshouses on data-centre heat", "livestock levy phased in with recycling"]},
+        {"horizon": "10-30 years", "moves": ["soils rebuilt", "woodland on poor land", "carbon removals at scale if verified"]}
+      ],
+      "claims": [
+        {"claim": "Food waste fed to pigs in Japan / South Korea", "value": "~36% / ~43% of food waste", "source": "Feedipedia / Cambridge (zu Ermgassen)", "label": "S"},
+        {"claim": "Legalising treated swill in EU would save", "value": "~1.8 Mha of land; pork land use -21.5%", "source": "zu Ermgassen et al. 2016, Food Policy", "label": "P"},
+        {"claim": "Replacing imported soya protein with UK beans", "value": "~1 Mha of beans, ~6x today's pulse output", "source": "own arithmetic", "label": "E"},
+        {"claim": "Enhanced rock weathering: first-year UK trial", "value": "crop yield +15% average", "source": "UNDO/Newcastle trial via Agriland", "label": "S"},
+        {"claim": "Modelled UK arable ERW removal potential", "value": "6-30 MtCO2/yr by 2050", "source": "Goldschmidt 2025 abstract", "label": "S"}
+      ],
+      "notes": ["15", "17", "19"]
+    }
+  ],
+  "known_corrections_to_earlier_briefings": [
+    "Food inflation 'could reach 9% this year' is overtaken: 1.3% in Aug 2026.",
+    "Protein '194%' is not closed-loop independence.",
+    "Gemini claims of +300% farm labour, precision-fermentation patriotism, vertical farms as grid stabilisers, a global carbon market by 2030, and 'UK ranks with Ukraine's chernozem' are unsupported.",
+    "The Lagi '210' riot threshold doesn't apply to the rebased FAO index."
+  ],
+  "fact_check_priorities": [
+    "FAOSTAT wheat yields and arable land per person (chapter 2)",
+    "NAO report findings (chapter 7)",
+    "AHDB closing stocks 2025/26 (chapter 9)",
+    "Swiss compulsory stock figures and per-capita cost (chapter 8)",
+    "UK CBAM fertiliser scope and timing (chapter 11)",
+    "UK ETS removals timeline and EU CRCF adoption date (chapter 11)",
+    "All 'E' estimates: check method and assumptions in research/model"
+  ]
+}

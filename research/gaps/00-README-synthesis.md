@@ -24,8 +24,9 @@ Date: 22 October 2026. Inputs: four AI briefings (Claude, GPT, Gemini, Grok), th
 | 13 | How other countries store food: reserves, plans, costs | international-comparison, supply-chain-reserves | Finland, Switzerland, Norway, Sweden, Germany, Japan, Singapore, Israel, Egypt, India, China, Gulf vs UK; UK cost scaling |
 | 14 | Who has reserves, why six months, is it enough? | international-comparison, scale-up-emergency | Data limits; sizing logic; UK reserve-vs-feed trade-off (model) |
 | 15 | Feed to food and full system restructure | calories-protein, diets-livestock-externalities, agroecology-biology | Can people eat feed grain; rotating reserve; fewer animals; swill; full-cost; carbon-negative options; blueprint |
+| 16 | Storable full-diet reserve and rotation | supply-chain-reserves, calories-protein | Complete storable ration, costs (£1–13/person/yr), rotation outlets, honest downsides |
 
-Model: `research/model/cereal_balance.py` (run with `python3`).
+Models: `research/model/cereal_balance.py` and `research/model/reserve_basket.py` (run with `python3`).
 
 Tags the dossier already covers well and this folder leaves alone: `baseline-self-sufficiency`, `soils-land`, `water`, `forestry`. `international-comparison` (reserves abroad) is in dossier Part 8.
 

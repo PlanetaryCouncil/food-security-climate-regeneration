@@ -21,7 +21,7 @@ One page with the index and all research notes, generated from `research/notes/`
 - [14 · Who has food reserves, why "six months", and is it enough?](#note-14)
 - [15 · From feed to food: can people eat "animal" grain, and what would a full system restructure look like?](#note-15)
 - [16 · Can we store a complete diet, not just grain? And is a rotating reserve really "no downside"?](#note-16)
-- [17 · The £2 insurance policy: framing and the numbers behind it](#note-17)
+- [17 · Insurance framing: from the £2 entry tier to the £10 Natural Insurance](#note-17)
 - [18 · Nature's gift: how the UK really stacks up as a place to grow food](#note-18)
 - [19 · The big picture: carbon markets, geopolitics, culture, and regenerative farming in an AI economy](#note-19)
 
@@ -53,7 +53,7 @@ Built on: four AI briefings (Claude, GPT, Gemini, Grok), the Claude research dos
 | 6 | **Geopolitics and prices:** Hormuz, Black Sea, export bans, food as foreign policy | 05, 19 |
 | 7 | **Food and stability:** "nine meals", unrest evidence, fairness, local plans | 10, 11 |
 | 8 | **How other countries prepare:** Finland, Switzerland, Norway, Japan… and the UK's empty shelf | 13, 14 |
-| 9 | **The £10 insurance policy:** a storable full diet + multi-purpose grain, rotation, no waste, ROI | 16, 17 |
+| 9 | **The Natural Insurance (not National Insurance), £10 per person per year:** a storable full diet + multi-purpose grain, rotation, no waste, ROI | 16, 17 |
 | 10 | **Work, wellbeing and the AI economy:** a regenerative transition corps | 04, 19 |
 | 11 | **A new economy of food:** carbon markets, full-cost accounting, culture, the four nations | 08, 12, 19 |
 | 12 | **The plan:** store, grow for people, rebalance, close loops, draw down carbon | 15, 17, 19 |
@@ -78,11 +78,11 @@ Built on: four AI briefings (Claude, GPT, Gemini, Grok), the Claude research dos
 | 14 | Who has reserves, why six months, is it enough? |
 | 15 | Feed to food and full system restructure |
 | 16 | Storable full-diet reserve and rotation |
-| 17 | The £2 insurance policy |
+| 17 | Insurance framing: from the £2 entry tier to the £10 Natural Insurance |
 | 18 | Nature's gift: how the UK really stacks up |
 | 19 | The big picture: carbon markets, geopolitics, culture, regenerative farming and AI |
 
-Draft briefing for fact-checking: `draft/briefing_full_context.md` (current, £10 framing). `draft/briefing_draft.json` is the earlier £2 version.
+Draft briefing for fact-checking: `draft/briefing_full_context.md` (the Natural Insurance, £10 per person per year; downsides integrated as proactive criticism).
 
 Models: `research/model/cereal_balance.py` (month-by-month grain stocks) and `research/model/reserve_basket.py` (cost of a complete storable diet). Run with `python3`.
 
@@ -94,7 +94,7 @@ Models: `research/model/cereal_balance.py` (month-by-month grain stocks) and `re
 4. **Two chokepoints in one year**, Hormuz and the Black Sea; in 2022, export bans covered 17% of traded calories. (05, 19)
 5. **The risk is affordability:** food inflation ~1.3% (Aug 2026), yet 12.2% of households are food-insecure. (05, 10)
 6. **The UK is an outlier:** no public or compulsory food reserve; Finland holds 6–9 months, Switzerland 3–4. (13, 14)
-7. **A complete diet can be stored and rotated with near-zero waste.** The headline policy is **£10 per person per year** (~£695m): a 90-day complete ration for everyone, 6 months of oils/rice/pulses, seed and nitrogen, 5 Mt of multi-purpose grain (human backup / feed buffer / overseas aid) and the operations to run it. (£2 buys ~8 weeks of complete food.) (16, 17; `ten_pound_package()`)
+7. **A complete diet can be stored and rotated with near-zero waste.** The headline policy is **the Natural Insurance (not National Insurance): £10 per person per year** (~£695m): a 90-day complete ration for everyone, 6 months of oils/rice/pulses, seed and nitrogen, 5 Mt of multi-purpose grain (human backup / feed buffer / overseas aid) and the operations to run it. (£2 buys ~8 weeks of complete food.) (16, 17; `ten_pound_package()`)
 8. **Per hectare, Britain is world-class** (wheat-yield world record, Lincolnshire); **per person, it is land-poor** (~⅓ of France's arable per head). Soils can recover: +25% soil carbon in 28 years with clover leys. (18)
 9. **Carbon money is shifting to durable removals** (UK ETS from 2029, EU carbon-farming rules from 2026); soil-carbon offsets remain low-trust. (12, 19)
 10. **Nature work helps people and resilience at the scale of tens of thousands of jobs, not millions.** AI is the enabler (precision spraying, robots, data-centre heat), not the enemy. (04, 19)
@@ -1593,9 +1593,9 @@ With domestic production continuing (cereal model, notes 09 and 14):
 
 <a id="note-17"></a>
 
-## 17 · The £2 insurance policy: framing and the numbers behind it
+## 17 · Insurance framing: from the £2 entry tier to the £10 Natural Insurance
 
-> **Update (23 Oct 2026):** the headline policy is now **£10 per person per year** (a complete programme including 5 Mt of multi-purpose grain). See `draft/briefing_full_context.md` §2 and `draft/page_13_downsides_and_the_case_for_prudence.md`. £2 remains the entry tier described below.
+> **Update (23 Oct 2026):** the headline policy is now **the Natural Insurance (not National Insurance): £10 per person per year**, a complete programme including 5 Mt of multi-purpose grain. See `draft/briefing_full_context.md` §2 and chapter 9. £2 remains the entry tier described below.
 
 Purpose: the PDF's central message, with each number traceable to a model, so the framing survives hostile scrutiny.
 Status: 22 Oct 2026. All figures are [E] from `research/model/reserve_basket.py` and `cereal_balance.py` (assumptions in notes 13 and 16). All amounts in GBP.

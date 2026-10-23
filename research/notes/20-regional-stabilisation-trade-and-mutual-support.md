@@ -1,6 +1,5 @@
-# 22 · Second-order effects: stabilising the region, trading, and earning without gouging
+# 20 · Second-order effects: stabilising the region, trading, and earning without gouging
 
-> **Updated 23 Oct 2026 (round 2, note 24):** see §6 for the limits of options and swaps, WTO, subsidy-control and Ireland points.
 Date: 23 October 2026. Status: proposal [E] with supporting facts labelled. Builds on notes 05, 13, 19 and chapter 6.
 
 **The question.** When neighbours suffer, should Britain make money from its reserve? Our answer: **earn in calm times, help at fair prices in bad times.** Profiting from a crisis by price-gouging destroys trust and the stability the reserve is meant to buy. Earning **option premiums, rotation sales and partnership fees** in normal years is ordinary, honest business, and it lowers the cost of the Strategic Food Reserve for British taxpayers.
@@ -24,13 +23,13 @@ Date: 23 October 2026. Status: proposal [E] with supporting facts labelled. Buil
 | **4. Inputs-for-food reciprocity** | Long-term deals pairing UK grain or storage capacity with partners' fertiliser, gas or protein (e.g. Nordic fertiliser makers, Irish dairy powder). | Balanced trade | Ordinary bilateral supply agreements [I] |
 | **5. Storage services** | Britain stores grain for partners in its dispersed stores, for a fee, under clear title. | Partner → UK | Norway's state grain held under 25-year storage contracts [P] |
 
-**Rough scale [E]:** an option on 0.5 Mt of grain (~£105m of value) at an *assumed* 3–5% annual premium would earn ~£3–5m a year. The premium is a guess, not a valuation: an option exercisable during a correlated shortage is expensive precisely because it is useful (round 2). That is real money, but small next to the £701m cost. **The honest pitch is cost-sharing and influence, not profit.** Do not promise that the reserve pays for itself through trade.
+**Rough scale [E]:** an option on 0.5 Mt of grain (~£105m of value) at an *assumed* 3–5% annual premium would earn ~£3–5m a year. The premium is a guess, not a valuation: an option exercisable during a correlated shortage is expensive precisely because it is useful. That is real money, but small next to the £701m cost. **The honest pitch is cost-sharing and influence, not profit.** Do not promise that the reserve pays for itself through trade.
 
 ## 3. Ethical guardrails (written into the reserve statute)
 
-1. **Domestic protected minimum first.** Exports or aid come only from stock above the floor. A joint UK and partner shock is decided by pre-agreed shares, not in a panic (note 20, finding 11).
+1. **Domestic protected minimum first.** Exports or aid come only from stock above the floor. A joint UK and partner shock is decided by pre-agreed shares, not in a panic.
 2. **Formula prices in a crisis, never spot-price gouging.** Partners know the price in advance.
-3. **Humanitarian aid follows need**, not the UK's surplus. Local purchase, cash or another supplier is often better for the recipient than shipping British wheat (GPT review). The UK offers stock where it is the best option.
+3. **Humanitarian aid follows need**, not the UK's surplus. Local purchase, cash or another supplier is often better for the recipient than shipping British wheat . The UK offers stock where it is the best option.
 4. **No political conditions on humanitarian food.**
 5. **Transparency:** contracts, volumes and prices published (sensitive site details excepted).
 
@@ -46,7 +45,7 @@ Date: 23 October 2026. Status: proposal [E] with supporting facts labelled. Buil
 > "A neighbour in trouble is not a market opportunity. A neighbour who knows we will help, at a fair price agreed in advance, is a lasting ally. We earn in the calm years and keep our word in the storm."
 
 
-## 6. Round 2 update (note 24)
+## 6. Limits, law and precedent
 
 - **Options and swaps fail in the export-ban case.** They work in calm markets; when GATT XI:2(a) restrictions bite, the same tonne is wanted at home. Honest priority rules and a protected domestic floor come first; no partner gets an unqualified promise.
 - **WTO:** Agriculture Agreement Annex 2 permits qualifying food-security stockholding with transparent objectives and market-price disciplines. Concessional sales, subsidised storage and below-market options need separate legal analysis. The WFP exemption does not cover every state-to-state reserve deal [R].

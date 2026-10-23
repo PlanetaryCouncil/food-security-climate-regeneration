@@ -1,4 +1,4 @@
-# 19 · The big picture: carbon markets, geopolitics, culture, and regenerative farming in an AI economy
+# 18 · The big picture: carbon markets, geopolitics, culture, and regenerative farming in an AI economy
 
 Tags: `research:subsidies-tax-incentives`, `research:international-comparison`, `research:labour-jobs`, `research:agroecology-biology`, `research:governance-policy`
 Extends notes 04, 05, 11, 12 and 15. Answers the request for *more* on carbon credits, full system change, cultural shifts, how regenerative agriculture fits technological unemployment, and the geopolitical frame.

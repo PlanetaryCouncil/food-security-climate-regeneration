@@ -1,4 +1,4 @@
-# 18 · Nature's gift: how the UK really stacks up as a place to grow food
+# 17 · Nature's gift: how the UK really stacks up as a place to grow food
 
 Tags: `research:baseline-self-sufficiency`, `research:soils-land`, `research:climate`, `research:international-comparison`
 Question (project lead): a mild, moist climate, good soils and flat land should mean the UK grows huge amounts of food, and soils can improve with the right approach. Is that true?

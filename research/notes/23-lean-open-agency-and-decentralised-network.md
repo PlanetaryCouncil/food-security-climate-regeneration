@@ -1,10 +1,10 @@
-# 26 · Running it: a lean, open, automated agency and a decentralised network
+# 23 · Running it: a lean, open, automated agency and a decentralised network
 
-Date: 23 October 2026. Status: author design decision [I] with costed assumptions [E], implemented in `reserve_basket.py` (`AGENCY`, `jobs()`). Briefing chapter 13.
+Date: 23 October 2026. Status: author design [I] with costed assumptions [E], implemented in `reserve_basket.py` (`AGENCY`, `jobs()`). Briefing chapter 11.
 
 ## 1. Principles (common sense)
 
-1. **Lean.** About 60 people, never more than 100 even in a crisis surge. Every person has an essential role.
+1. **Lean.** About 65 people, never more than 100 even in a crisis surge. Every person has an essential role.
 2. **Three deep.** Every function has a lead and two trained deputies, and every person can do at least three roles. Anyone can be on leave, ill or leave the job without a function stopping.
 3. **Automate the manual work.** No routine hand sampling. Sensors, automatic samplers and AI watch the stock; people decide, check and answer for it.
 4. **Open by default.** You cannot hide a programme that builds warehouses, moves millions of tonnes through ports and employs ~1,000 people, and it is not a secret nuclear programme. So the reserve publishes:
@@ -15,10 +15,10 @@ Date: 23 October 2026. Status: author design decision [I] with costed assumption
 
    Only live security details (alarm codes, guard rotas, real-time per-site stock levels) are withheld, as for any public building.
 5. **Protected by spread, not by secrecy.** Many sites in many districts, near ports and near people, with different operators, power feeds and software. Losing one site loses a small fraction.
-6. **Human food first** (note 25), **food for everyone**.
+6. **Human food first** (note 22), **food for everyone**.
 7. **Always learning.** An innovation department keeps cutting cost and waste, and the public is invited to find weaknesses.
 
-## 2. The agency: 17 functions, about 60 people
+## 2. The agency: 18 functions, about 65 people
 
 **Rule of three:** each function has a lead + 2 deputies drawn from neighbouring functions. Each person has one **primary** role and is a trained **deputy** in two others, so each function has at least three people able to run it. Deputies run their secondary function for real in quarterly drills, and roles rotate every ~2 years.
 
@@ -41,7 +41,8 @@ Date: 23 October 2026. Status: author design decision [I] with costed assumption
 | 15 | **Cyber, security and offline operations** | 4 | Intrusion detection | Keep a paper-and-radio fallback; test it; physical security standards |
 | 16 | **People, training, exercises, volunteers** | 3 | Scheduling, e-learning | Run drills; manage the Food Reserve Volunteers |
 | 17 | **Innovation department** | 6 | Most of the analysis | Improve nutrition, storage, transport, sampling, data retention and AI tools |
-| | **Total** | **~62** | | |
+| 18 | **Domestic production and soils** (the grow pillar) | 3 | Read soil-moisture sensors, satellite crop and soil data, seed and fertiliser stocks | Track soil health, water storage, seed security and nutrient independence with Defra and the devolved governments |
+| | **Total** | **~65** | | |
 
 **Crisis surge to ~100:** pre-agreed secondments from the civil service and the armed forces, plus trained Food Reserve Volunteers. These are named people trained in advance, not recruited on the day.
 
@@ -61,16 +62,16 @@ Date: 23 October 2026. Status: author design decision [I] with costed assumption
 
 | Item | £m a year |
 |---|---|
-| Staff: ~60 at ~£90k fully loaded | 5.4 |
+| Staff: ~65 at ~£90k fully loaded | 5.8 |
 | Innovation programme (pilots, university and start-up contracts) | 8.0 |
 | Automated sampling and sensing (annualised capex) | 2.9 |
 | Sensor maintenance, data platform, AI compute, offline backups | 4.0 |
 | Confirmatory lab certificates on release | 3.0 |
 | Open data and public feedback platform | 1.5 |
 | Independent audit and unannounced spot checks | 2.0 |
-| **Total** | **~26.8** |
+| **Total** | **~27.3** |
 
-That is down from a £45m allowance with ~400 staff in draft-5. **New package total: ~£712m ≈ £10.24 per person per year** (public £4.84 via taxes; compulsory stocks £5.40 via prices). Range £9.31–16.42; £18.20 under severe stress.
+**Package total: ~£712m ≈ £10.25 per person per year** (public £4.84 via taxes; compulsory stocks £5.40 via prices). Range £9.32–16.43; £18.21 under severe stress.
 
 ## 5. The decentralised network: near ports, near people
 
@@ -120,18 +121,18 @@ Hence the mix: port hubs for import and export, district stores for resilience, 
 
 ## 8. Global markets: buy calm, sell calm
 
-- **Counter-cyclical buying:** buy in good-quality surplus years and when prices are below their recent average; never fill from a stressed, mycotoxin-risk harvest (note 24).
+- **Counter-cyclical buying:** buy in good-quality surplus years and when prices are below their recent average; never fill from a stressed, mycotoxin-risk harvest .
 - **Published purchase calendar:** buying is announced in advance and spread over 3–5 years, so traders cannot front-run it.
 - **Small share of the market:** the wheat stock is mostly UK-grown, bought at harvest. About 0.8 Mt a year rotates, roughly 17% of UK mill intake, and small next to world wheat trade.
 - **Hedging:** the treasury function can hedge purchases and sales with ordinary futures (e.g. UK feed wheat futures) rather than taking price risk.
-- **Rotation outlets:** UK mills, animal feed (a ~13 Mt market), and export or aid through the port hubs (note 22).
+- **Rotation outlets:** UK mills, animal feed (a ~13 Mt market), and export or aid through the port hubs (note 20).
 - **No price manipulation:** releases are triggered by supply emergencies, not to manage inflation.
 
 ## 9. Jobs [E]
 
 | Work | Jobs (approx.) |
 |---|---|
-| Lean agency incl. innovation department | ~60 |
+| Lean agency incl. innovation and domestic-resilience monitoring | ~65 |
 | Grain and food stores (intake, drying, aeration, maintenance; automated, ~1 per 20 kt) | ~280 |
 | Confirmatory labs | ~40 |
 | Haulage of rotated stock | ~260 |
@@ -144,9 +145,9 @@ Hence the mix: port hubs for import and export, district stores for resilience, 
 
 Automation trims jobs inside the agency and labs but leaves the physical work: stores, driving, baking and local planning. Those jobs are mostly rural and near ports.
 
-## 10. Questions for reviewers (round 3: agency focus)
+## 10. Open questions
 
-1. Is ~60 people enough for the 17 functions? Which function is missing or under-staffed?
+1. Is ~65 people enough for the 18 functions? Which function is missing or under-staffed?
 2. Does the rule of three (lead + two deputies; three roles each) work under UK civil-service and employment rules? What does the 24/7 duty desk really need?
 3. Can sampling and quality monitoring be automated to this degree (cables, CO₂ sensors, auto-samplers, NIR, rapid mycotoxin tests)? What regulators or contracts still demand manual sampling?
 4. What legal form fits best: executive agency, non-departmental public body, or statutory corporation? Who holds the release key?

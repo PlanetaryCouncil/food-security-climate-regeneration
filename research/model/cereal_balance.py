@@ -9,7 +9,7 @@ It does not model protein, fats, micronutrients, quality, milling capacity or
 regional logistics. Onset is always 1 July (the seasonal low); other onset
 months are not modelled. Negative stock means unmet demand, not stored grain.
 Imports are calibrated (an imposed closure, not a measured balance) and the
-pool includes imported maize. Revised after review round 1 (notes/20).
+pool includes imported maize.
 
 Run:  python3 research/model/cereal_balance.py
 """
@@ -52,7 +52,7 @@ def run(name, years=2, harvest_factors=(1.0, 1.0), imports_on=False,
                 out += p["exports"] / 12
             stock -= out
             log.append((f"Y{y+1}-{m}", stock))      # full precision; round only for display
-    # floor: working stock in mills, merchants and transit that cannot be drawn (round 2)
+    # floor: working stock in mills, merchants and transit that cannot be drawn
     first = next(((i + 1, t) for i, (t, s) in enumerate(log) if s < floor), None)
     low = min(s for _, s in log)
     label = f"{first[1]} (month {first[0]})" if first else "never"
@@ -147,7 +147,7 @@ if __name__ == "__main__":
 
 
 def robust_table(years=3, floor=1.0):
-    """Round 2: 36 months, a 1.0 Mt working-stock floor, and the minimum stock reported."""
+    """36 months, a 1.0 Mt working-stock floor, and the minimum stock reported."""
     print(f"\n{years*12}-month runs, imports stopped 1 Jul, ethanol/distilling cut 75%, exports stopped, "
           f"working-stock floor {floor} Mt")
     print("| Case | Feed level | Lowest stock (Mt) | First month below floor | Extra reserve needed (Mt) |")

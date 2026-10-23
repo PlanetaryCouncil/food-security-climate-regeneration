@@ -1,11 +1,15 @@
 # Food security, climate and regeneration (UK)
 
-Research for a ~12-page briefing: can Britain feed itself, how resilient is it, and how could a full system change make it stronger? The core proposal is the **UK Strategic Food Reserve**: a rotating national food reserve at **about £10 per person per year**, human food first and food for everyone (bread from 4 Mt of wheat, a no-cook ration and vitamin tablets for all): a public crisis tranche plus compulsory commercial stocks, with a contingency ladder (rationing, livestock, safe nitrogen) above it.
+**Can Britain Feed Itself? Store and grow.** A ~14-page briefing on UK food resilience with two equal pillars:
 
-- `draft/briefing_full_context.md`: the full briefing draft for fact-checking (12 chapters, sources, proactive criticism)
+- **STORE:** the **UK Strategic Food Reserve**, about £10 per person per year. Human food first and food for everyone: bread from 4 Mt of food-grade wheat, a no-cook ration and vitamin tablets for all, plus seed, safe nitrogen, protein feed and imported staples. It is run by a lean, open, automated agency.
+- **GROW:** **domestic resilience**, about £4.50 per person per year of new money plus better-aimed farm support. It covers soil, water, seed, fertiliser, home-grown protein and regenerative farming.
+
+A contingency ladder (fair rationing, livestock, safe nitrogen) sits above both.
+
+- `draft/briefing_full_context.md`: the briefing (14 chapters, sources, proactive criticism)
 - `research/all-research-notes.md`: all research notes on one page
 - `research/notes/`: the individual research notes (index in `research/notes/README.md`)
-- `research/model/`: two small Python models (grain stocks; cost of the reserve)
-- `research/notes/20-adversarial-review-round-1.md` and `24-adversarial-review-round-2.md`: what AI reviewers found and what we changed
+- `research/model/`: two Python models (cost of both pillars; grain stocks)
 
-Resilience through transparency: we welcome critical thinking and adversarial review.
+Resilience through transparency: we welcome critical thinking and adversarial scenarios.

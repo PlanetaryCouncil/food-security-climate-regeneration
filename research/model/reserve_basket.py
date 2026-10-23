@@ -1,25 +1,21 @@
-"""The UK Strategic Food Reserve: cost model, version 3.1 (hybrid, human food first).
+"""The UK Strategic Food Reserve and the Domestic Resilience programme: cost model.
 
-Illustrative carrying-cost model with explicit allowances. It is NOT a
-procurement estimate: prices, fees and allowances are assumptions, not quotes.
-See research/notes/20 (round 1) and 24 (round 2) for what changed and why.
+Illustrative carrying-cost model with explicit allowances, NOT a procurement
+estimate: prices, fees and allowances are assumptions to be replaced by quotes.
 
-Design after review round 2:
+Pillar 1, the Strategic Food Reserve (store), in two tiers:
 - Tier 1, PUBLIC CRISIS TRANCHE (owned and paid by the state, from taxation):
-  what markets will not hold and week one needs - no-cook food, infant formula,
-  micronutrient tablets, flour premix, sacks, bottled water, plus operations
-  (agency, local plans, priority fuel/AdBlue/backup power, last mile).
-- Tier 2, COMPULSORY COMMERCIAL STOCKS (Swiss / Singapore model): importers,
-  millers, merchants and compounders must hold stock ADDITIONAL to their normal
-  working stock. It rotates through their own trade, stays off the public
-  balance sheet, and its cost is passed through food prices. Each line is
-  sized against UK annual use so rotation stays a small share of the market.
+  no-cook grain ration for everyone, tablets, premix, sacks, water, specialist
+  food, plus operations (lean agency, local plans, priority fuel/power, last mile).
+- Tier 2, COMPULSORY COMMERCIAL STOCKS (Swiss / Singapore model): firms hold
+  stock ADDITIONAL to their normal working stock, rotated through their own
+  trade, sized against UK annual use, cost passed through food prices.
+Human food first, food for everyone: 4 Mt of food-grade wheat is first in the
+priority schedule.
 
-Version 3.1 (author decision, note 25): human food first and food for EVERYONE.
-Food-grade wheat raised to 4 Mt (bread for the whole population), a universal
-3-day no-cook grain ration (crispbread / biscuits / oatcakes made from reserve
-grain) for all 69.5 m, and a smaller specialist top-up for people who cannot
-use standard rations. Grain is first in the priority schedule.
+Pillar 2, Domestic Resilience (grow): new money for soil and water monitoring,
+water storage, seed security, nutrient independence, regenerative transition
+and protein processing, alongside redirecting existing farm support.
 
 Run:  python3 research/model/reserve_basket.py
 """
@@ -40,7 +36,7 @@ def annuity(rate, years=25):
 # Tier 2: compulsory commercial stocks
 # name: (stock t, UK annual use t [for the market check], price GBP/t,
 #        rotation share per yr, value lost per rotated tonne, storage GBP/t/yr)
-# UK annual use figures are rounded orders of magnitude; see note 24.
+# UK annual use figures are rounded orders of magnitude (to be replaced by market data).
 # ---------------------------------------------------------------------------
 COMMERCIAL = {
     "Food-grade milling wheat (4 Mt; half in new stores)":
@@ -119,7 +115,7 @@ def public(finance=FINANCE, store_mult=1.0, loss_mult=1.0, price_mult=1.0, nocoo
          50e6, 3.0, 0.05, 1.0e6)
     line("Bottled water: 90 m litres (10 m people x 3 days x 3 L)", 90e6 * 0.20, 2.0, 0.30,
          90e3 * 30)
-    ops = {"lean open agency (~60 staff), innovation, automated sampling, open data, audit": agency_cost() / 1e6,
+    ops = {"lean open agency (~65 staff), innovation, automated sampling, open data, audit": agency_cost() / 1e6,
            "local food plans in all four nations, exercises": 46,
            "priority fuel, AdBlue and backup power on a published priority list": 100,
            "last mile: registers, delivery contracts, water bowsers": 45,
@@ -129,9 +125,9 @@ def public(finance=FINANCE, store_mult=1.0, loss_mult=1.0, price_mult=1.0, nocoo
     return rows, ops
 
 
-# Lean agency (note 26): ~60 people, heavy automation and AI, open by default
+# Lean agency (briefing ch.11): ~65 people, heavy automation and AI, open by default
 AGENCY = {
-    "staff: ~60 people at ~£90k fully loaded": 60 * 90e3,
+    "staff: ~65 people at ~£90k fully loaded": 65 * 90e3,
     "innovation department programme (nutrition, storage, transport, sampling, data)": 8e6,
     "automated sampling and sensing: in-store cables/probes (~£2/t of 6.8 Mt) + auto-samplers "
     "and NIR analysers at ~40 hubs (~£250k each); capex annualised over 10 yrs": (6.8e6 * 2 + 40 * 250e3) * annuity(0.04, 10),
@@ -199,7 +195,7 @@ def sensitivity():
 
 
 def priority_schedule():
-    """What each funding level buys, in order of priority (round-2 request)."""
+    """What each funding level buys, in order of priority."""
     c = {r[0]: r[3] for r in commercial()}
     p, _ = public()
     p = {r[0]: r[2] for r in p}
@@ -276,7 +272,7 @@ def break_even():
 
 def jobs():
     """Rough direct-employment estimate [E]; planning assumptions, not a labour-market study."""
-    rows = [("Lean reserve agency incl. innovation department (note 26)", 60),
+    rows = [("Lean agency incl. innovation and domestic-resilience monitoring", 65),
             ("Grain and food stores: intake, drying, aeration, maintenance (~1 FTE per 20 kt, automated)",
              round((4.0e6 + 1.6e6) / 20e3)),
             ("Confirmatory labs: mycotoxin and contaminant certificates on release", 40),
@@ -296,6 +292,37 @@ def jobs():
           "~£1,000/yr retainer ≈ £10m/yr), mustered for releases and exercises")
 
 
+# Pillar 2: Domestic Resilience programme, NEW money (GBP m/yr) [E]
+DOMESTIC = {
+    "Soil and water monitoring: soil-moisture sensors from ~50 to ~500 sites, satellite "
+    "moisture, free soil tests for every farm field every 5 years": 35,
+    "Water storage: on-farm and catchment reservoirs (Water Management Grant scaled "
+    "from ~£15m rounds to ~£100m a year)": 100,
+    "Seed security: gene banks, UK seed multiplication (incl. spring and pulse seed), "
+    "public breeding for drought, disease and low-vicine beans": 40,
+    "Nutrient independence: manure and digestate testing, storage and precision "
+    "application; phosphorus recovery from wastewater; legume top-ups; green ammonia pilot": 60,
+    "Regenerative transition: independent advice, farmer-to-farmer networks, bridging "
+    "payments for the 3-5 years before regenerative systems pay": 50,
+    "Protein crops and local processing: dehulling, pulse mills, small abattoirs": 25,
+}
+FARM_SUPPORT_GBP = 4.87e9   # existing UK agricultural support, 2025 (Defra AUK ch.10)
+
+
+def print_domestic():
+    print("\nPillar 2: Domestic Resilience programme, new money (£m/yr)")
+    tot = 0
+    for k, v in DOMESTIC.items():
+        tot += v
+        print(f"- {k}: {v}")
+    print(f"- Total new money: £{tot}m = £{tot*1e6/POP:.2f}/person/yr")
+    print(f"- Plus existing farm support £{FARM_SUPPORT_GBP/1e9:.2f}bn = £{FARM_SUPPORT_GBP/POP:.0f}/person/yr, "
+          "pointed at resilience outcomes (soil, water, protein, nutrient loops); no extra cost")
+    ca, pa, _, _ = totals()
+    print(f"- Both pillars, new money: £{(ca+pa)/POP + tot*1e6/POP:.2f}/person/yr "
+          f"(store £{(ca+pa)/POP:.2f} + grow £{tot*1e6/POP:.2f})")
+
+
 def print_agency():
     print("\nLean agency budget (£m/yr)")
     for k, v in AGENCY.items():
@@ -306,6 +333,7 @@ def print_agency():
 if __name__ == "__main__":
     print_package()
     print_agency()
+    print_domestic()
     sensitivity()
     priority_schedule()
     checks()

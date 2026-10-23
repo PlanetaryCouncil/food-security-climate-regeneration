@@ -14,7 +14,7 @@ Status: 22 Oct 2026. Labels: [P] primary, [S] secondary, [E] my estimate or mode
 
 Assumptions (rounded, editable in the script): opening stock at 1 July **3.006 Mt** (AHDB, Sep 2026: wheat 1.514 + barley 1.337 + oats 0.155; the barley year label on the AHDB page looks inconsistent, so reconcile with the workbook); harvest **19.5 Mt** (2025), arriving Aug 60% / Sep 40%; food milling 6.0 Mt/yr; other human and industrial uses (malting, distilling, bioethanol, starch) 3.2 Mt/yr; feed 13.4 Mt/yr; seed 0.6 Mt/yr; exports 1.0 Mt/yr; imports 4.5 Mt/yr including maize (**calibrated**, so the baseline closure is imposed, not measured).
 
-> **Corrected after review round 1 (note 20).** The earlier table said scenario D failed at "Y2-Jul (month 25)". That was a labelling error: Y2-Jul is month 13. With the corrected opening stock (3.006 Mt, full precision, no rounding inside the model) D now first goes negative in month 24. Scenario B is renamed: it already assumed exports stop. The unused `start` parameter was removed; onset is always 1 July. A negative stock means **unmet demand**, not grain in store.
+> Onset is always 1 July; a negative stock means **unmet demand**, not grain in store. Scenario D first goes negative in month 24 (with full-precision stocks). A 36-month run with a 1.0 Mt working-stock floor is in `robust_table()` and the briefing, section 2.
 
 | Scenario | First month stock < 0 | Lowest stock (Mt) |
 |---|---|---|
@@ -33,7 +33,7 @@ Highest feed level (as a share of today's 13.4 Mt) that keeps cereals positive f
 
 Pooled 1 July stock ≈ **63 days** of total population energy need (raw-grain energy only, at 3.3 Mcal/t and 2,250 kcal; not 63 days of edible food).
 
-Known limits flagged by reviewers: annual inflow 24.0 Mt vs outflow 24.2 Mt in the baseline (a 0.2 Mt/yr drift); harvest arrives in two monthly blocks; feed and biofuel cuts happen instantly (no transition, slaughter or welfare constraint); lost meat, eggs and milk are not replaced in the food ledger; ethanol/distilling cuts also remove distillers' grains (feed) and CO₂; the nitrogen shock is an imposed yield multiplier, not an agronomic model.
+Known limits: annual inflow 24.0 Mt vs outflow 24.2 Mt in the baseline (a 0.2 Mt/yr drift); harvest arrives in two monthly blocks; feed and biofuel cuts happen instantly (no transition, slaughter or welfare constraint); lost meat, eggs and milk are not replaced in the food ledger; ethanol/distilling cuts also remove distillers' grains (feed) and CO₂; the nitrogen shock is an imposed yield multiplier, not an agronomic model.
 
 **What the model shows:**
 1. **Grain balances can stay positive under assumed demand cuts** (this does not prove grain is never the binding constraint: quality, milling, protein and logistics are not modelled).

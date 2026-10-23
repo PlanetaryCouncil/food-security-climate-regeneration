@@ -1,6 +1,5 @@
-# 23 · Our position: one carbon price, work in nature after AI, and the consciousness shift
+# 21 · Our position: one carbon price, work in nature after AI, and the consciousness shift
 
-> **Updated 23 Oct 2026 (round 2, note 24):** carbon position reworded for UK–EU linking; jobs claim replaced by a costed pilot (§5).
 Date: 23 October 2026. This note states **positions** (what the authors advocate, marked [I] for interpretation or value judgement) and separates them from **facts** (labelled as usual). Builds on notes 04, 12 and 19.
 
 **Firewall.** The reserve (chapter 9) stands on its own. A reader can reject everything in this note and still support the UK Strategic Food Reserve. We present them together because we believe they are one transition: from a food system that hides its risks and costs to one that admits them and prepares.
@@ -16,19 +15,19 @@ Date: 23 October 2026. This note states **positions** (what the authors advocate
 2. **End free allowances.** Today the UK will phase out free allocation for CBAM sectors gradually from **2027**, on an indicative **nine-year** path, aligned with the EU's phase-out one year later [P: UK ETS Authority free-allocation review, Nov 2025]. We support a **faster, complete** phase-out, for all sectors, once CBAM protects against leakage.
 3. **No subsidies for emitting.** This includes fossil-fuel tax breaks such as the farm red-diesel rebate (~£384m a year [P]). Remove them **gradually and recycle the revenue to the same farms** (per hectare, or per tonne of verified carbon), so the change is fair.
 4. **Treat CO₂ as a commodity:** one tonne is one tonne, whoever emits it or removes it. Payments for **verified, durable removals** (trees, peat rewetting, biochar, enhanced rock weathering once measured) are purchases of a product, not subsidies.
-5. **Bring farming in carefully.** Agriculture is outside both trading schemes. Denmark will tax livestock emissions from 2030 with a 60% deduction and recycle the revenue [P/S]. A UK equivalent on livestock emissions would raise ~£0.4–1bn a year [E, note 20], all recycled to farmers and the transition corps.
+5. **Bring farming in carefully.** Agriculture is outside both trading schemes. Denmark will tax livestock emissions from 2030 with a 60% deduction and recycle the revenue [P/S]. A UK equivalent on livestock emissions would raise ~£0.4–1bn a year [E], all recycled to farmers and the transition corps.
 
 **Proactive criticism of our own position:**
 - **Food prices rise** if carbon is priced fully. Answer: a per-person dividend from the revenue protects low-income households (the poorest gain on average in most dividend designs [S]).
 - **Leakage**: pricing UK beef while importing untaxed beef exports emissions. Answer: border adjustment on food, or at least on feed and fertiliser first.
 - **Methane metric**: methane is short-lived, and GWP100 vs GWP* changes how cattle look. Answer: price methane explicitly, and say which metric is used.
 - **Soil carbon credits are unreliable** (Australia: most credited gains were explained by rainfall [P]). Answer: pay for soil carbon only with strict measurement and uncertainty deductions (the EU CRCF uses ≥10%) [S].
-- **"Consistent across jurisdictions" is a direction, not a 2030 fact.** No global carbon market is on the negotiating table (we excluded Gemini's "unified global market by 2030" in draft-3). Linking plus border adjustment is the realistic path.
+- **"Consistent across jurisdictions" is a direction, not a 2030 fact.** No global carbon market is on the negotiating table. Linking plus border adjustment is the realistic path.
 - **No subsidies vs paying farmers for nature:** we distinguish *paying for a product* (verified tonnes, clean water, habitat) from *paying for emitting* (free allowances, fuel breaks). Reasonable people may still call the first a subsidy.
 
 ## 2. Work after AI: a labour bridge into low-carbon farming and nature
 
-**Facts (chapter 10):** graduate adverts −45.6% year on year (Jul 2026) [S]; youth unemployment 16.2% [S]; up to 8 m UK jobs exposed to generative AI in a worst case (IPPR, 2024) [P]. **Exposure is not observed unemployment caused by AI** (GPT review), and employers also cite tax and wage costs.
+**Facts (briefing chapter 12):** graduate adverts −45.6% year on year (Jul 2026) [S]; youth unemployment 16.2% [S]; up to 8 m UK jobs exposed to generative AI in a worst case (IPPR, 2024) [P]. **Exposure is not observed unemployment caused by AI**, and employers also cite tax and wage costs.
 
 **Position [I]:** if AI raises productivity and removes entry-level office work, part of the gain should fund **meaningful, paid work rebuilding the land**. Low-carbon farming and nature restoration are more labour-intensive per hectare (organic farms ~32% more labour per farm [S]); forestry needs a ~70% larger workforce for planting targets [S].
 
@@ -68,7 +67,7 @@ The thread through every chapter is a change in how a society sees food:
 - "Food is not a product. It is the foundation."
 
 
-## 5. Round 2 update (note 24)
+## 5. Constraints and refinements
 
 - **Linking constraint.** The UK–EU common understanding (May 2025) requires **dynamic alignment** with the rules underpinning a link, while allowing higher ambition [R]. "No free allowances now" is not compatible with linking on those terms. **Revised position:** *one carbon price across linked jurisdictions, with a faster joint phase-out of free allowances, border adjustment where prices differ, no subsidies for emitting, and CO₂ treated as a commodity.*
 - **Three kinds of carbon unit:** avoided emissions (e.g. rewetted peat), temporary biological storage (trees, soils) and durable removals (geological storage) are **not interchangeable tonnes**. Price and certify them separately.

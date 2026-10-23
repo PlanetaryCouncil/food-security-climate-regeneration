@@ -1,8 +1,7 @@
-# 25 · Human food first, food for everyone, and the jobs
+# 22 · Human food first, food for everyone, and the jobs
 
-> **Updated (note 26):** the agency is now a lean, automated ~60-person body (not ~400), labs ~40 and stores ~280, so permanent jobs are ~1,000 and the total is £10.24 per person.
 
-Date: 23 October 2026. Status: author decision after review round 2, implemented in `reserve_basket.py` v3.1 and briefing draft-5.
+Date: 23 October 2026. Status: author decision, implemented in `reserve_basket.py` and the briefing (chapter 9).
 
 ## 1. The decisions
 
@@ -11,11 +10,11 @@ Date: 23 October 2026. Status: author decision after review round 2, implemented
    - **bread** from 4 Mt of food-grade wheat (up from 3 Mt);
    - a **3-day no-cook grain ration** for every person;
    - **vitamin tablets** for everyone for 90 days.
-3. **Specialist needs are an addition, not the core.** Some people need *different* food, not more food: infants (formula), people on medical diets, care-home residents and people who cannot chew or cook (soft and ready meals). The earlier "10 m vulnerable" tranche becomes a 7-day top-up for ~5 m such people.
+3. **Specialist needs are an addition, not the core.** Some people need *different* food, not more food: infants (formula), people on medical diets, care-home residents and people who cannot chew or cook (soft and ready meals). They get a 7-day top-up (~5 m people).
 4. **Continuous rotation, inspection and monitoring.** About a fifth of the wheat rotates every year:
    - into flour mills (~17% of their intake);
    - into animal feed (a ~13 Mt market);
-   - abroad as export or aid, to help stabilise other regions (note 22).
+   - abroad as export or aid, to help stabilise other regions (note 20).
 
 ## 2. Checking the premises
 
@@ -37,7 +36,7 @@ It uses the reserve's own grain. It is a familiar humanitarian product (WFP-styl
 
 ## 3. What it costs now
 
-`reserve_basket.py` v3.1: **~£730m a year ≈ £10.50 per person** (public £5.10 via taxes; compulsory stocks £5.40 via prices). Range £9.55–16.81; £18.60 under severe stress.
+`reserve_basket.py`: **~£712m a year ≈ £10.25 per person** (public £4.84 via taxes; compulsory stocks £5.40 via prices). Range £9.32–16.43; £18.21 under severe stress.
 
 **Priority schedule, human food first:**
 
@@ -45,10 +44,10 @@ It uses the reserve's own grain. It is a familiar humanitarian product (WFP-styl
 |---|---|
 | £2.71 | Bread for everyone: 4 Mt food-grade wheat, high-protein wheat, premix, sacks |
 | £3.48 | + no-cook for everyone: 3-day grain ration, tablets, bottled water |
-| £7.09 | + operations: agency, local plans, priority fuel/power, last mile, security |
-| £7.72 | + infants and special needs |
-| £9.36 | + next season: seed, urea, UAN, soya meal |
-| £10.50 | + imported staples and variety |
+| £6.83 | + operations: lean agency, local plans, priority fuel/power, last mile, security |
+| £7.45 | + infants and special needs |
+| £9.09 | + next season: seed, urea, UAN, soya meal |
+| £10.25 | + imported staples and variety |
 
 **Grain and livestock:** 4 Mt covers all three hard cases in the 36-month cereal model with a 1.0 Mt working floor:
 - full feed with normal harvests (2.3 Mt needed);
@@ -63,17 +62,17 @@ Planning assumptions, not a labour-market study (`jobs()` in the model).
 
 | Work | Jobs (approx.) |
 |---|---|
-| Reserve agency: inspection, sampling, audit, stock ledger, IT | ~400 |
-| Grain and food stores: intake, drying, aeration, monitoring (~1 per 15 kt) | ~370 |
-| Quality labs: moisture, insects, mycotoxins, nutrients | ~120 |
+| Lean agency incl. innovation and domestic-resilience monitoring (note 23) | ~65 |
+| Grain and food stores: intake, drying, aeration, maintenance (automated, ~1 per 20 kt) | ~280 |
+| Confirmatory labs: mycotoxin and contaminant certificates on release | ~40 |
 | Haulage of rotated stock (~3 Mt a year) | ~260 |
 | Crispbread, biscuit and canning production for rotation | ~150 |
 | Local food-plan officers (~45 resilience bodies) | ~135 |
 | Exercises, training, delivery registers | ~100 |
-| **Total permanent** | **~1,500** |
+| **Total permanent** | **~1,000** |
 | Construction while ~£0.7bn of new stores are built over ~5 years | ~1,400 a year |
 
-**Food Reserve Volunteers (optional):** a paid, trained civil reserve, like the Army Reserve but for food. For example, 10,000 people on a ~£1,000 yearly retainer (~£10m a year), trained in store work, distribution and community kitchens, and mustered for releases and exercises. This is part-time, practical, local work that links to the AI-transition argument (note 23) without overclaiming it.
+**Food Reserve Volunteers (optional):** a paid, trained civil reserve, like the Army Reserve but for food. For example, 10,000 people on a ~£1,000 yearly retainer (~£10m a year), trained in store work, distribution and community kitchens, and mustered for releases and exercises. This is part-time, practical, local work that links to the AI-transition argument (note 21) without overclaiming it.
 
 **Where the jobs are:** mostly rural and port areas, near the stores, dryers and mills. That is useful for regions that lose office work to automation, but the numbers are modest. This is meaningful work, not a mass employment programme.
 

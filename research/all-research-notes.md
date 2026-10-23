@@ -21,7 +21,7 @@ One page with the index and all research notes, generated from `research/notes/`
 - [14 · Who has food reserves, why "six months", and is it enough?](#note-14)
 - [15 · From feed to food: can people eat "animal" grain, and what would a full system restructure look like?](#note-15)
 - [16 · Can we store a complete diet, not just grain? And is a rotating reserve really "no downside"?](#note-16)
-- [17 · Insurance framing: from the £2 entry tier to the £10 National Insurance](#note-17)
+- [17 · Insurance framing: from the £2 entry tier to the £10 Strategic Food Reserve](#note-17)
 - [18 · Nature's gift: how the UK really stacks up as a place to grow food](#note-18)
 - [19 · The big picture: carbon markets, geopolitics, culture, and regenerative farming in an AI economy](#note-19)
 - [20 · Adversarial review, round 1: what three AIs found and what we changed](#note-20)
@@ -57,7 +57,7 @@ Built on: four AI briefings (Claude, GPT, Gemini, Grok), the Claude research dos
 | 6 | **Geopolitics and prices:** Hormuz, Black Sea, export bans, food as foreign policy, stabilising neighbours | 05, 19, 22 |
 | 7 | **Food and stability:** "nine meals", unrest evidence, fairness, local plans | 10, 11 |
 | 8 | **How other countries prepare:** Finland, Switzerland, Norway, Japan… and the UK's empty shelf | 13, 14 |
-| 9 | **The National Insurance (not National Insurance), £10 per person per year:** survival ration, protein feed, seed, safe nitrogen, food-grade grain, fuel and plans; rotation; honest break-even | 16, 17, 20 |
+| 9 | **The UK Strategic Food Reserve, £10 per person per year:** survival ration, protein feed, seed, safe nitrogen, food-grade grain, fuel and plans; rotation; honest break-even | 16, 17, 20 |
 | 10 | **Work, wellbeing and the AI economy:** a regenerative transition corps | 04, 19, 23 |
 | 11 | **A new economy of food:** one carbon price, full-cost accounting, culture, the four nations | 08, 12, 19, 23 |
 | 12 | **The plan:** store, the contingency ladder (rationing, livestock, nitrogen), grow for people, close loops, draw down carbon, governance | 15, 17, 19, 21 |
@@ -82,7 +82,7 @@ Built on: four AI briefings (Claude, GPT, Gemini, Grok), the Claude research dos
 | 14 | Who has reserves, why six months, is it enough? |
 | 15 | Feed to food and full system restructure |
 | 16 | Storable full-diet reserve and rotation |
-| 17 | Insurance framing: from the £2 entry tier to the £10 National Insurance |
+| 17 | Insurance framing: from the £2 entry tier to the £10 Strategic Food Reserve |
 | 18 | Nature's gift: how the UK really stacks up |
 | 19 | The big picture: carbon markets, geopolitics, culture, regenerative farming and AI |
 | 20 | Adversarial review round 1 (ChatGPT, Gemini, Grok): findings, decisions, corrections |
@@ -90,9 +90,9 @@ Built on: four AI briefings (Claude, GPT, Gemini, Grok), the Claude research dos
 | 22 | Stabilising the region, trade and mutual support (earning without gouging) |
 | 23 | Our position: one carbon price, work in nature after AI, the consciousness shift |
 
-Draft briefing for fact-checking: `draft/briefing_full_context.md` (draft-4: the National Insurance, about £10 per person per year, costed bottom-up; downsides integrated as proactive criticism).
+Draft briefing for fact-checking: `draft/briefing_full_context.md` (draft-4: the Strategic Food Reserve, about £10 per person per year, costed bottom-up; downsides integrated as proactive criticism).
 
-Models: `research/model/cereal_balance.py` (month-by-month grain stocks) and `research/model/reserve_basket.py` (v2: bottom-up cost of the National Insurance, sensitivity, milling check, break-even). Run with `python3`.
+Models: `research/model/cereal_balance.py` (month-by-month grain stocks) and `research/model/reserve_basket.py` (v2: bottom-up cost of the Strategic Food Reserve, sensitivity, milling check, break-even). Run with `python3`.
 
 ### Key findings
 
@@ -102,7 +102,7 @@ Models: `research/model/cereal_balance.py` (month-by-month grain stocks) and `re
 4. **Two chokepoints in one year**, Hormuz and the Black Sea; in 2022, export bans covered 17% of traded calories. (05, 19)
 5. **The risk is affordability:** food inflation 1.3% (Sep 2026; CPI 3.5%), yet 12.2% of households are food-insecure. (05, 10)
 6. **Several comparable countries hold reserves; the UK holds none.** Finland 6–9 months of grain, Switzerland 2–4 months by product. (13, 14)
-7. **A survival reserve can be stored and rotated with planned, minimised losses.** The headline policy is **the National Insurance (not National Insurance): about £10 per person per year** (~£701m, costed bottom-up; £9–16 across cases): a mill-feasible 90-day survival ration, rice and oil to 6 months, 10 weeks of soya meal, half a season of seed, ~⅓ season of nitrogen as urea/UAN (no ammonium nitrate), a no-cook tranche, premix and formula, 3 Mt of food-grade grain, and itemised fuel, power, people and plans. (16, 17, 20; `package()`)
+7. **A survival reserve can be stored and rotated with planned, minimised losses.** The headline policy is **the UK Strategic Food Reserve: about £10 per person per year** (~£701m, costed bottom-up; £9–16 across cases): a mill-feasible 90-day survival ration, rice and oil to 6 months, 10 weeks of soya meal, half a season of seed, ~⅓ season of nitrogen as urea/UAN (no ammonium nitrate), a no-cook tranche, premix and formula, 3 Mt of food-grade grain, and itemised fuel, power, people and plans. (16, 17, 20; `package()`)
 8. **Per hectare, Britain is world-class** (wheat-yield world record, Lincolnshire); **per person, it is land-poor** (~⅓ of France's arable per head). Soils can recover: one Rothamsted clover-ley rotation raised topsoil carbon concentration by about a quarter in 28 years (one site). (18)
 9. **Carbon money is shifting to durable removals** (UK ETS from 2029, EU carbon-farming rules from 2026); soil-carbon offsets remain low-trust. (12, 19)
 10. **Nature work helps people and resilience at the scale of tens of thousands of jobs, not millions.** AI is the enabler (precision spraying, robots, data-centre heat), not the enemy. (04, 19)
@@ -1611,11 +1611,11 @@ With domestic production continuing (cereal model, notes 09 and 14):
 
 <a id="note-17"></a>
 
-## 17 · Insurance framing: from the £2 entry tier to the £10 National Insurance
+## 17 · Insurance framing: from the £2 entry tier to the £10 Strategic Food Reserve
 
 > **Superseded in part (23 Oct 2026, review round 1):** "£2 buys eight weeks" is wrong (about £2 a year *carries* eight weeks; the food itself is ~£23 per person of stock), and the break-even below assumes the reserve prevents 100% of a shock. The current package (~£10.08/person, costed bottom-up) and honest break-even are in note 20 §2.
 
-> **Update (23 Oct 2026):** the headline policy is now **the National Insurance (not National Insurance): £10 per person per year**, a complete programme including 5 Mt of multi-purpose grain. See `draft/briefing_full_context.md` §2 and chapter 9. £2 remains the entry tier described below.
+> **Update (23 Oct 2026):** the headline policy is now **the UK Strategic Food Reserve: £10 per person per year**, a complete programme including 5 Mt of multi-purpose grain. See `draft/briefing_full_context.md` §2 and chapter 9. £2 remains the entry tier described below.
 
 Purpose: the PDF's central message, with each number traceable to a model, so the framing survives hostile scrutiny.
 Status: 22 Oct 2026. All figures are [E] from `research/model/reserve_basket.py` and `cereal_balance.py` (assumptions in notes 13 and 16). All amounts in GBP.
@@ -1882,7 +1882,7 @@ Reviewers: ChatGPT ("adversarial audit"), Gemini ("structural audit and stress t
 | 11 | **One stock, three promises** (human backup, feed buffer, overseas aid) collide in a joint shock. | GPT | **Accepted** | Rule: **human food first**, a protected domestic minimum, aid and feed only from stock above it. |
 | 12 | **Food *is* a critical-national-infrastructure (CNI) sector.** The NAO's point is narrower: Defra has not identified food-supply *assets* in the CNI Knowledge Base. | GPT [R], Grok [R] | **Accepted** | Chapters 4 and 12 reworded. |
 | 13 | **Bundling the reserve with livestock, carbon and AI lets each lobby kill the other half.** | GPT, Grok | **Partly accepted** | We keep the big picture (it is the point of the project), but the briefing now states a **firewall**: the reserve case stands on its own; the system change is a companion argument. |
-| 14 | **Drop the name "National Insurance (not National Insurance)"**, which collides with a tax. | GPT, Grok | **Rejected (deliberate)** | The irony is the hook and is meant to be noticed. For legal and technical text we add a plain working title: **National Food Resilience Reserve**. |
+| 14 | **Drop the tax-pun name**, which collides with National Insurance, a defined tax. | GPT, Grok | **Accepted (revised 23 Oct)** | The policy's working name is now the **UK Strategic Food Reserve**. The pun survives as a single, flagged joke in chapter 9 of the briefing. |
 | 15 | **Put the agency under the Cabinet Office, fund it outside the annual Defra budget, write release and refill rules into law.** | Gemini, Grok, GPT | **Accepted** | Governance block in chapter 12. |
 | 16 | **Promise the reserve will damp inflation and lower gilt yields.** | Gemini | **Rejected** | Reserves are poor price stabilisers, and release for prices competes with emergencies (World Bank/FAO/WFP 2025). We promise time and access, not prices. |
 | 17 | **Upgraded headline: "eliminate the risk of empty shelves".** | Gemini | **Rejected** | Overclaims; the opposite of what reviewers 1 and 3 asked for. |
@@ -1991,7 +1991,7 @@ Flour-mill surge capacity; oat, rice and pulse processing capacity; fish canning
 
 Date: 23 October 2026. Status: proposal [E], built on the evidence in notes 01, 09, 11, 13, 15 and 20. Legal points are our reading and need review by a lawyer specialising in emergency powers.
 
-**Idea in one line:** the National Insurance (not National Insurance) is **contingency level 1**. It exists so that levels 2–4 are rarely needed. But a serious country also writes down levels 2–4 *in advance*, publishes the principles, and exercises them. Knowing the next step is what stops panic.
+**Idea in one line:** the UK Strategic Food Reserve is **contingency level 1**. It exists so that levels 2–4 are rarely needed. But a serious country also writes down levels 2–4 *in advance*, publishes the principles, and exercises them. Knowing the next step is what stops panic.
 
 ---
 
@@ -2077,7 +2077,7 @@ A grain silo does nothing in week one (note 20). Level 1 needs:
 
 Date: 23 October 2026. Status: proposal [E] with supporting facts labelled. Builds on notes 05, 13, 19 and chapter 6.
 
-**The question.** When neighbours suffer, should Britain make money from its reserve? Our answer: **earn in calm times, help at fair prices in bad times.** Profiting from a crisis by price-gouging destroys trust and the stability the reserve is meant to buy. Earning **option premiums, rotation sales and partnership fees** in normal years is ordinary, honest business, and it lowers the cost of the National Insurance for British taxpayers.
+**The question.** When neighbours suffer, should Britain make money from its reserve? Our answer: **earn in calm times, help at fair prices in bad times.** Profiting from a crisis by price-gouging destroys trust and the stability the reserve is meant to buy. Earning **option premiums, rotation sales and partnership fees** in normal years is ordinary, honest business, and it lowers the cost of the Strategic Food Reserve for British taxpayers.
 
 ---
 
@@ -2128,7 +2128,7 @@ Date: 23 October 2026. Status: proposal [E] with supporting facts labelled. Buil
 
 Date: 23 October 2026. This note states **positions** (what the authors advocate, marked [I] for interpretation or value judgement) and separates them from **facts** (labelled as usual). Builds on notes 04, 12 and 19.
 
-**Firewall.** The reserve (chapter 9) stands on its own. A reader can reject everything in this note and still support the National Insurance (not National Insurance). We present them together because we believe they are one transition: from a food system that hides its risks and costs to one that admits them and prepares.
+**Firewall.** The reserve (chapter 9) stands on its own. A reader can reject everything in this note and still support the UK Strategic Food Reserve. We present them together because we believe they are one transition: from a food system that hides its risks and costs to one that admits them and prepares.
 
 ---
 

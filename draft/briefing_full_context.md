@@ -20,6 +20,24 @@ For each numbered claim in each chapter:
 **Labels used:** **[P]** primary source (seen only via search extracts; originals not opened) · **[R]** primary source opened by a reviewing AI in round 1 (not by us) · **[S]** secondary (press, trade body, NGO) · **[E]** the authors' own estimate or model · **[I]** interpretation or position (a value judgement, not a fact) · **[?]** not yet verified.
 **Today's date in the document's world:** 23 October 2026. Prefer 2025–2026 data. UK = United Kingdom unless England, GB or a devolved nation is stated. Note whether figures are by value or volume. **Calorie denominators:** Defra's requirement is 2,119 kcal/person/day; our planning figure is 2,250. We say which one we use.
 
+**Round 2 focus (please prioritise these; round 1 findings and fixes are in note 20 and Appendix C, so don't repeat them):**
+1. **Costs:** which lines in section 2 are too cheap? Check storage fees (£10–80/t/yr), new-store capex (£200/t), ready-to-eat food (£2.50 per person-day) and operations (£156m) against UK quotes or foreign benchmarks (Germany's ready-meal reserve, Norway's storage contracts, Finland's NESA). What is missing (insurance, handling, inter-site transport, refilling after a release)?
+2. **Rotation markets:** can UK markets for rice, rapeseed oil, milk powder and canned fish absorb the rotation volumes without moving prices?
+3. **Nutrition:** is the 560 g survival ration adequate for 90 days? Gaps (vitamin A, B12, zinc, iron absorption, fibre)? What variants are needed for infants, children, pregnancy, older people, coeliac disease and allergies? A realistic infant-formula tonnage?
+4. **Processing:** flour-mill surge capacity; oat, rice and pulse processing; packaging; how far can wholegrain cooking replace milling?
+5. **Week one of a blackout:** is ~£40m a year enough for priority fuel, AdBlue and backup power at mills, dryers, cold stores and depots? How would 10 m vulnerable people get food and water within 72 hours?
+6. **Nitrogen:** COMAH status of UAN; shelf life of inhibitor-treated urea; UK nitrogen use (British Survey of Fertiliser Practice) to confirm "a third of a season".
+7. **Livestock destocking:** slaughter capacity by species and region; alternatives to CO₂ stunning; cold-store and canning capacity for a meat pulse; law on emergency on-farm killing; compensation precedents (2001 foot-and-mouth, 2021 pig backlog numbers).
+8. **Rationing and law:** can Civil Contingencies Act emergency regulations lawfully deliver rationing, price caps and requisition, or is a Food Security (Emergency) Act needed? Who holds which powers in Scotland, Wales and Northern Ireland? Lessons from WWII and modern rationing (privacy, fraud, paper fallback).
+9. **Governance and money:** Cabinet Office or Defra? Would an extra-budgetary fund count on the public balance sheet under ONS rules? Barnett effects? Levy or general taxation? The exact NATO Hague 2025 wording on what counts as resilience spending.
+10. **Trade and partners:** are reserve call options, swaps and storage-for-partners compatible with WTO, UK subsidy-control and procurement rules? Precedents beyond ASEAN+3 (e.g. IEA oil "stock tickets")? Data on Ireland and Northern Ireland's dependence on the GB landbridge.
+11. **Carbon position:** is "one carbon price, no free allowances, no subsidies for emitting" compatible with UK–EU ETS linking terms? Evidence on leakage, and on who gains or loses from a UK carbon dividend? Check the ~30 MtCO₂e livestock emissions base and the farm-income effect of removing the red-diesel rebate.
+12. **Work after AI:** any evidence that displaced office workers move into land-based work? Wages, rural housing, training routes?
+13. **Scenarios we missed:** e.g. pandemic absenteeism in food workers, a severe solar storm, cyber attack during a heatwave, a Northern Ireland ferry stoppage.
+14. **The strongest case against:** what is the best market-based alternative (compulsory commercial stocks only, or public release rights without public ownership), and does it beat this design at the same cost?
+15. **Name:** "UK Strategic Food Reserve" is a working name. Is "Strategic", "Resilience" or "Emergency" clearer to the public and to Parliament?
+16. **Still-open facts from round 1:** the NAO report's exact sentence on CNI food assets; the final Swiss decision on coffee stocks; the Euro VI AdBlue speed limit (~20 km/h); the folic-acid fortification date (13 Dec 2026); the definition of the ECIU "record low harvest" series.
+
 Each chapter has **Included claims** (intended for the page) and **Proactive criticism and context** (caveats, counterpoints and cut claims, kept so you have the full picture).
 
 **Resilience through transparency.** We welcome critical thinking and adversarial scenarios. Round 1 found real holes (a plugged cost line, an unmillable ration, an explosive fertiliser stock); we fixed them in public. Please attack the weakest assumptions again, propose worst cases we have missed, and tell us where a hostile reader would push.
@@ -31,7 +49,7 @@ Each chapter has **Included claims** (intended for the page) and **Proactive cri
 1. **Britain is resilient on paper, fragile in practice.** It grows enough calories in a normal year (a margin of 31 kcal per person per day) but depends on imported gas-based fertiliser, imported soya for animal feed, a just-in-time supply chain, and weather that is getting more volatile. It holds **no public food reserve**.
 2. **Nature gave Britain world-class farmland per hectare but little land per person.** That makes *what we grow and who eats it* the key choice. Soils can recover.
 3. **Food is the foundation of social stability and a tool of geopolitics.** Price shocks and unfairness, not empty fields, break public trust.
-4. **The central proposal: the National Insurance (not National Insurance), £10 per person per year** (working title for legal text: *National Food Resilience Reserve*). A rotating reserve of a 90-day survival ration, imported staples, protein feed, seed, safe nitrogen, critical small items and food-grade grain, plus the fuel, power, people and plans to turn it into meals. Old stock rotates into mills, public catering, food banks and feed, **designed to minimise losses**. It costs about 1% of the defence budget.
+4. **The central proposal: the UK Strategic Food Reserve, £10 per person per year** (working name; final name to be decided). A rotating reserve of a 90-day survival ration, imported staples, protein feed, seed, safe nitrogen, critical small items and food-grade grain, plus the fuel, power, people and plans to turn it into meals. Old stock rotates into mills, public catering, food banks and feed, **designed to minimise losses**. It costs about 1% of the defence budget.
 5. **A contingency ladder above it.** The reserve is level 1. Fair rationing rules, a livestock destocking order and safe nitrogen are written down in advance, so levels 2–4 are rarely needed and never improvised.
 6. **Second-order benefits.** A reliable reserve stabilises neighbours and earns modest income in calm years (options, swaps, rotation sales), at fair, pre-agreed prices, never by gouging in a crisis.
 7. **A full system change around it:** grow more food for people and less animal feed; fewer, better animals; close nutrient loops; **one consistent carbon price across jurisdictions, no free allowances, no subsidies for emitting, CO₂ treated as a commodity**; pay for verified removal; and a labour bridge from AI-disrupted work into low-carbon farming and nature. Together these are a **shift in how we see food**: from cheap product to shared safety.
@@ -41,7 +59,7 @@ Each chapter has **Included claims** (intended for the page) and **Proactive cri
 
 ---
 
-## 2. The National Insurance (not National Insurance): £10 per person per year, in one table
+## 2. The UK Strategic Food Reserve: £10 per person per year, in one table
 
 [E] Model: `research/model/reserve_basket.py` (version 2), function `package()`. UK population 69.5 m. **Every line is costed bottom-up; nothing is a residual.** Assumptions (not quotes): wholesale prices (food wheat £210/t, oats £200, rice £500, pulses £350, rapeseed oil £1,000, sugar £500, skimmed milk powder £2,500, canned fish £5,000, urea £380, UAN £300, soya meal £450, seed £300); storage £10–80/t/yr by item; financing 4%; rotation at 1 ÷ shelf life for each item, at a 1–5% value loss (20% for donated ready meals); new grain stores £200/t of capacity, amortised over 25 years at 4%.
 
@@ -352,13 +370,17 @@ Scale checks [E]: £701m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agri
 
 ---
 
-## Chapter 9 · The National Insurance (not National Insurance): £10 per person per year
+## Chapter 9 · The UK Strategic Food Reserve: £10 per person per year
 
-> **The National Insurance** *(not National Insurance)*. Insurance for the nation's food: everyone pays in a little each year, and when the shock comes, there is food, fuel and a plan to turn it into meals.
+> **The UK Strategic Food Reserve.** Insurance for the nation's food: everyone pays in a little each year, and when the shock comes, there is food, fuel and a plan to turn it into meals. *Think of it as the National Insurance (not National Insurance).*
+
+[Note for reviewers: the "National Insurance (not National Insurance)" line is a deliberate joke and appears only here. It is not the policy's name and not a confusion with the tax. The policy's working name is the **UK Strategic Food Reserve**.]
+
+<!-- PDF DESIGN NOTE (not for print): this line belongs to Professor General Admiral F.L. Amingo of the Battalion of Militarized Satire. Allowance: one small cheeky joke, placed where attentive readers will find it (a margin note, footnote or tiny aside). Everything else in the document stays straight and serious. -->
 
 **Headline:** £10 per person per year, under 3p a day, buys Britain time: a 90-day survival ration for everyone, the protein, seed and nitrogen for the next season, and food-grade grain measured in months of mill time. An army defends the border; this defends the dinner table.
 
-**Narrative:** A grain silo is not yet a meal. So the National Insurance is built backwards from the meal. In the **first week** of a shock (a blackout, a fuel blockade, a cyber attack) what fails is fuel, power, payments and water, so the package pays for priority fuel and backup power at mills, dryers and depots, offline operations, drinking-water contracts and a no-cook tranche for the 10 million people least able to cope. For **months**, a 90-day survival ration that Britain's mills can actually grind (wheat held below today's milling rate, with rice, oats, pulses, oil, milk powder, canned fish, a flour premix and vitamins). For **the next season**, half a season of cereal seed, about a third of a season of nitrogen held safely as urea and UAN, never ammonium nitrate, and ten weeks of soya meal, the import that pig and poultry farming stands on. Behind it, 3 Mt of **food-grade grain**: human food first, a feed buffer and overseas help only from stock above a protected floor.
+**Narrative:** A grain silo is not yet a meal. So the Strategic Food Reserve is built backwards from the meal. In the **first week** of a shock (a blackout, a fuel blockade, a cyber attack) what fails is fuel, power, payments and water, so the package pays for priority fuel and backup power at mills, dryers and depots, offline operations, drinking-water contracts and a no-cook tranche for the 10 million people least able to cope. For **months**, a 90-day survival ration that Britain's mills can actually grind (wheat held below today's milling rate, with rice, oats, pulses, oil, milk powder, canned fish, a flour premix and vitamins). For **the next season**, half a season of cereal seed, about a third of a season of nitrogen held safely as urea and UAN, never ammonium nitrate, and ten weeks of soya meal, the import that pig and poultry farming stands on. Behind it, 3 Mt of **food-grade grain**: human food first, a feed buffer and overseas help only from stock above a protected floor.
 
 The reserve is a **stabilising force**, held in readiness the way a nation holds an army. You hope never to use it. If supply chains break, it buys the weeks and months the country needs to reroute imports, sow the next crop and manage livestock, without panic. It is **contingency level 1**; fair rationing and a livestock destocking order are written down above it (chapter 12), so that levels 2–4 are rarely needed and never improvised.
 
@@ -384,7 +406,7 @@ Measured the way it is paid, per person, the cost is modest. Our bottom-up estim
 15. **Calm instead of panic:** in the 2000 fuel blockade, Sainsbury's warned it would run out of food "within days" and Safeway rationed bread and milk. https://www.pressandjournal.co.uk/fp/past-times/4057166/fuel-price-rises/ [S]
 16. **Rising food prices are followed by unrest** across countries (1990–2011). Bellemare 2015, *AJAE*: https://ideas.repec.org/a/oup/ajagec/v97y2015i1p1-21..html [P]
 17. **Fairness:** 12.2% of households are food-insecure (35.9% of Universal Credit households) and cannot stockpile; households have been told to hold three days, the state holds none. https://foodfoundation.org.uk/news/food-prices-tracker-july-2026 [P]
-18. **Defence comparison:** UK defence spending is ~2.36% of GDP (NATO definition, 2025–26), ≈ **£68bn a year**; the National Insurance (~£0.7bn) ≈ **1%** of it. https://www.instituteforgovernment.org.uk/explainer/uk-defence-spending [P/E]
+18. **Defence comparison:** UK defence spending is ~2.36% of GDP (NATO definition, 2025–26), ≈ **£68bn a year**; the Strategic Food Reserve (~£0.7bn) ≈ **1%** of it. https://www.instituteforgovernment.org.uk/explainer/uk-defence-spending [P/E]
 19. **NATO resilience:** allies committed to 3.5% of GDP on core defence plus up to 1.5% on defence-related spending including "civil preparedness and resilience" by 2035. Whether food stocks count is a **case the UK would have to make**, not an established accounting rule. https://www.icaew.com/insights/viewpoints-on-the-news/2026/may-2026/chart-of-the-week-defence-spending [S/I]
 20. **Peer precedents:** Sweden funds its food stockpiles from its total-defence budget (SEK 575m in 2026) [P]; Finland's National Emergency Supply Fund (~€2bn, much of it inventory) is financed by a levy (~€66m in 2026) plus ~€25m from the budget, for all security of supply, not only food [R]
 21. **Break-even, honestly:** for a shock costing 1% of GDP, the reserve pays for itself if it prevents **all** of the loss once every ~41 years, a **quarter** of it once every ~10 years, or a **tenth** once every ~4 years. Thresholds, not probabilities [E]
@@ -396,7 +418,7 @@ Measured the way it is paid, per person, the cost is modest. Our bottom-up estim
 
 | | Per person |
 |---|---|
-| Running the National Insurance (food, inputs, stores, fuel, people, plans) | **~£10 a year** (under 3p a day); £9–16 across our cases |
+| Running the Strategic Food Reserve (food, inputs, stores, fuel, people, plans) | **~£10 a year** (under 3p a day); £9–16 across our cases |
 | Stock bought once (an asset, sold back on rotation; cash tied up) | ~£70 |
 | New stores (one-off, inside the £10 as an annuity) | ~£9 |
 | A severe national disruption, if it happens | ~£420–830 lost, each time (1–2% of GDP) |
@@ -422,11 +444,11 @@ Measured the way it is paid, per person, the cost is modest. Our bottom-up estim
 | Firms may hold less of their own stock | Crowding out [E] | Contracts *additional* to a measured commercial baseline (Finland, Norway, Switzerland) |
 | A grain silo does nothing in week one | Fuel, power, cyber, water fail first [R] | Line F (fuel, AdBlue, backup power, offline ops, water) and line R (no-cook) |
 | It will not stop inflation | Reserves are poor price stabilisers (World Bank/FAO/WFP 2025) [R] | We promise time and access, not prices |
-| The name collides with a real tax | "National Insurance" is a defined UK tax [S] | Deliberate irony for the public; legal working title *National Food Resilience Reserve* |
+| The one joke line could be mistaken for the tax | It deliberately echoes a defined UK tax [S] | Used once only, flagged for reviewers; the policy name is the UK Strategic Food Reserve |
 
 **Knowing what to expect: rare, extreme events**
 
-The National Insurance is sized for the **common** shock (weeks to months). History also shows rare events hitting **many countries over several years**. They are not a reason to be discouraged; they are the reason to prepare in layers.
+The Strategic Food Reserve is sized for the **common** shock (weeks to months). History also shows rare events hitting **many countries over several years**. They are not a reason to be discouraged; they are the reason to prepare in layers.
 
 | Event | What happened | Lesson |
 |---|---|---|
@@ -453,7 +475,7 @@ The National Insurance is sized for the **common** shock (weeks to months). Hist
 - Headline metric for testing: **person-days of suitable nutrition delivered** under each adversarial scenario (note 20 §5).
 
 **Lines for the page**
-- "The National Insurance (not National Insurance). About £10 a year. Food, fuel and a plan."
+- "The UK Strategic Food Reserve. About £10 a year. Food, fuel and a plan."
 - "An army defends the border. A food reserve defends the dinner table."
 - "A food reserve buys time, if we can turn it into meals." (adapted from ChatGPT's review)
 - "Under 3p a day. About 1% of the defence budget."
@@ -575,7 +597,7 @@ Every level has a **published trigger** and an **exit rule**. Legal basis: Civil
 
 **Livestock destocking order (written in advance with farmers, vets and the FSA):** stage 1, stop placing new broiler chicks and pause pig inseminations (feed falls within ~6 weeks); stage 2, bring forward slaughter of finishing animals, with meat frozen, canned or cured and laying hens kept; stage 3, size breeding herds to home-grown protein, ruminants kept on grass. Pre-mapped abattoir, cold-store and canning capacity; non-CO₂ stunning as backup; compensation agreed in advance; **never starvation**. In 2021 a CO₂ and labour shortage alone led to tens of thousands of healthy pigs being culled on farm and wasted [S]: the plan exists to stop that happening at scale.
 
-**Governance [E/I]:** a National Food Resilience Agency answerable to the Cabinet Office (civil contingencies), not an annual Defra line; an **extra-budgetary fund** (Finland model), possibly a sovereign guarantee on inventory finance; release only on published triggers, never to manage inflation; refill within 12 months in law; monthly published aggregate stocks; contracts additional to a measured commercial baseline, with clear state title; independent audit; sites in all four nations with different contractors and power feeds; agreement with the devolved governments (a UK-wide civil-contingencies function avoids Barnett leakage). Funding options: general taxation, a Finland/Swiss-style levy on food and energy imports (a levy moves the cost, it does not remove it), or a share of NATO-counted resilience spending if accepted.
+**Governance [E/I]:** a Strategic Food Reserve Agency answerable to the Cabinet Office (civil contingencies), not an annual Defra line; an **extra-budgetary fund** (Finland model), possibly a sovereign guarantee on inventory finance; release only on published triggers, never to manage inflation; refill within 12 months in law; monthly published aggregate stocks; contracts additional to a measured commercial baseline, with clear state title; independent audit; sites in all four nations with different contractors and power feeds; agreement with the devolved governments (a UK-wide civil-contingencies function avoids Barnett leakage). Funding options: general taxation, a Finland/Swiss-style levy on food and energy imports (a levy moves the cost, it does not remove it), or a share of NATO-counted resilience spending if accepted.
 
 **Proactive criticism and context**
 - **Sri Lanka:** sudden input bans destroy food and trust, so phase everything.
@@ -613,4 +635,4 @@ Other estimates: severe disruption cost 1–2% of GDP (illustrative); GDP ~£2.9
 8. Break-even shown with the share of loss prevented.
 9. Food is a CNI sector (asset identification is the gap); 60% ratio fall is a price effect; 31 kcal margin; protein "about 1.9×"; 84% livestock land; milling 4.8 Mt; Sep 2026 CPI; Finland and Swiss figures qualified; Swiss coffee corrected; Danish-style revenue recalculated on livestock emissions.
 10. Added: contingency ladder, fair-rationing principles, livestock destocking order, nitrogen safety, regional stabilisation and trade (note 22), carbon position and labour bridge (note 23), governance and funding options.
-11. Rejected: dropping the name (kept as deliberate irony, with a legal working title); promising inflation control; "eliminate the risk of empty shelves".
+11. Name: the policy is now the **UK Strategic Food Reserve** (working name); the tax pun survives as one flagged joke in chapter 9. Rejected: promising inflation control; "eliminate the risk of empty shelves".

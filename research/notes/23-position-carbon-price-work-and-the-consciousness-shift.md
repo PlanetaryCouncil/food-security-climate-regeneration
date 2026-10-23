@@ -2,7 +2,7 @@
 
 Date: 23 October 2026. This note states **positions** (what the authors advocate, marked [I] for interpretation or value judgement) and separates them from **facts** (labelled as usual). Builds on notes 04, 12 and 19.
 
-**Firewall.** The reserve (chapter 9) stands on its own. A reader can reject everything in this note and still support the National Insurance (not National Insurance). We present them together because we believe they are one transition: from a food system that hides its risks and costs to one that admits them and prepares.
+**Firewall.** The reserve (chapter 9) stands on its own. A reader can reject everything in this note and still support the UK Strategic Food Reserve. We present them together because we believe they are one transition: from a food system that hides its risks and costs to one that admits them and prepares.
 
 ---
 

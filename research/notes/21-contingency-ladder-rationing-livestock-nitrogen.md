@@ -2,7 +2,7 @@
 
 Date: 23 October 2026. Status: proposal [E], built on the evidence in notes 01, 09, 11, 13, 15 and 20. Legal points are our reading and need review by a lawyer specialising in emergency powers.
 
-**Idea in one line:** the National Insurance (not National Insurance) is **contingency level 1**. It exists so that levels 2–4 are rarely needed. But a serious country also writes down levels 2–4 *in advance*, publishes the principles, and exercises them. Knowing the next step is what stops panic.
+**Idea in one line:** the UK Strategic Food Reserve is **contingency level 1**. It exists so that levels 2–4 are rarely needed. But a serious country also writes down levels 2–4 *in advance*, publishes the principles, and exercises them. Knowing the next step is what stops panic.
 
 ---
 

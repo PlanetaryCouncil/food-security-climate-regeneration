@@ -1,4 +1,4 @@
-"""The National Insurance (not National Insurance): cost model, version 2.
+"""The UK Strategic Food Reserve: cost model, version 2.
 
 Illustrative only. Nutrient values are rounded typical composition figures
 (UK McCance & Widdowson / USDA FoodData order of magnitude); prices are
@@ -86,7 +86,7 @@ def basket_line(days, items=None, people=POP, **s):
 
 def package(finance=FINANCE, store_mult=1.0, loss_mult=1.0, price_mult=1.0,
             grain_mt=3.0):
-    """Bottom-up National Insurance package. Returns rows of
+    """Bottom-up Strategic Food Reserve package. Returns rows of
     (code, label, tonnes, stock value GBP, annual cost GBP)."""
     s = dict(finance=finance, store_mult=store_mult, loss_mult=loss_mult,
              price_mult=price_mult)

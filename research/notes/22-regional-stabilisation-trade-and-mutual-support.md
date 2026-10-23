@@ -2,7 +2,7 @@
 
 Date: 23 October 2026. Status: proposal [E] with supporting facts labelled. Builds on notes 05, 13, 19 and chapter 6.
 
-**The question.** When neighbours suffer, should Britain make money from its reserve? Our answer: **earn in calm times, help at fair prices in bad times.** Profiting from a crisis by price-gouging destroys trust and the stability the reserve is meant to buy. Earning **option premiums, rotation sales and partnership fees** in normal years is ordinary, honest business, and it lowers the cost of the National Insurance for British taxpayers.
+**The question.** When neighbours suffer, should Britain make money from its reserve? Our answer: **earn in calm times, help at fair prices in bad times.** Profiting from a crisis by price-gouging destroys trust and the stability the reserve is meant to buy. Earning **option premiums, rotation sales and partnership fees** in normal years is ordinary, honest business, and it lowers the cost of the Strategic Food Reserve for British taxpayers.
 
 ---
 

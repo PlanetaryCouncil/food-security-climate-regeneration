@@ -36,7 +36,7 @@ NEED_KCAL_DAY = 69.5e6 * 2250  # population energy need, kcal/day
 
 def run(name, years=2, harvest_factors=(1.0, 1.0), imports_on=False,
         exports_on=False, other_hi_factor=1.0, feed_factor=1.0,
-        extra_reserve=0.0):
+        extra_reserve=0.0, floor=0.0):
     p = dict(BASE)
     stock = p["opening_stock"] + extra_reserve
     log = []
@@ -52,21 +52,22 @@ def run(name, years=2, harvest_factors=(1.0, 1.0), imports_on=False,
                 out += p["exports"] / 12
             stock -= out
             log.append((f"Y{y+1}-{m}", stock))      # full precision; round only for display
-    first = next(((i + 1, t) for i, (t, s) in enumerate(log) if s < 0), None)
+    # floor: working stock in mills, merchants and transit that cannot be drawn (round 2)
+    first = next(((i + 1, t) for i, (t, s) in enumerate(log) if s < floor), None)
     low = min(s for _, s in log)
     label = f"{first[1]} (month {first[0]})" if first else "never"
     return {"scenario": name, "first_month_empty": label,
             "lowest_stock_Mt": low, "log": log}
 
 
-def feed_needed_to_survive(years, harvest_factors, other_hi_factor, extra=0.0):
+def feed_needed_to_survive(years, harvest_factors, other_hi_factor, extra=0.0, floor=0.0):
     """Largest feed factor (0-1) that keeps the stock >= 0 over the horizon."""
     lo, hi = 0.0, 1.0
     for _ in range(30):
         mid = (lo + hi) / 2
         r = run("probe", years, harvest_factors, other_hi_factor=other_hi_factor,
                 feed_factor=mid, extra_reserve=extra)
-        if r["lowest_stock_Mt"] >= 0:
+        if r["lowest_stock_Mt"] >= floor:
             lo = mid
         else:
             hi = mid
@@ -107,14 +108,14 @@ if __name__ == "__main__":
     print(f"\nPooled 1 July stock = {june_low_days:.0f} days of total population energy need")
 
 
-def reserve_needed(harvest_factors, feed_factor, other_hi_factor=0.25, years=2):
+def reserve_needed(harvest_factors, feed_factor, other_hi_factor=0.25, years=2, floor=0.0):
     """Smallest extra reserve (Mt, added 1 Jul) that keeps the pooled stock >= 0."""
     lo, hi = 0.0, 30.0
     for _ in range(40):
         mid = (lo + hi) / 2
         r = run("probe", years, harvest_factors, other_hi_factor=other_hi_factor,
                 feed_factor=feed_factor, extra_reserve=mid)
-        if r["lowest_stock_Mt"] >= 0:
+        if r["lowest_stock_Mt"] >= floor:
             hi = mid
         else:
             lo = mid
@@ -143,3 +144,26 @@ def reserve_table():
 
 if __name__ == "__main__":
     reserve_table()
+
+
+def robust_table(years=3, floor=1.0):
+    """Round 2: 36 months, a 1.0 Mt working-stock floor, and the minimum stock reported."""
+    print(f"\n{years*12}-month runs, imports stopped 1 Jul, ethanol/distilling cut 75%, exports stopped, "
+          f"working-stock floor {floor} Mt")
+    print("| Case | Feed level | Lowest stock (Mt) | First month below floor | Extra reserve needed (Mt) |")
+    print("|---|---|---|---|---|")
+    cases = [("Normal harvests", (1.0,) * years, 1.0),
+             ("Normal harvests", (1.0,) * years, 0.9),
+             ("Two -15% harvests, then normal", (0.85, 0.85) + (1.0,) * (years - 2), 0.8),
+             ("Two -15% harvests, then normal", (0.85, 0.85) + (1.0,) * (years - 2), 0.7),
+             ("2nd harvest -35% (nitrogen), then normal", (1.0, 0.65) + (1.0,) * (years - 2), 0.8),
+             ("Three -15% harvests", (0.85,) * years, 0.7)]
+    for label, hf, ff in cases:
+        r = run(label, years, hf, other_hi_factor=0.25, feed_factor=ff, floor=floor)
+        need = reserve_needed(hf, ff, years=years, floor=floor)
+        need = 0.0 if need < 0.05 else need
+        print(f"| {label} | {ff:.0%} | {r['lowest_stock_Mt']:.2f} | {r['first_month_empty']} | {need:.1f} |")
+
+
+if __name__ == "__main__":
+    robust_table()

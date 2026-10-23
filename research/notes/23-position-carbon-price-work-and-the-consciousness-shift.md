@@ -1,5 +1,6 @@
 # 23 · Our position: one carbon price, work in nature after AI, and the consciousness shift
 
+> **Updated 23 Oct 2026 (round 2, note 24):** carbon position reworded for UK–EU linking; jobs claim replaced by a costed pilot (§5).
 Date: 23 October 2026. This note states **positions** (what the authors advocate, marked [I] for interpretation or value judgement) and separates them from **facts** (labelled as usual). Builds on notes 04, 12 and 19.
 
 **Firewall.** The reserve (chapter 9) stands on its own. A reader can reject everything in this note and still support the UK Strategic Food Reserve. We present them together because we believe they are one transition: from a food system that hides its risks and costs to one that admits them and prepares.
@@ -65,3 +66,13 @@ The thread through every chapter is a change in how a society sees food:
 - "Emitters pay. Removers earn. One tonne is one tonne."
 - "Let AI do the drudgery. Let people rebuild the land."
 - "Food is not a product. It is the foundation."
+
+
+## 5. Round 2 update (note 24)
+
+- **Linking constraint.** The UK–EU common understanding (May 2025) requires **dynamic alignment** with the rules underpinning a link, while allowing higher ambition [R]. "No free allowances now" is not compatible with linking on those terms. **Revised position:** *one carbon price across linked jurisdictions, with a faster joint phase-out of free allowances, border adjustment where prices differ, no subsidies for emitting, and CO₂ treated as a commodity.*
+- **Three kinds of carbon unit:** avoided emissions (e.g. rewetted peat), temporary biological storage (trees, soils) and durable removals (geological storage) are **not interchangeable tonnes**. Price and certify them separately.
+- **Leakage is sector-specific:** an OECD study of cement and steel found leakage offsetting ~13% of domestic cuts in its setting [R]; that is not a livestock coefficient.
+- **Dividend:** equal per-person recycling is progressive on average, but averages hide rural, off-gas, disability and household-size losers. The same revenue cannot fund a full dividend, farmer recycling and a large jobs programme at once: publish shares.
+- **Red diesel:** removing the £384m rebate is ~4.6% of total income from farming on average, concentrated on combinable crops, roots, dairy and contractors; a flat per-hectare recycling favours extensive farms. Say so.
+- **Work after AI:** no evidence that displaced office workers move into land work; Pick for Britain (2020) is counter-evidence. Replace "tens of thousands" with a **costed pilot**: named employers, paid accredited training, competitive wages, rural housing and transport, childcare and disability access. Illustration: 10,000 jobs at ~£35k fully loaded ≈ **£350m a year**.

@@ -1,8 +1,8 @@
 # Can Britain Feed Itself? Full-context briefing draft for fact-checking
 
-**Version:** draft-4 (23 October 2026), after adversarial review round 1 (ChatGPT, Gemini, Grok). What changed and why: `research/notes/20-adversarial-review-round-1.md` and Appendix C.
+**Version:** draft-5 (23 October 2026), after two rounds of adversarial review (ChatGPT, Gemini, Grok). What changed and why: `research/notes/20-adversarial-review-round-1.md`, `research/notes/24-adversarial-review-round-2.md`, Appendices C and D.
 **Project:** UK food security, climate, resilience and regeneration; a ~12-page public briefing (one page per chapter) for MPs, officials and the public.
-**Repository:** `planetarycouncil/food-security-climate-regeneration`, branch `claude/focused-mendel-5qswh8`, folders `research/notes/` (23 research notes) and `research/model/` (two Python models).
+**Repository:** `planetarycouncil/food-security-climate-regeneration`, branch `claude/focused-mendel-5qswh8`, folders `research/notes/` (24 research notes) and `research/model/` (two Python models).
 
 ---
 
@@ -20,23 +20,14 @@ For each numbered claim in each chapter:
 **Labels used:** **[P]** primary source (seen only via search extracts; originals not opened) · **[R]** primary source opened by a reviewing AI in round 1 (not by us) · **[S]** secondary (press, trade body, NGO) · **[E]** the authors' own estimate or model · **[I]** interpretation or position (a value judgement, not a fact) · **[?]** not yet verified.
 **Today's date in the document's world:** 23 October 2026. Prefer 2025–2026 data. UK = United Kingdom unless England, GB or a devolved nation is stated. Note whether figures are by value or volume. **Calorie denominators:** Defra's requirement is 2,119 kcal/person/day; our planning figure is 2,250. We say which one we use.
 
-**Round 2 focus (please prioritise these; round 1 findings and fixes are in note 20 and Appendix C, so don't repeat them):**
-1. **Costs:** which lines in section 2 are too cheap? Check storage fees (£10–80/t/yr), new-store capex (£200/t), ready-to-eat food (£2.50 per person-day) and operations (£156m) against UK quotes or foreign benchmarks (Germany's ready-meal reserve, Norway's storage contracts, Finland's NESA). What is missing (insurance, handling, inter-site transport, refilling after a release)?
-2. **Rotation markets:** can UK markets for rice, rapeseed oil, milk powder and canned fish absorb the rotation volumes without moving prices?
-3. **Nutrition:** is the 560 g survival ration adequate for 90 days? Gaps (vitamin A, B12, zinc, iron absorption, fibre)? What variants are needed for infants, children, pregnancy, older people, coeliac disease and allergies? A realistic infant-formula tonnage?
-4. **Processing:** flour-mill surge capacity; oat, rice and pulse processing; packaging; how far can wholegrain cooking replace milling?
-5. **Week one of a blackout:** is ~£40m a year enough for priority fuel, AdBlue and backup power at mills, dryers, cold stores and depots? How would 10 m vulnerable people get food and water within 72 hours?
-6. **Nitrogen:** COMAH status of UAN; shelf life of inhibitor-treated urea; UK nitrogen use (British Survey of Fertiliser Practice) to confirm "a third of a season".
-7. **Livestock destocking:** slaughter capacity by species and region; alternatives to CO₂ stunning; cold-store and canning capacity for a meat pulse; law on emergency on-farm killing; compensation precedents (2001 foot-and-mouth, 2021 pig backlog numbers).
-8. **Rationing and law:** can Civil Contingencies Act emergency regulations lawfully deliver rationing, price caps and requisition, or is a Food Security (Emergency) Act needed? Who holds which powers in Scotland, Wales and Northern Ireland? Lessons from WWII and modern rationing (privacy, fraud, paper fallback).
-9. **Governance and money:** Cabinet Office or Defra? Would an extra-budgetary fund count on the public balance sheet under ONS rules? Barnett effects? Levy or general taxation? The exact NATO Hague 2025 wording on what counts as resilience spending.
-10. **Trade and partners:** are reserve call options, swaps and storage-for-partners compatible with WTO, UK subsidy-control and procurement rules? Precedents beyond ASEAN+3 (e.g. IEA oil "stock tickets")? Data on Ireland and Northern Ireland's dependence on the GB landbridge.
-11. **Carbon position:** is "one carbon price, no free allowances, no subsidies for emitting" compatible with UK–EU ETS linking terms? Evidence on leakage, and on who gains or loses from a UK carbon dividend? Check the ~30 MtCO₂e livestock emissions base and the farm-income effect of removing the red-diesel rebate.
-12. **Work after AI:** any evidence that displaced office workers move into land-based work? Wages, rural housing, training routes?
-13. **Scenarios we missed:** e.g. pandemic absenteeism in food workers, a severe solar storm, cyber attack during a heatwave, a Northern Ireland ferry stoppage.
-14. **The strongest case against:** what is the best market-based alternative (compulsory commercial stocks only, or public release rights without public ownership), and does it beat this design at the same cost?
-15. **Name:** "UK Strategic Food Reserve" is a working name. Is "Strategic", "Resilience" or "Emergency" clearer to the public and to Parliament?
-16. **Still-open facts from round 1:** the NAO report's exact sentence on CNI food assets; the final Swiss decision on coffee stocks; the Euro VI AdBlue speed limit (~20 km/h); the folic-acid fortification date (13 Dec 2026); the definition of the ECIU "record low harvest" series.
+**Round 3 focus** (rounds 1 and 2 are integrated; see notes 20 and 24 and Appendices C and D, and please don't repeat them):
+1. **The hybrid design** (section 2): is splitting the reserve into a public crisis tranche (taxes) and compulsory commercial stocks (prices) sound? How would the ONS classify the obligations? Is it a subsidy under the Subsidy Control Act 2022? How is additionality audited?
+2. **Market sizing:** check the UK annual-use figures behind each compulsory stock (rice ~670 kt, rapeseed oil ~406 kt, sugar ~2 Mt, SMP, canned fish, pulses, oats).
+3. **Week one:** is £6 per person-day for no-cook food, £100m for priority fuel/power and £45m for last mile and water realistic? Design a 72-hour delivery for 10 m people.
+4. **Nitrogen:** is ~162 kt N of extra pre-season merchant stock (protected urea + heated UAN-28) workable and safe?
+5. **Cereal model:** is a 1.0 Mt working-stock floor reasonable? Does 3 Mt of food-grade grain have the job we give it?
+6. **The contingency to the contingency:** test the revised destocking order and the "Fair Shares Guarantee" rationing design (note 21 §7).
+7. **Anything still wrong** in the claims, especially those marked [P], [S] or [?].
 
 Each chapter has **Included claims** (intended for the page) and **Proactive criticism and context** (caveats, counterpoints and cut claims, kept so you have the full picture).
 
@@ -49,7 +40,7 @@ Each chapter has **Included claims** (intended for the page) and **Proactive cri
 1. **Britain is resilient on paper, fragile in practice.** It grows enough calories in a normal year (a margin of 31 kcal per person per day) but depends on imported gas-based fertiliser, imported soya for animal feed, a just-in-time supply chain, and weather that is getting more volatile. It holds **no public food reserve**.
 2. **Nature gave Britain world-class farmland per hectare but little land per person.** That makes *what we grow and who eats it* the key choice. Soils can recover.
 3. **Food is the foundation of social stability and a tool of geopolitics.** Price shocks and unfairness, not empty fields, break public trust.
-4. **The central proposal: the UK Strategic Food Reserve, £10 per person per year** (working name; final name to be decided). A rotating reserve of a 90-day survival ration, imported staples, protein feed, seed, safe nitrogen, critical small items and food-grade grain, plus the fuel, power, people and plans to turn it into meals. Old stock rotates into mills, public catering, food banks and feed, **designed to minimise losses**. It costs about 1% of the defence budget.
+4. **The central proposal: the UK Strategic Food Reserve, about £10 per person per year** (working name). Two tiers: a **public crisis tranche** (week-one food, water, formula, tablets, premix, fuel and power, local plans) paid from taxes, and **compulsory commercial stocks** (months of rice, oil and sugar, soya meal, seed, safe nitrogen, 3 Mt of food-grade wheat), held by firms on top of their normal stock and rotated through their own trade. It is **not** a price-support scheme. It costs about 1% of the defence budget.
 5. **A contingency ladder above it.** The reserve is level 1. Fair rationing rules, a livestock destocking order and safe nitrogen are written down in advance, so levels 2–4 are rarely needed and never improvised.
 6. **Second-order benefits.** A reliable reserve stabilises neighbours and earns modest income in calm years (options, swaps, rotation sales), at fair, pre-agreed prices, never by gouging in a crisis.
 7. **A full system change around it:** grow more food for people and less animal feed; fewer, better animals; close nutrient loops; **one consistent carbon price across jurisdictions, no free allowances, no subsidies for emitting, CO₂ treated as a commodity**; pay for verified removal; and a labour bridge from AI-disrupted work into low-carbon farming and nature. Together these are a **shift in how we see food**: from cheap product to shared safety.
@@ -59,29 +50,46 @@ Each chapter has **Included claims** (intended for the page) and **Proactive cri
 
 ---
 
-## 2. The UK Strategic Food Reserve: £10 per person per year, in one table
+## 2. The UK Strategic Food Reserve: about £10 per person per year, in one table
 
-[E] Model: `research/model/reserve_basket.py` (version 2), function `package()`. UK population 69.5 m. **Every line is costed bottom-up; nothing is a residual.** Assumptions (not quotes): wholesale prices (food wheat £210/t, oats £200, rice £500, pulses £350, rapeseed oil £1,000, sugar £500, skimmed milk powder £2,500, canned fish £5,000, urea £380, UAN £300, soya meal £450, seed £300); storage £10–80/t/yr by item; financing 4%; rotation at 1 ÷ shelf life for each item, at a 1–5% value loss (20% for donated ready meals); new grain stores £200/t of capacity, amortised over 25 years at 4%.
+[E] Model: `research/model/reserve_basket.py` (version 3, hybrid design after review round 2, note 24). UK population 69.5 m (ONS mid-2025 ≈ 69.48 m). **An illustrative carrying-cost model with explicit allowances, not a procurement estimate**: prices, fees and allowances are assumptions to be replaced by quotes.
 
-| Line | Component | Stock | Stock value (bought once) | Annual cost | £/person/yr |
-|---|---|---|---|---|---|
-| A | 90-day **survival ration** for everyone (mill-feasible basket + vitamin tablets) | 3.50 Mt | £2.54bn | £225m | 3.24 |
-| B | Rice and oil extended to 6 months (the import-dependent items) | 1.18 Mt | £0.77bn | £72m | 1.04 |
-| C1 | Cereal seed, ~half a season, turned yearly | 0.30 Mt | £0.09bn | £38m | 0.55 |
-| C2 | Nitrogen ~350 kt N (~⅓ season) as protected urea + UAN; **no ammonium nitrate** | 0.90 Mt | £0.31bn | £36m | 0.51 |
-| P | Protein feed: 10 weeks of soya meal (compulsory stock, Swiss model) | 0.46 Mt | £0.21bn | £20m | 0.29 |
-| Q | High-protein milling wheat (so UK wheat still makes bread) | 0.15 Mt | £0.04bn | £4m | 0.06 |
-| R | No-cook tranche: 7 days ready-to-eat for 10 m vulnerable people | 0.07 Mt | £0.17bn | £24m | 0.34 |
-| D | Formula and medical foods, flour premix (incl. folic acid), potassium iodate, feed amino acids, yeast | – | £0.08bn | £11m | 0.16 |
-| E | **Food-grade grain, 3 Mt**, in new stores: human food first; feed buffer and overseas aid only above a protected floor | 3.00 Mt | £0.63bn | £115m | 1.65 |
-| F | Operations (itemised): agency £40m; local food plans £36m; priority fuel, AdBlue and backup power at mills, dryers, cold stores and depots £40m; offline operations and exercises £10m; security and testing £15m; last mile and drinking water £15m | – | – | £156m | 2.24 |
-| | **Total** | **~9.6 Mt** | **~£4.8bn** | **~£701m** | **~£10.08** |
+**Two tiers.** *Tier 1, the public crisis tranche:* owned by the state and paid from taxation. It holds what markets will not hold and what week one needs. *Tier 2, compulsory commercial stocks* (the Swiss/Singapore model): importers, millers, merchants and compounders must hold stock **additional** to their normal working stock. That stock rotates through their own trade, stays off the public balance sheet, and its cost is passed through food prices. Every Tier 2 line is sized against UK annual use, so rotation stays a small share of the market.
 
-**Range** (sensitivity, not a confidence interval): gilt-guaranteed finance £9.19 · **central £10.08** · prices +30% £11.49 · stress (finance 6%, storage +50%, rotation losses doubled) £16.06 · severe stress £18.46 · with 5 Mt of grain instead of 3 Mt £11.18. **£10 is the funding envelope. If quotes come in higher, grain tonnage shrinks first; protein, seed, premix and the no-cook tranche do not.**
+| Tier | Component | Stock | Annual cost | £/person/yr |
+|---|---|---|---|---|
+| 1 | No-cook food: 7 days for 10 m vulnerable people, at £6 per person-day | £420m | £62m | 0.89 |
+| 1 | Infant formula ~7 kt (manufacturer-held, incl. ready-to-feed) + specialised formula and medical foods | £114m | £13m | 0.19 |
+| 1 | Tablets (vitamins A, C, D + zinc) for everyone for 90 days; flour premix incl. folic acid; potassium iodate; feed amino acids; yeast; sacks and bottles; 90 m litres of bottled water | £186m | £32m | 0.46 |
+| 1 | Operations: agency and testing £45m; local plans and exercises in all four nations £46m; **priority fuel, AdBlue and backup power £100m**; **last mile and water £45m**; security and insurance £15m | – | £251m | 3.61 |
+| | **Tier 1 subtotal** (public stock ~£0.72bn, on the balance sheet) | | **£357m** | **5.14** |
+| 2 | Food-grade milling wheat, 3 Mt (half in new stores at £350/t) + 0.35 Mt high-protein wheat for the grist | 3.35 Mt | £139m | 2.00 |
+| 2 | Rice ~4 months of UK use (0.22 Mt); vegetable oil ~4 months (0.135 Mt); sugar ~2 months (0.33 Mt) | 0.69 Mt | £37m | 0.53 |
+| 2 | Pulses 0.30 Mt; stabilised oats 0.10 Mt; skimmed milk powder 0.05 Mt; canned fish 0.04 Mt | 0.49 Mt | £44m | 0.63 |
+| 2 | Soya meal, 10 weeks of imports (0.46 Mt, rotating inside the import flow) | 0.46 Mt | £45m | 0.65 |
+| 2 | Cereal seed: winter 0.2 Mt + **spring 0.1 Mt**, segregated, turned yearly | 0.30 Mt | £44m | 0.63 |
+| 2 | Nitrogen ~162 kt N (~18% of a season): 0.20 Mt protected urea + 0.25 Mt UAN-28 in heated tanks; **no solid ammonium nitrate**; extra pre-season merchant stock | 0.45 Mt | £26m | 0.37 |
+| | **Tier 2 subtotal** (~£2.0bn of stock held by firms; off the public balance sheet) | **~5.7 Mt** | **£333m** | **4.79** |
+| | **Total** | | **~£690m** | **~£9.93** |
 
-What the 3 Mt of grain equals [E]: ~**228 days of UK flour-mill intake** (at 4.8 Mt/yr), or ~6 months of normal food-grain use (~6 Mt/yr), or ~2.7 months of livestock cereal feed. (As raw-grain calories it would be ~63 days of national energy, but grain is not edible until milled or cooked, so we do not headline that.)
+**Range** (sensitivity, not a confidence interval): low £9.05 · **central £9.93** · no-cook at £8/day £10.21 · prices +30% £10.93 · stress (finance 6%, storage/ops +50%, rotation losses doubled) £15.93 · severe stress £17.70.
 
-Scale checks [E]: £701m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agricultural support (£4.87bn, 2025). Cash up front: ~£4.8bn of stock (~£70 per person) plus ~£0.6bn of new stores (~£9 per person). The stock is an asset, but the cash stays tied up while the reserve is full, and refilling after a release needs its own funding rule.
+**Priority schedule: what each pound buys** (cumulative per person; if money is short, cut from the bottom):
+
+| Up to | Buys |
+|---|---|
+| £1.53 | Week one: no-cook food, water, formula, tablets, premix, sacks |
+| £5.14 | + operations: agency, local plans, priority fuel/power, last mile, security |
+| £6.78 | + next season: seed, protected urea, UAN, soya meal |
+| £7.48 | + imported staples: rice, oil, sugar, high-protein wheat |
+| £8.10 | + pulses, oats, milk powder, canned fish |
+| £9.93 | + 3 Mt of food-grade grain |
+
+**What the 3 Mt of grain is for** (`cereal_balance.py`, 36 months, 1.0 Mt working-stock floor): if imports stop with normal harvests, it lets the country keep **full** livestock feed (2.3 Mt needed). Through two −15% harvests it holds feed at 80% (2.5 Mt needed). It buys the choice **not** to order a livestock cull in year one. A nitrogen-shock harvest needs ~3.5 Mt at 80% feed, so 3 Mt is not enough on its own there. 3 Mt ≈ 228 days of flour-mill intake.
+
+**Fiscal honesty:** inventory does not reduce public sector net debt. Only Tier 1 sits on the public balance sheet (~£0.72bn of stock); Tier 2 (~£2.0bn of stock, ~£0.5bn of new stores) is financed by firms and paid for through prices. A levy or price pass-through moves the cost; it does not remove it. **Contingent liability:** refilling after a release (replacement purchases + distribution + processing + compensation − release receipts) is shown separately and funded from taxation, on a price-and-quality trigger within 36 months.
+
+Scale checks [E]: £690m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 1% of UK defence spending; ≈ 14% of UK agricultural support (£4.87bn, 2025).
 
 ---
 
@@ -94,15 +102,15 @@ Scale checks [E]: £701m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agri
 **Included claims**
 1. All-food production-to-supply ratio **60%** (2025, provisional, by farmgate value); 65% in 2024; 62% in 2023. The fall from 65% is mostly an **import-price effect**; volume barely changed (FarmingUK / Farmers Weekly, Jul 2026 [S]). Source: Defra, *Agriculture in the UK 2025*, ch.14: https://www.gov.uk/government/statistics/agriculture-in-the-united-kingdom-2025/chapter-14-the-food-chain [P]
 2. Indigenous-type food (foods that can be grown in the UK) **72%** (2025). Same source [P]
-3. The all-food ratio peaked near **78% in 1984** (above 80% in the mid-1980s by some series). Defra long-run series [P/?]
+3. The all-food ratio was **over 80% in the 1980s** (Defra narrative); the exact peak year and value depend on the series. Defra AUK 2025 ch.14 [R]
 4. By volume, 2025: milk **105%**, lamb **103%**, oats **109%**, barley **107%**, eggs 88%, beef 84%, wheat **83%**, poultry 80%, potatoes 71%, pig meat 67%, sugar 61%, fresh veg **56%**, oilseed rape 49%, tomatoes 17%, fresh fruit **14%**. Defra AUK 2025 ch.14 [P]
 5. Farm output ≈ **101%** of population energy need (2,150 vs 2,119 kcal per person per day: 101.5%, a **31 kcal** margin) and **about 1.9 times** protein need (2025), before waste; "statistics in development". Defra, *Nutritional supply of agriculture in the UK 2025* (15 Oct 2026): https://www.gov.uk/government/statistics/nutritional-supply-of-agriculture-in-the-uk-2025/nutritional-supply-of-agriculture-in-the-uk-2025 [P]
 6. That release states availability would fall if imported livestock feed stopped. Same source [P]
 7. Imported soya meal (~2.39 Mt in 2024, 77% into pigs and poultry) carries **~1.1 Mt of protein**, about the size of the population's reference protein need (~1.17 Mt/yr at ~46 g/person/day). That protein is **upstream, inside animals, not edible**; most of it does not come back out as meat. AIC soya report; authors' arithmetic [S/E]
-8. Livestock use about **84%** of utilised agricultural area and ~56% of croppable area (grazing plus feed crops, under Defra's stated assumptions) and supply about **32%** of calories. Defra AUK 2025 ch.2 [R]; National Food Strategy (2021) [S]
+8. Livestock use about **84%** of utilised agricultural area and ~56% of croppable area (grazing plus feed crops, under Defra's stated assumptions) and supply about **31%** of agricultural calorie supply. Defra AUK 2025 ch.2 and nutritional-supply release [R]
 9. Utilised agricultural area **16.8 Mha (69% of UK land)**; croppable 6.1 Mha. Defra land use June 2025: https://www.gov.uk/government/statistics/agriculture-in-the-united-kingdom-2025/chapter-2-structure-of-industry [P]
 10. UK cereal harvest 2025: **19.5 Mt**. Defra/AHDB: https://www.gov.uk/government/statistics/agriculture-in-the-united-kingdom-2025/chapter-7-crops [P]
-11. 2026 key-crop harvest forecast **18.5 Mt, a record low**; four of the five worst harvests on record fall in 2020–2026. ECIU via FarmingUK (Aug 2026) [S]
+11. ECIU's 14 Aug 2026 forecast put UK key crops at **18.5 Mt**. Separately, ECIU's 8 Oct 2026 ranking found four of the five worst harvests since 1984 in 2020–2026, for **England, wheat + barley + oats + oilseed rape, by volume** (pre-1999 estimated). https://eciu.net/media/press-releases/uk-harvest-even-worse-than-previously-thought-new-data [R]
 12. Defra: the UK has **"no national food stockpiles or plans to create these"** (written answer, 31 Mar 2026). https://questions-statements.parliament.uk/written-questions/detail/2026-03-20/HL15829/ [P]
 13. Agriculture employs **446,200** people (1.3% of UK jobs); 40% of English farm holders are over 65, 5% under 35. Defra Farming Evidence Pack, Sep 2026 [P]
 14. Food inflation peaked at **19.2%** (March 2023). Defra AUK 2025 [P]
@@ -127,7 +135,7 @@ Scale checks [E]: £701m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agri
 1. Most of the UK is **Köppen Cfb** (temperate oceanic, no dry season). Met Office: https://weather.metoffice.gov.uk/climate/climate-explained/climate-zones [P]
 2. Growing season (days >5 °C): ~250–290 in lowland England, 330+ on Atlantic coasts; 2016–2025 had less than half the icing days of 1961–90. Met Office / State of the UK Climate 2025 [P/S]
 3. Rainfall ranges from ~550–650 mm in the east (Cambridge ~560 mm) to over 3,000 mm at Seathwaite. Met Office station averages 1991–2020 [P]
-4. UK wheat averages ~**7.8 t/ha** (five-year average implied by 2026's 6.9 t/ha being 11% below it). AHDB: https://ahdb.org.uk/news/final-harvest-report-confirms-cereal-yields-are-below-historic-averages-across-the-uk [E]
+4. UK wheat averages ~**7.8 t/ha**, derived (2026's 6.9 t/ha was 11% below the five-year average: 6.9/0.89 ≈ 7.75). AHDB: https://ahdb.org.uk/news/final-harvest-report-confirms-cereal-yields-are-below-historic-averages-across-the-uk [E]
 5. Scotland's 10-year average wheat yield **8.6 t/ha**; 9.2 t/ha in 2023. https://gov.scot/publications/cereal-and-oilseed-rape-harvest-2023-final-estimates/pages/wheat-yield-and-production-remain-high-despite-small-decreases [P]
 6. World average wheat yield ~**3.5–3.7 t/ha**; UK yields are about double. FAOSTAT [?]
 7. **World record wheat yield 17.95 t/ha**, Tim Lamyman, Louth, Lincolnshire, 10 Aug 2022. https://guinnessworldrecords.com/world-records/highest-wheat-yield [P]. One field shows what is possible; the *system* claim is the national average of ~8 t/ha, about twice the world average.
@@ -136,7 +144,7 @@ Scale checks [E]: £701m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agri
 10. About **71%** (71.3%) of UK farmland is grass (9.484 Mha permanent, 1.313 Mha temporary, 1.197 Mha common rough grazing; sole-right rough grazing is already inside permanent grass). Defra AUK 2025 table 2.1 [R]
 11. England's "best and most versatile" land (ALC grades 1–3a) is about **42%** of agricultural land. Natural England survey data [S]
 12. **59.2%** of Grade 1 land lies in river or sea flood-risk areas; ~1.12 Mha (13%) of English farmland is in mapped flood zones. Environment Agency, Oct 2026 [P/?]
-13. Fen peat loses **1–2+ cm a year**; ~25–50 years left under arable. Wildlife Trusts / Farmers Weekly [S]
+13. Fen peat loses **1–2+ cm a year** under arable; remaining life is site-specific (depth, drainage, management), not a single national figure. Wildlife Trusts / Farmers Weekly [S]
 14. Soil degradation costs **~£1.2bn/yr** (range £0.9–1.4bn) in England and Wales: organic matter loss 47%, compaction 39%, erosion 12%; 80% of the cost is off-farm. Graves et al. 2015, *Ecological Economics* 119:399–413: https://ideas.repec.org/a/eee/ecolec/v119y2015icp399-413.html [P]
 15. A 3-year grass-clover ley in a 5-year rotation raised topsoil organic carbon from **0.98% to 1.23% in 28 years** (+0.25 percentage points, ≈25% relative concentration, on one sandy loam; not a measured change in carbon stock per hectare), then plateaued (~1.3%); continuous arable declined. Johnston et al. 2017: https://repository.rothamsted.ac.uk/item/8v42x/changes-in-soil-organic-matter-over-70-years-in-continuous-arable-and-ley-arable-rotations-on-a-sandy-loam-soil-in-england [P]
 16. Rothamsted Broadbalk (since 1843): unfertilised plots ~**1.6 t/ha**, manured or fertilised plots ~7–8 t/ha. Rothamsted guide [P]
@@ -171,7 +179,7 @@ Scale checks [E]: £701m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agri
 9. Met Office/Defra Climate-Pest Risk tool covers nine insect pests (e.g. Colorado potato beetle); targeted Colorado beetle eradication in Kent, 2025. Same source [P]
 10. **Wheat stem rust is re-emerging** in the UK and Ireland. EPPO-hosted study: https://pra.eppo.int/pra/c1804e50-2029-488f-b92f-d38429142e81 [S]
 11. **Bluetongue BTV-3**: 160 cases in England (Aug 2024–May 2025); new vector season from 11 Jul 2025, with cases through winter 2025/26. GOV.UK: https://gov.uk/bluetongue [P]
-12. Four of the five worst UK harvests on record: **2020, 2024, 2025, 2026**. ECIU [S]
+12. Four of the five worst harvests since 1984: **2020, 2024, 2025, 2026**, for England, four combinable crops including oilseed rape, by volume (ECIU, Oct 2026). Do not generalise to "UK" or "cereals" [R]
 13. Wheat volume self-sufficiency fell from 96% (2023) to 79% (2024, wet autumn) and recovered to 83% (2025). Defra [P]
 
 **Proactive criticism and context**
@@ -202,14 +210,14 @@ Scale checks [E]: £701m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agri
 11. May 2025: ransomware at **Peter Green Chilled** (supplier to Tesco, Sainsbury's, M&S, Waitrose, Aldi, Co-op and others) halted order processing; M&S and Co-op were hit in the same wave. https://www.foodingredientsfirst.com/news/ransomware-uk-supermarket-supplier-food-security.html [S]
 12. The Short Straits (Dover/Folkestone) carry ~18% of food, feed and drink imports but ~**42% of dairy and eggs**, 39% of meat and 29% of fruit and veg. Defra UKFSR 2024 [P/?]
 13. About ten supermarkets handle ~95% of shop-bought food. Dossier / NPC *Just in Case* (2025) [S]
-14. 98% of English farms use red diesel (2023/24); implied UK farm volume ~**0.9 bn litres/yr** (£384m rebate ÷ 42.8p/L duty gap). Defra energy-use survey; authors' arithmetic [P/E]
+14. 98% of English farms use red diesel (2024/25); implied UK farm volume ~**0.9 bn litres/yr** (£384m rebate ÷ 42.77p/L duty gap, 2025). HM Treasury said "almost £300m" in March 2026, and a June–December 2026 duty cut changes the rebate mid-year. Defra AUK 2025 ch.10 [R]; authors' arithmetic [E]
 15. Farm red diesel **123.7p/L in April 2026, +79%** on the 2025 average; ECIU estimates **£337m** extra farm fuel cost in 2026. Early Day Motion: https://edm.parliament.uk/early-day-motion/65676 [S]
 16. **Iberian blackout** (28 Apr 2025): ~50–60 m people, ~10+ hours; payments, warehouse systems and refrigeration failed; ~$1.8bn cost to Spain. https://www.slimstock.com/blog/the-iberian-blackout-and-its-consequences-on-the-supply-chain/ [S]
-17. Calcium carbonate for flour fortification has depended on deliveries from a **single French quarry**. Grok briefing citing UKFSR [?]; Gemini disputes it (UK sources could be qualified). The action (stock the premix) does not depend on it.
+17. Calcium carbonate for flour fortification has depended on deliveries from a **single French quarry**, as recorded in the UK Food Security Report 2024 itself [R]
 18. Food **is** one of the UK's 13 critical national infrastructure (CNI) sectors; the NAO (Sep 2026) says Defra should use the CNI Knowledge Base to identify food-supply **assets** (mills, dryers, CO₂, premix, ferries, cold stores). The stronger sentence "no food assets are in the database" must be quoted from the report PDF before use. NAO: https://www.nao.org.uk/reports/resilience-of-the-food-supply-chain-to-disruptions/ [R]
-19. **AdBlue:** Euro VI lorries need diesel exhaust fluid (urea solution); without it the engine control drops into a crawling "limp mode" (about 20 km/h under the Euro VI rules). South Korea's 2021 urea shortage threatened its freight network. Reg. (EU) 582/2011 Annex XIII (retained in UK law): https://legislation.gov.uk/eur/2011/582/annex/XIII/division/4/adopted [P/S]
+19. **AdBlue:** Euro VI lorries need diesel exhaust fluid (urea solution). If it runs out, a torque cut comes first; then, once the tank is empty (or below ~2.5%) and the engine is restarted, refuelled or parked, the **severe inducement limits speed to 20 km/h**. South Korea's 2021 urea shortage threatened its freight network. Reg. (EU) 582/2011 Annex XIII section 5 (retained in UK law): https://www.legislation.gov.uk/eur/2011/582/annex/XIII/division/5/adopted [R]
 20. **Automated distribution centres:** much supermarket stock moves through robotic high-bay warehouses run on cloud warehouse-management software; without power or data they stop, and pallets 30 m up cannot be picked by hand. Gemini review [S/?]
-21. **Grain dryers:** British grain is often harvested at 16–20% moisture and must be dried below ~14.5% or it self-heats; in a wet autumn the queue is at the dryer, which needs gas, diesel or electricity [S]
+21. **Grain dryers:** British grain is often harvested at 16–20% moisture and must be dried for safe storage (safe limits depend on moisture, temperature and time, typically ~14.5% or below for longer storage); in a wet autumn the queue is at the dryer, which needs gas, diesel or electricity. Camgrain publishes separate drying and handling charges [R/S]
 22. **Small imports, big consequences:** synthetic amino acids for pig and poultry feed (a few plants worldwide), phosphine for stored-grain insects, food-grade CO₂ for stunning and packing [S]
 23. **Folic acid** joins calcium, iron, niacin and thiamin as a legal requirement in non-wholemeal wheat flour from **13 December 2026** (England; check devolved rules) [S]
 
@@ -236,7 +244,7 @@ Scale checks [E]: £701m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agri
 5. 3 kg of grain ≈ 9,900 kcal vs ~1,500–2,500 kcal in 1 kg of meat: **4–6× fewer calories out than in** [E]
 6. "Feed wheat" is mostly the same species (softer, lower-protein varieties); usable for biscuits, flatbreads, porridge and wholegrain. The feed–milling price gap was ~£14/t in Nov 2025 (feed £166/t, milling £180/t). Farmers Weekly [S]. **But** ~80% of UK bread is made by the high-speed Chorleywood process, which needs ~13% protein and a Hagberg falling number of ≥250 s; feed wheat at ~10–11% protein collapses on those lines unless blended with strong wheat or vital wheat gluten [S]
 7. EU food limit for the mould toxin DON in unprocessed cereals was **cut from 1,250 to 1,000 µg/kg** (Reg. 2024/1022, from 1 Jul 2024); feed guidance values are much higher. https://www.nfuonline.com/news/eu-changes-to-maximum-limits-for-mycotoxins/ [P]
-8. UK flour mills used **4.8 Mt** of wheat and produced **3.8 Mt** of flour in 2025; ~15% of the grist is imported, much of it strong wheat for gluten. That is usage, not rated capacity. https://www.ukflourmillers.org/the-industry/annual-review [R]
+8. UK flour mills used **4.8 Mt** of wheat and produced **3.8 Mt** of flour in 2025; **~25–31% of the grist is imported** (Defra: 75% home-grown in 2025; UK Flour Millers' 2024/25 table: 68.7% UK), much of it strong wheat for gluten. That is usage, not rated capacity. https://www.ukflourmillers.org/the-industry/annual-review [R]
 9. Model: with imports stopped on 1 July, bioethanol and distilling grain use cut 75% and exports stopped, the **pooled cereal balance stays positive with today's full livestock feed for two years with normal harvests**; two −15% harvests require feed cut to ~80% of today. A tonnage balance only: quality, milling, protein and logistics are not modelled. `research/model/cereal_balance.py` [E]
 10. Halving pigs and poultry and diverting ~6 Mt of feed grain to people: **net ≈ +17 trillion kcal/yr ≈ 29% of annual national energy need** [E]
 11. Replacing imported soya protein fully with UK field beans would need ~**4 Mt of beans (~1 Mha)**, ~6× today's pulse output (0.68 Mt) and ~16% of croppable land, at the rotation ceiling [E]. Beans are short of methionine and contain anti-nutritional factors (vicine/convicine, tannins): high-bean poultry and pig diets need synthetic amino acids (imported) and low-vicine varieties [S]
@@ -287,7 +295,7 @@ Scale checks [E]: £701m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agri
 15. ASEAN+3 Emergency Rice Reserve: **787,000 t** earmarked (agreement 2011, in force 2012); used after Typhoon Haiyan (2013). ASEAN: https://www.asean.org/wp-content/uploads/images/2015/October/outreach-document/Edited%20APTERR-2.pdf [P]
 16. Phosphate rock comes mainly from Morocco, China and Russia. Lancaster (2022) [P]
 17. WTO rules allow **temporary export restrictions** to relieve critical food shortages (GATT Art. XI:2(a)), and a binding 2022 WTO ministerial decision exempts **World Food Programme humanitarian purchases** from export bans. https://www.wto.org/english/res_e/booksp_e/anrep_e/ar23_spotlight_mc12_e.pdf [P]
-18. **Mutual reserves work between neighbours:** ASEAN+3 members earmark 787,000 t of rice for each other (chapter 9). A UK–Ireland–Nordic pool, call options sold to partners, and storage contracts are possible equivalents [I, note 22]
+18. **Mutual reserves work between neighbours, in calm markets:** ASEAN+3 members earmark 787,000 t of rice for each other. A UK–Ireland–Nordic pool, call options and storage contracts are possible equivalents, but options and swaps **fail when export bans bite**, so a protected domestic floor comes first. IEA oil "stock tickets" are a contractual precedent [I/R, note 22]
 
 **Proactive criticism and context**
 - The UK imports little Black Sea grain directly; its exposure is through world prices, feed and fertiliser.
@@ -316,7 +324,7 @@ Scale checks [E]: £701m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agri
 9. Household food insecurity **12.2%** (Jul 2026): 6.5 m adults and 2.2 m children; 16.7% of households with children; **35.9% of Universal Credit households**; 27.1% of single parents. Food Foundation: https://foodfoundation.org.uk/news/food-prices-tracker-july-2026 [P]
 10. 60% of people "highly concerned" about food prices (Feb 2026), the highest since tracking began. Food Foundation: https://foodfoundation.org.uk/news/food-prices-tracker-february-2026 [P]
 11. Trussell: **2.6 m emergency food parcels in 2025**; 2.9 m in Apr 2024–Mar 2025 (+51% on five years earlier). https://www.trussell.org.uk/news-and-research/news/food-banks-provide-over-2.6-million-food-parcels [P]
-12. NAO (4 Sep 2026): local resilience forum capability for food disruption is **"insufficient"**; **most LRFs do not plan specifically for food disruption**; the last national food-disruption exercise was in **2023**; Defra lacks a **power to direct** businesses in a catastrophe. https://www.nao.org.uk/wp-content/uploads/2026/09/Resilience-of-the-food-supply-chain-to-disruptions-summary.pdf [P]
+12. NAO (4 Sep 2026): local resilience forum capability for food disruption is **"insufficient"**; **most LRFs do not plan specifically for food disruption**; the last national exercise on a **catastrophic** food disruption was in **2023**; Defra lacks a **power to direct** businesses in a catastrophe. https://www.nao.org.uk/wp-content/uploads/2026/09/Resilience-of-the-food-supply-chain-to-disruptions-summary.pdf [P]
 13. UK household survey 2026 (n = 10,791): **60%** have three days of no-cook food (down from 66%); **4%** have three days of bottled water; **13%** feel well prepared. https://www.gov.uk/government/statistics/uk-public-survey-of-risk-perception-resilience-and-preparedness-2026/uk-public-survey-of-risk-perception-resilience-and-preparedness-2026-headline-findings-html [P]
 14. Open letter to PM Andy Burnham (5 Oct 2026), 150–180+ experts: the UK has no central food reserve (the post-war stockpile ended in the 1990s); calls for a National Council of Food Security, Defence and Resilience and storage at national, regional, local and community level. https://www.globalgovernmentforum.com/create-department-for-food-security-to-address-uk-government-complacency-on-impending-shocks-say-experts/ [S]
 15. Lords debate on food security (15 Oct 2026): a peer said there are "virtually no strategic food reserves". https://hansard.parliament.uk/Lords/2026-10-15/debates/1A83180F-4DDD-4033-B32A-CD71EFEB8FEA/FoodSecurity [P/?]
@@ -341,11 +349,11 @@ Scale checks [E]: £701m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agri
 **Included claims**
 1. Only about **30 countries** actively use public food stocks for food security (mostly developing grain importers). World Bank/FAO/WFP 2025: https://documents1.worldbank.org/curated/en/099042625211562573/pdf/P504545-488431b2-0565-40f9-852c-e8db32d22559.pdf [P]
 2. FAO/World Bank rule of thumb: a grain reserve covering **3–4 months** of consumption plus a cash reserve for imports. FAO: https://www.fao.org/4/w4979e/w4979e0a.htm ; secondary summary [S]
-3. **Finland:** legal minimum **6 months** of normal human grain consumption (Government Decision 568/2024); raised to ~**8.5–9 months** in 2022–23 (top-up 64% oats, 36% wheat). NESA: https://huoltovarmuuskeskus.fi/en/a/procurement-of-additional-grain-for-emergency-stockpiles-completed [P]
+3. **Finland:** legal minimum **6 months** of normal human grain consumption (Government Decision 568/2024); a 2022–23 top-up (64% oats, 36% wheat) raised holdings to ~8.5–9 months. Whether that level is still held in October 2026 is not confirmed. NESA: https://huoltovarmuuskeskus.fi/en/a/procurement-of-additional-grain-for-emergency-stockpiles-completed [R]
 4. Finland's National Emergency Supply Fund ~**€2bn (~£1.7bn)**, much of it held as inventory; supply-security fee revenue ~€66m (~£57m) in 2026, ~€92m (~£79m) in 2027; ~€25m/yr admin from the budget. These are **funding flows** (≈ €16 per person per year), not a full annual economic cost, and cover all security of supply, not only food. https://www.huoltovarmuuskeskus.fi/en/organisation/funding [R]
 5. Finland released up to **15,000 t of spring seed** from reserves after the poor 2021 harvest; rebuilding takes 1–3 years. NESA [P]
 6. A 2025 plan to cut Finland's reserve from 9 to 6 months to save ~€20m (~£17m) caused a political row. MTV Uutiset, 6 Feb 2025 [S]
-7. **Switzerland:** compulsory private stocks covering **2–4 months depending on the product** (the official page warns actual stocks can differ from targets); coffee is still listed at three months (the 2019–20 plan to drop it was a proposal); 2019 targets: wheat 4 months (195,000 t), sugar 3 (59,000 t), rice 4 (16,400 t); protein feed 93,000 t (2 months); edible oils 35,000 t (4 months, in tanks); N fertiliser ~⅓ of a season. FONES: https://www.bwl.admin.ch/en/range-of-compulsory-stocks ; SRF 2019 [P/S]
+7. **Switzerland:** compulsory private stocks covering **2–4 months depending on the product**. The operator's table (1 Jan 2026) lists common wheat **160,000 t** + durum 20,000 t, sugar **50,000 t**, oils and fats **36,660 t**, rice **16,400 t**, coffee **20,180 t** (three months, still compulsory; a plan to drop it was proposed but not enacted), and energy/protein feed **387,450 t**; N fertiliser is held at about a third of a season. https://www.reservesuisse.ch/compulsory-stocks/?lang=en [R]
 8. Swiss stocks cost about **CHF 14 per person per year** (whole system, incl. fuel and medicines). SRF, 2019: https://www.srf.ch/news/schweiz/schweizer-vorratskammer-kein-kaffee-im-krisenfall [S]
 9. **31 Aug 2026:** Switzerland released up to **20% (~16,000 t) of protein-feed stocks** (Sep 2026–Feb 2027) because drought and low Rhine/Danube water stalled imports; only the second such release. https://www.cash.ch/news/notreserven-fur-protein-tierfutter-werden-freigegeben-964808 [S]
 10. Switzerland consulted (2023) on moving from 4 to **12 months** at reduced rations (cereals +50%, oils +25%, feed down); outcome unconfirmed. https://swissinfo.ch/eng/politics/swiss-government-proposes-expanding-national-food-stockpiles/48446798 [S/?]
@@ -354,7 +362,7 @@ Scale checks [E]: £701m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agri
 13. **Germany:** federal grain reserve **705,000 t** (end-2021; ~1 month of bread) plus ~126,000 t of rice and pulses and 5,000 t of condensed milk; ~150 private storage sites; ~10-year rotation; planned **€80–90m (~£70–78m)** ready-to-eat reserve. top agrar: https://www.topagrar.com/panorama/news/das-ist-uber-deutschlands-getreidevorrate-bekannt-20020375.html [S]
 14. **Japan:** rice reserve target **1 Mt**; released 590,000 t in 2025; **320,000 t in Sep 2026**; 210,000 t buyback announced 1 Sep 2026, criticised as "too late". Adnkronos/Jiji: https://english.adnkronos.com/2026/09/01/japan-govt-to-buy-back-210000-tons-of-rice-after-stockpile-release/ [S]
 15. Japan's system: buys ~200,000 t a year, holds each lot ~5 years, then sells unused rice as **animal feed**. Asia News Network: https://asianews.network/japanese-government-criticised-for-slow-response-to-soaring-rice-prices/ [S]
-16. **Singapore:** rice importers must hold **2× average monthly imports** as a licence condition (since 1968); the state stockpile is secret. MTI: https://www.mti.gov.sg/newsroom/written-reply-to-pq-on-stockpiling-of-key-food-items [P]
+16. **Singapore:** rice importers must hold **two months of average imports** as a licence condition (start year unconfirmed); the state stockpile is secret. MTI: https://www.mti.gov.sg/newsroom/written-reply-to-pq-on-stockpiling-of-key-food-items [R]
 17. **Israel:** state-paid private stocks of staples estimated at ~**3 months** (INSS, Dec 2023). https://www.inss.org.il/publication/food-supply-chains/ [S]
 18. **India:** central pool **92.6 Mt** of wheat and rice (1 Jul 2026) vs a buffer norm of 41.1 Mt; food subsidy budget ₹2.35 lakh crore (2026–27) for 813.5 m beneficiaries. Business Today; PRS: https://prsindia.org/budgets/parliament/demand-for-grants-2026-27-analysis-food-and-public-distribution [S/P]
 19. **Egypt:** officially 4 months (Feb 2026) to ~9 months (Jun 2026) of wheat reserves. Ahram Online [S]
@@ -378,72 +386,75 @@ Scale checks [E]: £701m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agri
 
 <!-- PDF DESIGN NOTE (not for print): this line belongs to Professor General Admiral F.L. Amingo of the Battalion of Militarized Satire. Allowance: one small cheeky joke, placed where attentive readers will find it (a margin note, footnote or tiny aside). Everything else in the document stays straight and serious. -->
 
-**Headline:** £10 per person per year, under 3p a day, buys Britain time: a 90-day survival ration for everyone, the protein, seed and nitrogen for the next season, and food-grade grain measured in months of mill time. An army defends the border; this defends the dinner table.
+**Headline:** About £10 per person per year, under 3p a day, buys Britain time. It pays for week-one food, water and fuel for the most vulnerable, protein, seed and nitrogen for the next season, and months of imported staples and food-grade grain held in normal supply chains. An army defends the border; this defends the dinner table.
 
-**Narrative:** A grain silo is not yet a meal. So the Strategic Food Reserve is built backwards from the meal. In the **first week** of a shock (a blackout, a fuel blockade, a cyber attack) what fails is fuel, power, payments and water, so the package pays for priority fuel and backup power at mills, dryers and depots, offline operations, drinking-water contracts and a no-cook tranche for the 10 million people least able to cope. For **months**, a 90-day survival ration that Britain's mills can actually grind (wheat held below today's milling rate, with rice, oats, pulses, oil, milk powder, canned fish, a flour premix and vitamins). For **the next season**, half a season of cereal seed, about a third of a season of nitrogen held safely as urea and UAN, never ammonium nitrate, and ten weeks of soya meal, the import that pig and poultry farming stands on. Behind it, 3 Mt of **food-grade grain**: human food first, a feed buffer and overseas help only from stock above a protected floor.
+**Narrative:** A grain silo is not yet a meal. So the Strategic Food Reserve is built backwards from the meal, in two tiers.
 
-The reserve is a **stabilising force**, held in readiness the way a nation holds an army. You hope never to use it. If supply chains break, it buys the weeks and months the country needs to reroute imports, sow the next crop and manage livestock, without panic. It is **contingency level 1**; fair rationing and a livestock destocking order are written down above it (chapter 12), so that levels 2–4 are rarely needed and never improvised.
+The **public crisis tranche** covers what markets will not hold and what fails first. In the **first week** of a blackout, a fuel blockade or a cyber attack, fuel, power, payments, water and the last mile fail. So the state holds no-cook food for the 10 million people least able to cope, bottled water, infant formula, vitamin tablets and flour premix. It pays for priority fuel, AdBlue and backup power at a published list of mills, depots and dryers, plus local plans and delivery registers in all four nations, with paper fallbacks.
 
-Measured the way it is paid, per person, the cost is modest. Our bottom-up estimate is **about £10 per person per year**, with every line costed, nothing plugged; under stress assumptions it could reach £16–18. Up front, the country buys about £70 of stock and £9 of storage per person: an asset held, rotated and sold back, though the cash is tied up while the reserve stays full. Dry stores need **no refrigeration; low, interruptible power**.
+Behind it, **compulsory commercial stocks** follow the model Switzerland has used for decades. Importers, millers, merchants and feed compounders must hold *extra* stock: months of rice, oil and sugar, ten weeks of soya meal, winter and spring seed, extra pre-season nitrogen held safely as urea and UAN (never solid ammonium nitrate), and 3 Mt of food-grade wheat. It rotates through their own trade, so nothing piles up unsold and it stays off the public balance sheet. Each line is sized against what UK markets actually use.
 
-**Resilience through transparency.** Our first draft had a cost line that simply filled the budget, a ration the mills could not grind and a nitrogen stock that would have been an explosion hazard. Independent AI reviewers found them; we fixed them in public (note 20). We publish the remaining downsides below.
+The reserve is a **stabilising force**, held in readiness the way a nation holds an army. You hope never to use it. If supply chains break, it buys the weeks and months needed to reroute imports, sow the next crop and keep animals fed, without panic. It is **contingency level 1**. Fair rationing and a livestock destocking order are written down above it (chapter 12) as a contingency to the contingency: rarely needed, never improvised.
+
+Measured per person, the cost is modest: **about £10 a year**. Roughly £5 is paid through taxes for the public tranche and roughly £5 through prices for the compulsory stocks. Under stress assumptions it could reach £16–18; if money is short, the priority schedule says what to cut first.
+
+**Resilience through transparency.** Two rounds of independent AI review found a plugged cost line, an unmillable ration, an explosive fertiliser stock, rotation volumes the market could not absorb, a debt problem and an underpriced first week. We fixed them in public (notes 20 and 24). The remaining downsides are below.
 
 **Included claims**
-1. The **package** totals ~**£701m a year ≈ £10.08 per person**, every line costed bottom-up: survival ration £3.24; rice and oil to 6 months £1.04; seed £0.55; nitrogen £0.51; soya meal £0.29; high-protein wheat £0.06; no-cook tranche £0.34; small critical items £0.16; 3 Mt food-grade grain £1.65; itemised operations £2.24. `reserve_basket.py` v2 [E]
-2. **Range:** £9.19 (gilt-guaranteed finance) to £16.06 (finance 6%, storage +50%, rotation losses doubled); £18.46 if prices are also 30% higher. Grain is the flex line [E]
-3. **Survival ration**, per person per day: 560 g of listed commodities (wheat 180, oats 30, rice 130, pulses 90, rapeseed oil 55, sugar 25, skimmed milk powder 25, canned mackerel or herring 25) + vitamin C and D tablets → ~**2,240 kcal, ~70 g protein**, calcium ~740 mg *if the flour is fortified* (~520 mg if not); ~£0.41/day at wholesale. Not a complete diet for every group: infant, child, allergy and medical variants need a dietitian [E]
-4. **Mill-feasible:** 180 g of wheat × 69.5 m = 12,500 t/day, ~95% of what UK mills used in 2025 (4.8 Mt/yr ≈ 13,150 t/day). The draft-3 ration (350 g) would have needed ~1.8× demonstrated milling. UK Flour Millers annual review: https://www.ukflourmillers.org/the-industry/annual-review [R/E]
-5. Shelf life sets rotation: wheat grain 5–10 years; rice 5+; sugar 5+ if dry; canned fish 3–5; pulses 2–4 (then hard-to-cook); milk powder 2–3; **oils and stabilised oats 1–2 years** [S/E]
-6. Today: commercial wheat stocks at the pre-harvest low (30 Jun 2026) were **1.514 Mt**, the lowest since 2020/21, ≈ **32 days** of raw-wheat energy (3.27 Mcal/t, 2,250 kcal); privately owned, partly feed grade, not earmarked. The same AHDB balance has a **794 kt unexplained residual**. https://ahdb.org.uk/end-of-season-uk-cereal-supply-and-demand-september-2026 [R/E]
-7. Retailers hold "in the region of **10 days**" of stock. Full Fact: https://fullfact.org/economy/uks-food-supply-hanging-balance/ [S]
-8. **No refrigeration; low, interruptible power:** grain cooling by aeration uses roughly **0.3 kWh per tonne over six months** in trials. https://doaj.org/article/2bfcbd50940640bf804c8ee2f94c2a61 [P]. Handling, drying and milling still need power and fuel, which line F pays for [E]
-9. **Nitrogen without a Beirut:** fertiliser-grade ammonium nitrate is a named COMAH major-hazard substance (reported thresholds 1,250 t lower tier, 5,000 t upper tier); the reserve holds non-explosive urea and UAN solution instead, rotated yearly through merchants. HSE: https://www.hse.gov.uk/explosives/ammonium/comah.htm [P/S]
-10. **Protein is the binding import:** ~2.39 Mt of soya meal was imported in 2024, 77% for pigs and poultry; ten weeks ≈ 460 kt, ~£20m a year to carry [S/E]
-11. **Rotation into feed:** Japan sells 5-year-old reserve rice as animal feed. https://asianews.network/japanese-government-criticised-for-slow-response-to-soaring-rice-prices/ [S]
-12. **Rotation through trade:** Swiss compulsory stocks are rotated through companies' normal sales; Finland's are contracted to "keep circulating through normal business". https://huoltovarmuuskeskus.fi/en/security-of-supply/methods-and-tools [P]
-13. **It works in practice:** Switzerland released up to 16,000 t of protein feed from its compulsory stocks in Sept 2026 because low Rhine and Danube water stalled imports; world supply was fine, the river was the bottleneck. https://www.cash.ch/news/notreserven-fur-protein-tierfutter-werden-freigegeben-964808 [S]
-14. **Overseas stabilisation:** the ASEAN+3 reserve (787,000 t) supplied disaster relief after Typhoon Haiyan (2013); the WTO's 2022 decision exempts WFP humanitarian purchases from export restrictions. https://www.asean.org/wp-content/uploads/images/2015/October/outreach-document/Edited%20APTERR-2.pdf [P]
-15. **Calm instead of panic:** in the 2000 fuel blockade, Sainsbury's warned it would run out of food "within days" and Safeway rationed bread and milk. https://www.pressandjournal.co.uk/fp/past-times/4057166/fuel-price-rises/ [S]
-16. **Rising food prices are followed by unrest** across countries (1990–2011). Bellemare 2015, *AJAE*: https://ideas.repec.org/a/oup/ajagec/v97y2015i1p1-21..html [P]
-17. **Fairness:** 12.2% of households are food-insecure (35.9% of Universal Credit households) and cannot stockpile; households have been told to hold three days, the state holds none. https://foodfoundation.org.uk/news/food-prices-tracker-july-2026 [P]
-18. **Defence comparison:** UK defence spending is ~2.36% of GDP (NATO definition, 2025–26), ≈ **£68bn a year**; the Strategic Food Reserve (~£0.7bn) ≈ **1%** of it. https://www.instituteforgovernment.org.uk/explainer/uk-defence-spending [P/E]
-19. **NATO resilience:** allies committed to 3.5% of GDP on core defence plus up to 1.5% on defence-related spending including "civil preparedness and resilience" by 2035. Whether food stocks count is a **case the UK would have to make**, not an established accounting rule. https://www.icaew.com/insights/viewpoints-on-the-news/2026/may-2026/chart-of-the-week-defence-spending [S/I]
-20. **Peer precedents:** Sweden funds its food stockpiles from its total-defence budget (SEK 575m in 2026) [P]; Finland's National Emergency Supply Fund (~€2bn, much of it inventory) is financed by a levy (~€66m in 2026) plus ~€25m from the budget, for all security of supply, not only food [R]
-21. **Break-even, honestly:** for a shock costing 1% of GDP, the reserve pays for itself if it prevents **all** of the loss once every ~41 years, a **quarter** of it once every ~10 years, or a **tenth** once every ~4 years. Thresholds, not probabilities [E]
-22. Recent record of shocks: COVID (2020), CO₂ crisis (2021), energy and fertiliser shock (2022), salad rationing (2023), retail cyber attacks (2025), Hormuz and Black Sea disruption (2026) [S]
-23. **Jobs (a bonus, not the reason):** ~400 agency staff, plus jobs inside storage contracts, construction and local food plans: around **1,000–2,000** in total, most inside contracts [E]
-24. The UK has **no** such reserve and **"no national food stockpiles or plans to create these"** (written answer, 31 Mar 2026). https://questions-statements.parliament.uk/written-questions/detail/2026-03-20/HL15829/ [P]
+1. The **package** totals ~**£690m a year ≈ £9.93 per person**: public crisis tranche £5.14 (taxes) + compulsory commercial stocks £4.79 (prices). `reserve_basket.py` v3, an illustrative carrying-cost model with explicit allowances [E]
+2. **Range:** £9.05 (low) to £15.93 (finance 6%, storage and operations +50%, rotation losses doubled); £17.70 if prices are also 30% higher. A published **priority schedule** shows what each funding level buys [E]
+3. **Market-sized:** each compulsory stock rotates a small share of UK use (e.g. rice ~8% of ~670 kt/yr; oil ~16% of rapeseed-oil use; milling wheat ~12% of 4.8 Mt). Draft-4 would have rotated ~49% of UK rice use and more than all UK rapeseed-oil use a year. USDA London Post grain and feed annual 2026 [R/E]
+4. **Week one is priced honestly:** no-cook food at £6 per person-day. The only UK benchmark is ~£200m for ~4.7 m COVID food boxes (~£43 a box), with power and roads working. NAO: https://www.nao.org.uk/press-releases/protecting-and-supporting-the-vulnerable-during-lockdown/ [R]
+5. **72 hours for 10 m vulnerable people** means ~30,000 t of food and ~90 m litres of drinking water: ~4,800 lorry loads, and ~3.3 m people reached per day. Hence pre-positioned stock, paper registers and local delivery, not a national convoy [E]
+6. **Illustrative survival day** released from stocks alongside domestic food: flour at 85% extraction (the 1942 National Loaf standard), rice, part-cooked pulses, oil, sugar, oats, milk powder, canned fish and potatoes, plus vitamin A, C, D and zinc tablets ≈ 2,000 kcal and ~58 g protein. **Not a dietitian-approved ration**: a specification with variants for infants, children, pregnancy, older people, coeliac disease and allergies is a publication gate [E]
+7. **Infant formula:** universal 90-day cover is ~6–7 kt of powder-equivalent (~650,000 infants under one, ~100 g/day, +20%), plus ready-to-feed for water or power loss and separate specialised formula [E]
+8. **Milling:** 180 g of wheat per person per day = 12,500 t/day, ~95% of what UK mills used in 2025 (4.8 Mt/yr). That is usage, not spare capacity; mills already run around the clock. Imported grist is **~25–31%** (Defra 2025; UK Flour Millers 2024/25), much of it strong wheat for gluten, hence the 0.35 Mt high-protein tranche. https://www.ukflourmillers.org/the-industry/annual-review [R]
+9. Today: commercial wheat stocks at the pre-harvest low (30 Jun 2026) were **1.514 Mt**, the lowest since 2020/21: ≈ 39 days of all UK wheat use, or ≈ 32 days of national energy as raw wheat. Privately owned, partly feed grade, not earmarked. The same AHDB balance has a **794 kt residual**. https://ahdb.org.uk/end-of-season-uk-cereal-supply-and-demand-september-2026 [R]
+10. Retailers hold "in the region of **10 days**" of stock (a broad description, not 10 days of balanced food in every locality). Full Fact: https://fullfact.org/economy/uks-food-supply-hanging-balance/ [S]
+11. **No refrigeration for dry stores; low, interruptible power:** grain aeration uses roughly **0.3 kWh per tonne over six months** in trials. https://doaj.org/article/2bfcbd50940640bf804c8ee2f94c2a61 [P]. Handling, drying, milling and packing still need power and fuel, which Tier 1 pays for [E]
+12. **Nitrogen without a Beirut:** fertiliser-grade ammonium nitrate is a named COMAH major-hazard substance (1,250 t lower tier, 5,000 t upper tier). The reserve holds protected urea and **UAN-28 in heated, recirculated tanks**, because UAN contains ammonium nitrate and UAN-32 can salt out near freezing. ~162 kt N ≈ 18% of the UK's 904 kt N a year (BSFP 2025). HSE: https://www.hse.gov.uk/explosives/ammonium/comah.htm ; BSFP: https://assets.publishing.service.gov.uk/media/6aa3fb1dc5796a7a179c6728/BSFP_2025_Stats_Notice.pdf [R]
+13. **Protein is the binding import:** ~2.39 Mt of soya meal imported a year, ~77% for pigs and poultry; ten weeks ≈ 460 kt [S/E]
+14. **Compulsory stocks work:** Switzerland's operator lists current compulsory stocks (1 Jan 2026) including common wheat 160,000 t, sugar 50,000 t, oils and fats 36,660 t, rice 16,400 t and coffee 20,180 t; they rotate through companies' normal sales. https://www.reservesuisse.ch/compulsory-stocks/?lang=en [R]. Singapore requires rice importers to hold two months of imports [R]
+15. **It works in practice:** Switzerland released up to 16,000 t of protein feed from compulsory stocks in Sept 2026 when low Rhine and Danube water stalled imports. https://www.cash.ch/news/notreserven-fur-protein-tierfutter-werden-freigegeben-964808 [S]
+16. **Overseas stabilisation:** the ASEAN+3 reserve (787,000 t earmarked) supplied relief after Typhoon Haiyan (2013); the WTO's 2022 decision exempts WFP humanitarian purchases from export restrictions [P]
+17. **Calm instead of panic:** in the 2000 fuel blockade, Sainsbury's warned it would run out of food "within days" and Safeway rationed bread and milk [S]
+18. **Rising food prices are followed by unrest** across countries (1990–2011). Bellemare 2015, *AJAE* [P]
+19. **Fairness:** 12.2% of households are food-insecure (6.5 m adults, 2.2 m children); households are told to hold three days, while the state holds none. Food Foundation, Jul 2026 [R]
+20. **Defence comparison:** UK defence spending ≈ £68bn a year (~2.36% of GDP, NATO definition); the reserve (~£0.69bn) ≈ **1%** of it [P/E]
+21. **NATO resilience:** the 2025 Hague declaration allows up to 1.5% of GDP for purposes including "civil preparedness and resilience". Food is not named and the accounting is open until a 2029 review: a case to make, not income. https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration [R]
+22. **Break-even, honestly:** for a shock costing 1% of GDP, the reserve pays for itself if it prevents **all** of the loss once every ~42 years, a **quarter** once every ~11 years, or a **tenth** once every ~4 years. Thresholds, not probabilities [E]
+23. **Jobs (a bonus, not the reason):** ~400 agency staff plus work inside storage, haulage and local-plan contracts; a planning assumption, not a labour-market estimate [E]
+24. The UK has **no** such reserve: **"no national food stockpiles or plans to create these"** (written answer, 31 Mar 2026). https://questions-statements.parliament.uk/written-questions/detail/2026-03-20/HL15829/ [R]
 
 **Per person, at a glance [E]**
 
 | | Per person |
 |---|---|
-| Running the Strategic Food Reserve (food, inputs, stores, fuel, people, plans) | **~£10 a year** (under 3p a day); £9–16 across our cases |
-| Stock bought once (an asset, sold back on rotation; cash tied up) | ~£70 |
-| New stores (one-off, inside the £10 as an annuity) | ~£9 |
-| A severe national disruption, if it happens | ~£420–830 lost, each time (1–2% of GDP) |
-| What each person is covered for | 90 days of a survival ration (6 months of rice and oil) · 7 days of no-cook food for the most vulnerable · next season's seed and part of its nitrogen · 10 weeks of protein feed · 3 Mt of food-grade grain held for everyone |
+| Running the Strategic Food Reserve | **~£10 a year** (under 3p a day): ~£5 via taxes, ~£5 via prices; £9–16 across our cases |
+| Public stock on the balance sheet | ~£10 |
+| Commercial stock held by firms | ~£29 |
+| A severe national disruption, if it happens (illustration: 1–2% of GDP) | ~£420–830 lost, each time |
+| What is held for everyone | Week-one food and water for the most vulnerable · formula · 90 days of vitamin tablets · months of rice, oil and sugar · 10 weeks of protein feed · winter and spring seed · extra pre-season nitrogen · 3 Mt of food-grade wheat |
 
 **Proactive criticism: resilience through transparency (adversarial review welcome)**
 
 | Criticism | Evidence | How it is handled |
 |---|---|---|
-| "The £10 was a budget, not a cost" (round 1) | Draft-3's operations line filled the gap [E] | v2 costs every line; operations itemised; range published; grain is the flex line |
-| It costs money, and cash up front | ~£701m a year; ~£4.8bn stock + ~£0.6bn stores [E] | Small per person; phased purchase over 3–5 years; option of a sovereign guarantee to cut financing to gilt rates; refill funding rule in law |
-| Mills cannot grind a big wheat ration | 350 g/day = ~1.8× demonstrated milling [R/E] | Wheat at 180 g (95% of 2025 use); rice and oil carry more calories; mill surge capacity to be surveyed |
-| Feed wheat does not make the sliced loaf | Chorleywood bread needs ~13% protein and a high falling number [S] | Store to food spec; high-protein tranche (line Q); emergency grist and flatbread/porridge standards |
-| "Complete diet" overclaims | Calcium needs fortified flour; no infant, allergy or medical variants yet [R] | Called a survival ration; premix and iodate stocked; dietitian review before publication |
-| Stored fertiliser can explode | Toulouse 2001, Beirut 2020; COMAH thresholds [S] | Urea and UAN only; dispersed, secured sites; rotated yearly |
-| Rotation loses value | 1–5% value loss per rotation; 20% for donated ready meals; physical losses 1–2% even in good stores [S/E] | Item-by-item rotation clocks; outlets contracted (public catering, mills, feed); losses published |
-| One stock, three promises | Human backup, feed buffer and aid collide in a joint shock [R] | Human food first; protected floor; aid and feed only above it; pre-agreed partner shares (note 22) |
-| Building it can push up prices | Japan's 2026 buyback "too late"; big purchases in tight markets raise prices [S] | Buy over 3–5 years, at harvest and in surplus years (Finland 2022–23); **never fill from a stressed, mycotoxin-risk harvest** |
-| It can be mismanaged | India: 4.72 lakh t of wheat deteriorated in Punjab, 2011–16 [S] | Covered storage, first-in-first-out, probes, independent audit, monthly published stocks |
-| It can be raided by politicians | Finland 2025 tried 9 → 6 months to save ~€20m; Japan ran down to 320,000 t vs a 1 Mt target [S] | Extra-budgetary fund; statutory floor; release only on published triggers, never "to paint the CPI"; refill within 12 months in law |
-| Sabotage, theft, single points of failure | Sweden keeps sites secret [S]; ten stores on one grid or one contractor are one store | Many dispersed sites in all four nations; different contractors and power feeds; vetting |
-| Grain stores have hazards | Dust explosions, self-heating; phosphine fumigant [S] | Housekeeping, drying below ~14.5% moisture, monitoring, fire codes |
-| Firms may hold less of their own stock | Crowding out [E] | Contracts *additional* to a measured commercial baseline (Finland, Norway, Switzerland) |
-| A grain silo does nothing in week one | Fuel, power, cyber, water fail first [R] | Line F (fuel, AdBlue, backup power, offline ops, water) and line R (no-cook) |
-| It will not stop inflation | Reserves are poor price stabilisers (World Bank/FAO/WFP 2025) [R] | We promise time and access, not prices |
+| "The £10 was a budget, not a cost" (round 1) | Draft-3's operations line filled the gap [E] | Every line costed; operations itemised; range and priority schedule published |
+| "Bottom-up" overstated (round 2) | Operations are allowances, not engineering estimates [R] | Called an illustrative carrying-cost model; tender specifications and quotes are the next step |
+| Rotation swamps markets (round 2) | Draft-4 rotated ~49% of UK rice use a year [R] | Compulsory stocks sized to months of normal use, rotated inside firms' own trade |
+| It adds to public debt (round 2) | Inventory does not reduce PSND; controlled funds are consolidated [R] | Hybrid: only the ~£0.72bn public tranche is on the balance sheet; seek an ONS classification first |
+| Week one is underpriced (round 2) | COVID boxes ~£43 each [R] | No-cook at £6/day; fuel/power £100m; last mile and water £45m; tested by delivery exercises |
+| Firms will relabel normal stock | Crowding out [E] | Obligations **additional** to an audited commercial baseline; independent physical sampling |
+| Mills have no surge left | 180 g/day = 95% of current use [R] | Stop biscuit and cake lines in a crisis; map plant-by-plant capacity; stock sacks |
+| Feed wheat does not make the sliced loaf | Imported grist ~25–31% [R] | 0.35 Mt high-protein tranche; emergency grist and flatbread/porridge standards |
+| One ration fails many groups | Infants, coeliac, allergies, pregnancy [R] | Dietitian specification with variants before publication; formula and medical foods separate |
+| Stored fertiliser can explode | Toulouse 2001, Beirut 2020; UAN-32 salting out [R] | Urea and heated UAN-28 only; site-specific COMAH assessment; dispersed, secured sites |
+| Refill rule forces bad buying | Japan 2025–26 [S] | Price-and-quality trigger within 36 months; refill shown as a contingent liability |
+| It can be mismanaged or raided | India's rotting wheat; Finland's 2025 cut attempt [S] | Statutory floor; release only on published triggers, never to manage inflation; monthly published stocks; independent audit |
+| Title and insolvency | A contractor sells the grain and fails [E] | Clear state release rights and title; insolvency-remote structures; physical audits |
+| Common-mode failure | Ten stores on one grid, contractor or software are one store | Sites in all four nations, including a statutory minimum on the island of Ireland; different contractors and power feeds |
+| It will not stop inflation | Reserves are poor price stabilisers (World Bank/FAO/WFP 2025) [R] | We promise time and access, not prices; it is not a price-support scheme |
 | The one joke line could be mistaken for the tax | It deliberately echoes a defined UK tax [S] | Used once only, flagged for reviewers; the policy name is the UK Strategic Food Reserve |
 
 **Knowing what to expect: rare, extreme events**
@@ -467,15 +478,17 @@ The Strategic Food Reserve is sized for the **common** shock (weeks to months). 
 **Layers:** the reserve is level 1 of the **contingency ladder** in chapter 12 (disruption → sustained shortage → severe multi-season → catastrophic), each with published triggers.
 
 **Context for the reviewer**
-- All prices, fees and the £200/t store capex are assumptions; UK quotes are the next step.
-- The ration is an illustrative survival basket, not a dietitian-approved specification.
+- All prices, fees, the £350/t store capex and the UK annual-use figures are assumptions or rounded orders of magnitude; UK quotes and market data are the next step.
+- The survival day is illustrative, not a dietitian-approved specification.
+- Acceptance test (round 2): **the share of people receiving a safe, appropriate ration and drinking water within 24, 72 and 168 hours, by locality and need group.**
 - "Six months buys the next harvest" depends on the date: a July shock is the worst case; crops sown in response arrive much later.
 - In the UK, the realistic failure mode is panic buying, empty shelves and loss of trust, not mass riots. Present unrest as a risk the reserve reduces, not a prediction.
 - The Laki and 1972–74 rows and the Gaupp follow-up figures need primary sources.
-- Headline metric for testing: **person-days of suitable nutrition delivered** under each adversarial scenario (note 20 §5).
+- Secondary metric: **person-days of suitable nutrition delivered** under each adversarial scenario (note 20 §5).
 
 **Lines for the page**
 - "The UK Strategic Food Reserve. About £10 a year. Food, fuel and a plan."
+- "Emergency food stocks, rotated through normal supply chains."
 - "An army defends the border. A food reserve defends the dinner table."
 - "A food reserve buys time, if we can turn it into meals." (adapted from ChatGPT's review)
 - "Under 3p a day. About 1% of the defence budget."
@@ -485,7 +498,7 @@ The Strategic Food Reserve is sized for the **common** shock (weeks to months). 
 
 ## Chapter 10 · Work, wellbeing and the AI economy
 
-**Headline:** Meaningful work in nature for tens of thousands, with AI as the tool, not the threat.
+**Headline:** Meaningful work in nature, piloted and paid properly, with AI as the tool, not the threat.
 
 **Narrative:** AI and automation are hollowing out entry-level office work. Meanwhile Britain needs skilled people to rebuild soils, hedges, woodland and peat, run glasshouses and manage a national food reserve. Structured work outdoors measurably improves mental health, and America's 1930s conservation corps improved participants' health and earnings for decades. Farm work today is badly designed: seasonal, isolated and stressful. So the jobs must be rebuilt, not just offered. A **regenerative transition corps** could employ tens of thousands, with AI handling drudgery and precision, and people doing the judgement work. It is not a mass answer to AI job losses; it is meaningful work that also buys national resilience. The best fit for data-literate workers displaced by AI is measurement: soil sampling, drone and satellite surveys, carbon and biodiversity verification, and running the reserve itself (note 23).
 
@@ -506,7 +519,7 @@ The Strategic Food Reserve is sized for the **common** shock (weeks to months). 
 14. Robotic spot-spraying cut herbicide **35% at 97% efficacy** (peer-reviewed, sugarcane, Australia, 2025). https://researchonline.jcu.edu.au/89739 [P]
 15. Data-centre waste heat for glasshouses: Humber Tech Park plans a **27,000 m² tomato glasshouse**; Dutch growers are switching to data-centre heat networks. https://datacenterdynamics.com/en/news/humber-tech-park-lincolnshire-uk-district-heating [S]
 16. Gemini's "+300% farm labour" would mean ~1.34 m extra workers ≈ **£33bn/yr** at £25k, ~4× total income from farming [E]
-17. Realistic scale: **tens of thousands, up to low hundreds of thousands** of paid land-based jobs over a decade [E]
+17. **Start with a costed pilot**, not a jobs promise: there is no evidence yet that displaced office workers move into land work (Pick for Britain, claim 11, is counter-evidence). Illustration: 10,000 jobs at ~£35k fully loaded ≈ **£350m a year**, with named employers, paid accredited training, rural housing and transport [E]
 
 **Proactive criticism and context**
 - The share of entry-level decline caused by AI is contested: the Institute of Student Employers saw only an 8% dip in graduate hiring, and employers also cite higher national insurance and minimum-wage costs.
@@ -524,10 +537,10 @@ The Strategic Food Reserve is sized for the **common** shock (weeks to months). 
 
 **Narrative:** Cheap food has hidden costs: emissions, polluted rivers, degraded soils and diet-related disease. Carbon pricing is reaching farming anyway, starting with a border tax on imported fertiliser in January 2027. Carbon money is shifting towards durable removal (trees, peat, biochar) while soil-carbon offsets remain unreliable. Denmark shows a workable model: tax livestock emissions, deduct most of it, and recycle the revenue into farming and land conversion. The lesson from Europe's 2024 farmer protests is that change imposed on farmers fails, and change that pays them works.
 
-**Our position [I]:** *We advocate one consistent carbon price across jurisdictions: no free allowances, no subsidies for emitting, and CO₂ treated as a commodity. Emitters pay; verified removers earn.* In practice: link the UK and EU schemes and match prices elsewhere, with border adjustments where prices differ; phase out free allowances faster and completely; remove fossil-fuel breaks such as the red-diesel rebate gradually, recycling the money to the same farms; pay for verified, durable removals as purchases of a product. Climate regeneration and the food reserve are parts of one shift: from a system that hides its risks and costs to one that admits them and prepares (note 23).
+**Our position [I]:** *We advocate one consistent carbon price across jurisdictions: no free allowances, no subsidies for emitting, and CO₂ treated as a commodity. Emitters pay; verified removers earn.* In practice: link the UK and EU schemes (the May 2025 common understanding requires **dynamic alignment**, so the phase-out has to be joint) and match prices elsewhere, with border adjustments where prices differ; push for a **faster joint phase-out** of free allowances; price avoided emissions, temporary biological storage and durable removals as **different** products; remove fossil-fuel breaks such as the red-diesel rebate gradually, recycling the money to the same farms; pay for verified, durable removals as purchases of a product. Climate regeneration and the food reserve are parts of one shift: from a system that hides its risks and costs to one that admits them and prepares (note 23).
 
 **Included claims**
-1. Agriculture emits **47 MtCO₂e (12% of UK GHG, 2024)**: 49% of methane, 59% of N₂O, 89% of ammonia. Defra Farming Evidence Pack 2026 [P]
+1. Agriculture emits roughly **47–48 MtCO₂e, ~12–13% of UK GHG** (Defra AUK ch.11: ~13% in 2024; agri-climate report: 47.7 Mt in 2022), including **~49% of methane and ~70% of N₂O**; ~87–89% of ammonia (a non-GHG pollutant). https://www.gov.uk/government/statistics/agriculture-in-the-united-kingdom-2025/chapter-11-agri-environment [R]
 2. FAO: global agrifood **hidden costs ≥ $10 trillion a year**, ~70% from unhealthy diets (SOFA 2023) [P]
 3. UK **CBAM** covers imported fertiliser from **1 Jan 2027**; manufacturers say +£50/t or more on-farm in some cases; AIC worst case £152.5m/yr. Farmers Weekly: https://www.fwi.co.uk/business/how-the-carbon-tax-on-fertiliser-will-impact-farm-businesses [S]
 4. UK ETS will integrate engineered greenhouse gas removals by **end-2029** (legislation by 2028), with a 200-year storage minimum; woodland removals undecided. https://sustainabilitymag.com/news/how-the-uk-gov-is-aiming-to-integrate-carbon-removal-by-2029 [S]
@@ -535,7 +548,7 @@ The Strategic Food Reserve is sized for the **common** shock (weeks to months). 
 6. EU carbon-farming certification methodologies (CRCF, Reg. 2024/3012) adopted **Jul 2026**: mineral soils and agroforestry, peatland rewetting, afforestation; ≥10% uncertainty deduction. LexisNexis: https://www.lexisnexis.co.uk/legal/news/commission-adopts-delegated-regulation-establishing-crcf-carbon-farming-certification-methodologies [S]
 7. Woodland Carbon Code units averaged **£28.32 (2025)**; Peatland Code **£39.57**. https://www.woodlandcarboncode.org.uk/news-events/uk-woodland-and-peatland-carbon-prices-continue-increase-2025 [P]
 8. UK carbon credits contributed ~**£1.2bn** to the economy in 2025 (City of London Corp / UK Carbon Markets Forum) [S]
-9. Biodiversity Net Gain statutory credits **£42,000** per unit (most habitats), £125,000 (ponds); market units ~£20k–140k. gov.uk (mirror); Savills [P/S]
+9. Biodiversity Net Gain statutory credits cost **£42,000 per credit** (most habitats) and **two credits are needed per biodiversity unit**, so ~£84,000 per unit (higher tiers up to £250,000 per unit). They are a deliberately expensive last resort, not market prices. https://www.gov.uk/guidance/statutory-biodiversity-credit-prices [R]
 10. Soil carbon credits: in Australia, most credited gains were explained by **unusually high rainfall**, not management. Mitchell et al. 2024, *Carbon Management*: https://doaj.org/article/caea2b9f2e8b4afa9934d7b36cbe5a7e [P]
 11. >90% of Verra rainforest credits analysed were judged likely "phantom" (Guardian / Die Zeit / SourceMaterial, Jan 2023; disputed by Verra). https://www.carbonbrief.org/daily-brief/revealed-more-than-90-of-rainforest-carbon-offsets-by-biggest-provider-are-worthless-analysis-shows [S]
 12. **Denmark:** livestock emissions tax from **2030**; 300 DKK/t CO₂e rising to 750 DKK (2035) with a 60% deduction (effective 120 → 300 DKK, ~£14 → ~£35); revenue funds converting ~10% of farmland to nature. https://www.thelocal.dk/20241118/denmark-confirms-plan-for-world-first-livestock-co2-tax-by-2030 [P/S]
@@ -565,16 +578,16 @@ The Strategic Food Reserve is sized for the **common** shock (weeks to months). 
 
 **Headline:** Store. Plan the next step. Grow for people. Fewer, better animals. Close the loops. Price the truth. Draw down carbon. Bring people with us.
 
-**Narrative:** A secure Britain starts with the £10 insurance policy and a written **contingency ladder** above it, and builds outwards. Grow less animal feed and more food for people: pulses instead of imported soya, vegetables and fruit in glasshouses warmed by data centres. Keep cattle and sheep on grass; size pig and poultry numbers to home-grown protein. Recover phosphorus from sewage and, under strict licence, feed treated food waste to pigs as Japan and Korea do. Put an honest price on pollution, give the revenue back to farmers and households, and pay for carbon that is genuinely locked away in hedges, trees, peat and rock dust. Above all, do it with farmers and communities, not to them.
+**Narrative:** A secure Britain starts with the £10 Strategic Food Reserve and a written **contingency ladder** above it, and builds outwards. Grow less animal feed and more food for people: pulses instead of imported soya, vegetables and fruit in glasshouses warmed by data centres. Keep cattle and sheep on grass; size pig and poultry numbers to home-grown protein. Recover phosphorus from sewage and, under strict licence, feed treated food waste to pigs as Japan and Korea do. Put an honest price on pollution, give the revenue back to farmers and households, and pay for carbon that is genuinely locked away in hedges, trees, peat and rock dust. Above all, do it with farmers and communities, not to them.
 
 **Included claims**
-1. 0–12 months: legislate the reserve, a statutory minimum, published release triggers, a 12-month refill rule and a **power to direct**; begin buying food-grade grain at harvest (not from a stressed harvest); local food plans in every resilience forum in all four nations; public-catering rotation contracts with a duty to accept rotating stock [E, proposal]
-2. 1–3 years: 90-day survival ration built; destocking order and rationing principles agreed and exercised; pulse expansion; phosphorus-recovery mandate; transition corps pilots [E]
+1. 0–12 months: legislate the reserve, a statutory minimum, published release triggers, a refill rule (price-and-quality trigger within 36 months) and a **power to direct**; begin buying food-grade grain at harvest (not from a stressed harvest); local food plans in every resilience forum in all four nations; public-catering rotation contracts with a duty to accept rotating stock [E, proposal]
+2. 1–3 years: compulsory stock obligations phased in; public crisis tranche built; destocking order and rationing principles agreed and exercised; pulse expansion; phosphorus-recovery mandate; transition corps pilots [E]
 3. 3–10 years: protein shift cuts soya imports by ~a third; glasshouses on waste heat; livestock levy phased in with revenue recycled [E]
 4. 10–30 years: soils rebuilt (one Rothamsted ley-arable rotation raised topsoil carbon concentration by a quarter in 28 years; national results will vary); woodland and hedges on suitable poor land; carbon removal at scale if verified [E, citing Johnston et al. 2017]
 5. Japan and South Korea recycle **~36% and ~43%** of food waste as heat-treated pig feed (≥70 °C for 30 min or 80 °C for 3 min), with no swill-linked outbreaks reported. Feedipedia: https://www.feedipedia.org/node/21259 [S]
 6. Legalising treated swill in the EU would save **~1.8 Mha** of land (incl. >0.25 Mha of Brazilian forest and savannah), cut pork's land use 21.5% and roughly halve feed costs. zu Ermgassen et al. 2016, *Food Policy* (model): https://www.cambridgenetwork.co.uk/news/feeding-food-waste-pigs-could-save-vast-swathes-threatened-forest-and-savannah [P]
-7. The UK banned swill in 2001 after the foot-and-mouth outbreak (~£8bn cost); the EU followed in 2002. Same source [S]
+7. The UK banned swill in 2001 after the foot-and-mouth outbreak (animal compensation ~£1.4bn; total economic cost ~£8bn); the EU followed in 2002. Public Accounts Committee: https://publications.parliament.uk/pa/cm200506/cmselect/cmpubacc/563/563.pdf [R]
 8. Germany requires phosphorus recovery from sewage sludge from 2029 (large plants) [?]
 9. Enhanced rock weathering: modelled UK arable potential **6–30 MtCO₂/yr by 2050**; a first-year UK trial found **crop yields +15%** (+20.5% under direct drilling) and soil pH +0.2–0.29. https://goldschmidtabstracts.info/2025/32039.pdf ; https://www.agriland.co.uk/?p=381736 [S]
 10. Precision Breeding Regulations (England, plants) in force **13 Nov 2025**; pipeline includes blight-resistant potatoes and disease-resistant beet. https://www.mofo.com/resources/insights/251125-uk-finalizes-precision-breeding-rules [S]
@@ -595,9 +608,18 @@ The Strategic Food Reserve is sized for the **common** shock (weeks to months). 
 
 Every level has a **published trigger** and an **exit rule**. Legal basis: Civil Contingencies Act 2004 emergency regulations (time-limited) or, better, a dedicated Food Security (Emergency) Act [I/?].
 
-**Livestock destocking order (written in advance with farmers, vets and the FSA):** stage 1, stop placing new broiler chicks and pause pig inseminations (feed falls within ~6 weeks); stage 2, bring forward slaughter of finishing animals, with meat frozen, canned or cured and laying hens kept; stage 3, size breeding herds to home-grown protein, ruminants kept on grass. Pre-mapped abattoir, cold-store and canning capacity; non-CO₂ stunning as backup; compensation agreed in advance; **never starvation**. In 2021 a CO₂ and labour shortage alone led to tens of thousands of healthy pigs being culled on farm and wasted [S]: the plan exists to stop that happening at scale.
+**Livestock destocking order: a contingency to the contingency (written in advance with farmers, vets and the FSA; note 21 §7):**
+1. **Stop births first:** halt broiler incubation and chick placements and pause pig inseminations. Feed demand falls within weeks, with no carcasses to process.
+2. **Simplify processing:** bulk primals and coarse mince instead of retail cuts, sent straight to public catering.
+3. **Keep lines open:** pre-approved anaerobic-digestion routes for by-products when rendering is full; a pre-drafted carcass-weight waiver; electrical back-up stunning kept serviceable; contracted blast-freezing.
+4. **Pre-agreed compensation** at a trailing three-year average deadweight price.
+5. **Never starvation.**
 
-**Governance [E/I]:** a Strategic Food Reserve Agency answerable to the Cabinet Office (civil contingencies), not an annual Defra line; an **extra-budgetary fund** (Finland model), possibly a sovereign guarantee on inventory finance; release only on published triggers, never to manage inflation; refill within 12 months in law; monthly published aggregate stocks; contracts additional to a measured commercial baseline, with clear state title; independent audit; sites in all four nations with different contractors and power feeds; agreement with the devolved governments (a UK-wide civil-contingencies function avoids Barnett leakage). Funding options: general taxation, a Finland/Swiss-style levy on food and energy imports (a levy moves the cost, it does not remove it), or a share of NATO-counted resilience spending if accepted.
+In 2021 a CO₂ and labour shortage alone led to ~8,000 healthy pigs being culled on farm by late October and ~40,000 by February 2022, **with no compensation** (House of Lords Library) [R]. Normal UK throughput (~208,000 clean pigs a week in Sept 2026, Defra [R]) is not spare capacity, which is why stopping births does most of the work.
+
+**Fair Shares Guarantee (rationing, level 3):** purchase caps first, then statutory price caps on rationed lines, the same basic entitlement for all with top-ups by need, serialised paper entitlements held in regional vaults for a blackout, minimal personal data, appeals, and no documentation barrier to emergency food. CCA 2004 Part 2 regulations *can* provide for rationing, price caps, directions and requisition, but lapse after 30 days without parliamentary approval [R]. A Food Security (Emergency) Act builds the standing scheme; the CCA switches it on.
+
+**Governance [E/I]:** the **Cabinet Office holds the release key; Defra operates**; Treasury and all devolved governments have formal roles. The public tranche is funded from **general taxation** (a food levy would land on the 12% of households already food-insecure); compulsory stocks are paid through prices. Release only on published triggers, never to manage inflation; refill on a price-and-quality trigger within 36 months; monthly published aggregate stocks; obligations **additional** to an audited commercial baseline, with clear state release rights and insolvency protection; independent physical audits; sites in all four nations, including a **statutory minimum on the island of Ireland**, with different contractors and power feeds. Seek an **ONS classification** before any financing claim; Barnett effects depend on spending classification, not the department's name. NATO's 1.5% is a bid, not income.
 
 **Proactive criticism and context**
 - **Sri Lanka:** sudden input bans destroy food and trust, so phase everything.
@@ -614,15 +636,15 @@ Every level has a **published trigger** and an **exit rule**. Legal basis: Civil
 
 ## Appendix A · Model assumptions (for checking the [E] claims)
 
-**`research/model/cereal_balance.py`** (revised after round 1): monthly pooled stock of wheat, barley and oats from 1 July (onset month fixed). Opening stock 3.006 Mt (AHDB, Sep 2026: wheat 1.514 + barley 1.337 + oats 0.155). Harvest 19.5 Mt (Aug 60% / Sep 40%). Food milling 6.0 Mt/yr; other industrial uses 3.2 Mt/yr; feed 13.4 Mt/yr; seed 0.6 Mt/yr; exports 1.0 Mt/yr; imports 4.5 Mt/yr (incl. maize; **calibrated**, so the baseline closure is imposed). Full precision internally; negative stock = unmet demand. 3.3 m kcal/t grain; need 69.5 m × 2,250 kcal/day.
+**`research/model/cereal_balance.py`** (revised after rounds 1 and 2): monthly pooled stock of wheat, barley and oats from 1 July (onset fixed). Opening stock 3.006 Mt (AHDB, Sep 2026). Harvest 19.5 Mt (Aug 60% / Sep 40%). Food milling 6.0 Mt/yr; other industrial uses 3.2 Mt/yr; feed 13.4 Mt/yr; seed 0.6 Mt/yr; exports 1.0 Mt/yr; imports 4.5 Mt/yr (incl. maize; **calibrated**, so the baseline closure is imposed, and the baseline drifts ~0.2 Mt/yr). Full precision internally; `robust_table()` runs 36 months with a **1.0 Mt working-stock floor** and reports minimum stock. 3.3 m kcal/t grain; need 69.5 m × 2,250 kcal/day.
 
-**`research/model/reserve_basket.py`** (version 2): survival ration per person per day: wheat 180 g, oats 30, rice 130, pulses 90, rapeseed oil 55, sugar 25, skimmed milk powder 25, canned mackerel/herring 25, + vitamin C 40 mg and D 10 µg tablets. Prices: food wheat £210/t, oats £200, rice £500, pulses £350, oil £1,000, sugar £500, milk powder £2,500, canned fish £5,000, urea £380, UAN £300, soya meal £450, high-protein wheat £260, seed £300 (premium £100/t lost each year), ready-to-eat food £2.50 per person-day. Storage £10–80/t/yr; finance 4%; rotation = 1 ÷ shelf life per item, 1–5% value loss (20% for donated ready meals); new grain stores £200/t, 25-year annuity at 4% (£12.80/t/yr). Operations itemised (£156m). Milling check against 4.8 Mt/yr of wheat milled (2025). Sensitivity and break-even (with share of loss prevented) printed by the script.
+**`research/model/reserve_basket.py`** (version 3, hybrid): Tier 2 compulsory stocks sized against rounded UK annual use (milling wheat 4.8 Mt; imported grist ~1.3 Mt; rice ~0.67 Mt; rapeseed oil ~0.41 Mt; sugar ~2 Mt; pulses ~0.68 Mt; oats ~0.5 Mt; SMP ~0.25 Mt; canned fish ~0.15 Mt; soya meal 2.39 Mt; seed 0.6 Mt; urea ~0.38 Mt; UAN ~0.56 Mt). Prices: food wheat £210/t, high-protein wheat £260, rice £500, oil £1,000, sugar £500, pulses £350, stabilised oats £260, SMP £2,500, canned fish £5,000, soya meal £450, seed £300 (premium £100/t lost yearly), urea £380, UAN £300. Storage £12–80/t/yr; finance 4%; handling and haulage £18 per rotated tonne; value loss 1–5% per rotated tonne; new stores for 1.5 Mt at £350/t, 25-year annuity at the scenario's finance rate. Tier 1: no-cook £6/person-day (7 days × 10 m), formula 7 kt at £12,000/t, tablets £0.015/person-day for 90 days, premix £24m, sacks £50m, bottled water £0.20/L; operations £251m (allowances). Emergency flour extraction 85%. Sensitivity, priority schedule and break-even printed by the script.
 
 Other estimates: severe disruption cost 1–2% of GDP (illustrative); GDP ~£2.9trn; £1 ≈ €1.16.
 
 ## Appendix B · Verification status
-- [P] items: search extracts; originals for gov.uk, nao.org.uk, ons.gov.uk and parliament.uk could not be opened in the drafting session. [R] items were opened by a reviewing AI in round 1, not by us.
-- Highest-priority checks: the NAO report PDF (CNI asset sentence); flour-mill surge capacity; COMAH status of UAN; urea inhibitor shelf life; British Survey of Fertiliser Practice nitrogen tonnes; infant-formula tonnage; fish-canning capacity; Northern Ireland ferry dependence; Swiss tonnages; ECIU harvest series; every [E] in chapter 9.
+- [P] items: search extracts; [R] items were opened by a reviewing AI in rounds 1–2, not by us.
+- Highest-priority checks: flour-mill surge capacity; ONS classification and subsidy-control treatment of compulsory stocks; UK market sizes behind each compulsory stock; a priced last-mile and water service; site-specific COMAH status of heated UAN-28 tanks; a dietitian-designed ration with variants; Northern Ireland supply routes; Swedish stockpile law and budget (retrieval failed in round 2); Defra's FOI reply (~18 Nov 2026).
 
 ## Appendix C · Round 1 review: what changed (summary of note 20)
 1. £10 line F was a residual → every line now costed; total £701m (£10.08/person), range £9.19–16.06 (£18.46 severe).
@@ -636,3 +658,19 @@ Other estimates: severe disruption cost 1–2% of GDP (illustrative); GDP ~£2.9
 9. Food is a CNI sector (asset identification is the gap); 60% ratio fall is a price effect; 31 kcal margin; protein "about 1.9×"; 84% livestock land; milling 4.8 Mt; Sep 2026 CPI; Finland and Swiss figures qualified; Swiss coffee corrected; Danish-style revenue recalculated on livestock emissions.
 10. Added: contingency ladder, fair-rationing principles, livestock destocking order, nitrogen safety, regional stabilisation and trade (note 22), carbon position and labour bridge (note 23), governance and funding options.
 11. Name: the policy is now the **UK Strategic Food Reserve** (working name); the tax pun survives as one flagged joke in chapter 9. Rejected: promising inflation control; "eliminate the risk of empty shelves".
+
+## Appendix D · Round 2 review: what changed (summary of note 24)
+1. **Hybrid redesign:** public crisis tranche (taxes, ~£5.14/person) + compulsory commercial stocks (prices, ~£4.79/person); total ~£690m ≈ £9.93/person; range £9.05–15.93 (£17.70 severe); priority schedule by funding level.
+2. **Market sizing:** rice, oil, sugar and other staples held as months of normal UK use; rotation a small share of the market (draft-4 rice stock was ~2.5 years of UK use).
+3. **Debt:** only ~£0.72bn of public stock on the balance sheet; inventory does not reduce PSND; ONS classification sought first.
+4. **Week one repriced:** no-cook £6/day; fuel/power £100m; last mile and water £45m; bottled water and sacks stocked; 72-hour logistics arithmetic published.
+5. **Nutrition:** flour extraction applied (85%); vitamins A and zinc added; part-cooked pulses; formula ~7 kt; dietitian specification is a publication gate.
+6. **Grist:** imported share corrected to ~25–31%; high-protein tranche 0.35 Mt.
+7. **Nitrogen:** ~162 kt N (~18% of a season, against 904 kt N used) as extra pre-season merchant stock; heated UAN-28; UAN contains AN.
+8. **Seed:** spring seed segregated. **Refill:** price-and-quality trigger within 36 months.
+9. **Cereal model:** 36 months, 1.0 Mt floor; 3 Mt buys full feed with normal harvests or 80% feed through two poor harvests.
+10. **Destocking and rationing rewritten** as a contingency to the contingency: stop births first, bulk processing, by-product routes, pre-agreed compensation; Fair Shares Guarantee with paper fallback; CCA can act but lapses at 30 days.
+11. **Facts:** NAO CNI sentence quoted; ECIU series defined; Swiss tonnages updated (coffee retained); AdBlue staging; French quarry upgraded to [R]; BNG two-credits rule; agriculture ~12–13% of GHG, ~70% of N₂O; FMD compensation ~£1.4bn; 2021 pig culls ~8,000–40,000 with no compensation.
+12. **Carbon position** reworded for dynamic alignment with the EU; three kinds of carbon unit separated. **Jobs:** replaced by a costed pilot.
+13. **Name:** UK Strategic Food Reserve kept (2 of 3 reviewers); public explainer "emergency food stocks, rotated through normal supply chains".
+14. **Rejected:** a refill levy on supermarket sales; meat bought at 110% of market price; purchase caps by National Insurance number; an unsourced "15–20% mill surge"; Gemini's Aug 2024 date for the Peter Green Chilled attack.

@@ -1,5 +1,6 @@
 # 21 · The contingency ladder: from reserve to rationing, the livestock plan and safe nitrogen
 
+> **Updated 23 Oct 2026 (round 2, note 24):** nitrogen resized to ~162 kt N; UAN hazard corrected; destocking, rationing, law and refill rule revised in §7.
 Date: 23 October 2026. Status: proposal [E], built on the evidence in notes 01, 09, 11, 13, 15 and 20. Legal points are our reading and need review by a lawyer specialising in emergency powers.
 
 **Idea in one line:** the UK Strategic Food Reserve is **contingency level 1**. It exists so that levels 2–4 are rarely needed. But a serious country also writes down levels 2–4 *in advance*, publishes the principles, and exercises them. Knowing the next step is what stops panic.
@@ -57,9 +58,9 @@ The WWII evidence (chapter 7) is that **fair, universal rationing improved nutri
 **The risk.** Straight ammonium nitrate (AN, ~34.5% N in the UK) can detonate under the wrong conditions: Toulouse 2001 (~300 t of off-spec material) and Beirut 2020 (~2,750 t). Fertiliser-grade AN is a named substance under the COMAH regulations (major-accident hazards), with thresholds reported at **1,250 t (lower tier) and 5,000 t (upper tier)** [S/P, to confirm in Schedule 1]. A 1 Mt AN stockpile would mean about 200 upper-tier sites, armed security and planning fights.
 
 **The design (reserve line C2):**
-1. **Hold urea and UAN, not ammonium nitrate.** Urea (46% N) is not explosive and stores densely in dry bulk. UAN (urea–ammonium nitrate solution, ~28–32% N) is stored in bunded tanks and is far less hazardous than solid AN (check its COMAH status).
+1. **Hold urea and UAN, not solid ammonium nitrate.** Urea (46% N) is not explosive and stores densely in dry bulk. UAN (urea–ammonium nitrate solution) **contains ammonium nitrate**: UAN-32 can salt out near freezing into an AN-rich sludge, and HSE warns AN–urea mixtures can be more sensitive. So: **UAN-28, in bunded, heated and recirculated tanks**, with supplier safety data sheets and a site-specific COMAH assessment (round 2).
 2. **Use protected urea.** In England, under Red Tractor rules since 1 April 2024, solid fertiliser with more than 1% urea applied between 1 April and 15 January must contain a urease inhibitor (to cut ammonia emissions) [S]. Inhibitor-treated urea has a limited shelf life [?], so the stock **rotates every year** through merchants: bought in the summer "fill" season, sold into spring.
-3. **Size on a nutrient basis.** ~350 kt of nitrogen ≈ about a third of a season (UK use is on the order of 1 Mt N; check the British Survey of Fertiliser Practice). Held as ~0.5 Mt urea + ~0.4 Mt UAN.
+3. **Size on a nutrient basis, and to what merchants can turn** (corrected in round 2, note 24). UK nitrogen use was **904 kt N** in 2025 (BSFP) [R]. The reserve holds **~162 kt N (~18% of a season)** as *extra pre-season merchant stock*: ~0.20 Mt protected urea (92 kt N; GB urea use is only ~0.38 Mt a year) + ~0.25 Mt UAN-28 (70 kt N). Draft-4's 350 kt N (0.5 Mt urea) could not have been rotated.
 4. **Priority use in a crisis:** wheat and other food crops first, grass last (grass can lean on clover).
 5. **Complements, not substitutes:** gas or ammonia supply options with importers; legumes and clover; manure and digestate planning; and in the long run some domestic green ammonia (an industrial-policy question beyond this briefing).
 6. **Security:** dispersed sites, vetted staff, theft monitoring (urea is also an AdBlue feedstock, so it has value in a fuel crisis too).
@@ -78,3 +79,49 @@ A grain silo does nothing in week one (note 20). Level 1 needs:
 - A mill-surge study showing spare capacity → a larger wheat share of the ration.
 - Evidence that a commercial pipeline already holds the stock with release rights → public *rights* rather than public *ownership*.
 - Legal advice that CCA emergency regulations cannot cover rationing in practice → a dedicated Food Security (Emergency) Act.
+
+
+---
+
+## 7. Round 2 update: the contingency to the contingency, made workable
+
+*Added 23 Oct 2026 after review round 2 (note 24). Destocking and rationing are **tail-risk fallbacks**: levels 2–3, used only if the Strategic Food Reserve is not enough. We write them down now so that, if ever needed, they are fair, lawful and fast, and so that nobody improvises them in a panic.*
+
+### 7.1 Lessons from 2021
+
+The 2021 pig backlog happened with no blockade and no disease: a shortage of skilled abattoir labour plus a CO₂ stunning shortage was enough. About **8,000 healthy pigs were culled on farm by late October 2021 and about 40,000 by February 2022**; the backlog (150,000–200,000) is not the number killed (House of Lords Library) [R]. **No compensation was paid.** Four bottlenecks broke the system [S, Gemini review]:
+1. **Skilled butchery:** slaughter is mechanised; cutting and boning are skilled manual work.
+2. **Specification trap:** pigs kept eating, carcasses grew past what automated lines accept, and plants rejected them.
+3. **CO₂ stunning:** most UK pigs and poultry are stunned with CO₂; electrical back-up lines run far slower.
+4. **Rendering:** a carcass is only partly meat; by-products must go to licensed rendering plants under the Animal By-Products Regulations. When rendering fills up, slaughter lines stop.
+
+### 7.2 The destocking order, revised
+
+| Step | Action | Why |
+|---|---|---|
+| 1 | **Stop births first**: halt broiler egg incubation and chick placements; pause pig inseminations | Feed demand falls within ~5–6 weeks (broilers) and ~2–3 months (pigs) with **no carcasses to process** |
+| 2 | **Simplify processing**: bulk bone-in primals and coarse mince instead of retail cuts | Line speed rises; less skilled labour per tonne |
+| 3 | **Bypass retail packing**: bulk meat in totes straight to public catering (NHS, schools, forces, prisons) | Avoids retail packing hubs; cooked the same week |
+| 4 | **Pre-approved by-product routes**: Category 2/3 material to licensed anaerobic digestion when rendering is full | Keeps slaughter lines open |
+| 5 | **Pre-drafted waivers**: suspend carcass-weight penalties; indemnify processors taking overweight animals | Removes the 2021 specification trap |
+| 6 | **Dual stunning**: keep electrical back-up stunning serviceable in CO₂-dependent plants, plus priority CO₂ allocation | Removes the single point of failure |
+| 7 | **Blast-freezing contracts**: cold stores *hold* frozen pallets but cannot freeze fresh carcasses; contract blast-freezing capacity regionally | The real freezing bottleneck [S] |
+| 8 | **Pre-agreed compensation** at a trailing three-year average deadweight price, modelled on statutory disease-cull schemes (Animal Health Act 1981) | Without it farmers hold animals, feed runs out, welfare collapses. 2001 FMD compensation was ~£1.4bn [R]; 2021 paid nothing |
+
+Keep **welfare killing** separate from **meat entering the food chain**: on-farm emergency killing does not make meat saleable (England and Wales guidance) [R]. UK red-meat canning capacity is minimal [S]: do not plan on canning a meat pulse at home.
+
+Normal throughput is not spare capacity. In September 2026 UK abattoirs handled roughly **208,000 clean pigs, 213,000 clean sheep and 37,000 prime cattle a week** (Defra) [R]; England's 2025 cattle kill went 64% through 14 plants (AHDB) [R]. That is why **step 1 (stop births) does most of the work**.
+
+### 7.3 Rationing as a "Fair Shares Guarantee"
+
+Framed as protection against scalping and hoarding, not as wartime austerity:
+1. **Purchase caps first** (as retailers did in 2020 and in the 2023 salad shortage).
+2. **Statutory price caps on rationed lines**, so scarcity does not become rationing by wealth (the unfairness that breaks trust, chapter 7).
+3. **Paper fallback:** serialised paper entitlements held in regional vaults, issued via post offices and polling stations only if level 3 is declared. Digital entitlements fail in the blackout the reserve exists for.
+4. **Minimal personal data**, appeals, replacement, and **no documentation barrier** to emergency food.
+
+**Law (corrected in round 2):** Civil Contingencies Act 2004 Part 2 regulations *can* provide for rationing, price measures, directions and requisition, subject to necessity, proportionality and rights, but they **lapse after 30 days** without parliamentary approval [R]. A **Food Security (Emergency) Act** should pre-build the standing scheme: stock obligations and inspection, release authority, compensation and appeals, data limits, devolved delivery agreements. The CCA then only switches it on.
+
+### 7.4 Refill rule (corrected)
+
+Draft-4's "refill within 12 months" contradicted "never fill from a stressed harvest" (Japan 2025–26). The new rule: refill on a **price-and-quality trigger within a 36-month outer bound**, with the refill cash (replacement purchases + crisis distribution + processing + compensation − release receipts) shown as a contingent liability next to the annual cost.

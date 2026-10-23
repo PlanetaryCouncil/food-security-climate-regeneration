@@ -1,5 +1,6 @@
 # 22 · Second-order effects: stabilising the region, trading, and earning without gouging
 
+> **Updated 23 Oct 2026 (round 2, note 24):** see §6 for the limits of options and swaps, WTO, subsidy-control and Ireland points.
 Date: 23 October 2026. Status: proposal [E] with supporting facts labelled. Builds on notes 05, 13, 19 and chapter 6.
 
 **The question.** When neighbours suffer, should Britain make money from its reserve? Our answer: **earn in calm times, help at fair prices in bad times.** Profiting from a crisis by price-gouging destroys trust and the stability the reserve is meant to buy. Earning **option premiums, rotation sales and partnership fees** in normal years is ordinary, honest business, and it lowers the cost of the Strategic Food Reserve for British taxpayers.
@@ -23,7 +24,7 @@ Date: 23 October 2026. Status: proposal [E] with supporting facts labelled. Buil
 | **4. Inputs-for-food reciprocity** | Long-term deals pairing UK grain or storage capacity with partners' fertiliser, gas or protein (e.g. Nordic fertiliser makers, Irish dairy powder). | Balanced trade | Ordinary bilateral supply agreements [I] |
 | **5. Storage services** | Britain stores grain for partners in its dispersed stores, for a fee, under clear title. | Partner → UK | Norway's state grain held under 25-year storage contracts [P] |
 
-**Rough scale [E]:** an option on 0.5 Mt of grain (~£105m of value) at a 3–5% annual premium earns ~£3–5m a year. That is real money, but small next to the £701m cost. **The honest pitch is cost-sharing and influence, not profit.** Do not promise that the reserve pays for itself through trade.
+**Rough scale [E]:** an option on 0.5 Mt of grain (~£105m of value) at an *assumed* 3–5% annual premium would earn ~£3–5m a year. The premium is a guess, not a valuation: an option exercisable during a correlated shortage is expensive precisely because it is useful (round 2). That is real money, but small next to the £701m cost. **The honest pitch is cost-sharing and influence, not profit.** Do not promise that the reserve pays for itself through trade.
 
 ## 3. Ethical guardrails (written into the reserve statute)
 
@@ -43,3 +44,12 @@ Date: 23 October 2026. Status: proposal [E] with supporting facts labelled. Buil
 ## 5. One line for the page
 
 > "A neighbour in trouble is not a market opportunity. A neighbour who knows we will help, at a fair price agreed in advance, is a lasting ally. We earn in the calm years and keep our word in the storm."
+
+
+## 6. Round 2 update (note 24)
+
+- **Options and swaps fail in the export-ban case.** They work in calm markets; when GATT XI:2(a) restrictions bite, the same tonne is wanted at home. Honest priority rules and a protected domestic floor come first; no partner gets an unqualified promise.
+- **WTO:** Agriculture Agreement Annex 2 permits qualifying food-security stockholding with transparent objectives and market-price disciplines. Concessional sales, subsidised storage and below-market options need separate legal analysis. The WFP exemption does not cover every state-to-state reserve deal [R].
+- **UK law:** paying firms' carrying costs can be a subsidy under the Subsidy Control Act 2022 unless it is a uniform obligation; storage-for-partners contracts fall under the Procurement Act 2023 (Scotland has its own regime).
+- **Precedent:** IEA/EU oil **"stock tickets"** (purchase rights over stocks held by another party, including abroad) are a real contractual model [R, NORA], but they assume a working world market.
+- **Ireland:** distinguish the Republic's landbridge to the continent from GB–Northern Ireland supply. No reliable current food-tonnage share was found; NI supermarkets are still largely supplied from GB distribution centres [S].

@@ -31,13 +31,13 @@ Each chapter has **Included claims** (intended for the page) and **Proactive cri
 1. **Britain is resilient on paper, fragile in practice.** It grows enough calories in a normal year but depends on imported gas-based fertiliser, imported soya for animal feed, a just-in-time supply chain, and weather that is getting more volatile. It holds **no public food reserve**.
 2. **Nature gave Britain world-class farmland per hectare but little land per person.** That makes *what we grow and who eats it* the key choice. Soils can recover.
 3. **Food is the foundation of social stability and a tool of geopolitics.** Price shocks and unfairness, not empty fields, break public trust. Countries that hold reserves get through crises better and act as reliable partners.
-4. **The central proposal: the Natural Insurance (not National Insurance), £10 per person per year.** A rotating, multi-purpose reserve of grain, protein, oils, vitamins, seed and fertiliser. Grain serves as a human backup, a livestock-feed buffer, or overseas stabilisation aid. Old stock is rotated into school meals, hospitals, food banks, millers and animal feed, so there is **no waste and minimal downside**. It costs about 1% of the defence budget.
+4. **The central proposal: the National Insurance (not National Insurance), £10 per person per year.** A rotating, multi-purpose reserve of grain, protein, oils, vitamins, seed and fertiliser. Grain serves as a human backup, a livestock-feed buffer, or overseas stabilisation aid. Old stock is rotated into school meals, hospitals, food banks, millers and animal feed, so there is **no waste and minimal downside**. It costs about 1% of the defence budget.
 6. **Resilience through transparency.** We publish our own critique and welcome adversarial review; every claim carries its source and confidence label.
 5. **A full system change built around it:** grow more food for people and less animal feed; fewer, better animals; close nutrient loops; price pollution honestly and give the money back; pay for real carbon removal; and create meaningful, AI-enabled work in nature.
 
 ---
 
-## 2. The Natural Insurance (not National Insurance): £10 per person per year, in one table
+## 2. The National Insurance (not National Insurance): £10 per person per year, in one table
 
 [E] Model: `research/model/reserve_basket.py`, function `ten_pound_package()`. UK population 69.5 m. Assumptions: wholesale prices (wheat and oats £200/t, rice £500, pulses £350, rapeseed oil £1,000, sugar £500, skimmed milk powder £2,500, canned fish £5,000, nitrogen fertiliser product £350, seed £300); storage £15–80/t/yr by item; financing 4%; ~¼ of stock rotated per year at a 5% discount; new grain stores £200/t of capacity, amortised over 25 years at 4%.
 
@@ -325,9 +325,9 @@ Scale checks [E]: £695m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 14% of UK agri
 
 ---
 
-## Chapter 9 · The Natural Insurance (not National Insurance): £10 per person per year
+## Chapter 9 · The National Insurance (not National Insurance): £10 per person per year
 
-> **The Natural Insurance** *(not National Insurance)*. Insurance for the nation's food, backed by nature's own harvest: everyone pays in a little each year, and when the shock comes, the shelves stay full.
+> **The National Insurance** *(not National Insurance)*. Insurance for the nation's food: everyone pays in a little each year, and when the shock comes, the shelves stay full.
 
 **Headline:** £10 per person per year, under 3p a day, buys Britain a complete, rotating food backup: three months of a full diet for everyone, plus a multi-purpose grain reserve. Nothing is wasted. An army defends the border; this defends the dinner table.
 
@@ -356,11 +356,11 @@ Measured the way it is paid, per person, the cost is modest. Running it costs **
 14. **Rising food prices are followed by unrest** across countries (1990–2011). Bellemare 2015, *AJAE*: https://ideas.repec.org/a/oup/ajagec/v97y2015i1p1-21..html [P]
 15. **Fairness:** 12.2% of households are food-insecure (35.9% of Universal Credit households) and cannot stockpile; a national reserve covers them. https://foodfoundation.org.uk/news/food-prices-tracker-july-2026 [P]
 16. **Economies of scale:** households asked to keep 3 days of food spend roughly **£15–20 per person** at retail; the state can hold 30 days of complete food per person for ~£12.50 of stock and ~£1 a year [E]
-17. **Defence comparison:** UK defence spending is ~2.36% of GDP (NATO definition, 2025–26), ≈ **£68bn a year**; the Natural Insurance (~£0.7bn) ≈ **1%** of it. https://www.instituteforgovernment.org.uk/explainer/uk-defence-spending [P/E]
+17. **Defence comparison:** UK defence spending is ~2.36% of GDP (NATO definition, 2025–26), ≈ **£68bn a year**; the National Insurance (~£0.7bn) ≈ **1%** of it. https://www.instituteforgovernment.org.uk/explainer/uk-defence-spending [P/E]
 18. **NATO resilience:** allies committed to 3.5% of GDP on core defence **plus up to 1.5% on defence-related resilience** (civil preparedness, critical infrastructure) by 2035; 1.5% of UK GDP ≈ £43bn, of which the reserve would be ~1.6%. https://www.icaew.com/insights/viewpoints-on-the-news/2026/may-2026/chart-of-the-week-defence-spending [S/E; eligibility to be checked]
 19. **Peer precedents:** Sweden funds its food stockpiles from its total-defence budget (SEK 575m in 2026). https://data.riksdagen.se/dokument/HD01MJU25.html [P]. Finland funds all security-of-supply stocks with a levy at ~€16 (~£14) per person per year. https://www.huoltovarmuuskeskus.fi/en/organisation/funding [P]. Switzerland's whole system costs ~CHF 14 (~£12) per person per year (2019, incl. fuel and medicines) [S]
 20. £695m a year ≈ **0.02% of GDP** and ≈ 14% of current UK farm support (£4.87bn) [E]
-21. **Break-even:** if a severe national food disruption costs 1–2% of GDP (~£420–830 per person), the Natural Insurance pays for itself if such an event happens about **once every 40–85 years** [E]
+21. **Break-even:** if a severe national food disruption costs 1–2% of GDP (~£420–830 per person), the National Insurance pays for itself if such an event happens about **once every 40–85 years** [E]
 22. Recent record of shocks: COVID (2020), CO₂ crisis (2021), energy and fertiliser shock (2022), salad rationing (2023), retail cyber attacks (2025), Hormuz and Black Sea disruption (2026) [S]
 23. **Jobs (a bonus, not the reason):** the operations budget (~£158m/yr) could fund roughly **2,000 direct jobs** in stock management, inspection, logistics and local food planning, plus a ~£1bn construction programme for new stores [E]
 24. The UK has **no** such reserve and **"no current plans"** (Defra, Mar 2026). https://questions-statements.parliament.uk/written-questions/detail/2026-03-20/HL15829/ [P]
@@ -369,7 +369,7 @@ Measured the way it is paid, per person, the cost is modest. Running it costs **
 
 | | Per person |
 |---|---|
-| Running the Natural Insurance (food, inputs, stores, people, plans) | **£10 a year** (under 3p a day) |
+| Running the National Insurance (food, inputs, stores, people, plans) | **£10 a year** (under 3p a day) |
 | Building the new stores (one-off, already inside the £10) | ~£14 once (≈ £0.92 a year over 25 years) |
 | Food held in store (not spent; sold back on rotation) | ~£68 held |
 | A severe national disruption, if it happens | ~£420–830 lost, each time |
@@ -395,7 +395,7 @@ Measured the way it is paid, per person, the cost is modest. Running it costs **
 
 **Knowing what to expect: rare, extreme events**
 
-The Natural Insurance is sized for the **common** shock (weeks to months). History also shows rare events hitting **many countries over several years**. They are not a reason to be discouraged; they are the reason to prepare in layers.
+The National Insurance is sized for the **common** shock (weeks to months). History also shows rare events hitting **many countries over several years**. They are not a reason to be discouraged; they are the reason to prepare in layers.
 
 | Event | What happened | Lesson |
 |---|---|---|
@@ -411,7 +411,7 @@ The Natural Insurance is sized for the **common** shock (weeks to months). Histo
 - For maize, multiple-breadbasket failure risk rises from 6% to **40% at 1.5 °C** and 54% at 2 °C (Gaupp et al., follow-up) [P/S]
 - Lloyd's 2015 "Food System Shock" scenario: staple prices **quadruple**. https://assets.lloyds.com/media/39690c48-2a31-474b-8ff0-9d27f8d02c7c/pdf-food-system-shock-exec-summary-june-2015.pdf [P, scenario]
 
-**Layers [E]:** (1) weeks to months: the Natural Insurance keeps shelves and prices steady; (2) up to two years: Britain's own harvest refills grain every August, and feed grain can be diverted to people (two −15% harvests are manageable with feed cut ~⅕, chapter 5); (3) multi-year: the 5 Mt multi-purpose grain, stored seed and fertiliser, and a planned switch of grassland to crops (1939–44: cultivated land 12m → 18m acres); (4) throughout: a published plan and fair rationing rules prevent panic.
+**Layers [E]:** (1) weeks to months: the National Insurance keeps shelves and prices steady; (2) up to two years: Britain's own harvest refills grain every August, and feed grain can be diverted to people (two −15% harvests are manageable with feed cut ~⅕, chapter 5); (3) multi-year: the 5 Mt multi-purpose grain, stored seed and fertiliser, and a planned switch of grassland to crops (1939–44: cultivated land 12m → 18m acres); (4) throughout: a published plan and fair rationing rules prevent panic.
 
 **Context for the reviewer**
 - The capex (£200/t of new storage) and storage fee (£15/t/yr for grain) are assumptions; UK quotes should be gathered.
@@ -420,11 +420,11 @@ The Natural Insurance is sized for the **common** shock (weeks to months). Histo
 - Whether NATO's 1.5% resilience category can include food stockpiles needs checking against the 2025 Hague Summit text.
 - In the UK, the realistic failure mode is panic buying, empty shelves and loss of trust, not mass riots. Present unrest as a risk the reserve reduces, not a prediction.
 - The Laki and 1972–74 rows and the Gaupp follow-up figures need primary sources.
-- An earlier draft used £2 per person (≈ 8 weeks of complete food); the £10 Natural Insurance buys the complete programme.
+- An earlier draft used £2 per person (≈ 8 weeks of complete food); the £10 National Insurance buys the complete programme.
 - With domestic production continuing, the reserve's main value is **time and choice** (sowing, rerouting imports, managing livestock reductions), not calories alone.
 
 **Lines for the page**
-- "The Natural Insurance (not National Insurance). £10 a year, and the shelves stay full."
+- "The National Insurance (not National Insurance). £10 a year, and the shelves stay full."
 - "An army defends the border. A food reserve defends the dinner table."
 - "Under 3p a day. About 1% of the defence budget."
 - "The rare catastrophe isn't a reason to despair. It's the reason to prepare."

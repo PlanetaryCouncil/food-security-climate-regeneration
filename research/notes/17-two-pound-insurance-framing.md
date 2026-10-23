@@ -1,6 +1,6 @@
-# 17 · Insurance framing: from the £2 entry tier to the £10 Natural Insurance
+# 17 · Insurance framing: from the £2 entry tier to the £10 National Insurance
 
-> **Update (23 Oct 2026):** the headline policy is now **the Natural Insurance (not National Insurance): £10 per person per year**, a complete programme including 5 Mt of multi-purpose grain. See `draft/briefing_full_context.md` §2 and chapter 9. £2 remains the entry tier described below.
+> **Update (23 Oct 2026):** the headline policy is now **the National Insurance (not National Insurance): £10 per person per year**, a complete programme including 5 Mt of multi-purpose grain. See `draft/briefing_full_context.md` §2 and chapter 9. £2 remains the entry tier described below.
 
 Purpose: the PDF's central message, with each number traceable to a model, so the framing survives hostile scrutiny.
 Status: 22 Oct 2026. All figures are [E] from `research/model/reserve_basket.py` and `cereal_balance.py` (assumptions in notes 13 and 16). All amounts in GBP.

@@ -5,6 +5,8 @@
 
 ---
 
+> **The National Insurance** *(not to be mistaken for National Insurance)*. Insurance for the nation's food: you pay in a little each year, and when the shock comes, the shelves stay full. 😄
+
 **Headline:** £10 per person per year. Under 3p a day. A food reserve needs warehouses and guards, like an army. This one defends against hunger.
 
 **Narrative:**
@@ -120,6 +122,7 @@ The reserve is sized for the **common** shock: weeks to months of disruption fro
 - The link from food prices to unrest is strongest in lower-income, import-dependent countries. In the UK the realistic failure mode is panic buying, empty shelves and loss of trust, not mass riots. Present unrest as a risk that a reserve reduces, not a prediction.
 
 ## G. Lines for the page
+- "The National Insurance, not to be mistaken for National Insurance. £10 a year, and the shelves stay full."
 - "An army defends the border. A food reserve defends the dinner table."
 - "£10 per person per year. Under 3p a day. About 1% of the defence budget, for a nation that doesn't run out of food."
 - "The rare catastrophe isn't a reason to despair. It's the reason to prepare."

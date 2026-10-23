@@ -1,5 +1,7 @@
 # 17 · The £2 insurance policy: framing and the numbers behind it
 
+> **Update (23 Oct 2026):** the headline policy is now **£10 per person per year** (a complete programme including 5 Mt of multi-purpose grain). See `draft/briefing_full_context.md` §2 and `draft/page_13_downsides_and_the_case_for_prudence.md`. £2 remains the entry tier described below.
+
 Purpose: the PDF's central message, with each number traceable to a model, so the framing survives hostile scrutiny.
 Status: 22 Oct 2026. All figures are [E] from `research/model/reserve_basket.py` and `cereal_balance.py` (assumptions in notes 13 and 16). All amounts in GBP.
 

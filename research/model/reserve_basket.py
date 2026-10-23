@@ -119,7 +119,7 @@ def public(finance=FINANCE, store_mult=1.0, loss_mult=1.0, price_mult=1.0, nocoo
          50e6, 3.0, 0.05, 1.0e6)
     line("Bottled water: 90 m litres (10 m people x 3 days x 3 L)", 90e6 * 0.20, 2.0, 0.30,
          90e3 * 30)
-    ops = {"agency, audit, intake and mycotoxin testing": 45,
+    ops = {"lean open agency (~60 staff), innovation, automated sampling, open data, audit": agency_cost() / 1e6,
            "local food plans in all four nations, exercises": 46,
            "priority fuel, AdBlue and backup power on a published priority list": 100,
            "last mile: registers, delivery contracts, water bowsers": 45,
@@ -127,6 +127,23 @@ def public(finance=FINANCE, store_mult=1.0, loss_mult=1.0, price_mult=1.0, nocoo
     for k, m in ops.items():
         rows.append(("Operations: " + k, 0.0, m * 1e6 * store_mult))
     return rows, ops
+
+
+# Lean agency (note 26): ~60 people, heavy automation and AI, open by default
+AGENCY = {
+    "staff: ~60 people at ~£90k fully loaded": 60 * 90e3,
+    "innovation department programme (nutrition, storage, transport, sampling, data)": 8e6,
+    "automated sampling and sensing: in-store cables/probes (~£2/t of 6.8 Mt) + auto-samplers "
+    "and NIR analysers at ~40 hubs (~£250k each); capex annualised over 10 yrs": (6.8e6 * 2 + 40 * 250e3) * annuity(0.04, 10),
+    "sensor maintenance, data platform, AI compute, offline backups": 4e6,
+    "confirmatory lab certificates on release (mycotoxins, contaminants)": 3e6,
+    "open data and public feedback platform": 1.5e6,
+    "independent audit and unannounced spot checks (contracted)": 2e6,
+}
+
+
+def agency_cost():
+    return sum(AGENCY.values())
 
 
 def totals(**kw):
@@ -259,10 +276,10 @@ def break_even():
 
 def jobs():
     """Rough direct-employment estimate [E]; planning assumptions, not a labour-market study."""
-    rows = [("Reserve agency: inspection, sampling, audit, stock ledger, IT", 400),
-            ("Grain and food stores: intake, drying, aeration, monitoring (~1 FTE per 15 kt)",
-             round((4.0e6 + 1.6e6) / 15e3)),
-            ("Quality labs: moisture, insects, mycotoxin and nutrient testing", 120),
+    rows = [("Lean reserve agency incl. innovation department (note 26)", 60),
+            ("Grain and food stores: intake, drying, aeration, maintenance (~1 FTE per 20 kt, automated)",
+             round((4.0e6 + 1.6e6) / 20e3)),
+            ("Confirmatory labs: mycotoxin and contaminant certificates on release", 40),
             ("Haulage of rotated stock (~3 Mt/yr, ~460 loads per driver-year)", round(3e6 / 25 / 460)),
             ("Crispbread/biscuit and canning production for rotation", 150),
             ("Local food-plan officers in ~45 resilience bodies (3 each)", 135),
@@ -279,8 +296,16 @@ def jobs():
           "~£1,000/yr retainer ≈ £10m/yr), mustered for releases and exercises")
 
 
+def print_agency():
+    print("\nLean agency budget (£m/yr)")
+    for k, v in AGENCY.items():
+        print(f"- {k}: {v/1e6:.1f}")
+    print(f"- Total: {agency_cost()/1e6:.1f}")
+
+
 if __name__ == "__main__":
     print_package()
+    print_agency()
     sensitivity()
     priority_schedule()
     checks()

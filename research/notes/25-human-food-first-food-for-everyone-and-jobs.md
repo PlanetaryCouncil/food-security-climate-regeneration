@@ -1,5 +1,7 @@
 # 25 · Human food first, food for everyone, and the jobs
 
+> **Updated (note 26):** the agency is now a lean, automated ~60-person body (not ~400), labs ~40 and stores ~280, so permanent jobs are ~1,000 and the total is £10.24 per person.
+
 Date: 23 October 2026. Status: author decision after review round 2, implemented in `reserve_basket.py` v3.1 and briefing draft-5.
 
 ## 1. The decisions

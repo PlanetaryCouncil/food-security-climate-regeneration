@@ -1,8 +1,8 @@
 # Can Britain Feed Itself? Full-context briefing draft for fact-checking
 
-**Version:** draft-5 (23 October 2026), after two rounds of adversarial review (ChatGPT, Gemini, Grok). What changed and why: `research/notes/20-adversarial-review-round-1.md`, `research/notes/24-adversarial-review-round-2.md`, Appendices C and D.
+**Version:** draft-6 (23 October 2026), after two rounds of adversarial review (ChatGPT, Gemini, Grok). What changed and why: `research/notes/20-adversarial-review-round-1.md`, `research/notes/24-adversarial-review-round-2.md`, Appendices C and D.
 **Project:** UK food security, climate, resilience and regeneration; a ~12-page public briefing (one page per chapter) for MPs, officials and the public.
-**Repository:** `planetarycouncil/food-security-climate-regeneration`, branch `claude/focused-mendel-5qswh8`, folders `research/notes/` (24 research notes) and `research/model/` (two Python models).
+**Repository:** `planetarycouncil/food-security-climate-regeneration`, branch `claude/focused-mendel-5qswh8`, folders `research/notes/` (26 research notes) and `research/model/` (two Python models).
 
 ---
 
@@ -20,14 +20,16 @@ For each numbered claim in each chapter:
 **Labels used:** **[P]** primary source (seen only via search extracts; originals not opened) · **[R]** primary source opened by a reviewing AI in round 1 (not by us) · **[S]** secondary (press, trade body, NGO) · **[E]** the authors' own estimate or model · **[I]** interpretation or position (a value judgement, not a fact) · **[?]** not yet verified.
 **Today's date in the document's world:** 23 October 2026. Prefer 2025–2026 data. UK = United Kingdom unless England, GB or a devolved nation is stated. Note whether figures are by value or volume. **Calorie denominators:** Defra's requirement is 2,119 kcal/person/day; our planning figure is 2,250. We say which one we use.
 
-**Round 3 focus** (rounds 1 and 2 are integrated; see notes 20 and 24 and Appendices C and D, and please don't repeat them):
-1. **The hybrid design** (section 2): is splitting the reserve into a public crisis tranche (taxes) and compulsory commercial stocks (prices) sound? How would the ONS classify the obligations? Is it a subsidy under the Subsidy Control Act 2022? How is additionality audited?
-2. **Market sizing:** check the UK annual-use figures behind each compulsory stock (rice ~670 kt, rapeseed oil ~406 kt, sugar ~2 Mt, SMP, canned fish, pulses, oats).
-3. **Week one:** is £6 per person-day for no-cook food, £100m for priority fuel/power and £45m for last mile and water realistic? Design a 72-hour delivery for 10 m people.
-4. **Nitrogen:** is ~162 kt N of extra pre-season merchant stock (protected urea + heated UAN-28) workable and safe?
-5. **Cereal model and grain:** is a 1.0 Mt working-stock floor reasonable? Does 4 Mt of food-grade wheat do the job we give it (bread for everyone for ~10 months of milling; full feed through an import stop)? Can a universal 3-day no-cook grain ration be made, stored and pre-positioned?
-6. **The contingency to the contingency:** test the revised destocking order and the "Fair Shares Guarantee" rationing design (note 21 §7).
-7. **Anything still wrong** in the claims, especially those marked [P], [S] or [?].
+**Round 3 focus: how the reserve is run** (rounds 1 and 2 are integrated; see notes 20 and 24 and Appendices C–E, and please don't repeat them). Read chapter 13 and note 26 first:
+1. Is a **~60-person agency** (surge to ~100) enough for the 17 functions? Which function is missing or under-staffed?
+2. Does the **rule of three** (lead + two deputies; each person able to do three roles) work in practice and under UK public-sector employment rules? What does a 24/7 duty desk really need?
+3. Can **sampling and quality monitoring be automated** to this degree (sensor cables, CO₂ sensors, auto-samplers, NIR, rapid mycotoxin tests)? Where do regulations or contracts still require manual sampling?
+4. Which **legal form** fits: executive agency, non-departmental public body or statutory corporation? Who holds the release key?
+5. **Open by default:** what are the real security risks of publishing locations and regional stocks, and how do open systems (réservesuisse, the US Strategic Petroleum Reserve, Finland's NESA) manage them?
+6. **Ports and network:** which UK ports handle bulk grain, rice, oil and sugar; which are flood-exposed; is the port-hub plus district-store plus local-point layout sensible?
+7. **Markets:** will a published purchase calendar and futures hedging avoid moving prices?
+8. **Public engagement:** will a citizens' panel, a feedback channel and an adversarial bounty produce useful scrutiny or noise?
+9. **Costs:** are ~£27m a year for the agency and ~£24m of automation capex realistic? Is the ~1,000-job estimate plausible?
 
 Each chapter has **Included claims** (intended for the page) and **Proactive criticism and context** (caveats, counterpoints and cut claims, kept so you have the full picture).
 
@@ -68,13 +70,13 @@ Each chapter has **Included claims** (intended for the page) and **Proactive cri
 | 2 | **Food-grade milling wheat, 4 Mt** (half in new stores at £350/t) + 0.35 Mt high-protein wheat for the grist | 4.35 Mt | £182m | 2.62 |
 | 1 | **No-cook grain ration for everyone:** 3 days (~500 g/day of crispbread, biscuits, oatcakes made from reserve grain) for all 69.5 m | 104 kt | £28m | 0.40 |
 | 1 | Tablets (vitamins A, C, D + zinc) for everyone for 90 days; flour premix incl. folic acid; potassium iodate; feed amino acids; yeast; sacks and bottles; 90 m litres of bottled water | – | £32m | 0.46 |
-| 1 | Operations: agency and testing £45m; local plans and exercises in all four nations £46m; **priority fuel, AdBlue and backup power £100m**; **last mile and water £45m**; security and insurance £15m | – | £251m | 3.61 |
+| 1 | Operations: **lean open agency ~£27m** (~60 staff, innovation, automated sampling, open data, audit; chapter 13); local plans and exercises in all four nations £46m; **priority fuel, AdBlue and backup power £100m**; **last mile and water £45m**; security and insurance £15m | – | £233m | 3.35 |
 | 1 | Specialist needs: infant formula ~7 kt (incl. ready-to-feed), specialised formula and medical foods, 7-day no-cook top-up for 5 m people who cannot use standard rations (£6/person-day) | – | £44m | 0.63 |
 | 2 | Next season: cereal seed (winter 0.2 Mt + spring 0.1 Mt); nitrogen ~162 kt N as protected urea + heated UAN-28 (**no solid ammonium nitrate**); 10 weeks of soya meal | 1.21 Mt | £114m | 1.64 |
 | 2 | Imported staples and variety: rice ~4 months, vegetable oil ~4 months, sugar ~2 months; pulses, stabilised oats, skimmed milk powder, canned fish | 1.18 Mt | £79m | 1.14 |
-| | **Total** (public stock ~£0.72bn on the balance sheet; ~£2.2bn of commercial stock held by firms) | **~6.8 Mt** | **~£730m** | **~£10.50** |
+| | **Total** (public stock ~£0.72bn on the balance sheet; ~£2.2bn of commercial stock held by firms) | **~6.8 Mt** | **~£712m** | **~£10.24** |
 
-That is about **£5.10 via taxes** (Tier 1) and **£5.40 via prices** (Tier 2). **Range** (sensitivity, not a confidence interval): low £9.55 · **central £10.50** · prices +30% £11.52 · stress (finance 6%, storage/ops +50%, rotation losses doubled) £16.81 · severe stress £18.60.
+That is about **£4.84 via taxes** (Tier 1) and **£5.40 via prices** (Tier 2). **Range** (sensitivity, not a confidence interval): low £9.31 · **central £10.24** · prices +30% £11.26 · stress (finance 6%, storage/ops +50%, rotation losses doubled) £16.42 · severe stress £18.20.
 
 **Priority schedule: human food first** (cumulative per person; if money is short, cut from the bottom):
 
@@ -82,10 +84,10 @@ That is about **£5.10 via taxes** (Tier 1) and **£5.40 via prices** (Tier 2). 
 |---|---|
 | £2.71 | **Bread for everyone:** 4 Mt food-grade wheat, high-protein wheat, premix, sacks |
 | £3.48 | + **no-cook food for everyone:** 3-day grain ration, tablets, bottled water |
-| £7.09 | + operations: agency, local plans, priority fuel/power, last mile, security |
-| £7.72 | + infants and special needs: formula, medical foods, specialist top-up |
-| £9.36 | + next season: seed, protected urea, UAN, soya meal |
-| £10.50 | + imported staples and variety: rice, oil, sugar, pulses, oats, milk powder, fish |
+| £6.83 | + operations: lean agency, local plans, priority fuel/power, last mile, security |
+| £7.45 | + infants and special needs: formula, medical foods, specialist top-up |
+| £9.09 | + next season: seed, protected urea, UAN, soya meal |
+| £10.24 | + imported staples and variety: rice, oil, sugar, pulses, oats, milk powder, fish |
 
 **What the 4 Mt of wheat means:**
 - **Bread for everyone:** it keeps **every UK flour mill running for ~10 months** (≈ 304 days of mill intake) with no imports and no harvest.
@@ -101,7 +103,7 @@ That is about **£5.10 via taxes** (Tier 1) and **£5.40 via prices** (Tier 2). 
 
 **Fiscal honesty:** inventory does not reduce public sector net debt. Only Tier 1 sits on the public balance sheet. A levy or price pass-through moves the cost; it does not remove it. Refilling after a release is a separate contingent liability, funded from taxation on a price-and-quality trigger within 36 months.
 
-Scale checks [E]: £730m a year ≈ 0.03% of GDP (~£2.9trn); ≈ 1.1% of UK defence spending; ≈ 15% of UK agricultural support (£4.87bn, 2025).
+Scale checks [E]: £712m a year ≈ 0.02% of GDP (~£2.9trn); ≈ 1.1% of UK defence spending; ≈ 15% of UK agricultural support (£4.87bn, 2025).
 
 ---
 
@@ -410,13 +412,13 @@ Scale checks [E]: £730m a year ≈ 0.03% of GDP (~£2.9trn); ≈ 1.1% of UK def
 
 The reserve is a **stabilising force**, held in readiness the way a nation holds an army. You hope never to use it. If supply chains break, it buys the weeks and months needed to reroute imports, sow the next crop and keep animals fed, without panic. It is **contingency level 1**. Fair rationing and a livestock destocking order are written down above it (chapter 12) as a contingency to the contingency: rarely needed, never improvised.
 
-Measured per person, the cost is modest: **about £10 a year** (£10.50 central). Roughly £5 is paid through taxes and £5 through prices. Under stress assumptions it could reach £17–19. If money is short, the priority schedule protects **bread and no-cook food for everyone first**.
+Measured per person, the cost is modest: **about £10 a year** (£10.24 central). Roughly £5 is paid through taxes and £5 through prices. Under stress assumptions it could reach £17–19. If money is short, the priority schedule protects **bread and no-cook food for everyone first**.
 
 **Resilience through transparency.** Two rounds of independent AI review found a plugged cost line, an unmillable ration, an explosive fertiliser stock, rotation volumes the market could not absorb, a debt problem and an underpriced first week. We fixed them in public (notes 20 and 24). The remaining downsides are below.
 
 **Included claims**
-1. The **package** totals ~**£730m a year ≈ £10.50 per person**: public crisis tranche £5.10 (taxes) + compulsory commercial stocks £5.40 (prices). `reserve_basket.py` v3.1, an illustrative carrying-cost model with explicit allowances [E]
-2. **Range:** £9.55 (low) to £16.81 (finance 6%, storage and operations +50%, rotation losses doubled); £18.60 if prices are also 30% higher. The **priority schedule puts bread and no-cook food for everyone first** (£3.48 per person buys both) [E]
+1. The **package** totals ~**£712m a year ≈ £10.24 per person**: public crisis tranche £4.84 (taxes) + compulsory commercial stocks £5.40 (prices); a lean ~60-person agency (chapter 13). `reserve_basket.py` v3.1, an illustrative carrying-cost model with explicit allowances [E]
+2. **Range:** £9.31 (low) to £16.42 (finance 6%, storage and operations +50%, rotation losses doubled); £18.20 if prices are also 30% higher. The **priority schedule puts bread and no-cook food for everyone first** (£3.48 per person buys both) [E]
 3. **Market-sized:** each compulsory stock rotates a small share of UK use (e.g. rice ~8% of ~670 kt/yr; oil ~16% of rapeseed-oil use; milling wheat ~12% of 4.8 Mt). Draft-4 would have rotated ~49% of UK rice use and more than all UK rapeseed-oil use a year. USDA London Post grain and feed annual 2026 [R/E]
 4. **Week one is priced honestly:** no-cook food at £6 per person-day. The only UK benchmark is ~£200m for ~4.7 m COVID food boxes (~£43 a box), with power and roads working. NAO: https://www.nao.org.uk/press-releases/protecting-and-supporting-the-vulnerable-during-lockdown/ [R]
 5. **No-cook for everyone:** 3 days × 69.5 m × ~500 g ≈ **104,000 t** of crispbread, biscuits and oatcakes (~2,000 kcal a day), ~£208m of stock, ~£28m a year to carry, rotated every ~2 years. It must be **pre-positioned locally** (schools, councils, depots), because moving it in a crisis would take ~4,200 lorry loads. Drinking water: 90 m litres for people cut off from mains [E]
@@ -437,23 +439,14 @@ Measured per person, the cost is modest: **about £10 a year** (£10.50 central)
 20. **Defence comparison:** UK defence spending ≈ £68bn a year (~2.36% of GDP, NATO definition); the reserve (~£0.73bn) ≈ **1%** of it [P/E]
 21. **NATO resilience:** the 2025 Hague declaration allows up to 1.5% of GDP for purposes including "civil preparedness and resilience". Food is not named and the accounting is open until a 2029 review: a case to make, not income. https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration [R]
 22. **Break-even, honestly:** for a shock costing 1% of GDP, the reserve pays for itself if it prevents **all** of the loss once every ~40 years, a **quarter** once every ~10 years, or a **tenth** once every ~4 years. Thresholds, not probabilities [E]
-23. **Jobs (a bonus, not the reason):** about **1,500 permanent jobs** [E]:
-    - ~400 at the reserve agency (inspection, sampling, audit, stock ledger);
-    - ~370 in grain and food stores (intake, drying, aeration, monitoring);
-    - ~120 in quality labs (moisture, insects, mycotoxins);
-    - ~260 lorry drivers moving rotated stock;
-    - ~150 in crispbread, biscuit and canning production;
-    - ~135 local food-plan officers;
-    - ~100 in training and delivery-register teams.
-
-    On top: ~1,400 construction jobs a year while ~£0.7bn of new stores are built over five years. An optional paid **Food Reserve Volunteers** corps (e.g. 10,000 trained reservists on a ~£1,000 retainer, ~£10m a year) would be mustered for releases and exercises: rural, practical, meaningful work. Planning assumptions, not a labour-market study.
+23. **Jobs (a bonus, not the reason):** about **1,000 permanent jobs**: a lean agency of ~60 (chapter 13), ~280 in grain and food stores, ~40 in confirmatory labs, ~260 lorry drivers, ~150 in crispbread, biscuit and canning production, ~135 local food planners and ~100 in training and delivery registers. Plus ~1,400 construction jobs a year while ~£0.7bn of new stores are built over five years, and an optional paid **Food Reserve Volunteers** corps (e.g. 10,000 trained reservists on a ~£1,000 retainer). Mostly rural and near ports. Planning assumptions [E]
 24. The UK has **no** such reserve: **"no national food stockpiles or plans to create these"** (written answer, 31 Mar 2026). https://questions-statements.parliament.uk/written-questions/detail/2026-03-20/HL15829/ [R]
 
 **Per person, at a glance [E]**
 
 | | Per person |
 |---|---|
-| Running the Strategic Food Reserve | **~£10 a year** (£10.50 central, under 3p a day): ~£5 via taxes, ~£5 via prices; £9.50–17 across our cases |
+| Running the Strategic Food Reserve | **~£10 a year** (£10.24 central, under 3p a day): ~£5 via taxes, ~£5 via prices; £9.30–16.40 across our cases |
 | Public stock on the balance sheet | ~£10 |
 | Commercial stock held by firms | ~£32 |
 | A severe national disruption, if it happens (illustration: 1–2% of GDP) | ~£420–830 lost, each time |
@@ -476,7 +469,7 @@ Measured per person, the cost is modest: **about £10 a year** (£10.50 central)
 | One ration fails many groups | Infants, coeliac, allergies, pregnancy [R] | Dietitian specification with variants before publication; formula and medical foods separate |
 | Stored fertiliser can explode | Toulouse 2001, Beirut 2020; UAN-32 salting out [R] | Urea and heated UAN-28 only; site-specific COMAH assessment; dispersed, secured sites |
 | Refill rule forces bad buying | Japan 2025–26 [S] | Price-and-quality trigger within 36 months; refill shown as a contingent liability |
-| It can be mismanaged or raided | India's rotting wheat; Finland's 2025 cut attempt [S] | Statutory floor; release only on published triggers, never to manage inflation; monthly published stocks; independent audit |
+| It can be mismanaged or raided | India's rotting wheat; Finland's 2025 cut attempt [S] | Statutory floor; release only on published triggers, never to manage inflation; monthly published stocks; independent audit; open by default (chapter 13) |
 | Title and insolvency | A contractor sells the grain and fails [E] | Clear state release rights and title; insolvency-remote structures; physical audits |
 | Common-mode failure | Ten stores on one grid, contractor or software are one store | Sites in all four nations, including a statutory minimum on the island of Ireland; different contractors and power feeds |
 | It will not stop inflation | Reserves are poor price stabilisers (World Bank/FAO/WFP 2025) [R] | We promise time and access, not prices; it is not a price-support scheme |
@@ -526,7 +519,7 @@ The Strategic Food Reserve is sized for the **common** shock (weeks to months). 
 
 **Headline:** Meaningful work in nature, piloted and paid properly, with AI as the tool, not the threat.
 
-**Narrative:** AI and automation are hollowing out entry-level office work. Meanwhile Britain needs skilled people to rebuild soils, hedges, woodland and peat, run glasshouses and manage a national food reserve. Structured work outdoors measurably improves mental health, and America's 1930s conservation corps improved participants' health and earnings for decades. Farm work today is badly designed: seasonal, isolated and stressful. So the jobs must be rebuilt, not just offered. A **regenerative transition corps** could employ tens of thousands, with AI handling drudgery and precision, and people doing the judgement work. It is not a mass answer to AI job losses; it is meaningful work that also buys national resilience. The best fit for data-literate workers displaced by AI is measurement: soil sampling, drone and satellite surveys, carbon and biodiversity verification, and running the reserve itself, which needs ~1,500 permanent staff in stores, labs, haulage and local planning plus a possible paid volunteer corps (chapter 9, note 25).
+**Narrative:** AI and automation are hollowing out entry-level office work. Meanwhile Britain needs skilled people to rebuild soils, hedges, woodland and peat, run glasshouses and manage a national food reserve. Structured work outdoors measurably improves mental health, and America's 1930s conservation corps improved participants' health and earnings for decades. Farm work today is badly designed: seasonal, isolated and stressful. So the jobs must be rebuilt, not just offered. A **regenerative transition corps** could employ tens of thousands, with AI handling drudgery and precision, and people doing the judgement work. It is not a mass answer to AI job losses; it is meaningful work that also buys national resilience. The best fit for data-literate workers displaced by AI is measurement: soil sampling, drone and satellite surveys, carbon and biodiversity verification, and running the reserve itself, which needs ~1,000 permanent staff in stores, haulage, production and local planning, a lean AI-heavy agency of ~60 with an innovation department, and a possible paid volunteer corps (chapters 9 and 13, notes 25–26).
 
 **Included claims**
 1. Graduate job adverts **8,383 in Jul 2026, −45.6% y/y**, lowest since 2016. Adzuna via press: https://e.vnexpress.net/news/news/education/uk-graduate-jobs-plunge-to-record-low-as-ai-reshapes-entry-level-employment-market-5127639.html [S]
@@ -660,6 +653,91 @@ In 2021 a CO₂ and labour shortage alone led to ~8,000 healthy pigs being culle
 
 ---
 
+## Chapter 13 · Running it: a lean, open, automated agency
+
+> *Editorial note: this chapter can stand alone as page 13 or be merged into chapter 9 in the PDF.*
+
+**Headline:** Sixty people, three deep, heavy AI, open by default. You cannot hide a thousand jobs and forty warehouses, so we don't try.
+
+**Narrative:** The UK Strategic Food Reserve is run by a **lean agency of about 60 people**, never more than 100 even in a crisis. Every person has an essential job. Every function has a lead and two trained deputies, so leave, illness or resignation never stops anything. Automation does the manual work: sensors in every store, automatic samplers and analysers at the hubs, and an AI that watches stock, prices, weather and shipping around the clock. People decide, check, sign and answer to Parliament. A six-person **innovation department** keeps improving nutrition, storage, transport, sampling and data.
+
+The food sits in a **decentralised network**:
+- **port hubs** at the bulk-grain and container ports where imports land and exports leave;
+- **district stores** in every region of all four nations;
+- **thousands of local points** (schools, councils, depots) holding the no-cook ration and water.
+
+And it is **open**. A programme that builds warehouses, uses ports and employs about a thousand people cannot be secret, and should not try. It publishes where it is, what it holds by region each month, what it buys and when, and what went wrong. It invites the public to find weaknesses. It is protected by spread and redundancy, not secrecy.
+
+**Included claims**
+1. **Agency:** ~62 people in 17 functions:
+   - leadership and accountability;
+   - a 24/7 situation room;
+   - market intelligence;
+   - stock data and automated sampling;
+   - quality;
+   - contracts and compulsory-stock obligations;
+   - audit;
+   - finance;
+   - legal;
+   - four nations and local resilience;
+   - logistics and ports;
+   - nutrition;
+   - public engagement and open data;
+   - international and aid;
+   - cyber and offline operations;
+   - training and volunteers;
+   - innovation.
+
+   Surge to ~100 via pre-agreed civil-service and military secondments and trained volunteers. Note 26 [I/E]
+2. **Rule of three:** each function has a lead + 2 deputies; each person has one primary role and two deputy roles; deputies run their second function in quarterly drills; releases need two-person sign-off [I]
+3. **Not one person plus AI:** releasing public stock needs accountable humans; audit cannot be self-audit; and in a blackout or cyber attack, cloud AI may fail first. The agency is AI-heavy, human-accountable, and able to run on paper [I]
+4. **Automated sampling:**
+   - temperature, moisture and CO₂ sensors in every bulk store (rising CO₂ is an early sign of insects or mould);
+   - automatic samplers with near-infrared (NIR) analysers and rapid mycotoxin tests at ~40 hubs;
+   - a digital twin of every lot;
+   - a weekly printed ledger held regionally.
+
+   Capex ~£24m, ~£3m a year annualised, plus ~£4m a year to run [E]
+5. **Agency budget ~£27m a year** (staff £5.4m, innovation £8m, sensing and data ~£7m, release certificates £3m, open data £1.5m, independent audit £2m), down from a £45m allowance. **New package total ~£712m ≈ £10.24 per person per year** (public £4.84 via taxes; compulsory stocks £5.40 via prices); range £9.31–16.42 [E]
+6. **Network:**
+   - ~8–10 port hubs;
+   - ~30 district hubs plus contracted farm and merchant stores;
+   - thousands of local points;
+   - a statutory minimum stock in Northern Ireland [I/E]
+7. **Ports, a reality check:** Dover is a roll-on/roll-off lorry port (vital for fresh food, not bulk grain); Felixstowe is a container port (suits rice, canned goods, bottled oil); bulk grain moves through ports such as Tilbury, Liverpool, Immingham, Hull, Avonmouth, Southampton, Ipswich and Belfast [S/?, to verify]
+8. **Open by default:** locations, monthly regional stocks, the purchase calendar, costs and incidents are published; only live security operations are withheld. Sweden keeps its sites secret (chapter 8); a UK network of this size could not [I]
+9. **Open conversation:**
+   - a live public dashboard;
+   - a feedback channel where every serious question gets a public answer;
+   - a rotating citizens' panel;
+   - an **adversarial bounty** for anyone who finds a real weakness;
+   - an annual public stress test, failures included [I]
+10. **Buy calm, sell calm:** counter-cyclical buying in good-quality surplus years; a published purchase calendar spread over 3–5 years; hedging with ordinary futures; releases only for supply emergencies, never to manage inflation [I]
+11. **Jobs:** ~1,000 permanent:
+    - agency ~60;
+    - stores ~280;
+    - labs ~40;
+    - haulage ~260;
+    - crispbread, biscuit and canning ~150;
+    - local planners ~135;
+    - training ~100.
+
+    Plus ~1,400 construction jobs a year while building, and an optional paid Food Reserve Volunteers corps. Mostly rural and near ports [E]
+
+**Proactive criticism and context**
+
+| Criticism | How it is handled |
+|---|---|
+| 60 people is too few | Most monitoring is automated; physical work sits with contracted stores, hauliers and labs; surge to ~100 is pre-agreed; reviewers asked to name missing functions |
+| Too much AI is a single point of failure | Offline fallback: weekly printed ledger, radio, paper release forms; drills run without the AI |
+| Published sites can be targeted | Dispersion (~40 hubs, thousands of points), different operators and power feeds, ordinary security; one site lost is a small fraction |
+| Port hubs flood and are chokepoints | Mix of port hubs and inland district stores; flood-resilient sites; NI stock held in NI |
+| Public stock data moves markets | Purchase calendar published in advance; monthly (not live) regional figures, like AHDB's statistics |
+| Automated sampling misses things | Exceptions trigger human checks; confirmatory lab certificates on every release; unannounced independent audits |
+| A public bounty attracts noise | Triage by AI, answered publicly; rewards only for verified weaknesses |
+
+---
+
 ## Appendix A · Model assumptions (for checking the [E] claims)
 
 **`research/model/cereal_balance.py`** (revised after rounds 1 and 2): monthly pooled stock of wheat, barley and oats from 1 July (onset fixed). Opening stock 3.006 Mt (AHDB, Sep 2026). Harvest 19.5 Mt (Aug 60% / Sep 40%). Food milling 6.0 Mt/yr; other industrial uses 3.2 Mt/yr; feed 13.4 Mt/yr; seed 0.6 Mt/yr; exports 1.0 Mt/yr; imports 4.5 Mt/yr (incl. maize; **calibrated**, so the baseline closure is imposed, and the baseline drifts ~0.2 Mt/yr). Full precision internally; `robust_table()` runs 36 months with a **1.0 Mt working-stock floor** and reports minimum stock. 3.3 m kcal/t grain; need 69.5 m × 2,250 kcal/day.
@@ -706,4 +784,12 @@ Other estimates: severe disruption cost 1–2% of GDP (illustrative); GDP ~£2.9
 2. **Food for everyone:** 4 Mt of food-grade wheat (bread for ~10 months of milling) and a 3-day no-cook grain ration for all 69.5 m; specialist food (infants, care, medical) is an addition, not the core.
 3. **Rotation, inspection, monitoring** are continuous; grain rotates into mills, feed, export and aid.
 4. **Employment** made explicit: ~1,500 permanent jobs, ~1,400 construction jobs a year while building, optional paid volunteer corps.
-5. Cost rises from £9.93 to **£10.50 per person per year** (range £9.55–16.81; £18.60 severe).
+5. Cost rises from £9.93 to **£10.50 per person per year** (range £9.55–16.81; £18.60 severe). *Superseded by Appendix F: lean agency, £10.24.*
+
+## Appendix F · The agency decision (note 26)
+1. **Lean agency:** ~60 people in 17 functions, surge to ~100; rule of three (lead + two deputies; three roles each); two-person release sign-off.
+2. **Automation first:** sensors, auto-samplers, NIR, rapid mycotoxin tests, digital twin; no routine manual sampling; paper fallback.
+3. **Innovation department** (6 people, £8m a year): nutrition, storage, transport, sampling, data retention.
+4. **Open by default:** locations, regional stocks, purchases, costs and incidents published; only live security withheld; public feedback, citizens' panel, adversarial bounty.
+5. **Decentralised network:** port hubs, district stores, local points; NI statutory minimum.
+6. Agency cost ~£27m (from £45m); total ~£712m ≈ **£10.24 per person**; ~1,000 permanent jobs.

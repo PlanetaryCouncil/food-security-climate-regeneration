@@ -24,6 +24,7 @@ Built on: four AI briefings (Claude, GPT, Gemini, Grok), the Claude research dos
 | 10 | **Work, wellbeing and the AI economy:** a regenerative transition corps | 04, 19, 23 |
 | 11 | **A new economy of food:** one carbon price, full-cost accounting, culture, the four nations | 08, 12, 19, 23 |
 | 12 | **The plan:** store, the contingency ladder (rationing, livestock, nitrogen), grow for people, close loops, draw down carbon, governance | 15, 17, 19, 21 |
+| 13 | **Running it:** a lean (~60), open, automated agency; port hubs, district stores, local points | 26 |
 
 ## All notes
 
@@ -54,6 +55,7 @@ Built on: four AI briefings (Claude, GPT, Gemini, Grok), the Claude research dos
 | 23 | Our position: one carbon price, work in nature after AI, the consciousness shift |
 | 24 | Adversarial review round 2: the hybrid redesign (market sizing, debt, week one, destocking, rationing) |
 | 25 | Human food first, food for everyone, and the jobs |
+| 26 | Running it: a lean, open, automated agency and a decentralised network |
 
 Draft briefing for fact-checking: `draft/briefing_full_context.md` (draft-5: the Strategic Food Reserve, about £10 per person per year, hybrid design; downsides integrated as proactive criticism).
 
@@ -67,7 +69,7 @@ Models: `research/model/cereal_balance.py` (month-by-month grain stocks) and `re
 4. **Two chokepoints in one year**, Hormuz and the Black Sea; in 2022, export bans covered 17% of traded calories. (05, 19)
 5. **The risk is affordability:** food inflation 1.3% (Sep 2026; CPI 3.5%), yet 12.2% of households are food-insecure. (05, 10)
 6. **Several comparable countries hold reserves; the UK holds none.** Finland 6–9 months of grain, Switzerland 2–4 months by product. (13, 14)
-7. **The UK Strategic Food Reserve: about £10 per person per year (£10.50 central), human food first and food for everyone.** Bread from 4 Mt of food-grade wheat (~10 months of milling), a 3-day no-cook grain ration and vitamin tablets for all 69.5 m, specialist food for those who need it, plus seed, safe nitrogen, soya meal and imported staples. A public crisis tranche (~£5 via taxes) plus compulsory commercial stocks (~£5 via prices), rotated into mills, feed and export; ~1,500 permanent jobs. (16, 17, 20, 24, 25; `reserve_basket.py` v3.1)
+7. **The UK Strategic Food Reserve: about £10 per person per year (£10.24 central), human food first and food for everyone.** Bread from 4 Mt of food-grade wheat (~10 months of milling), a 3-day no-cook grain ration and vitamin tablets for all 69.5 m, specialist food for those who need it, plus seed, safe nitrogen, soya meal and imported staples. A public crisis tranche (~£5 via taxes) plus compulsory commercial stocks (~£5 via prices), rotated into mills, feed and export; ~1,000 permanent jobs and a lean ~60-person agency. (16, 17, 20, 24, 25, 26; `reserve_basket.py` v3.1)
 8. **Per hectare, Britain is world-class** (wheat-yield world record, Lincolnshire); **per person, it is land-poor** (~⅓ of France's arable per head). Soils can recover: one Rothamsted clover-ley rotation raised topsoil carbon concentration by about a quarter in 28 years (one site). (18)
 9. **Carbon money is shifting to durable removals** (UK ETS from 2029, EU carbon-farming rules from 2026); soil-carbon offsets remain low-trust. (12, 19)
 10. **Nature work helps people and resilience at the scale of tens of thousands of jobs, not millions.** AI is the enabler (precision spraying, robots, data-centre heat), not the enemy. (04, 19)

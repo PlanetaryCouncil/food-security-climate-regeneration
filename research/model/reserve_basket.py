@@ -80,7 +80,7 @@ if __name__ == "__main__":
 
 
 # ---------------------------------------------------------------------------
-# £10 multi-purpose package (see research/notes/20-ten-pound-multipurpose-reserve.md)
+# £10 multi-purpose package (see draft/briefing_full_context.md, section 2)
 # ---------------------------------------------------------------------------
 
 def per_tonne_carry(price, store, finance=0.04, rotation_share=0.25, discount=0.05):

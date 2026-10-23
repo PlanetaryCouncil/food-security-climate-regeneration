@@ -1,6 +1,6 @@
 # Food security, climate and regeneration (UK)
 
-Research for a ~12-page briefing: can Britain feed itself, how resilient is it, and how could a full system change make it stronger? The core proposal is the **UK Strategic Food Reserve**: a rotating national food reserve at **about £10 per person per year**: a public crisis tranche plus compulsory commercial stocks, with a contingency ladder (rationing, livestock, safe nitrogen) above it.
+Research for a ~12-page briefing: can Britain feed itself, how resilient is it, and how could a full system change make it stronger? The core proposal is the **UK Strategic Food Reserve**: a rotating national food reserve at **about £10 per person per year**, human food first and food for everyone (bread from 4 Mt of wheat, a no-cook ration and vitamin tablets for all): a public crisis tranche plus compulsory commercial stocks, with a contingency ladder (rationing, livestock, safe nitrogen) above it.
 
 - `draft/briefing_full_context.md`: the full briefing draft for fact-checking (12 chapters, sources, proactive criticism)
 - `research/all-research-notes.md`: all research notes on one page

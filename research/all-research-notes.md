@@ -29,6 +29,7 @@ One page with the index and all research notes, generated from `research/notes/`
 - [22 · Second-order effects: stabilising the region, trading, and earning without gouging](#note-22)
 - [23 · Our position: one carbon price, work in nature after AI, and the consciousness shift](#note-23)
 - [24 · Adversarial review, round 2: the hybrid redesign](#note-24)
+- [25 · Human food first, food for everyone, and the jobs](#note-25)
 
 ---
 
@@ -58,7 +59,7 @@ Built on: four AI briefings (Claude, GPT, Gemini, Grok), the Claude research dos
 | 6 | **Geopolitics and prices:** Hormuz, Black Sea, export bans, food as foreign policy, stabilising neighbours | 05, 19, 22 |
 | 7 | **Food and stability:** "nine meals", unrest evidence, fairness, local plans | 10, 11 |
 | 8 | **How other countries prepare:** Finland, Switzerland, Norway, Japan… and the UK's empty shelf | 13, 14 |
-| 9 | **The UK Strategic Food Reserve, £10 per person per year:** survival ration, protein feed, seed, safe nitrogen, food-grade grain, fuel and plans; rotation; honest break-even | 16, 17, 20, 24 |
+| 9 | **The UK Strategic Food Reserve, £10 per person per year:** survival ration, protein feed, seed, safe nitrogen, food-grade grain, fuel and plans; rotation; honest break-even | 16, 17, 20, 24, 25 |
 | 10 | **Work, wellbeing and the AI economy:** a regenerative transition corps | 04, 19, 23 |
 | 11 | **A new economy of food:** one carbon price, full-cost accounting, culture, the four nations | 08, 12, 19, 23 |
 | 12 | **The plan:** store, the contingency ladder (rationing, livestock, nitrogen), grow for people, close loops, draw down carbon, governance | 15, 17, 19, 21 |
@@ -91,6 +92,7 @@ Built on: four AI briefings (Claude, GPT, Gemini, Grok), the Claude research dos
 | 22 | Stabilising the region, trade and mutual support (earning without gouging) |
 | 23 | Our position: one carbon price, work in nature after AI, the consciousness shift |
 | 24 | Adversarial review round 2: the hybrid redesign (market sizing, debt, week one, destocking, rationing) |
+| 25 | Human food first, food for everyone, and the jobs |
 
 Draft briefing for fact-checking: `draft/briefing_full_context.md` (draft-5: the Strategic Food Reserve, about £10 per person per year, hybrid design; downsides integrated as proactive criticism).
 
@@ -104,7 +106,7 @@ Models: `research/model/cereal_balance.py` (month-by-month grain stocks) and `re
 4. **Two chokepoints in one year**, Hormuz and the Black Sea; in 2022, export bans covered 17% of traded calories. (05, 19)
 5. **The risk is affordability:** food inflation 1.3% (Sep 2026; CPI 3.5%), yet 12.2% of households are food-insecure. (05, 10)
 6. **Several comparable countries hold reserves; the UK holds none.** Finland 6–9 months of grain, Switzerland 2–4 months by product. (13, 14)
-7. **The UK Strategic Food Reserve: about £10 per person per year, as a hybrid** (~£690m; £9–16 across cases). A **public crisis tranche** (~£5 via taxes: week-one no-cook food, water, formula, tablets, premix, fuel/power, local plans) plus **compulsory commercial stocks** (~£5 via prices: months of rice, oil and sugar, soya meal, winter and spring seed, extra pre-season urea/UAN, 3 Mt of food-grade wheat), sized to UK markets and rotated through firms' own trade. (16, 17, 20, 24; `reserve_basket.py` v3)
+7. **The UK Strategic Food Reserve: about £10 per person per year (£10.50 central), human food first and food for everyone.** Bread from 4 Mt of food-grade wheat (~10 months of milling), a 3-day no-cook grain ration and vitamin tablets for all 69.5 m, specialist food for those who need it, plus seed, safe nitrogen, soya meal and imported staples. A public crisis tranche (~£5 via taxes) plus compulsory commercial stocks (~£5 via prices), rotated into mills, feed and export; ~1,500 permanent jobs. (16, 17, 20, 24, 25; `reserve_basket.py` v3.1)
 8. **Per hectare, Britain is world-class** (wheat-yield world record, Lincolnshire); **per person, it is land-poor** (~⅓ of France's arable per head). Soils can recover: one Rothamsted clover-ley rotation raised topsoil carbon concentration by about a quarter in 28 years (one site). (18)
 9. **Carbon money is shifting to durable removals** (UK ETS from 2029, EU carbon-farming rules from 2026); soil-carbon offsets remain low-trust. (12, 19)
 10. **Nature work helps people and resilience at the scale of tens of thousands of jobs, not millions.** AI is the enabler (precision spraying, robots, data-centre heat), not the enemy. (04, 19)
@@ -2412,3 +2414,92 @@ Refill rule meets a second bad, mycotoxin-hit harvest · UAN salts out in a cold
 ### 8. Still open
 
 Flour-mill surge capacity; site-specific COMAH status of UAN-28 tanks; ONS classification of Tier 2 obligations; Subsidy Control Act treatment; NI landbridge food-tonnage share; dietitian-designed ration and variants; UK rice, oil, SMP and canned-fish market absorption figures (the use figures in the model are rounded orders of magnitude: rice ~670 kt (USDA London Post forecast), rapeseed oil ~406 kt (market-research snippet), others [?]); a priced last-mile service; Defra's FOI reply (~18 Nov 2026).
+
+
+---
+
+<a id="note-25"></a>
+
+## 25 · Human food first, food for everyone, and the jobs
+
+Date: 23 October 2026. Status: author decision after review round 2, implemented in `reserve_basket.py` v3.1 and briefing draft-5.
+
+### 1. The decisions
+
+1. **Human food first.** Grain is stored to food specification and reserved for people. Only stock above a protected floor rotates into animal feed or export.
+2. **Food for everyone, not only "the vulnerable".** The core covers all 69.5 million people:
+   - **bread** from 4 Mt of food-grade wheat (up from 3 Mt);
+   - a **3-day no-cook grain ration** for every person;
+   - **vitamin tablets** for everyone for 90 days.
+3. **Specialist needs are an addition, not the core.** Some people need *different* food, not more food: infants (formula), people on medical diets, care-home residents and people who cannot chew or cook (soft and ready meals). The earlier "10 m vulnerable" tranche becomes a 7-day top-up for ~5 m such people.
+4. **Continuous rotation, inspection and monitoring.** About a fifth of the wheat rotates every year:
+   - into flour mills (~17% of their intake);
+   - into animal feed (a ~13 Mt market);
+   - abroad as export or aid, to help stabilise other regions (note 22).
+
+### 2. Checking the premises
+
+**"You could survive on just bread."** True for weeks, and with tablets for months. Fortified UK flour already adds calcium, iron, thiamin, niacin and, from 13 December 2026, folic acid.
+
+What bread alone lacks over months is vitamin C (scurvy appears after roughly 1–3 months), vitamin A, vitamin D, B12 and enough calcium and zinc for some groups. A tablet of vitamins A, C and D plus zinc for everyone costs about £0.27 per person per year to hold. So **bread + tablets is a genuine survival backbone**. Adding pulses, milk powder and fish turns it into a diet.
+
+The limit is **milling**, not grain. At today's throughput the mills can supply ~160 g of flour per person per day (~550 kcal), about a quarter of energy needs. So bread is the backbone, not the whole diet. In a long crisis the rest comes from:
+- domestic potatoes and oats;
+- **whole-grain wheat** cooked as porridge, bulgur or flatbreads, including diverted feed wheat, which needs no roller mill.
+
+**"Grain never goes out of date."** Nearly true with good practice. Wheat keeps 5–10 years if dry (below ~14.5% moisture), cool, aerated and protected from insects and rodents, and it is tested on intake and before release. Bad storage can ruin it in one season, which is why inspection and monitoring are part of the design, not an extra.
+
+**Why a no-cook ration for everyone, not 7 days of ready meals for everyone?** Cost:
+- 7 days of ready meals for all 69.5 m at £6 a day would be ~£2.9bn of stock and ~£400m a year to carry.
+- Three days of grain-based crispbread, biscuits and oatcakes (~500 g, ~2,000 kcal a day) is ~104,000 t, ~£208m of stock and ~£28m a year.
+
+It uses the reserve's own grain. It is a familiar humanitarian product (WFP-style high-energy biscuits), so rotated stock has an aid outlet as well as schools, the forces and food banks. It must be **pre-positioned locally** (schools, councils, depots), because moving 104,000 t in a crisis would take ~4,200 lorry loads.
+
+### 3. What it costs now
+
+`reserve_basket.py` v3.1: **~£730m a year ≈ £10.50 per person** (public £5.10 via taxes; compulsory stocks £5.40 via prices). Range £9.55–16.81; £18.60 under severe stress.
+
+**Priority schedule, human food first:**
+
+| Up to (per person) | Buys |
+|---|---|
+| £2.71 | Bread for everyone: 4 Mt food-grade wheat, high-protein wheat, premix, sacks |
+| £3.48 | + no-cook for everyone: 3-day grain ration, tablets, bottled water |
+| £7.09 | + operations: agency, local plans, priority fuel/power, last mile, security |
+| £7.72 | + infants and special needs |
+| £9.36 | + next season: seed, urea, UAN, soya meal |
+| £10.50 | + imported staples and variety |
+
+**Grain and livestock:** 4 Mt covers all three hard cases in the 36-month cereal model with a 1.0 Mt working floor:
+- full feed with normal harvests (2.3 Mt needed);
+- 80% feed through two −15% harvests (2.5 Mt);
+- 80% feed through a nitrogen-shock harvest (3.5 Mt).
+
+So it buys the choice **not** to order a livestock cull, while still being food for people first.
+
+### 4. The employment aspect [E]
+
+Planning assumptions, not a labour-market study (`jobs()` in the model).
+
+| Work | Jobs (approx.) |
+|---|---|
+| Reserve agency: inspection, sampling, audit, stock ledger, IT | ~400 |
+| Grain and food stores: intake, drying, aeration, monitoring (~1 per 15 kt) | ~370 |
+| Quality labs: moisture, insects, mycotoxins, nutrients | ~120 |
+| Haulage of rotated stock (~3 Mt a year) | ~260 |
+| Crispbread, biscuit and canning production for rotation | ~150 |
+| Local food-plan officers (~45 resilience bodies) | ~135 |
+| Exercises, training, delivery registers | ~100 |
+| **Total permanent** | **~1,500** |
+| Construction while ~£0.7bn of new stores are built over ~5 years | ~1,400 a year |
+
+**Food Reserve Volunteers (optional):** a paid, trained civil reserve, like the Army Reserve but for food. For example, 10,000 people on a ~£1,000 yearly retainer (~£10m a year), trained in store work, distribution and community kitchens, and mustered for releases and exercises. This is part-time, practical, local work that links to the AI-transition argument (note 23) without overclaiming it.
+
+**Where the jobs are:** mostly rural and port areas, near the stores, dryers and mills. That is useful for regions that lose office work to automation, but the numbers are modest. This is meaningful work, not a mass employment programme.
+
+### 5. Open questions
+
+- Can crispbread and biscuit makers produce and rotate ~52,000 t a year of no-cook ration (UK capacity and market for that format)?
+- Where are local stores (schools, councils, depots) for pre-positioning, and who guards them?
+- Jobs-per-tonne benchmarks from UK grain stores (Camgrain, Frontier, Openfield) to replace our assumption.
+- A dietitian-checked "bread + tablets" survival specification, with variants.

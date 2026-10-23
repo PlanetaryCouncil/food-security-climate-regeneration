@@ -1,4 +1,4 @@
-"""The UK Strategic Food Reserve: cost model, version 3 (hybrid design).
+"""The UK Strategic Food Reserve: cost model, version 3.1 (hybrid, human food first).
 
 Illustrative carrying-cost model with explicit allowances. It is NOT a
 procurement estimate: prices, fees and allowances are assumptions, not quotes.
@@ -14,6 +14,12 @@ Design after review round 2:
   working stock. It rotates through their own trade, stays off the public
   balance sheet, and its cost is passed through food prices. Each line is
   sized against UK annual use so rotation stays a small share of the market.
+
+Version 3.1 (author decision, note 25): human food first and food for EVERYONE.
+Food-grade wheat raised to 4 Mt (bread for the whole population), a universal
+3-day no-cook grain ration (crispbread / biscuits / oatcakes made from reserve
+grain) for all 69.5 m, and a smaller specialist top-up for people who cannot
+use standard rations. Grain is first in the priority schedule.
 
 Run:  python3 research/model/reserve_basket.py
 """
@@ -37,8 +43,8 @@ def annuity(rate, years=25):
 # UK annual use figures are rounded orders of magnitude; see note 24.
 # ---------------------------------------------------------------------------
 COMMERCIAL = {
-    "Food-grade milling wheat (3 Mt; half in new stores)":
-        (3.0e6, 4.8e6, 210, 0.20, 0.03, 18),
+    "Food-grade milling wheat (4 Mt; half in new stores)":
+        (4.0e6, 4.8e6, 210, 0.20, 0.03, 18),
     "High-protein wheat for the grist (~90 days of the imported share)":
         (0.35e6, 1.3e6, 260, 0.25, 0.02, 18),
     "Rice, ~4 months of UK use":
@@ -64,11 +70,11 @@ COMMERCIAL = {
     "UAN-28, heated/recirculated tanks (70 kt N)":
         (0.25e6, 0.56e6, 300, 1.0, 0.03, 12),
 }
-NEW_STORE_T = 1.5e6          # half the wheat needs new capacity
+NEW_STORE_T = 2.0e6          # half the wheat needs new capacity
 NEW_STORE_CAPEX = 350        # GBP/t of capacity (reviewers: GBP 200 too low; 300-600 range)
 
 
-def commercial(finance=FINANCE, store_mult=1.0, loss_mult=1.0, price_mult=1.0, wheat_mt=3.0):
+def commercial(finance=FINANCE, store_mult=1.0, loss_mult=1.0, price_mult=1.0, wheat_mt=4.0):
     rows = []
     for name, (t, use, price, rot, loss, store) in COMMERCIAL.items():
         if name.startswith("Food-grade milling wheat"):
@@ -78,7 +84,7 @@ def commercial(finance=FINANCE, store_mult=1.0, loss_mult=1.0, price_mult=1.0, w
         a = (t * store * store_mult + v * finance + rotated * price * price_mult * loss * loss_mult
              + rotated * HANDLING * store_mult)
         if name.startswith("Food-grade milling wheat"):
-            a += NEW_STORE_T * (wheat_mt / 3.0) * NEW_STORE_CAPEX * annuity(finance) * store_mult
+            a += NEW_STORE_T * (wheat_mt / 4.0) * NEW_STORE_CAPEX * annuity(finance) * store_mult
         rows.append((name, t, v, a, rotated / use))
     return rows
 
@@ -94,8 +100,14 @@ def public(finance=FINANCE, store_mult=1.0, loss_mult=1.0, price_mult=1.0, nocoo
         a = v * finance + v * min(1.0, 1 / life) * loss * loss_mult + storage_cost * store_mult
         rows.append((name, v, a))
 
-    nc_days = 10e6 * 7
-    line("No-cook food: 7 days for 10 m vulnerable people (rotated via public catering)",
+    # universal: 3 days of no-cook grain ration for EVERYONE (~500 g/day crispbread,
+    # biscuits, oatcakes, ~2,000 kcal), rotated into schools, forces, food banks and
+    # WFP-style high-energy-biscuit aid
+    uni_t = POP * 3 * 0.5 / 1000
+    line("No-cook grain ration for EVERYONE: 3 days (crispbread/biscuits/oatcakes from reserve grain)",
+         uni_t * 2000, 2.0, 0.15, uni_t * 40)
+    nc_days = 5e6 * 7
+    line("Specialist no-cook top-up: 7 days for 5 m who cannot use standard rations",
          nc_days * nocook_gbp_day, 2.5, 0.25, nc_days / 1000 * 40)
     line("Infant formula ~7 kt standard powder (manufacturer-held) + ready-to-feed",
          7000 * 12000, 1.5, 0.05, 2.5e6)
@@ -119,7 +131,7 @@ def public(finance=FINANCE, store_mult=1.0, loss_mult=1.0, price_mult=1.0, nocoo
 
 def totals(**kw):
     nocook = kw.pop("nocook_gbp_day", 6.0)
-    wheat = kw.pop("wheat_mt", 3.0)
+    wheat = kw.pop("wheat_mt", 4.0)
     c = commercial(wheat_mt=wheat, **kw)
     p, _ = public(nocook_gbp_day=nocook, **kw)
     return sum(r[3] for r in c), sum(r[2] for r in p), sum(r[2] for r in c), sum(r[1] for r in p)
@@ -175,18 +187,19 @@ def priority_schedule():
     p, _ = public()
     p = {r[0]: r[2] for r in p}
     order = [
-        ("1. Week one: no-cook food, water, formula, tablets, premix, sacks",
-         [k for k in p if not k.startswith("Operations")]),
-        ("2. Operations: agency, local plans, priority fuel/power, last mile, security",
+        ("1. Bread for everyone: 4 Mt food-grade wheat, high-protein wheat, premix, sacks",
+         [k for k in c if k.startswith(("Food-grade", "High-protein"))]
+         + [k for k in p if k.startswith(("Flour premix", "Flour sacks"))]),
+        ("2. No-cook for everyone: 3-day grain ration, tablets, bottled water",
+         [k for k in p if k.startswith(("No-cook grain", "Tablets", "Bottled"))]),
+        ("3. Operations: agency, local plans, priority fuel/power, last mile, security",
          [k for k in p if k.startswith("Operations")]),
-        ("3. Next season: seed, protected urea, UAN, soya meal",
+        ("4. Infants and special needs: formula, medical foods, specialist top-up",
+         [k for k in p if k.startswith(("Infant", "Specialised", "Specialist"))]),
+        ("5. Next season: seed, protected urea, UAN, soya meal",
          [k for k in c if k.startswith(("Cereal seed", "Protected urea", "UAN", "Soya"))]),
-        ("4. Imported staples: rice, oil, sugar, high-protein wheat",
-         [k for k in c if k.startswith(("Rice", "Vegetable oil", "Sugar", "High-protein"))]),
-        ("5. Protein and variety: pulses, oats, milk powder, canned fish",
-         [k for k in c if k.startswith(("Pulses", "Oats", "Skimmed", "Canned"))]),
-        ("6. Food-grade grain, 3 Mt",
-         [k for k in c if k.startswith("Food-grade")]),
+        ("6. Imported staples and variety: rice, oil, sugar, pulses, oats, milk powder, fish",
+         [k for k in c if k.startswith(("Rice", "Vegetable oil", "Sugar", "Pulses", "Oats", "Skimmed", "Canned"))]),
     ]
     print("\nPriority schedule: cumulative cost per person")
     print("| Tier | Adds (£/person) | Cumulative (£/person) |")
@@ -221,10 +234,16 @@ def checks():
     print(f"\nIllustrative adult survival day (stocks + domestic potatoes): {g:.0f} g, {kcal:.0f} kcal, "
           f"{prot:.0f} g protein, calcium {ca:.0f} mg; + tablets (A, C, D, zinc). "
           "Not a dietitian-approved ration; variants needed.")
+    flour_g = MILL_WHEAT_T_YR / 365 / POP * 1e6 * EXTRACTION
+    print(f"Bread-first check: at today's mill throughput, flour per person = {flour_g:.0f} g/day "
+          f"≈ {flour_g*3.45:.0f} kcal and {flour_g*0.12:.0f} g protein: about a quarter of energy needs. "
+          "Bread is the backbone, not the whole diet; potatoes, oats, whole-grain wheat (porridge, "
+          "bulgur, flatbreads from diverted feed wheat) and domestic food carry the rest.")
     wheat_t_day = 180 * POP / 1e6
     print(f"Milling: 180 g wheat/person/day = {wheat_t_day:,.0f} t/day vs demonstrated "
           f"{MILL_WHEAT_T_YR/365:,.0f} t/day ({wheat_t_day/(MILL_WHEAT_T_YR/365):.0%}); usage, not capacity.")
-    print(f"3 Mt food-grade wheat = {3e6/(MILL_WHEAT_T_YR/365):.0f} days of mill intake.")
+    print(f"4 Mt food-grade wheat = {4e6/(MILL_WHEAT_T_YR/365):.0f} days of mill intake: every UK flour mill "
+          f"kept running for ~{4e6/MILL_WHEAT_T_YR*12:.0f} months with no imports and no harvest.")
 
 
 def break_even():
@@ -238,9 +257,32 @@ def break_even():
             print(f"| {size:.0%} | {frac:.0%} | {size*2.9e12*frac/a:.0f} |")
 
 
+def jobs():
+    """Rough direct-employment estimate [E]; planning assumptions, not a labour-market study."""
+    rows = [("Reserve agency: inspection, sampling, audit, stock ledger, IT", 400),
+            ("Grain and food stores: intake, drying, aeration, monitoring (~1 FTE per 15 kt)",
+             round((4.0e6 + 1.6e6) / 15e3)),
+            ("Quality labs: moisture, insects, mycotoxin and nutrient testing", 120),
+            ("Haulage of rotated stock (~3 Mt/yr, ~460 loads per driver-year)", round(3e6 / 25 / 460)),
+            ("Crispbread/biscuit and canning production for rotation", 150),
+            ("Local food-plan officers in ~45 resilience bodies (3 each)", 135),
+            ("Exercises, training, delivery-register teams", 100)]
+    total = sum(n for _, n in rows)
+    print("\nDirect jobs (permanent, approximate)")
+    for k, n in rows:
+        print(f"- {k}: ~{n}")
+    print(f"- Total permanent: ~{total:,}")
+    build = NEW_STORE_T * NEW_STORE_CAPEX
+    print(f"- Construction: £{build/1e9:.2f}bn of new stores over ~5 years ≈ ~{build/5/100e3:,.0f} "
+          "construction jobs a year while building (at ~£100k of spend per job-year)")
+    print("- Optional: a paid 'Food Reserve Volunteers' corps (e.g. 10,000 trained reservists on a "
+          "~£1,000/yr retainer ≈ £10m/yr), mustered for releases and exercises")
+
+
 if __name__ == "__main__":
     print_package()
     sensitivity()
     priority_schedule()
     checks()
     break_even()
+    jobs()

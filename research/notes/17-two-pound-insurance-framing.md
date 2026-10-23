@@ -1,5 +1,7 @@
 # 17 · Insurance framing: from the £2 entry tier to the £10 National Insurance
 
+> **Superseded in part (23 Oct 2026, review round 1):** "£2 buys eight weeks" is wrong (about £2 a year *carries* eight weeks; the food itself is ~£23 per person of stock), and the break-even below assumes the reserve prevents 100% of a shock. The current package (~£10.08/person, costed bottom-up) and honest break-even are in note 20 §2.
+
 > **Update (23 Oct 2026):** the headline policy is now **the National Insurance (not National Insurance): £10 per person per year**, a complete programme including 5 Mt of multi-purpose grain. See `draft/briefing_full_context.md` §2 and chapter 9. £2 remains the entry tier described below.
 
 Purpose: the PDF's central message, with each number traceable to a model, so the framing survives hostile scrutiny.

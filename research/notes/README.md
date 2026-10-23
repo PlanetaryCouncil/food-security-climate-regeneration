@@ -1,6 +1,6 @@
 # Research notes: UK food security, climate and regeneration
 
-Research phase for a ~12-page PDF (one page per chapter). Date: 22 October 2026.
+Research phase for a ~12-page PDF (one page per chapter). Date: 23 October 2026 (after adversarial review round 1, note 20).
 Built on: four AI briefings (Claude, GPT, Gemini, Grok), the Claude research dossier, the GPT evidence notes and the cross-briefing gap analysis.
 
 **How to read the labels:** **[P]** primary source · **[S]** secondary · **[E]** our own calculation or model · **[?]** not yet verified.
@@ -17,13 +17,13 @@ Built on: four AI briefings (Claude, GPT, Gemini, Grok), the Claude research dos
 | 3 | **Climate is changing the odds:** compound extremes, Europe failing together, new pests | 07 |
 | 4 | **Hidden dependencies:** nitrogen, phosphorus, potash, diesel, CO₂, cyber, cold chain | 01, 03, 06 |
 | 5 | **Protein, livestock and the sea:** soya, feed-to-food, fewer and better animals, fish | 02, 09, 15 |
-| 6 | **Geopolitics and prices:** Hormuz, Black Sea, export bans, food as foreign policy | 05, 19 |
+| 6 | **Geopolitics and prices:** Hormuz, Black Sea, export bans, food as foreign policy, stabilising neighbours | 05, 19, 22 |
 | 7 | **Food and stability:** "nine meals", unrest evidence, fairness, local plans | 10, 11 |
 | 8 | **How other countries prepare:** Finland, Switzerland, Norway, Japan… and the UK's empty shelf | 13, 14 |
-| 9 | **The National Insurance (not National Insurance), £10 per person per year:** a storable full diet + multi-purpose grain, rotation, no waste, ROI | 16, 17 |
-| 10 | **Work, wellbeing and the AI economy:** a regenerative transition corps | 04, 19 |
-| 11 | **A new economy of food:** carbon markets, full-cost accounting, culture, the four nations | 08, 12, 19 |
-| 12 | **The plan:** store, grow for people, rebalance, close loops, draw down carbon | 15, 17, 19 |
+| 9 | **The National Insurance (not National Insurance), £10 per person per year:** survival ration, protein feed, seed, safe nitrogen, food-grade grain, fuel and plans; rotation; honest break-even | 16, 17, 20 |
+| 10 | **Work, wellbeing and the AI economy:** a regenerative transition corps | 04, 19, 23 |
+| 11 | **A new economy of food:** one carbon price, full-cost accounting, culture, the four nations | 08, 12, 19, 23 |
+| 12 | **The plan:** store, the contingency ladder (rationing, livestock, nitrogen), grow for people, close loops, draw down carbon, governance | 15, 17, 19, 21 |
 
 ## All notes
 
@@ -48,23 +48,29 @@ Built on: four AI briefings (Claude, GPT, Gemini, Grok), the Claude research dos
 | 17 | Insurance framing: from the £2 entry tier to the £10 National Insurance |
 | 18 | Nature's gift: how the UK really stacks up |
 | 19 | The big picture: carbon markets, geopolitics, culture, regenerative farming and AI |
+| 20 | Adversarial review round 1 (ChatGPT, Gemini, Grok): findings, decisions, corrections |
+| 21 | The contingency ladder: rationing, the livestock destocking order, safe nitrogen |
+| 22 | Stabilising the region, trade and mutual support (earning without gouging) |
+| 23 | Our position: one carbon price, work in nature after AI, the consciousness shift |
 
-Draft briefing for fact-checking: `draft/briefing_full_context.md` (the National Insurance, £10 per person per year; downsides integrated as proactive criticism).
+Draft briefing for fact-checking: `draft/briefing_full_context.md` (draft-4: the National Insurance, about £10 per person per year, costed bottom-up; downsides integrated as proactive criticism).
 
-Models: `research/model/cereal_balance.py` (month-by-month grain stocks) and `research/model/reserve_basket.py` (cost of a complete storable diet). Run with `python3`.
+Models: `research/model/cereal_balance.py` (month-by-month grain stocks) and `research/model/reserve_basket.py` (v2: bottom-up cost of the National Insurance, sensitivity, milling check, break-even). Run with `python3`.
 
 ## Key findings
 
-1. **About one month of wheat at the pre-harvest low**, privately owned and not earmarked. Wheat, barley and oats together ≈ 2 months of calories. (01)
-2. **Grain isn't the binding constraint; protein feed and fertiliser are.** Pigs and poultry shrink when soya stops. (09)
+1. **About one month of wheat at the pre-harvest low** (1.514 Mt ≈ 32 days of raw-wheat energy), privately owned and not earmarked; the AHDB balance has a 794 kt unexplained residual. Wheat, barley and oats together ≈ 2 months of raw-grain calories. (01, 20)
+2. **In the tonnage model, grain balances stay positive; protein feed, fertiliser, milling and logistics are the likely binding constraints.** Pigs and poultry shrink when soya stops. (09, 20)
 3. **2026: the UK, France and Germany lost harvests together.** Trade insurance fails when the neighbours claim too. (07)
 4. **Two chokepoints in one year**, Hormuz and the Black Sea; in 2022, export bans covered 17% of traded calories. (05, 19)
-5. **The risk is affordability:** food inflation ~1.3% (Aug 2026), yet 12.2% of households are food-insecure. (05, 10)
-6. **The UK is an outlier:** no public or compulsory food reserve; Finland holds 6–9 months, Switzerland 3–4. (13, 14)
-7. **A complete diet can be stored and rotated with near-zero waste.** The headline policy is **the National Insurance (not National Insurance): £10 per person per year** (~£695m): a 90-day complete ration for everyone, 6 months of oils/rice/pulses, seed and nitrogen, 5 Mt of multi-purpose grain (human backup / feed buffer / overseas aid) and the operations to run it. (£2 buys ~8 weeks of complete food.) (16, 17; `ten_pound_package()`)
-8. **Per hectare, Britain is world-class** (wheat-yield world record, Lincolnshire); **per person, it is land-poor** (~⅓ of France's arable per head). Soils can recover: +25% soil carbon in 28 years with clover leys. (18)
+5. **The risk is affordability:** food inflation 1.3% (Sep 2026; CPI 3.5%), yet 12.2% of households are food-insecure. (05, 10)
+6. **Several comparable countries hold reserves; the UK holds none.** Finland 6–9 months of grain, Switzerland 2–4 months by product. (13, 14)
+7. **A survival reserve can be stored and rotated with planned, minimised losses.** The headline policy is **the National Insurance (not National Insurance): about £10 per person per year** (~£701m, costed bottom-up; £9–16 across cases): a mill-feasible 90-day survival ration, rice and oil to 6 months, 10 weeks of soya meal, half a season of seed, ~⅓ season of nitrogen as urea/UAN (no ammonium nitrate), a no-cook tranche, premix and formula, 3 Mt of food-grade grain, and itemised fuel, power, people and plans. (16, 17, 20; `package()`)
+8. **Per hectare, Britain is world-class** (wheat-yield world record, Lincolnshire); **per person, it is land-poor** (~⅓ of France's arable per head). Soils can recover: one Rothamsted clover-ley rotation raised topsoil carbon concentration by about a quarter in 28 years (one site). (18)
 9. **Carbon money is shifting to durable removals** (UK ETS from 2029, EU carbon-farming rules from 2026); soil-carbon offsets remain low-trust. (12, 19)
 10. **Nature work helps people and resilience at the scale of tens of thousands of jobs, not millions.** AI is the enabler (precision spraying, robots, data-centre heat), not the enemy. (04, 19)
+11. **A contingency ladder above the reserve:** fair rationing principles, a livestock destocking order and safe nitrogen, written in advance (21). **Second-order:** the reserve can stabilise neighbours and earn modest income at fair, pre-agreed prices (22).
+12. **Position:** one consistent carbon price, no free allowances, no subsidies for emitting, CO₂ as a commodity; a labour bridge from AI-disrupted work into low-carbon farming (23).
 
 ## Corrections to the earlier briefings
 - Claude PDF: "food inflation could reach 9% this year" has been overtaken (1.3% in Aug 2026).
@@ -74,8 +80,9 @@ Models: `research/model/cereal_balance.py` (month-by-month grain stocks) and `re
 - SFI26 Window 2: £180m base (+ rollover) vs the dossier's "~£253m"; reconcile.
 
 ## Open items
-1. Verify the key [P] figures against originals (NAO report, AHDB Sep 2026 tables, ONS CPI, Food Foundation, Swiss stock figures, FAOSTAT yields and land per person).
-2. Add a protein ledger and milling-capacity limit to the cereal model.
+1. Verify the key [P] figures against originals (NAO report PDF, AHDB Sep 2026 workbook, Food Foundation, Swiss stock figures, FAOSTAT yields and land per person).
+2. Add a protein ledger and onset-month option to the cereal model; get flour-mill surge capacity.
+2b. Quotes for storage, stores, fuel contracts; a dietitian-designed ration with variants; COMAH status of UAN; urea inhibitor shelf life (notes 20, 21).
 3. Scotland's 2026 support tiers; NI per-hectare rate.
 4. Salmon feed import share; mussel and oyster production.
 5. A worked local resilience forum (LRF) food plan example.

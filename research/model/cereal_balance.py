@@ -5,7 +5,11 @@ documented in research/notes/09-diet-shift-mass-balance.md. The model tracks one
 pooled stock of wheat, barley and oats (Mt), starting 1 July (pre-harvest low).
 It answers one question: under a given shock, in which month does the pooled
 cereal stock run out, and how much feed must be cut to keep food milling whole?
-It does not model protein, fats, micronutrients, quality or regional logistics.
+It does not model protein, fats, micronutrients, quality, milling capacity or
+regional logistics. Onset is always 1 July (the seasonal low); other onset
+months are not modelled. Negative stock means unmet demand, not stored grain.
+Imports are calibrated (an imposed closure, not a measured balance) and the
+pool includes imported maize. Revised after review round 1 (notes/20).
 
 Run:  python3 research/model/cereal_balance.py
 """
@@ -14,7 +18,7 @@ MONTHS = ["Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
           "Jan", "Feb", "Mar", "Apr", "May", "Jun"]
 
 BASE = {
-    "opening_stock": 2.95,   # Mt at 1 Jul: wheat 1.514 + barley ~1.3 + oats ~0.15 (AHDB 2025/26)
+    "opening_stock": 3.006,  # Mt at 1 Jul 2026: wheat 1.514 + barley 1.337 + oats 0.155 (AHDB, Sep 2026)
     "harvest": 19.5,         # Mt wheat+barley+oats, 2025 (Defra/AHDB, rounded)
     "harvest_split": {"Aug": 0.6, "Sep": 0.4},
     "food_milling": 6.0,     # Mt/yr flour milling, oat milling, food barley (assumption)
@@ -32,7 +36,7 @@ NEED_KCAL_DAY = 69.5e6 * 2250  # population energy need, kcal/day
 
 def run(name, years=2, harvest_factors=(1.0, 1.0), imports_on=False,
         exports_on=False, other_hi_factor=1.0, feed_factor=1.0,
-        extra_reserve=0.0, start=None):
+        extra_reserve=0.0):
     p = dict(BASE)
     stock = p["opening_stock"] + extra_reserve
     log = []
@@ -47,10 +51,11 @@ def run(name, years=2, harvest_factors=(1.0, 1.0), imports_on=False,
             if exports_on:
                 out += p["exports"] / 12
             stock -= out
-            log.append((f"Y{y+1}-{m}", round(stock, 2)))
-    first_empty = next((t for t, s in log if s < 0), None)
+            log.append((f"Y{y+1}-{m}", stock))      # full precision; round only for display
+    first = next(((i + 1, t) for i, (t, s) in enumerate(log) if s < 0), None)
     low = min(s for _, s in log)
-    return {"scenario": name, "first_month_empty": first_empty or "never",
+    label = f"{first[1]} (month {first[0]})" if first else "never"
+    return {"scenario": name, "first_month_empty": label,
             "lowest_stock_Mt": low, "log": log}
 
 
@@ -70,7 +75,7 @@ def feed_needed_to_survive(years, harvest_factors, other_hi_factor, extra=0.0):
 
 SCENARIOS = [
     ("A. Normal trade, normal harvests", dict(imports_on=True, exports_on=True)),
-    ("B. Imports stop 1 Jul, no policy response", dict()),
+    ("B. Imports and exports stop 1 Jul, no change in use", dict()),
     ("C. Imports stop, bioethanol/distilling cut 75%, feed -20%",
      dict(other_hi_factor=0.25, feed_factor=0.8)),
     ("D. As C, two poor harvests (-15% each)",
@@ -88,7 +93,7 @@ if __name__ == "__main__":
     print("|---|---|---|")
     for name, kw in SCENARIOS:
         r = run(name, **kw)
-        print(f"| {name} | {r['first_month_empty']} | {r['lowest_stock_Mt']} |")
+        print(f"| {name} | {r['first_month_empty']} | {r['lowest_stock_Mt']:.2f} |")
     print()
     print("Max feed level (share of today's 13.4 Mt) that keeps cereals positive for 24 months,"
           " with other H&I cut 75%:")

@@ -1,5 +1,7 @@
 # 16 · Can we store a complete diet, not just grain? And is a rotating reserve really "no downside"?
 
+> **Superseded in part (23 Oct 2026, review round 1):** the 350 g wheat ration cannot be milled at today's throughput, calcium depends on fortified flour, and oils keep 1–2 years, not "several". The current basket is the mill-feasible **survival ration** in `reserve_basket.py` v2 and note 20 §2.
+
 Tags: `research:supply-chain-reserves`, `research:calories-protein`, `research:scale-up-emergency`
 Question (project lead): can fats and protein be stored as well as grain, giving a fully functional diet that bridges an emergency until the economy and farming can switch within a season? And can it be framed as "no downside", because rotation means nothing is wasted?
 Status: 22 Oct 2026. Model: `research/model/reserve_basket.py`. Labels: [P] primary, [S] secondary, [E] my estimate or model, [?] unresolved. Nutrient values and shelf lives are typical figures, to be checked by a nutritionist.

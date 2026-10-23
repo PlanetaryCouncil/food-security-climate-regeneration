@@ -12,31 +12,36 @@ Status: 22 Oct 2026. Labels: [P] primary, [S] secondary, [E] my estimate or mode
 
 ## 2. Model: monthly pooled cereal stock (wheat + barley + oats) [E]
 
-Assumptions (rounded, editable in the script): opening stock at 1 July **2.95 Mt** (AHDB wheat 1.514 + barley ~1.3 + oats ~0.15); harvest **19.5 Mt** (2025), arriving Aug 60% / Sep 40%; food milling 6.0 Mt/yr; other human and industrial uses (malting, distilling, bioethanol, starch) 3.2 Mt/yr; feed 13.4 Mt/yr; seed 0.6 Mt/yr; exports 1.0 Mt/yr; imports 4.5 Mt/yr including maize (calibrated so the baseline roughly closes).
+Assumptions (rounded, editable in the script): opening stock at 1 July **3.006 Mt** (AHDB, Sep 2026: wheat 1.514 + barley 1.337 + oats 0.155; the barley year label on the AHDB page looks inconsistent, so reconcile with the workbook); harvest **19.5 Mt** (2025), arriving Aug 60% / Sep 40%; food milling 6.0 Mt/yr; other human and industrial uses (malting, distilling, bioethanol, starch) 3.2 Mt/yr; feed 13.4 Mt/yr; seed 0.6 Mt/yr; exports 1.0 Mt/yr; imports 4.5 Mt/yr including maize (**calibrated**, so the baseline closure is imposed, not measured).
+
+> **Corrected after review round 1 (note 20).** The earlier table said scenario D failed at "Y2-Jul (month 25)". That was a labelling error: Y2-Jul is month 13. With the corrected opening stock (3.006 Mt, full precision, no rounding inside the model) D now first goes negative in month 24. Scenario B is renamed: it already assumed exports stop. The unused `start` parameter was removed; onset is always 1 July. A negative stock means **unmet demand**, not grain in store.
 
 | Scenario | First month stock < 0 | Lowest stock (Mt) |
 |---|---|---|
-| A. Normal trade, normal harvests | never | 1.16 |
-| B. Imports stop 1 Jul, no policy response | **Y1-Jun** (month 12) | −4.45 |
-| C. Imports stop; bioethanol/distilling cut 75%; feed −20% | never | 1.49 |
-| D. As C, two poor harvests (−15% each) | Y2-Jul (month 25) | −0.14 |
-| E. As D, plus 1.5 Mt (~30-day) reserve | never | 1.36 |
-| F. Imports stop; 2nd harvest −35% (nitrogen cut); feed −20% | **Y2-Jun** (month 24) | −1.12 |
+| A. Normal trade, normal harvests | never | 1.21 |
+| B. Imports **and exports** stop 1 Jul, no change in use | **Y1-Jun** (month 12) | −4.39 |
+| C. Imports stop; bioethanol/distilling cut 75%; feed −20% | never | 1.55 |
+| D. As C, two poor harvests (−15% each) | Y2-Jun (month 24) | −0.08 |
+| E. As D, plus 1.5 Mt (~30-day) reserve | never | 1.42 |
+| F. Imports stop; 2nd harvest −35% (nitrogen cut); feed −20% | **Y2-Jun** (month 24) | −1.06 |
 
 Highest feed level (as a share of today's 13.4 Mt) that keeps cereals positive for 24 months, with other industrial use cut 75%:
 - normal harvests: **100%**
-- two −15% harvests: **79%**
+- two −15% harvests: **80%**
 - two −15% harvests + 1.5 Mt reserve: **85%**
 - second harvest −35% (nitrogen shortage): **76%**
 
-Pooled 1 July stock ≈ **62 days** of total population energy need (energy only; consistent with note 01).
+Pooled 1 July stock ≈ **63 days** of total population energy need (raw-grain energy only, at 3.3 Mcal/t and 2,250 kcal; not 63 days of edible food).
+
+Known limits flagged by reviewers: annual inflow 24.0 Mt vs outflow 24.2 Mt in the baseline (a 0.2 Mt/yr drift); harvest arrives in two monthly blocks; feed and biofuel cuts happen instantly (no transition, slaughter or welfare constraint); lost meat, eggs and milk are not replaced in the food ledger; ethanol/distilling cuts also remove distillers' grains (feed) and CO₂; the nitrogen shock is an imposed yield multiplier, not an agronomic model.
 
 **What the model shows:**
-1. **Policy response matters more than the reserve in year 1.** Stopping grain-to-ethanol, distilling and exports is worth several Mt; a 30-day reserve is 1.5 Mt.
-2. **The reserve earns its keep in multi-year shocks** (scenarios D and E) and at the *seasonal low* before the first harvest (July–August). That is the window where a shock hits hardest.
-3. **A nitrogen shock is worse than a weather shock** (F vs D), because it compounds: imported N fails exactly when imported food fails.
+1. **Grain balances can stay positive under assumed demand cuts** (this does not prove grain is never the binding constraint: quality, milling, protein and logistics are not modelled).
+2. **Policy response matters more than the reserve in year 1.** Stopping grain-to-ethanol, distilling and exports is worth several Mt; a 30-day reserve is 1.5 Mt.
+3. **The reserve earns its keep in multi-year shocks** (scenarios D and E) and at the *seasonal low* before the first harvest (July–August). That is the window where a shock hits hardest.
+4. **A nitrogen shock is worse than a weather shock** (F vs D), because it compounds: imported N fails exactly when imported food fails.
 
-**What it does not show:** protein, fats, micronutrients, grain quality (feed wheat vs milling wheat), milling capacity (~5–5.5 Mt/yr of wheat milled today), regional logistics, or household access. It is a pooled tonnage model and should be read as a *bounding* exercise.
+**What it does not show:** protein, fats, micronutrients, grain quality (feed wheat vs milling wheat), milling capacity (~4.8–4.9 Mt/yr of wheat milled today, UK Flour Millers 2025; usage, not rated capacity), regional logistics, or household access. It is a pooled tonnage model and should be read as a *bounding* exercise.
 
 ## 3. The protein and nutrient side (from dossier Part 3, not yet re-verified)
 

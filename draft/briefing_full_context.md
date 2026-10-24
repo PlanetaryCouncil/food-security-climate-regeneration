@@ -2,7 +2,7 @@
 
 **Version:** final draft, 23 October 2026
 **Project:** UK food security, climate, resilience and regeneration; a ~14-page public briefing (one page per chapter) for MPs, officials and the public.
-**Repository:** `planetarycouncil/food-security-climate-regeneration`, branch `claude/focused-mendel-5qswh8`. Research notes are in `research/notes/` (24 notes) and the models in `research/model/` (two Python models).
+**Repository:** `planetarycouncil/food-security-climate-regeneration`, branch `claude/focused-mendel-5qswh8`. Research notes are in `research/notes/` (25 notes) and the models in `research/model/` (two Python models).
 
 ---
 
@@ -39,15 +39,16 @@
      - more home-grown protein;
      - regenerative farming where it pays.
    - **The reserve buys time; domestic resilience decides what we can grow with that time.** Neither works alone.
-5. **A contingency ladder above both.** Fair rationing, a livestock destocking order and safe nitrogen are written down in advance: a contingency to the contingency, rarely needed and never improvised.
-6. **Second-order benefits.** A reliable reserve helps stabilise neighbours and earns modest income in calm years, at fair, pre-agreed prices, never by gouging in a crisis.
-7. **A wider transition:**
+5. **Work and a food-producing nation.** Both pillars need people: roughly 25,000–45,000 skilled, rural jobs over a decade across the reserve, the resilience programme, a work-in-nature pilot and regenerative farming. That is a real answer for some of the people AI displaces from office work, and a chance to make farming a prestigious career again. Britain should **grow a surplus of what it grows best**: sold abroad in good years, kept at home in bad ones. A surplus is a reserve that pays its way.
+6. **A contingency ladder above both.** Fair rationing, a livestock destocking order and safe nitrogen are written down in advance: a contingency to the contingency, rarely needed and never improvised.
+7. **Second-order benefits.** A reliable reserve helps stabilise neighbours and earns modest income in calm years, at fair, pre-agreed prices, never by gouging in a crisis.
+8. **A wider transition:**
    - one consistent carbon price across jurisdictions, with no free allowances, no subsidies for emitting, and CO₂ treated as a commodity;
    - payment for verified removal;
    - meaningful work in farming and nature as AI changes office work.
 
    Together these are a **shift in how we see food**: from cheap product to shared foundation.
-8. **Resilience through transparency.** Every claim carries its source and confidence label.
+9. **Resilience through transparency.** Every claim carries its source and confidence label.
 
 ---
 
@@ -577,6 +578,12 @@ None of this needs new land or new subsidy on top of what Britain spends today; 
 16. A first-year UK enhanced-rock-weathering trial found **crop yields +15%** (one trial; removal rates not yet published) [S]
 17. **Domestic Resilience programme:** ~**£310m a year ≈ £4.46 per person** of new money: soil and water monitoring £35m, water storage £100m, seed security £40m, nutrient independence £60m, regenerative transition £50m, home-grown protein £25m. Alongside ~£4.87bn of existing farm support (~£70 per person) pointed at resilience outcomes. `reserve_basket.py` [E]
 
+**Why it matters beyond food:** regenerative farming done well builds soil, water, biodiversity, rural jobs, wellbeing and community, and draws down some carbon. The infographic below sums up the 16 benefits; chapter 12 checks each against the evidence.
+
+![16 benefits of regenerative farming: in the ground, on the farm, in the community, for the planet and the future](../assets/16-benefits-of-regenerative-farming.jpg)
+
+*Infographic: Planetary Council · Ministry of Memes and Better Propaganda. Advocacy art; evidence labels for each benefit are in chapter 12.*
+
 **How the two pillars work together [I]**
 
 | Need | Store (chapter 9) | Grow (this chapter) |
@@ -683,11 +690,17 @@ And it is **open**. A programme that builds warehouses, uses ports and employs a
 
 ---
 
-## Chapter 12 · Work, wellbeing and the AI economy
+## Chapter 12 · Work, prestige and a food-producing nation
 
-**Headline:** Meaningful work in nature, piloted and paid properly, with AI as the tool, not the threat.
+**Headline:** Make farming a career people are proud of, let AI do the drudgery, and grow a surplus Britain can sell in good years and eat in bad ones.
 
-**Narrative:** AI and automation are hollowing out entry-level office work. Meanwhile Britain needs skilled people to rebuild soils, hedges, woodland and peat, run glasshouses and manage a national food reserve. Structured work outdoors measurably improves mental health, and America's 1930s conservation corps improved participants' health and earnings for decades. Farm work today is badly designed: seasonal, isolated and stressful. So the jobs must be rebuilt, not just offered. A **regenerative transition corps** could employ tens of thousands, with AI handling drudgery and precision, and people doing the judgement work. It is not a mass answer to AI job losses; it is meaningful work that also buys national resilience. The best fit for data-literate workers displaced by AI is measurement: soil sampling, drone and satellite surveys, carbon and biodiversity verification, and running the reserve itself, which needs ~1,000 permanent staff in stores, haulage, production and local planning, a lean AI-heavy agency of ~60 with an innovation department, and a possible paid volunteer corps (chapters 9 and 11, notes 22–23).
+**Narrative:** Two things are happening at once. AI and automation are hollowing out entry-level office work: graduate adverts are at their lowest since 2016 and youth unemployment is above 16%. Meanwhile Britain's farms are ageing: 40% of English farm holders are over 65 and only 5% are under 35. Both pillars of this plan need people. The reserve needs people in stores, labs, haulage and local planning. Domestic resilience needs soil testers, water engineers, seed breeders, nutrient advisers, pulse processors, and farmers moving to regenerative systems.
+
+**The work is good for people.** Structured work outdoors measurably reduces depression and anxiety. America's 1930s conservation corps raised participants' health, longevity and lifetime earnings. Work with a purpose, done with others, builds the things on the infographic below: wellbeing, skills, local income and stronger communities. But farm work today is often isolated, seasonal and stressful (91% of young farmers call mental health the industry's biggest hidden problem). So the jobs must be **redesigned**, not just advertised: decent pay, training ladders, housing, teams instead of isolation, and AI and robots doing the repetitive and precise tasks.
+
+**Farming as a prestigious career.** The Netherlands made agriculture a high-tech, high-status sector built around world-class research and training. Britain can do the same: a data-rich profession in soil science, water, genetics, robotics and ecology, with clear routes in through apprenticeships, degrees, starter farms and county-farm tenancies, and public recognition through the Food Reserve Volunteers and a national resilience role. The cultural shift is from "farming is what you do if you can't do anything else" to "farming is how the country stays fed, healthy and free".
+
+**A food-producing nation.** Britain grows wheat at about twice the world-average yield, has reliable western rainfall, long growing seasons and, as AI frees up labour, people. It will never grow everything it eats (land per person is a third of France's, and it can't grow bananas or coffee). But it can **produce more of what it grows best and sell the surplus**: cereals, oats and barley, dairy, lamb, seed potatoes, salmon (on home-grown feed), glasshouse vegetables on waste heat, and premium, high-standard, low-carbon food. A surplus is itself a reserve: in a crisis, food that would have been exported stays at home. That is how exporting countries protected themselves in 2022.
 
 **Included claims**
 1. Graduate job adverts **8,383 in Jul 2026, −45.6% y/y**, lowest since 2016. Adzuna via press: https://e.vnexpress.net/news/news/education/uk-graduate-jobs-plunge-to-record-low-as-ai-reshapes-entry-level-employment-market-5127639.html [S]
@@ -708,6 +721,38 @@ And it is **open**. A programme that builds warehouses, uses ports and employs a
 16. A "+300% farm labour" scenario would mean ~1.34 m extra workers ≈ **£33bn/yr** at £25k, ~4× total income from farming [E]
 17. **Start with a costed pilot**, not a jobs promise: there is no evidence yet that displaced office workers move into land work (Pick for Britain, claim 11, is counter-evidence). Illustration: 10,000 jobs at ~£35k fully loaded ≈ **£350m a year**, with named employers, paid accredited training, rural housing and transport [E]
 
+18. English farm holders: **40% over 65, 5% under 35**. Defra Farming Evidence Pack, Sep 2026 [P]
+19. **Jobs across both pillars [E]**, planning estimates, not a labour-market study:
+    - Store (Strategic Food Reserve): ~**1,000 permanent** + ~1,400 construction jobs a year while stores are built.
+    - Grow (Domestic Resilience programme, ~£310m a year): ~**2,500**: reservoir construction ~800, nutrient services ~500, seed and breeding ~400, advisers and farmer networks ~400, soil and water monitoring ~300, protein processing ~150.
+    - Work-in-nature pilot: **10,000** paid places (~£350m a year).
+    - Regenerative and higher-output farming: plausibly **10,000–30,000** additional farm and processing jobs over a decade if adoption is wide (organic and regenerative systems use more labour per hectare); a range, not a forecast.
+    - **Total: roughly 25,000–45,000 over a decade.** Meaningful, rural and skilled; not a mass answer to AI job losses.
+20. UK food and drink **exports hit a record £25.6bn in 2025** (£18.1bn excluding alcohol), while **imports were £66.9bn**: a gap of ~£41bn. In the first half of 2026 the food and drink trade deficit was the widest since 2000. FDF trade snapshot: https://www.fdf.org.uk/fdf/resources/publications/trade-reports/fdf-trade-snapshot-2025/ [S]
+21. **A surplus is a latent reserve:** in 2022, exporters protected their own consumers by restricting exports (32 countries, 77 measures). A country producing more than it needs can keep food at home in a crisis; this is the logic behind growing a UK surplus in what it grows best [P/I]
+22. The UK production-to-supply ratio was **over 80% in the 1980s** and is **60%** today (by value); indigenous-type foods 72%. Raising it is a choice, not a law of nature. Defra AUK 2025 ch.14 [P]
+
+**The 16 benefits of regenerative farming, checked** (infographic in chapter 10; evidence labels added)
+
+| # | Benefit | Evidence |
+|---|---|---|
+| 1 | Healthy soils | **Supported** at specific sites: leys and clover raised topsoil carbon (Rothamsted); results vary by soil [P] |
+| 2 | Erosion control | **Supported**: cover and less bare soil reduce erosion; erosion is 12% of the £1.2bn soil-degradation cost [P] |
+| 3 | Healthy water cycles | **Supported in principle**: better structure improves infiltration; size of effect varies [S] |
+| 4 | Biodiversity recovery | **Supported** for hedges, margins and flower-rich leys [S] |
+| 5 | Lower input costs | **Partly**: *less* synthetic input, not *none*; modelled profitable after 3–5 years, with upfront costs [S] |
+| 6 | Livestock welfare | **Plausible, system-dependent**: outdoor grass systems can improve welfare; fewer antibiotics not yet shown at UK scale [?] |
+| 7 | Climate resilience | **Partly supported**: better soil holds more water in droughts and drains better in floods; not a guarantee [S] |
+| 8 | Nutrient-dense food | **Weak or mixed evidence**: plausible for some crops, not established [?] |
+| 9 | Physical and mental wellbeing | **Supported for structured outdoor activity** (depression −0.64, anxiety −0.94 SMD); depends on job design [P] |
+| 10 | Local jobs and income | **Supported**: more labour per hectare; local markets help [P/S] |
+| 11 | Education and skills | **Interpretation**: hands-on learning and reconnection with nature [I] |
+| 12 | Stronger communities | **Interpretation**: shared purpose, trust, mutual support [I] |
+| 13 | Carbon sequestration | **Real but limited**: soil carbon rises then plateaus, is hard to measure and can be lost; certify carefully (chapter 13) [P/S] |
+| 14 | Cleaner air | **Plausible**: less fertiliser and better manure handling cut ammonia, which forms fine-particle pollution [S] |
+| 15 | Spiritual connection | **Personal and cultural value** (wonder, reverence); not a measurable claim, and none the worse for that [I] |
+| 16 | Thriving future generations | **The purpose** of the whole plan [I] |
+
 **Proactive criticism and context**
 - The share of entry-level decline caused by AI is contested: the Institute of Student Employers saw only an 8% dip in graduate hiring, and employers also cite higher national insurance and minimum-wage costs.
 - The wellbeing evidence applies to *structured, social, part-time* activity, not 50-hour piece-rate picking.
@@ -716,6 +761,11 @@ And it is **open**. A programme that builds warehouses, uses ports and employs a
 - A land-work programme needs funded tasks, training, accessibility, rural housing and transport, and occupational-health input.
 - Recommend pairing the corps with income policy for an AI economy, funded from carbon revenue and the AI productivity dividend [I].
 
+- **"Food powerhouse" has limits:** at ~0.09 ha of arable land per person, the UK cannot be self-sufficient in everything; fruit, vegetables and tropical goods will stay largely imported. Food is a few percent of UK exports, not the main one. The realistic goal is a higher production-to-supply ratio, a regular grain surplus, and premium exports where the UK has an advantage.
+- **Higher output and regenerative farming can pull against each other** on some land (leys take land out of crops). Keep the best land in high-yield food production and use regenerative practices where they raise long-run yield and resilience.
+- **Salmon depends on imported feed**; "home-grown feed" for salmon is a goal, not a fact.
+- **Prestige follows pay, land access and housing**, not slogans. New entrants cannot start without land: starter farms, long tenancies and county farms matter more than campaigns.
+- **The infographic is advocacy art** (credited "Planetary Council · Ministry of Memes and Better Propaganda"); the evidence table above is the factual version.
 ---
 
 ## Chapter 13 · A new economy of food

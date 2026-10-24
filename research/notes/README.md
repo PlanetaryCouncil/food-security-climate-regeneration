@@ -22,7 +22,7 @@ Research base for a ~14-page briefing (one page per chapter): **Can Britain Feed
 | 9 | **Pillar 1, STORE: the UK Strategic Food Reserve,** about £10 per person per year; human food first, food for everyone | 16, 19, 22 |
 | 10 | **Pillar 2, GROW: domestic resilience:** soil, water, seed, fertiliser, protein, regenerative farming | 24, 03, 15, 17 |
 | 11 | **Running it:** a lean (~65), open, automated agency; port hubs, district stores, local points | 23 |
-| 12 | **Work, wellbeing and the AI economy** | 04, 18, 21 |
+| 12 | **Work, prestige and a food-producing nation:** jobs across both pillars, AI and work, the 16 benefits of regenerative farming, a food surplus | 04, 18, 21, 25 |
 | 13 | **A new economy of food:** one carbon price, full-cost accounting, the four nations | 08, 12, 18, 21 |
 | 14 | **The plan:** both pillars, the contingency ladder (rationing, livestock, nitrogen), governance | 15, 19 |
 
@@ -54,6 +54,7 @@ Research base for a ~14-page briefing (one page per chapter): **Can Britain Feed
 | 22 | Human food first, food for everyone, and the jobs |
 | 23 | Running it: a lean, open, automated agency and a decentralised network |
 | 24 | Domestic resilience: soil, water, seed and fertiliser |
+| 25 | Work, prestige and a food-producing nation (with the 16-benefits infographic) |
 
 Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, priority schedule, break-even, jobs) and `research/model/cereal_balance.py` (month-by-month grain stocks). Run with `python3`.
 
@@ -83,7 +84,8 @@ Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, p
 9. **A lean (~65), open, automated agency** with a decentralised network near ports and people; open by default because a programme this size cannot be secret. (23)
 10. **A contingency ladder** above both pillars: fair rationing, a livestock destocking order, safe nitrogen. (19)
 11. **Per hectare, Britain is world-class; per person, it is land-poor.** Soils can recover. (17)
-12. **One carbon price, no free allowances, no subsidies for emitting**; meaningful work in nature as AI changes office work, starting with costed pilots. (12, 18, 21)
+12. **One carbon price, no free allowances, no subsidies for emitting.** (12, 18, 21)
+13. **Work and a food-producing nation:** ~25,000–45,000 skilled rural jobs over a decade across both pillars; farming as a prestigious career; grow a surplus of what Britain grows best, because a surplus is a latent reserve. (25)
 
 ## Open items
 

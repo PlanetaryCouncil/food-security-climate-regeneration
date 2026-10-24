@@ -1,6 +1,6 @@
 # Food security, climate and regeneration (UK)
 
-**Can Britain Feed Itself? Store and grow.** A ~14-page briefing on UK food resilience with two equally important pillars:
+**Can Britain Feed Itself? Store and grow.** A ~14-page briefing on UK food resilience. **The benefit first:** safety and stability for about £10 a person a year, insuring a £153bn-a-year food system and 4.1 m jobs for under 0.5% of its output. Two equally important pillars:
 
 - **STORE:** the **UK Strategic Food Reserve**, about £10 per person per year. Human food first and food for everyone: bread from 4 Mt of food-grade wheat, a no-cook ration and vitamin tablets for all, plus seed, safe nitrogen, protein feed and imported staples. It is run by a lean, open, automated agency.
 - **GROW:** **domestic resilience**, about £4.50 per person per year of new money plus better-aimed farm support. It covers soil, water, seed, fertiliser, home-grown protein and regenerative farming.

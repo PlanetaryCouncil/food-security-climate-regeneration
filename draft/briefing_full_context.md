@@ -2,7 +2,7 @@
 
 **Version:** final draft, 24 October 2026 (after three rounds of adversarial review)
 **Project:** UK food security, climate, resilience and regeneration; a ~14-page public briefing (one page per chapter) for MPs, officials and the public.
-**Repository:** `planetarycouncil/food-security-climate-regeneration`, branch `claude/focused-mendel-5qswh8`. Research notes are in `research/notes/` (26 notes) and the models in `research/model/` (two Python models).
+**Repository:** `planetarycouncil/food-security-climate-regeneration`, branch `claude/focused-mendel-5qswh8`. Research notes are in `research/notes/` (27 notes) and the models in `research/model/` (two Python models).
 
 ---
 
@@ -20,6 +20,7 @@
 
 ## 1. The argument
 
+0. **The benefit first: safety and stability for about £10 a person a year.** The plan insures a food system worth £153bn a year and 4.1 m jobs for under 0.5% of its output. It pays for itself if it prevents a 1%-of-GDP shock once in 40 years, or lifts national wellbeing by an amount too small to measure (section 1A).
 1. **Britain is resilient on paper, fragile in practice.** Its farms grow just enough calories in a normal year (a margin of 31 kcal per person per day). But it depends on imported gas-based fertiliser, imported soya for animal feed, a just-in-time supply chain and weather that is getting more volatile. It holds **no public food reserve**.
 2. **Nature gave Britain world-class farmland per hectare but little land per person.** What we grow, and who eats it, is the key choice. Soils can recover.
 3. **Food is the foundation of social stability and a tool of geopolitics.** Price shocks and unfairness, not empty fields, break public trust.
@@ -49,6 +50,40 @@
 
    Together these are a **shift in how we see food**: from cheap product to shared foundation.
 9. **Resilience through transparency.** Every claim carries its source and confidence label.
+
+---
+
+## 1A. What we get: the value of safety and stability
+
+**Headline:** Safety is invisible when it works. That is why it is underpriced, and why it is worth paying for.
+
+**Narrative:** Markets will value a space company in trillions on hope; a reported forecast this month put SpaceX at over $100 trillion within ten years [S/?]. Nobody prices the thing every one of those companies quietly assumes: that the people who build them will eat this week. Safety is the quiet asset under all the others. When it works, nothing happens, and nothing happening looks like money wasted. Mark Carney called this the "tragedy of the horizon": the costs of preparing arrive now, the losses they prevent arrive later and land on someone else. So we set out what the plan buys, in five currencies, and how small the benefit needs to be for it to pay its way.
+
+**What £10.33 (store) and £14.79 (both pillars) per person buy [E: break-even thresholds, not forecasts]**
+
+| Benefit | What it means | Pays for itself if… (store \| both) |
+|---|---|---|
+| **Safety of the food system** | Insurance on a sector worth **£153bn a year** (6% of the economy) employing **4.1 m people** (Defra pocketbook [P]) | The premium is **0.47% \| 0.67%** of the sector's annual output: about £175 \| £250 per food job a year |
+| **Peace of mind** | People know there is a plan, food and fuel for everyone; households are no longer told to prepare while the state holds nothing | It lifts average life satisfaction by **0.0008 \| 0.0011 points** on the 0–10 scale (at the Treasury's £13,000 per WELLBY [P]); far too small to measure, so a threshold, not a claim |
+| **Lives** | Hunger, cold food without water, missed medicines and formula in a long disruption | It prevents ~**290 \| ~410** deaths a year on average, or ~11,500 \| ~16,400 in one catastrophe once every 40 years (DfT value of a prevented fatality, £1.8m in 2016 prices, ~£2.5m today [P/E]) |
+| **A stable economy** | Mills, shops and offices keep running; no panic buying; less pressure for emergency borrowing | One week of 10% lower national output (≈ £5.6bn) costs **~8 \| ~5 years** of the programme; a 1%-of-GDP shock avoided once every ~40 years pays for the reserve [E] |
+| **Social stability** | Rising food prices and unfairness, more than empty fields, are followed by unrest (Bellemare 2015 [P]); fair shares keep trust | Not priced: the 2000 fuel blockade brought supermarkets within days of running out [S] |
+
+**Benefits that are real but not priced here [I]:**
+- **Security and sovereignty:** food cannot easily be used as leverage against a country that holds stock; Britain can keep its exports open and help allies instead of competing for scarce supply.
+- **Bargaining power:** a buyer that does not have to panic-buy pays less in a crisis.
+- **The next harvest:** seed and nitrogen in store protect the following year, not just this one.
+- **Work and places:** ~3,500 funded permanent, mostly rural jobs; farming as a career people are proud of (chapter 12).
+- **Soil, water and climate:** the grow pillar rebuilds the land that every future harvest stands on (chapter 10).
+- **Health:** vitamins for everyone and fortified flour in a crisis; WWII rationing coincided with falling infant mortality (chapter 7).
+
+**Scale:** the UK spends ~£68bn a year on defence, about **£980 per person**. The reserve is about **£10**: roughly 1p of food security for every £1 of military security.
+
+**Proactive criticism and context**
+- These are **thresholds**: they show how small a benefit is enough, not how big the benefit will be. Any single row is enough to justify the cost only if that benefit actually occurs.
+- The WELLBY value is in 2019 prices and the fatality value in 2016 prices; uprating both makes the thresholds lower, not higher.
+- The SpaceX figure is a reported forecast by an interested party, not a valuation; it is here only as contrast, not evidence.
+- The reserve does not stop inflation (chapter 9); its stability value is time, access and fairness, not lower prices.
 
 ---
 
@@ -557,6 +592,8 @@ The Strategic Food Reserve is sized for the **common** shock (weeks to months). 
 - "An army defends the border. A food reserve defends the dinner table."
 - "A food reserve buys time, if we can turn it into meals."
 - "Under 3p a day. About 1% of the defence budget."
+- "Safety is invisible when it works. That is not a reason to stop paying for it."
+- "A $100 trillion company still needs lunch."
 - "The rare catastrophe isn't a reason to despair. It's the reason to prepare."
 
 ---

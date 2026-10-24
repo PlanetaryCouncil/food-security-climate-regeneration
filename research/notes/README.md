@@ -11,6 +11,7 @@ Research base for a ~14-page briefing (one page per chapter): **Can Britain Feed
 
 | # | Chapter | Notes |
 |---|---|---|
+| 1A | **What we get: the value of safety and stability** (benefits first) | 27 |
 | 1 | **Can Britain feed itself?** Resilient on paper, fragile in practice | 01, 09 |
 | 2 | **Nature's gift:** world-class yields per hectare, land-poor per person, soils that can recover | 17 |
 | 3 | **Climate is changing the odds:** compound extremes, Europe failing together, new pests | 07 |
@@ -57,6 +58,7 @@ Research base for a ~14-page briefing (one page per chapter): **Can Britain Feed
 | 24 | Domestic resilience: soil, water, seed and fertiliser |
 | 25 | Work, prestige and a food-producing nation (with the 16-benefits infographic) |
 | 26 | Homes, Land and Livelihoods: garden villages, new towns and land work (related concept) |
+| 27 | The value of safety and stability (benefits and break-even thresholds) |
 
 Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, priority schedule, break-even, jobs) and `research/model/cereal_balance.py` (month-by-month grain stocks). Run with `python3`.
 
@@ -88,7 +90,8 @@ Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, p
 11. **Per hectare, Britain is world-class; per person, it is land-poor.** Soils can recover. (17)
 12. **One carbon price, no free allowances, no subsidies for emitting.** (12, 18, 21)
 13. **Work and a food-producing nation:** ~3,500 funded permanent jobs across both pillars (a work-in-nature pilot would be separate and separately funded); farming as a prestigious career; grow a surplus of what Britain grows best, which works as a reserve only for crops already in surplus and with an export-licence trigger. (25)
-14. **Related concept:** Homes, Land and Livelihoods, clustered community-owned settlements with shared land, piloted on 2–3 sites first. Not part of the costed plan. (26)
+14. **The benefit first:** the plan insures a £153bn-a-year food system and 4.1 m jobs for under 0.5% of its output; it pays for itself if it avoids a 1%-of-GDP shock once in ~40 years, or lifts wellbeing by an unmeasurably small amount. (27)
+15. **Related concept:** Homes, Land and Livelihoods, clustered community-owned settlements with shared land, piloted on 2–3 sites first. Not part of the costed plan. (26)
 
 ## Open items
 

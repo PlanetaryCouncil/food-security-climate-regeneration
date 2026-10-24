@@ -20,12 +20,14 @@ Planning estimates, not a labour-market study.
 
 | Source | Jobs | Basis |
 |---|---|---|
-| Strategic Food Reserve (store) | ~1,000 permanent | Agency ~65, stores ~280, labs ~40, haulage ~260, crispbread/biscuit/canning ~150, local planners ~135, training ~100 (`jobs()` in the model) |
-| Reserve construction | ~1,400 a year for ~5 years | ~£0.7bn of new stores at ~£100k per job-year |
+| Strategic Food Reserve (store) | ~1,070 permanent | Agency ~65, stores ~280, labs ~40, haulage ~300, crispbread/biscuit/canning ~150, local planners ~135, training ~100 (`jobs()` in the model) |
+| Reserve construction | ~1,400 job-years a year for ~5 years | ~£0.7bn of new stores at ~£100k per job-year (temporary) |
 | Domestic Resilience programme (grow, ~£310m a year) | ~2,500 | Reservoir construction ~800, nutrient services ~500, seed and breeding ~400, advisers and farmer networks ~400, soil and water monitoring ~300, protein processing ~150 |
-| Work-in-nature pilot | 10,000 | ~£350m a year at ~£35k fully loaded |
-| Regenerative and higher-output farming | 10,000–30,000 over a decade | More labour per hectare in organic and regenerative systems (~32% more per farm in one UK study) [P/S]; depends on adoption |
-| **Total** | **~25,000–45,000 over a decade** | Meaningful and rural; not a mass answer to up to 8 m jobs exposed to AI in IPPR's worst case [P] |
+| **Funded, permanent total** | **~3,500** | Gross, not net of displaced work |
+| Work-in-nature pilot | 10,000 places | **Not funded** in either pillar: ~£350m a year at ~£35k fully loaded would be a separate decision |
+| Regenerative and higher-output farming | Not estimated | More labour per hectare in organic and regenerative systems (~32% more per farm in one 2006 UK study) [P/S], but no UK study shows net jobs or better pay |
+
+Rows are not added into one grand total: permanent posts, temporary job-years and unfunded places are different things. The headline is ~3,500 funded permanent jobs. Not an answer to up to 8 m jobs exposed to AI in IPPR's worst case [P].
 
 ## 3. Why the work matters: social benefits
 

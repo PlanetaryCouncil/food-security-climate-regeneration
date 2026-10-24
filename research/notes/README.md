@@ -25,6 +25,7 @@ Research base for a ~14-page briefing (one page per chapter): **Can Britain Feed
 | 12 | **Work, prestige and a food-producing nation:** jobs across both pillars, AI and work, the 16 benefits of regenerative farming, a food surplus | 04, 18, 21, 25 |
 | 13 | **A new economy of food:** one carbon price, full-cost accounting, the four nations | 08, 12, 18, 21 |
 | 14 | **The plan:** both pillars, the contingency ladder (rationing, livestock, nitrogen), governance | 15, 19 |
+| – | **Related concept (not costed): Homes, Land and Livelihoods:** garden villages, new towns, shared land and land work | 26 |
 
 ## All notes
 
@@ -55,6 +56,7 @@ Research base for a ~14-page briefing (one page per chapter): **Can Britain Feed
 | 23 | Running it: a lean, open, automated agency and a decentralised network |
 | 24 | Domestic resilience: soil, water, seed and fertiliser |
 | 25 | Work, prestige and a food-producing nation (with the 16-benefits infographic) |
+| 26 | Homes, Land and Livelihoods: garden villages, new towns and land work (related concept) |
 
 Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, priority schedule, break-even, jobs) and `research/model/cereal_balance.py` (month-by-month grain stocks). Run with `python3`.
 
@@ -66,7 +68,7 @@ Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, p
 4. **Two chokepoints in one year**, Hormuz and the Black Sea; in 2022, export bans covered ~17% of traded calories. (05, 18)
 5. **The risk is affordability:** food inflation 1.3% (Sep 2026), yet 12.2% of households are food-insecure. (05, 10)
 6. **Several comparable countries hold reserves; the UK holds none.** (13, 14)
-7. **Pillar 1, STORE: the UK Strategic Food Reserve, ~£10.25 per person per year.**
+7. **Pillar 1, STORE: the UK Strategic Food Reserve, ~£10.33 per person per year.**
    - Human food first and food for everyone: bread from 4 Mt of food-grade wheat, a 3-day no-cook ration and tablets for all, plus specialist food.
    - Seed, safe nitrogen, soya meal and imported staples.
    - Paid as a public crisis tranche (~£5, taxes) plus compulsory commercial stocks (~£5, prices).
@@ -85,7 +87,8 @@ Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, p
 10. **A contingency ladder** above both pillars: fair rationing, a livestock destocking order, safe nitrogen. (19)
 11. **Per hectare, Britain is world-class; per person, it is land-poor.** Soils can recover. (17)
 12. **One carbon price, no free allowances, no subsidies for emitting.** (12, 18, 21)
-13. **Work and a food-producing nation:** ~25,000–45,000 skilled rural jobs over a decade across both pillars; farming as a prestigious career; grow a surplus of what Britain grows best, because a surplus is a latent reserve. (25)
+13. **Work and a food-producing nation:** ~3,500 funded permanent jobs across both pillars (a work-in-nature pilot would be separate and separately funded); farming as a prestigious career; grow a surplus of what Britain grows best, which works as a reserve only for crops already in surplus and with an export-licence trigger. (25)
+14. **Related concept:** Homes, Land and Livelihoods, clustered community-owned settlements with shared land, piloted on 2–3 sites first. Not part of the costed plan. (26)
 
 ## Open items
 
@@ -95,3 +98,5 @@ Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, p
 4. ONS classification and subsidy-control treatment of compulsory stocks.
 5. Flour-mill surge capacity; UK seed-multiplication capacity; bulk-grain ports and flood exposure.
 6. Defra's reply to the FOI request (due ~18 Nov 2026).
+7. ONS view on compulsory stocks; firms' financing terms; a feed-grade grain plan separate from the 4 Mt bread floor.
+8. Water companies' emergency capacity for the whole population.

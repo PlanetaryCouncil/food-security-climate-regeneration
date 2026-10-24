@@ -119,7 +119,7 @@ Framed as protection against scalping and hoarding, not as wartime austerity:
 3. **Paper fallback:** serialised paper entitlements held in regional vaults, issued via post offices and polling stations only if level 3 is declared. Digital entitlements fail in the blackout the reserve exists for.
 4. **Minimal personal data**, appeals, replacement, and **no documentation barrier** to emergency food.
 
-**Law:** Civil Contingencies Act 2004 Part 2 regulations *can* provide for rationing, price measures, directions and requisition, subject to necessity, proportionality and rights, but they **lapse after 30 days** without parliamentary approval [R]. A **Food Security (Emergency) Act** should pre-build the standing scheme: stock obligations and inspection, release authority, compensation and appeals, data limits, devolved delivery agreements. The CCA then only switches it on.
+**Law:** Civil Contingencies Act 2004 Part 2 regulations *can* provide for rationing, price measures, directions and requisition, subject to necessity, proportionality and rights, but they lapse unless both Houses approve them **within 7 days of being laid**, and expire **30 days after being made** unless renewed (ss. 26–27) [R]. A **Food Security (Emergency) Act** should pre-build the standing scheme: stock obligations and inspection, release authority, compensation and appeals, data limits, devolved delivery agreements. The CCA then only switches it on.
 
 ### 7.4 Refill rule (corrected)
 

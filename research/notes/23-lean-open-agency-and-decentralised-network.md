@@ -68,10 +68,10 @@ Date: 23 October 2026. Status: author design [I] with costed assumptions [E], im
 | Sensor maintenance, data platform, AI compute, offline backups | 4.0 |
 | Confirmatory lab certificates on release | 3.0 |
 | Open data and public feedback platform | 1.5 |
-| Independent audit and unannounced spot checks | 2.0 |
-| **Total** | **~27.3** |
+| Independent inspectorate: unannounced physical assay, additionality checks against registered commercial baselines | 8.0 |
+| **Total** | **~33.3** |
 
-**Package total: ~£712m ≈ £10.25 per person per year** (public £4.84 via taxes; compulsory stocks £5.40 via prices). Range £9.32–16.43; £18.21 under severe stress.
+**Package total: ~£718m ≈ £10.33 per person per year** (public £4.93 via taxes; compulsory stocks £5.40 via prices). Range £9.40–16.56; £18.34 under severe stress.
 
 ## 5. The decentralised network: near ports, near people
 
@@ -104,10 +104,12 @@ Hence the mix: port hubs for import and export, district stores for resilience, 
 **What openness buys:**
 - **Trust:** people do not panic-buy when they can see the stock.
 - **Accountability:** paper stock and quiet raiding are harder when monthly figures are public.
-- **Market calm:** a published purchase calendar stops traders guessing.
+- **Market calm:** published buying rules and quarterly volumes stop traders guessing, without exact dates that invite front-running.
 - **Deterrence:** an adversary knows that disrupting one site achieves little.
 
 **What is withheld:** live security operations (alarm systems, guard rotas, real-time stock per site). That is ordinary building security, not secrecy about the programme.
+
+**Published exceptions.** Open by default does not mean everything: a short, public list of exceptions is withheld, namely exact sites and tank volumes of fuel, infant formula and nitrogen, live release routes, and precise purchase dates. Host towns and ports, regional stocks, costs, audits and incidents are all published.
 
 **The counter-argument we take seriously:** published locations make targeting easier (sabotage, theft, protest). We answer it with dispersion, redundancy, ordinary physical security, insurance and quick replacement, not with secrecy.
 
@@ -122,7 +124,7 @@ Hence the mix: port hubs for import and export, district stores for resilience, 
 ## 8. Global markets: buy calm, sell calm
 
 - **Counter-cyclical buying:** buy in good-quality surplus years and when prices are below their recent average; never fill from a stressed, mycotoxin-risk harvest .
-- **Published purchase calendar:** buying is announced in advance and spread over 3–5 years, so traders cannot front-run it.
+- **Published buying rules:** rules and quarterly volumes are announced in advance and spread over 3–5 years; exact purchase dates are not, so traders cannot front-run them.
 - **Small share of the market:** the wheat stock is mostly UK-grown, bought at harvest. About 0.8 Mt a year rotates, roughly 17% of UK mill intake, and small next to world wheat trade.
 - **Hedging:** the treasury function can hedge purchases and sales with ordinary futures (e.g. UK feed wheat futures) rather than taking price risk.
 - **Rotation outlets:** UK mills, animal feed (a ~13 Mt market), and export or aid through the port hubs (note 20).
@@ -135,11 +137,11 @@ Hence the mix: port hubs for import and export, district stores for resilience, 
 | Lean agency incl. innovation and domestic-resilience monitoring | ~65 |
 | Grain and food stores (intake, drying, aeration, maintenance; automated, ~1 per 20 kt) | ~280 |
 | Confirmatory labs | ~40 |
-| Haulage of rotated stock | ~260 |
+| Haulage of rotated stock (~3.4 Mt a year) | ~300 |
 | Crispbread, biscuit and canning production for rotation | ~150 |
 | Local food-plan officers (~45 resilience bodies) | ~135 |
 | Exercises, training, delivery registers | ~100 |
-| **Total permanent** | **~1,000** |
+| **Total permanent** | **~1,070** |
 | Construction while ~£0.7bn of new stores are built over ~5 years | ~1,400 a year |
 | Optional paid Food Reserve Volunteers (e.g. 10,000 on a ~£1,000 retainer) | part-time |
 
@@ -155,4 +157,4 @@ Automation trims jobs inside the agency and labs but leaves the physical work: s
 6. Which UK ports actually handle bulk grain, rice, oil and sugar, and which are flood-exposed? Is the hub layout sensible?
 7. Will a published purchase calendar and futures hedging avoid moving markets?
 8. Does an adversarial bounty and citizens' panel create useful scrutiny or noise?
-9. Are the agency costs (~£27m a year) and automation capex (~£24m) realistic?
+9. Are the agency costs (~£33m a year) and automation capex (~£24m) realistic?

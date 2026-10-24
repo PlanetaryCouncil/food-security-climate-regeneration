@@ -21,7 +21,10 @@ Run:  python3 research/model/reserve_basket.py
 """
 
 POP = 69.5e6
-FINANCE = 0.04              # cost of holding stock value, per year
+FINANCE = 0.04              # cost of holding stock value, per year (public tranche: gilt-like rate)
+FINANCE_PRIVATE = 0.04      # Tier 2 firms' finance rate. Central case assumes a state-backed
+                            # liquidity facility; commercial borrowing at 8-10% is a sensitivity.
+                            # (Round-3 review: firms do not borrow at the state rate unaided.)
 MILL_WHEAT_T_YR = 4.8e6     # UK Flour Millers: wheat milled in 2025 (usage, not capacity)
 EXTRACTION = 0.85           # emergency flour (1942 "National Loaf" was 85%); bran to feed
 HANDLING = 18               # GBP per rotated tonne: handling in/out + local haulage (Camgrain
@@ -70,7 +73,7 @@ NEW_STORE_T = 2.0e6          # half the wheat needs new capacity
 NEW_STORE_CAPEX = 350        # GBP/t of capacity (reviewers: GBP 200 too low; 300-600 range)
 
 
-def commercial(finance=FINANCE, store_mult=1.0, loss_mult=1.0, price_mult=1.0, wheat_mt=4.0):
+def commercial(finance=FINANCE_PRIVATE, store_mult=1.0, loss_mult=1.0, price_mult=1.0, wheat_mt=4.0):
     rows = []
     for name, (t, use, price, rot, loss, store) in COMMERCIAL.items():
         if name.startswith("Food-grade milling wheat"):
@@ -108,11 +111,15 @@ def public(finance=FINANCE, store_mult=1.0, loss_mult=1.0, price_mult=1.0, nocoo
     line("Infant formula ~7 kt standard powder (manufacturer-held) + ready-to-feed",
          7000 * 12000, 1.5, 0.05, 2.5e6)
     line("Specialised infant formula and medical foods (allowance)", 30e6, 1.5, 0.10, 1.0e6)
-    line("Tablets: vitamins A, C, D + zinc, 90 days for everyone", POP * 90 * 0.015, 2.0, 0.30, 1.0e6)
+    # vitamin A as beta-carotene, not retinol, so the universal tablet is safe in pregnancy
+    line("Tablets: vitamin A (as beta-carotene), C, D + zinc, 90 days for everyone",
+         POP * 90 * 0.015, 2.0, 0.30, 1.0e6)
     line("Flour premix incl. folic acid, potassium iodate, feed amino acids, dried yeast",
          24e6, 2.0, 0.10, 0.7e6)
     line("Flour sacks, oil bottles, labels, pallets (one-off stock, rotated into mills)",
          50e6, 3.0, 0.05, 1.0e6)
+    # covers 10 m people for 3 days (all 69.5 m would need ~625 m L); everyone else relies on
+    # water-company emergency supply and bowsers under the last-mile line
     line("Bottled water: 90 m litres (10 m people x 3 days x 3 L)", 90e6 * 0.20, 2.0, 0.30,
          90e3 * 30)
     ops = {"lean open agency (~65 staff), innovation, automated sampling, open data, audit": agency_cost() / 1e6,
@@ -127,14 +134,15 @@ def public(finance=FINANCE, store_mult=1.0, loss_mult=1.0, price_mult=1.0, nocoo
 
 # Lean agency (briefing ch.11): ~65 people, heavy automation and AI, open by default
 AGENCY = {
-    "staff: ~65 people at ~£90k fully loaded": 65 * 90e3,
+    "staff: ~65 people at ~£90k fully loaded (incl. a 24/7 duty desk, ~11 FTE for two seats)": 65 * 90e3,
     "innovation department programme (nutrition, storage, transport, sampling, data)": 8e6,
     "automated sampling and sensing: in-store cables/probes (~£2/t of 6.8 Mt) + auto-samplers "
     "and NIR analysers at ~40 hubs (~£250k each); capex annualised over 10 yrs": (6.8e6 * 2 + 40 * 250e3) * annuity(0.04, 10),
     "sensor maintenance, data platform, AI compute, offline backups": 4e6,
     "confirmatory lab certificates on release (mycotoxins, contaminants)": 3e6,
     "open data and public feedback platform": 1.5e6,
-    "independent audit and unannounced spot checks (contracted)": 2e6,
+    "independent inspectorate (contracted): unannounced physical assay and additionality checks "
+    "against each firm's registered commercial baseline": 8e6,
 }
 
 
@@ -145,7 +153,9 @@ def agency_cost():
 def totals(**kw):
     nocook = kw.pop("nocook_gbp_day", 6.0)
     wheat = kw.pop("wheat_mt", 4.0)
-    c = commercial(wheat_mt=wheat, **kw)
+    fin_private = kw.pop("finance_private", kw.get("finance", FINANCE_PRIVATE))
+    ckw = {k: v for k, v in kw.items() if k != "finance"}
+    c = commercial(wheat_mt=wheat, finance=fin_private, **ckw)
     p, _ = public(nocook_gbp_day=nocook, **kw)
     return sum(r[3] for r in c), sum(r[2] for r in p), sum(r[2] for r in c), sum(r[1] for r in p)
 
@@ -176,16 +186,44 @@ def print_package():
           f"£{NEW_STORE_T*NEW_STORE_CAPEX/1e9:.2f}bn, financed by store operators.")
 
 
+def print_cash():
+    """Capital and stock to be financed up front (not annual cost; do not add to the annual total,
+    which already carries finance and annuities)."""
+    c = commercial()
+    p, _ = public()
+    pv = sum(r[1] for r in p); cv = sum(r[2] for r in c)
+    stores = NEW_STORE_T * NEW_STORE_CAPEX
+    sensing = 6.8e6 * 2 + 40 * 250e3
+    rotated = sum(r[1] * COMMERCIAL[r[0]][3] for r in c)
+    print("\nUp-front stock and capital to finance (gross, across public and private holders)")
+    print("| Item | Who finances | £bn |")
+    print("|---|---|---|")
+    for k, who, v in [("Public crisis tranche stock", "State (adds to public debt)", pv),
+                      ("Compulsory commercial stock", "Firms (ONS classification to be confirmed)", cv),
+                      ("New wheat stores, 2 Mt", "Store operators", stores),
+                      ("Sensors, auto-samplers, NIR", "Agency", sensing)]:
+        print(f"| {k} | {who} | {v/1e9:.2f} |")
+    print(f"| **Total** | | **{(pv+cv+stores+sensing)/1e9:.2f}** |")
+    print(f"Rotation: ~{rotated/1e6:.2f} Mt/yr of commercial stock moves through normal trade.")
+    print("Refill after a release is excluded: a fiscal risk scored separately (e.g. 4 Mt refilled "
+          "30% dearer ≈ £0.25bn extra on the wheat alone).")
+
+
 def sensitivity():
     cases = [
         ("Low: finance 3.5%, storage/ops -10%", dict(finance=0.035, store_mult=0.9)),
         ("Central", dict()),
         ("No-cook at £8/day instead of £6", dict(nocook_gbp_day=8.0)),
         ("Prices +30%", dict(price_mult=1.3)),
+        ("Firms finance at 8% (no state liquidity facility)", dict(finance_private=0.08)),
+        ("Firms finance at 10%", dict(finance_private=0.10)),
+        ("Prices +100% (2022-style grain and fertiliser spike)", dict(price_mult=2.0)),
         ("Stress: finance 6%, storage/ops +50%, rotation losses x2",
          dict(finance=0.06, store_mult=1.5, loss_mult=2.0)),
         ("Severe stress: stress + prices +30%",
          dict(finance=0.06, store_mult=1.5, loss_mult=2.0, price_mult=1.3)),
+        ("Extreme: stress + firms at 10% + prices +100%",
+         dict(finance=0.06, finance_private=0.10, store_mult=1.5, loss_mult=2.0, price_mult=2.0)),
     ]
     print("\n| Case | Public (£/person) | Compulsory stocks (£/person) | Total (£/person) |")
     print("|---|---|---|---|")
@@ -255,8 +293,10 @@ def checks():
     wheat_t_day = 180 * POP / 1e6
     print(f"Milling: 180 g wheat/person/day = {wheat_t_day:,.0f} t/day vs demonstrated "
           f"{MILL_WHEAT_T_YR/365:,.0f} t/day ({wheat_t_day/(MILL_WHEAT_T_YR/365):.0%}); usage, not capacity.")
-    print(f"4 Mt food-grade wheat = {4e6/(MILL_WHEAT_T_YR/365):.0f} days of mill intake: every UK flour mill "
-          f"kept running for ~{4e6/MILL_WHEAT_T_YR*12:.0f} months with no imports and no harvest.")
+    print(f"4 Mt food-grade wheat = {4e6/(MILL_WHEAT_T_YR/365):.0f} days of today's aggregate mill intake "
+          f"(~{4e6/MILL_WHEAT_T_YR*12:.0f} months) with no imports and no harvest, if mills have power, "
+          f"labour, premix and the right grist. As raw energy it is ~{4e6*3.3e6/(POP*2250):.0f} days of "
+          "national need; it is the human-food floor, not also the livestock buffer.")
 
 
 def break_even():
@@ -276,7 +316,8 @@ def jobs():
             ("Grain and food stores: intake, drying, aeration, maintenance (~1 FTE per 20 kt, automated)",
              round((4.0e6 + 1.6e6) / 20e3)),
             ("Confirmatory labs: mycotoxin and contaminant certificates on release", 40),
-            ("Haulage of rotated stock (~3 Mt/yr, ~460 loads per driver-year)", round(3e6 / 25 / 460)),
+            ("Haulage of rotated stock (~3.4 Mt/yr, ~460 loads per driver-year)",
+             round(sum(t * rot for t, _, _, rot, _, _ in COMMERCIAL.values()) / 25 / 460)),
             ("Crispbread/biscuit and canning production for rotation", 150),
             ("Local food-plan officers in ~45 resilience bodies (3 each)", 135),
             ("Exercises, training, delivery-register teams", 100)]
@@ -288,8 +329,9 @@ def jobs():
     build = NEW_STORE_T * NEW_STORE_CAPEX
     print(f"- Construction: £{build/1e9:.2f}bn of new stores over ~5 years ≈ ~{build/5/100e3:,.0f} "
           "construction jobs a year while building (at ~£100k of spend per job-year)")
-    print("- Optional: a paid 'Food Reserve Volunteers' corps (e.g. 10,000 trained reservists on a "
-          "~£1,000/yr retainer ≈ £10m/yr), mustered for releases and exercises")
+    print("- Optional, NOT in the £/person totals: a 'Food Reserve Volunteers' corps (10,000 reservists "
+          "on a ~£1,000/yr retainer ≈ £10m/yr); a work-in-nature pilot (10,000 places ≈ £350m/yr) "
+          "would be a separate, separately funded programme")
 
 
 # Pillar 2: Domestic Resilience programme, NEW money (GBP m/yr) [E]
@@ -303,7 +345,8 @@ DOMESTIC = {
     "Nutrient independence: manure and digestate testing, storage and precision "
     "application; phosphorus recovery from wastewater; legume top-ups; green ammonia pilot": 60,
     "Regenerative transition: independent advice, farmer-to-farmer networks, bridging "
-    "payments for the 3-5 years before regenerative systems pay": 50,
+    "payments (annual profit often improves after 3-5 years; capital payback ~9 years "
+    "before incentives, WBCSD)": 50,
     "Protein crops and local processing: dehulling, pulse mills, small abattoirs": 25,
 }
 FARM_SUPPORT_GBP = 4.87e9   # existing UK agricultural support, 2025 (Defra AUK ch.10)
@@ -317,7 +360,8 @@ def print_domestic():
         print(f"- {k}: {v}")
     print(f"- Total new money: £{tot}m = £{tot*1e6/POP:.2f}/person/yr")
     print(f"- Plus existing farm support £{FARM_SUPPORT_GBP/1e9:.2f}bn = £{FARM_SUPPORT_GBP/POP:.0f}/person/yr, "
-          "pointed at resilience outcomes (soil, water, protein, nutrient loops); no extra cost")
+          "pointed at resilience outcomes (soil, water, protein, nutrient loops). No new money, but not "
+          "free: retargeting has losers (it includes the £384m red-diesel rebate and committed schemes)")
     ca, pa, _, _ = totals()
     print(f"- Both pillars, new money: £{(ca+pa)/POP + tot*1e6/POP:.2f}/person/yr "
           f"(store £{(ca+pa)/POP:.2f} + grow £{tot*1e6/POP:.2f})")
@@ -332,6 +376,7 @@ def print_agency():
 
 if __name__ == "__main__":
     print_package()
+    print_cash()
     print_agency()
     print_domestic()
     sensitivity()

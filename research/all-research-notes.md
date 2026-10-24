@@ -30,6 +30,7 @@ One page with the index and all research notes, generated from `research/notes/`
 - [23 · Running it: a lean, open, automated agency and a decentralised network](#note-23)
 - [24 · Domestic resilience: soil, water, seed and fertiliser](#note-24)
 - [25 · Work, prestige and a food-producing nation](#note-25)
+- [26 · Homes, Land and Livelihoods: garden villages, new towns and land work (related concept)](#note-26)
 
 ---
 
@@ -64,6 +65,7 @@ Research base for a ~14-page briefing (one page per chapter): **Can Britain Feed
 | 12 | **Work, prestige and a food-producing nation:** jobs across both pillars, AI and work, the 16 benefits of regenerative farming, a food surplus | 04, 18, 21, 25 |
 | 13 | **A new economy of food:** one carbon price, full-cost accounting, the four nations | 08, 12, 18, 21 |
 | 14 | **The plan:** both pillars, the contingency ladder (rationing, livestock, nitrogen), governance | 15, 19 |
+| – | **Related concept (not costed): Homes, Land and Livelihoods:** garden villages, new towns, shared land and land work | 26 |
 
 ### All notes
 
@@ -94,6 +96,7 @@ Research base for a ~14-page briefing (one page per chapter): **Can Britain Feed
 | 23 | Running it: a lean, open, automated agency and a decentralised network |
 | 24 | Domestic resilience: soil, water, seed and fertiliser |
 | 25 | Work, prestige and a food-producing nation (with the 16-benefits infographic) |
+| 26 | Homes, Land and Livelihoods: garden villages, new towns and land work (related concept) |
 
 Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, priority schedule, break-even, jobs) and `research/model/cereal_balance.py` (month-by-month grain stocks). Run with `python3`.
 
@@ -105,7 +108,7 @@ Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, p
 4. **Two chokepoints in one year**, Hormuz and the Black Sea; in 2022, export bans covered ~17% of traded calories. (05, 18)
 5. **The risk is affordability:** food inflation 1.3% (Sep 2026), yet 12.2% of households are food-insecure. (05, 10)
 6. **Several comparable countries hold reserves; the UK holds none.** (13, 14)
-7. **Pillar 1, STORE: the UK Strategic Food Reserve, ~£10.25 per person per year.**
+7. **Pillar 1, STORE: the UK Strategic Food Reserve, ~£10.33 per person per year.**
    - Human food first and food for everyone: bread from 4 Mt of food-grade wheat, a 3-day no-cook ration and tablets for all, plus specialist food.
    - Seed, safe nitrogen, soya meal and imported staples.
    - Paid as a public crisis tranche (~£5, taxes) plus compulsory commercial stocks (~£5, prices).
@@ -124,7 +127,8 @@ Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, p
 10. **A contingency ladder** above both pillars: fair rationing, a livestock destocking order, safe nitrogen. (19)
 11. **Per hectare, Britain is world-class; per person, it is land-poor.** Soils can recover. (17)
 12. **One carbon price, no free allowances, no subsidies for emitting.** (12, 18, 21)
-13. **Work and a food-producing nation:** ~25,000–45,000 skilled rural jobs over a decade across both pillars; farming as a prestigious career; grow a surplus of what Britain grows best, because a surplus is a latent reserve. (25)
+13. **Work and a food-producing nation:** ~3,500 funded permanent jobs across both pillars (a work-in-nature pilot would be separate and separately funded); farming as a prestigious career; grow a surplus of what Britain grows best, which works as a reserve only for crops already in surplus and with an export-licence trigger. (25)
+14. **Related concept:** Homes, Land and Livelihoods, clustered community-owned settlements with shared land, piloted on 2–3 sites first. Not part of the costed plan. (26)
 
 ### Open items
 
@@ -134,6 +138,8 @@ Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, p
 4. ONS classification and subsidy-control treatment of compulsory stocks.
 5. Flour-mill surge capacity; UK seed-multiplication capacity; bulk-grain ports and flood exposure.
 6. Defra's reply to the FOI request (due ~18 Nov 2026).
+7. ONS view on compulsory stocks; firms' financing terms; a feed-grade grain plan separate from the 4 Mt bread floor.
+8. Water companies' emergency capacity for the whole population.
 
 
 ---
@@ -1918,7 +1924,7 @@ Framed as protection against scalping and hoarding, not as wartime austerity:
 3. **Paper fallback:** serialised paper entitlements held in regional vaults, issued via post offices and polling stations only if level 3 is declared. Digital entitlements fail in the blackout the reserve exists for.
 4. **Minimal personal data**, appeals, replacement, and **no documentation barrier** to emergency food.
 
-**Law:** Civil Contingencies Act 2004 Part 2 regulations *can* provide for rationing, price measures, directions and requisition, subject to necessity, proportionality and rights, but they **lapse after 30 days** without parliamentary approval [R]. A **Food Security (Emergency) Act** should pre-build the standing scheme: stock obligations and inspection, release authority, compensation and appeals, data limits, devolved delivery agreements. The CCA then only switches it on.
+**Law:** Civil Contingencies Act 2004 Part 2 regulations *can* provide for rationing, price measures, directions and requisition, subject to necessity, proportionality and rights, but they lapse unless both Houses approve them **within 7 days of being laid**, and expire **30 days after being made** unless renewed (ss. 26–27) [R]. A **Food Security (Emergency) Act** should pre-build the standing scheme: stock obligations and inspection, release authority, compensation and appeals, data limits, devolved delivery agreements. The CCA then only switches it on.
 
 #### 7.4 Refill rule (corrected)
 
@@ -2110,7 +2116,7 @@ It uses the reserve's own grain. It is a familiar humanitarian product (WFP-styl
 
 ### 3. What it costs now
 
-`reserve_basket.py`: **~£712m a year ≈ £10.25 per person** (public £4.84 via taxes; compulsory stocks £5.40 via prices). Range £9.32–16.43; £18.21 under severe stress.
+`reserve_basket.py`: **~£718m a year ≈ £10.33 per person** (public £4.93 via taxes; compulsory stocks £5.40 via prices). Range £9.40–16.56; £18.34 under severe stress.
 
 **Priority schedule, human food first:**
 
@@ -2118,10 +2124,10 @@ It uses the reserve's own grain. It is a familiar humanitarian product (WFP-styl
 |---|---|
 | £2.71 | Bread for everyone: 4 Mt food-grade wheat, high-protein wheat, premix, sacks |
 | £3.48 | + no-cook for everyone: 3-day grain ration, tablets, bottled water |
-| £6.83 | + operations: lean agency, local plans, priority fuel/power, last mile, security |
-| £7.45 | + infants and special needs |
-| £9.09 | + next season: seed, urea, UAN, soya meal |
-| £10.25 | + imported staples and variety |
+| £6.92 | + operations: lean agency, local plans, priority fuel/power, last mile, security |
+| £7.55 | + infants and special needs |
+| £9.19 | + next season: seed, urea, UAN, soya meal |
+| £10.33 | + imported staples and variety |
 
 **Grain and livestock:** 4 Mt covers all three hard cases in the 36-month cereal model with a 1.0 Mt working floor:
 - full feed with normal harvests (2.3 Mt needed);
@@ -2139,11 +2145,11 @@ Planning assumptions, not a labour-market study (`jobs()` in the model).
 | Lean agency incl. innovation and domestic-resilience monitoring (note 23) | ~65 |
 | Grain and food stores: intake, drying, aeration, maintenance (automated, ~1 per 20 kt) | ~280 |
 | Confirmatory labs: mycotoxin and contaminant certificates on release | ~40 |
-| Haulage of rotated stock (~3 Mt a year) | ~260 |
+| Haulage of rotated stock (~3.4 Mt a year) | ~300 |
 | Crispbread, biscuit and canning production for rotation | ~150 |
 | Local food-plan officers (~45 resilience bodies) | ~135 |
 | Exercises, training, delivery registers | ~100 |
-| **Total permanent** | **~1,000** |
+| **Total permanent** | **~1,070** |
 | Construction while ~£0.7bn of new stores are built over ~5 years | ~1,400 a year |
 
 **Food Reserve Volunteers (optional):** a paid, trained civil reserve, like the Army Reserve but for food. For example, 10,000 people on a ~£1,000 yearly retainer (~£10m a year), trained in store work, distribution and community kitchens, and mustered for releases and exercises. This is part-time, practical, local work that links to the AI-transition argument (note 21) without overclaiming it.
@@ -2232,10 +2238,10 @@ Date: 23 October 2026. Status: author design [I] with costed assumptions [E], im
 | Sensor maintenance, data platform, AI compute, offline backups | 4.0 |
 | Confirmatory lab certificates on release | 3.0 |
 | Open data and public feedback platform | 1.5 |
-| Independent audit and unannounced spot checks | 2.0 |
-| **Total** | **~27.3** |
+| Independent inspectorate: unannounced physical assay, additionality checks against registered commercial baselines | 8.0 |
+| **Total** | **~33.3** |
 
-**Package total: ~£712m ≈ £10.25 per person per year** (public £4.84 via taxes; compulsory stocks £5.40 via prices). Range £9.32–16.43; £18.21 under severe stress.
+**Package total: ~£718m ≈ £10.33 per person per year** (public £4.93 via taxes; compulsory stocks £5.40 via prices). Range £9.40–16.56; £18.34 under severe stress.
 
 ### 5. The decentralised network: near ports, near people
 
@@ -2268,10 +2274,12 @@ Hence the mix: port hubs for import and export, district stores for resilience, 
 **What openness buys:**
 - **Trust:** people do not panic-buy when they can see the stock.
 - **Accountability:** paper stock and quiet raiding are harder when monthly figures are public.
-- **Market calm:** a published purchase calendar stops traders guessing.
+- **Market calm:** published buying rules and quarterly volumes stop traders guessing, without exact dates that invite front-running.
 - **Deterrence:** an adversary knows that disrupting one site achieves little.
 
 **What is withheld:** live security operations (alarm systems, guard rotas, real-time stock per site). That is ordinary building security, not secrecy about the programme.
+
+**Published exceptions.** Open by default does not mean everything: a short, public list of exceptions is withheld, namely exact sites and tank volumes of fuel, infant formula and nitrogen, live release routes, and precise purchase dates. Host towns and ports, regional stocks, costs, audits and incidents are all published.
 
 **The counter-argument we take seriously:** published locations make targeting easier (sabotage, theft, protest). We answer it with dispersion, redundancy, ordinary physical security, insurance and quick replacement, not with secrecy.
 
@@ -2286,7 +2294,7 @@ Hence the mix: port hubs for import and export, district stores for resilience, 
 ### 8. Global markets: buy calm, sell calm
 
 - **Counter-cyclical buying:** buy in good-quality surplus years and when prices are below their recent average; never fill from a stressed, mycotoxin-risk harvest .
-- **Published purchase calendar:** buying is announced in advance and spread over 3–5 years, so traders cannot front-run it.
+- **Published buying rules:** rules and quarterly volumes are announced in advance and spread over 3–5 years; exact purchase dates are not, so traders cannot front-run them.
 - **Small share of the market:** the wheat stock is mostly UK-grown, bought at harvest. About 0.8 Mt a year rotates, roughly 17% of UK mill intake, and small next to world wheat trade.
 - **Hedging:** the treasury function can hedge purchases and sales with ordinary futures (e.g. UK feed wheat futures) rather than taking price risk.
 - **Rotation outlets:** UK mills, animal feed (a ~13 Mt market), and export or aid through the port hubs (note 20).
@@ -2299,11 +2307,11 @@ Hence the mix: port hubs for import and export, district stores for resilience, 
 | Lean agency incl. innovation and domestic-resilience monitoring | ~65 |
 | Grain and food stores (intake, drying, aeration, maintenance; automated, ~1 per 20 kt) | ~280 |
 | Confirmatory labs | ~40 |
-| Haulage of rotated stock | ~260 |
+| Haulage of rotated stock (~3.4 Mt a year) | ~300 |
 | Crispbread, biscuit and canning production for rotation | ~150 |
 | Local food-plan officers (~45 resilience bodies) | ~135 |
 | Exercises, training, delivery registers | ~100 |
-| **Total permanent** | **~1,000** |
+| **Total permanent** | **~1,070** |
 | Construction while ~£0.7bn of new stores are built over ~5 years | ~1,400 a year |
 | Optional paid Food Reserve Volunteers (e.g. 10,000 on a ~£1,000 retainer) | part-time |
 
@@ -2319,7 +2327,7 @@ Automation trims jobs inside the agency and labs but leaves the physical work: s
 6. Which UK ports actually handle bulk grain, rice, oil and sugar, and which are flood-exposed? Is the hub layout sensible?
 7. Will a published purchase calendar and futures hedging avoid moving markets?
 8. Does an adversarial bounty and citizens' panel create useful scrutiny or noise?
-9. Are the agency costs (~£27m a year) and automation capex (~£24m) realistic?
+9. Are the agency costs (~£33m a year) and automation capex (~£24m) realistic?
 
 
 ---
@@ -2418,7 +2426,7 @@ New money, alongside pointing existing farm support at resilience outcomes:
 
 **Existing support:** the UK already spends **~£4.87bn a year** on agricultural support (2025), about **£70 per person**: agri-environment £1.85bn, area payments £1.05bn, red-diesel rebate ~£384m [P]. Pillar 2 asks that this money buy **resilience outcomes** (soil health, water storage, protein, nutrient efficiency, food production on the best land), not that it grows.
 
-**Both pillars, new money:** ~£10.25 (store) + ~£4.46 (grow) ≈ **£14.70 per person per year**.
+**Both pillars, new money:** ~£10.33 (store) + ~£4.46 (grow) ≈ **£14.79 per person per year**.
 
 ### 8. How the two pillars work together
 
@@ -2466,12 +2474,14 @@ Planning estimates, not a labour-market study.
 
 | Source | Jobs | Basis |
 |---|---|---|
-| Strategic Food Reserve (store) | ~1,000 permanent | Agency ~65, stores ~280, labs ~40, haulage ~260, crispbread/biscuit/canning ~150, local planners ~135, training ~100 (`jobs()` in the model) |
-| Reserve construction | ~1,400 a year for ~5 years | ~£0.7bn of new stores at ~£100k per job-year |
+| Strategic Food Reserve (store) | ~1,070 permanent | Agency ~65, stores ~280, labs ~40, haulage ~300, crispbread/biscuit/canning ~150, local planners ~135, training ~100 (`jobs()` in the model) |
+| Reserve construction | ~1,400 job-years a year for ~5 years | ~£0.7bn of new stores at ~£100k per job-year (temporary) |
 | Domestic Resilience programme (grow, ~£310m a year) | ~2,500 | Reservoir construction ~800, nutrient services ~500, seed and breeding ~400, advisers and farmer networks ~400, soil and water monitoring ~300, protein processing ~150 |
-| Work-in-nature pilot | 10,000 | ~£350m a year at ~£35k fully loaded |
-| Regenerative and higher-output farming | 10,000–30,000 over a decade | More labour per hectare in organic and regenerative systems (~32% more per farm in one UK study) [P/S]; depends on adoption |
-| **Total** | **~25,000–45,000 over a decade** | Meaningful and rural; not a mass answer to up to 8 m jobs exposed to AI in IPPR's worst case [P] |
+| **Funded, permanent total** | **~3,500** | Gross, not net of displaced work |
+| Work-in-nature pilot | 10,000 places | **Not funded** in either pillar: ~£350m a year at ~£35k fully loaded would be a separate decision |
+| Regenerative and higher-output farming | Not estimated | More labour per hectare in organic and regenerative systems (~32% more per farm in one 2006 UK study) [P/S], but no UK study shows net jobs or better pay |
+
+Rows are not added into one grand total: permanent posts, temporary job-years and unfunded places are different things. The headline is ~3,500 funded permanent jobs. Not an answer to up to 8 m jobs exposed to AI in IPPR's worst case [P].
 
 ### 3. Why the work matters: social benefits
 
@@ -2536,3 +2546,82 @@ The "no synthetic inputs" sack in the infographic is artistic licence. Regenerat
 - Wage levels needed to attract and keep people; rural housing supply.
 - New-entrant land access: the state of county farm estates.
 - Which exports have a durable UK advantage after carbon pricing and border measures.
+
+
+---
+
+<a id="note-26"></a>
+
+## 26 · Homes, Land and Livelihoods: garden villages, new towns and land work (related concept)
+
+**Status:** a related concept, not a core proposal. It is not costed in either pillar (£10.33 store, £4.46 grow). It links work in farming and nature (note 25), the supply and price of housing, and the cultural shift (note 21). Independent reviewers who assessed a "four acres each" version converged on a clustered, community-owned design, which is the one described here.
+
+### 1. The idea
+
+- Build modern, efficient homes **clustered** at the edge of existing villages or towns, or on previously developed land, with **shared** farmland nearby.
+- Land is held by a **community land trust** (CLT); homes are let or sold under enforceable affordability terms by a housing association or co-operative.
+- Separately run enterprises lease the land: market gardens, orchards, pulses, seed work, habitat management, small processing.
+- The modern "mule" is shared: a machinery ring, a pack house, a cold store, a repair workshop, working capital and training.
+- Residents may work on the land full time, part time alongside remote work, or not at all. **The home never depends on the farm job.**
+
+### 2. Precedents [P/S]
+
+| Place / route | What it shows | Source |
+|---|---|---|
+| Letchworth (1903), Welwyn Garden City (1920) | Ebenezer Howard's garden-city model: planned towns with a green belt and community land value capture | [S] |
+| Milton Keynes (designated 1967) | A state-led new town at scale | [S] |
+| Cambourne, South Cambridgeshire | Permission 1996 for up to 3,300 homes, built from 1998; Upper Cambourne +950; West Cambourne approved 2017 for up to 2,350 | https://www.scambs.gov.uk/planning/new-communities/cambourne/ [P] |
+| Salt Cross garden village, West Oxfordshire | ~2,200 homes plus a science and business park north of the A40 near Eynsham; Area Action Plan adopted 25 Feb 2026 after examinations in 2023 and 2026; net-zero standards kept after a legal challenge; construction not before ~2029 | https://www.westoxon.gov.uk/media/a23naehb/aap-adoption-statement-february-2026.pdf [P]; Eynsham Parish Council [S] |
+| New Towns Taskforce (28 Sep 2025) | 12 recommended locations of ≥10,000 homes; 23 Mar 2026 statement proposed 7 of 13 shortlisted; final decisions pending | MHCLG [P/?] |
+| NPPF para 84 (Dec 2024) | Isolated homes allowed where there is an "essential need for a rural worker", incl. those taking majority control of a farm business | Council guidance quoting the NPPF [P/S] |
+| Class Q permitted development (from 21 May 2024) | Up to 10 homes, 1,000 m² total, 150 m² each, from agricultural buildings; prior approval still needed | Legislation summaries [S] |
+| Wales One Planet Development (TAN 6) | Low-impact, land-based homes with management and footprint tests; the food test is commonly oversimplified | Welsh Government [P] |
+| Community land trusts | Keep homes affordable for later occupants | [S] |
+
+### 3. Supply, prices and affordability [P/I]
+
+- More supply helps affordability, especially locally, and changes **who** gets housed.
+- Nationally, the price effect is slow. Miles & Monro (Bank of England Staff Working Paper 837, Dec 2019) found that the fall in the real risk-free interest rate more than accounts for the rise in house prices relative to incomes from 1985 to 2018; other Bank staff dispute the size. https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2019/uk-house-prices-and-three-decades-of-decline-in-the-risk-free-real-interest-rate.pdf
+- So a settlement programme should be judged on rents and costs for its residents against their incomes, not on national house prices.
+
+### 4. Land arithmetic [E]
+
+- Four acres = 1.62 ha. 10,000 households × 1.62 ha ≈ 16,200 ha; 1 m households ≈ 1.62 Mha ≈ 9.6% of UK utilised agricultural area (16.8 Mha).
+- 1.5 m homes at ~35 dwellings per hectare ≈ 43,000 ha ≈ 0.26% of UK farmland, if all greenfield.
+- Gemini's check: 12–13 m Gen-Z people × 4 acres would exceed all UK farmland. A universal homestead grant is impossible; a targeted pilot is not.
+- Siting matters more than totals: avoid grade 1 land, Fen peat and mapped flood zones (chapter 2).
+
+### 5. A pilot to appraise (reviewer's illustration, not quotes) [E]
+
+| Item | Low | High |
+|---|---|---|
+| 400 homes (10 sites × 40) at £250–350k incl. servicing and fees | £100m | £140m |
+| Land and site acquisition | £15m | £25m |
+| Shared productive assets and community facilities | £15m | £25m |
+| 20% contingency | £26m | £38m |
+| **Gross capital** | **£156m** | **£228m** |
+
+- Shared land ~65 ha per site (four acres per household in common), plus a compact built area.
+- A £300,000 home, half grant and half a 40-year loan: ~£537/month at 3%, ~£627 at 4%, ~£825 at 6%, plus ~£150 upkeep.
+- £150k grant × 400 = £60m; with £60m of debt, £36–108m of the pilot is still unfunded. Say so.
+- Enterprise test: 4 FTE at £35k + £60k fixed = £200k contribution, so ~£500k of sales at a 40% margin. Forty households at £25 a week buy ~£52k. The market must be much wider.
+- Start with **2–3 sites** and a capped **~£3m feasibility fund** over 6–12 months; compare against (a) ordinary affordable housing plus a separate farm-entry scheme and (b) retrofit plus leased land.
+
+### 6. Success and stop tests
+
+| Test | Measure | Stop or resize if |
+|---|---|---|
+| Housing | Rent and costs vs household income; subsidy per home; affordability for later occupants | Subsidy exceeds the ceiling; no enforceable affordability |
+| Work | Paid FTEs, retention, earnings after housing and transport | The business relies on unpaid essential labour |
+| Farm | Sales contracts, margins after paid labour, water, working capital | It cannot survive two weak seasons |
+| Climate | Whole-life emissions vs a realistic alternative (incl. car travel) | Higher emissions without a justified public purpose |
+| Governance | Resident voice, external complaints route, replacement operator | A home depends on the farm business or a faction |
+
+### 7. Criticism
+
+- **Food security tension:** homes on farmland reduce food land; cluster and site carefully.
+- **Rural is not automatically low-carbon:** car miles and buildings can outweigh local food.
+- **Pick for Britain** (note 25): UK residents filled ~5–11% of picking roles in 2020; schemes alone do not move people into land work.
+- **Tied housing trap:** an agricultural occupancy condition can trap residents; design tenure so that homes and jobs are separate.
+- **Planning reality:** Salt Cross took years and a legal challenge; the four nations have different planning systems.
+- **The phrase:** "forty acres and a mule" refers to land promised to formerly enslaved families in January 1865 (Sherman's Special Field Order No. 15) and taken back later that year under President Andrew Johnson. It is not used as branding.

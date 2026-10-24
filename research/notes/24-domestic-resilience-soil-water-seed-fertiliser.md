@@ -90,7 +90,7 @@ New money, alongside pointing existing farm support at resilience outcomes:
 
 **Existing support:** the UK already spends **~£4.87bn a year** on agricultural support (2025), about **£70 per person**: agri-environment £1.85bn, area payments £1.05bn, red-diesel rebate ~£384m [P]. Pillar 2 asks that this money buy **resilience outcomes** (soil health, water storage, protein, nutrient efficiency, food production on the best land), not that it grows.
 
-**Both pillars, new money:** ~£10.25 (store) + ~£4.46 (grow) ≈ **£14.70 per person per year**.
+**Both pillars, new money:** ~£10.33 (store) + ~£4.46 (grow) ≈ **£14.79 per person per year**.
 
 ## 8. How the two pillars work together
 

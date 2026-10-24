@@ -89,8 +89,8 @@ Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, p
 10. **A contingency ladder** above both pillars: fair rationing, a livestock destocking order, safe nitrogen. (19)
 11. **Per hectare, Britain is world-class; per person, it is land-poor.** Soils can recover. (17)
 12. **One carbon price, no free allowances, no subsidies for emitting.** (12, 18, 21)
-13. **Work and a food-producing nation:** ~3,500 funded permanent jobs across both pillars (a work-in-nature pilot would be separate and separately funded); farming as a prestigious career; grow a surplus of what Britain grows best, which works as a reserve only for crops already in surplus and with an export-licence trigger. (25)
-14. **The benefit first:** the plan insures a £153bn-a-year food system and 4.1 m jobs for under 0.5% of its output; it pays for itself if it avoids a 1%-of-GDP shock once in ~40 years, or lifts wellbeing by an unmeasurably small amount. (27)
+13. **Work and a food-producing nation:** up to ~3,600 gross jobs across both pillars (a work-in-nature pilot would be separate and separately funded); farming as a prestigious career; grow a surplus of what Britain grows best, which works as a reserve only for crops already in surplus and with an export-licence trigger. (25)
+14. **The benefit first:** the plan insures a £162bn-a-year (value added) food sector and 4.1 m jobs for under 0.5% of that value; it pays for itself if it avoids a 1%-of-GDP shock once in ~40 years, or lifts wellbeing by an unmeasurably small amount. (27)
 15. **Related concept:** Homes, Land and Livelihoods, clustered community-owned settlements with shared land, piloted on 2–3 sites first. Not part of the costed plan. (26)
 
 ## Open items

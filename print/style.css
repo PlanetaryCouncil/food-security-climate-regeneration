@@ -1,0 +1,245 @@
+/* Print stylesheet for "Can Britain Feed Itself?" (A4, Chromium). */
+:root {
+  --ink: #1d2420;
+  --muted: #5b655f;
+  --green: #1f4d3a;
+  --green-soft: #e8f0eb;
+  --wheat: #b9852a;
+  --wheat-soft: #f7efdf;
+  --rule: #cfd8d2;
+}
+
+@page {
+  size: A4;
+  margin: 16mm 17mm 18mm 17mm;
+  @bottom-left {
+    content: "Can Britain Feed Itself? Store and grow";
+    font: 7.5pt "Inter", sans-serif;
+    color: #8a948e;
+  }
+  @bottom-right {
+    content: counter(page);
+    font: 600 8pt "Inter", sans-serif;
+    color: #1f4d3a;
+  }
+}
+@page cover {
+  margin: 0;
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  margin: 0;
+  font-family: "Charter", "Bitstream Charter", "DejaVu Serif", serif;
+  font-size: 10pt;
+  line-height: 1.45;
+  color: var(--ink);
+  background: #fff;
+  hyphens: auto;
+}
+
+/* one section per page */
+.page { break-after: page; }
+.page:last-child { break-after: auto; }
+
+h1, h2, h3, .kicker, .chapter-no, table, .stat, .cover-top, .subtitle, .pill, .note, .caveat, .sources, .aside, .position, .closing {
+  font-family: "Inter", sans-serif;
+}
+h2 {
+  font-size: 19pt;
+  line-height: 1.12;
+  font-weight: 700;
+  color: var(--green);
+  margin: 0 0 3mm;
+  letter-spacing: -0.01em;
+}
+h3 { font-size: 12pt; color: var(--green); margin: 4mm 0 2mm; }
+.chapter-no {
+  font-size: 7.5pt;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--wheat);
+  margin-bottom: 1.5mm;
+}
+.kicker {
+  font-size: 11pt;
+  line-height: 1.32;
+  font-weight: 500;
+  color: var(--ink);
+  border-left: 3px solid var(--wheat);
+  padding: 0.5mm 0 0.5mm 3.5mm;
+  margin: 0 0 4mm;
+}
+p { margin: 0 0 2.4mm; }
+ul, ol { margin: 0 0 2.6mm; padding-left: 5mm; }
+li { margin-bottom: 1mm; }
+strong { font-weight: 700; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 8.1pt;
+  line-height: 1.32;
+  margin: 1mm 0 3.5mm;
+  break-inside: avoid;
+}
+th {
+  text-align: left;
+  font-weight: 600;
+  color: #fff;
+  background: var(--green);
+  padding: 1.6mm 2mm;
+}
+td {
+  padding: 1.5mm 2mm;
+  border-bottom: 0.5pt solid var(--rule);
+  vertical-align: top;
+}
+tr:nth-child(even) td { background: #f6f8f6; }
+
+.stats {
+  display: flex;
+  gap: 3mm;
+  margin: 1mm 0 4mm;
+}
+.stat {
+  flex: 1;
+  background: var(--green-soft);
+  border-top: 2.5px solid var(--green);
+  padding: 2.4mm 2.6mm;
+  font-size: 7.6pt;
+  line-height: 1.3;
+  color: #33403a;
+}
+.stat strong {
+  display: inline-block;
+  font-size: 15pt;
+  line-height: 1.1;
+  color: var(--green);
+  margin-bottom: 0.8mm;
+}
+.stat p { margin: 0; }
+
+.caveat, .note {
+  background: var(--wheat-soft);
+  border-left: 3px solid var(--wheat);
+  padding: 2.2mm 3mm;
+  font-size: 8pt;
+  line-height: 1.38;
+  margin: 2mm 0 3mm;
+}
+.caveat p, .note p { margin: 0; }
+.position {
+  background: var(--green);
+  color: #fff;
+  padding: 3mm 3.5mm;
+  font-size: 8.8pt;
+  line-height: 1.4;
+  margin: 1mm 0 4mm;
+}
+.position p { margin: 0; }
+.sources {
+  font-size: 7pt;
+  color: var(--muted);
+  border-top: 0.5pt solid var(--rule);
+  padding-top: 1.5mm;
+  margin-top: 2mm;
+}
+.sources p { margin: 0; }
+
+.aside {
+  float: right;
+  width: 46mm;
+  margin: 0 0 3mm 5mm;
+  padding: 2mm 2.5mm;
+  border: 0.75pt dashed var(--wheat);
+  font-size: 7.4pt;
+  font-style: italic;
+  color: #6b5426;
+  line-height: 1.32;
+}
+.aside p { margin: 0; }
+.aside span { display: block; margin-top: 1mm; font-size: 6.2pt; font-style: normal; letter-spacing: 0.02em; color: #9a8350; }
+
+/* cover */
+.cover {
+  page: cover;
+  height: 297mm;
+  background: linear-gradient(160deg, #173d2e 0%, #1f4d3a 55%, #2d6a4f 100%);
+  color: #fff;
+  padding: 26mm 22mm 20mm;
+  display: flex;
+  flex-direction: column;
+}
+.cover-top { font-size: 8.5pt; letter-spacing: 0.14em; text-transform: uppercase; color: #e3c27a; }
+.cover h1 {
+  font-family: "Inter Display", "Inter", sans-serif;
+  font-size: 46pt;
+  line-height: 1.02;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 34mm 0 5mm;
+}
+.subtitle { font-size: 17pt; font-weight: 400; color: #dfe9e3; margin-bottom: 14mm; }
+.cover-lede { font-size: 12.5pt; line-height: 1.5; max-width: 150mm; color: #f2f5f3; }
+.cover-lede strong { color: #f0cf86; }
+.cover-pillars { display: flex; gap: 6mm; margin-top: 14mm; }
+.pill {
+  flex: 1;
+  border: 1px solid rgba(255,255,255,0.35);
+  border-top: 4px solid #e3c27a;
+  padding: 5mm;
+  font-size: 11pt;
+  line-height: 1.45;
+  background: rgba(255,255,255,0.05);
+}
+.pill p { margin: 0; }
+.pill strong { font-size: 16pt; letter-spacing: 0.04em; }
+.pill span { color: #e3c27a; font-size: 9.5pt; }
+.cover-foot { margin-top: auto; font-size: 8.5pt; line-height: 1.5; color: #cfdcd4; max-width: 160mm; }
+.cover-foot strong { color: #fff; }
+
+/* infographic */
+.infographic-page img.infographic {
+  display: block;
+  width: 100%;
+  max-height: 190mm;
+  object-fit: contain;
+  margin: 1mm auto 4mm;
+}
+
+/* back page */
+.back .closing {
+  margin-top: 10mm;
+  font-size: 15pt;
+  font-weight: 700;
+  color: var(--green);
+  border-top: 3px solid var(--wheat);
+  padding-top: 4mm;
+}
+.back .closing p { margin: 0; }
+
+/* evidence edition */
+.evidence h1 { font-size: 22pt; color: var(--green); }
+.evidence h2 { font-size: 15pt; margin-top: 8mm; break-after: avoid; }
+.evidence h2[id^="chapter"], .evidence h2[id^="appendix"], .evidence h2[id^="related"] { break-before: page; margin-top: 0; }
+.evidence h3 { break-after: avoid; }
+.evidence { font-size: 9pt; }
+.evidence table { font-size: 7.4pt; break-inside: auto; }
+.evidence tr { break-inside: avoid; }
+.evidence blockquote { margin: 2mm 0; padding: 2mm 4mm; background: var(--green-soft); border-left: 3px solid var(--green); }
+.evidence img { max-width: 100%; max-height: 200mm; display: block; margin: 3mm auto; }
+.evidence a { color: var(--green); word-break: break-all; }
+.evidence li { word-break: break-word; }
+a { color: inherit; text-decoration: none; }
+
+/* tighter page for the reserve numbers */
+.dense table { font-size: 7.5pt; line-height: 1.25; margin-bottom: 2.5mm; }
+.dense td { padding: 1.1mm 1.8mm; }
+.dense th { padding: 1.2mm 1.8mm; }
+.dense .stats { margin-bottom: 2.5mm; }
+.dense p { margin-bottom: 1.8mm; }

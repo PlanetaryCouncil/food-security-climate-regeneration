@@ -17,9 +17,9 @@
 | Letchworth (1903), Welwyn Garden City (1920) | Ebenezer Howard's garden-city model: planned towns with a green belt and community land value capture | [S] |
 | Milton Keynes (designated 1967) | A state-led new town at scale | [S] |
 | Cambourne, South Cambridgeshire | Permission 1996 for up to 3,300 homes, built from 1998; Upper Cambourne +950; West Cambourne approved 2017 for up to 2,350 | https://www.scambs.gov.uk/planning/new-communities/cambourne/ [P] |
-| Salt Cross garden village, West Oxfordshire | ~2,200 homes plus a science and business park north of the A40 near Eynsham; Area Action Plan adopted 25 Feb 2026 after examinations in 2023 and 2026; net-zero standards kept after a legal challenge; construction not before ~2029 | https://www.westoxon.gov.uk/media/a23naehb/aap-adoption-statement-february-2026.pdf [P]; Eynsham Parish Council [S] |
+| Salt Cross garden village, West Oxfordshire | ~2,200 homes plus a science and business park north of the A40 near Eynsham; Area Action Plan adopted 25 Feb 2026 after examinations in 2023 and 2026; strict operational-carbon standards (with defined exceptions) kept after a legal challenge; construction not before ~2029 | https://www.westoxon.gov.uk/media/a23naehb/aap-adoption-statement-february-2026.pdf [P]; Eynsham Parish Council [S] |
 | New Towns Taskforce (28 Sep 2025) | 12 recommended locations of ≥10,000 homes; 23 Mar 2026 statement proposed 7 of 13 shortlisted; final decisions pending | MHCLG [P/?] |
-| NPPF para 84 (Dec 2024) | Isolated homes allowed where there is an "essential need for a rural worker", incl. those taking majority control of a farm business | Council guidance quoting the NPPF [P/S] |
+| NPPF policy HO11 (Sep 2026; para 84 in Dec 2024) | Isolated homes allowed where there is an "essential need for a rural worker", incl. those taking majority control of a farm business | Council guidance quoting the NPPF [P/S] |
 | Class Q permitted development (from 21 May 2024) | Up to 10 homes, 1,000 m² total, 150 m² each, from agricultural buildings; prior approval still needed | Legislation summaries [S] |
 | Wales One Planet Development (TAN 6) | Low-impact, land-based homes with management and footprint tests; the food test is commonly oversimplified | Welsh Government [P] |
 | Community land trusts | Keep homes affordable for later occupants | [S] |
@@ -33,7 +33,7 @@
 ## 4. Land arithmetic [E]
 
 - Four acres = 1.62 ha. 10,000 households × 1.62 ha ≈ 16,200 ha; 1 m households ≈ 1.62 Mha ≈ 9.6% of UK utilised agricultural area (16.8 Mha).
-- 1.5 m homes at ~35 dwellings per hectare ≈ 43,000 ha ≈ 0.26% of UK farmland, if all greenfield.
+- 1.5 m homes at ~35 dwellings per net hectare ≈ 43,000 ha (≈ 0.26% of UK farmland), or ~70,000–110,000 ha gross with roads, schools and open space, if all greenfield.
 - Gemini's check: 12–13 m Gen-Z people × 4 acres would exceed all UK farmland. A universal homestead grant is impossible; a targeted pilot is not.
 - Siting matters more than totals: avoid grade 1 land, Fen peat and mapped flood zones (chapter 2).
 

@@ -375,8 +375,8 @@ def benefits():
     both = store + sum(DOMESTIC.values()) * 1e6
     wellby = 13_000            # HM Treasury Green Book wellbeing guidance (2021), £ per WELLBY, 2019 prices
     vpf = 2.5e6                # DfT value of preventing a fatality £1.8m (2016 prices), uprated ~40% [E]
-    agrifood_gva = 153.2e9     # Defra food statistics pocketbook: agri-food sector GVA, 2023
-    agrifood_jobs = 4.1e6      # same source, 2025
+    agrifood_gva = 162.3e9     # Defra food statistics pocketbook: agri-food sector GVA, 2024
+    agrifood_jobs = 4.1e6      # same source, GB, 2025
     gdp = 2.9e12
     print("\nThe value of safety and stability: break-even thresholds (store | both pillars)")
     print(f"- Insurance premium on the food system it protects (agri-food GVA £{agrifood_gva/1e9:.0f}bn): "
@@ -386,11 +386,11 @@ def benefits():
           f"{store/wellby/POP:.4f} | {both/wellby/POP:.4f} points a year "
           f"({store/wellby:,.0f} | {both/wellby:,.0f} WELLBYs at £{wellby:,})")
     print(f"- Lives: pays for itself if it prevents ~{store/vpf:.0f} | ~{both/vpf:.0f} deaths a year on average, "
-          f"or ~{store*40/vpf:,.0f} | ~{both*40/vpf:,.0f} deaths in one catastrophe once every 40 years")
+          f"or a 1-in-40 annual chance of preventing ~{store*40/vpf:,.0f} | ~{both*40/vpf:,.0f} deaths")
     week = gdp / 52
     print(f"- The economy: one week of national output ≈ £{week/1e9:.0f}bn; a week at 10% lower output "
           f"(≈ £{week*0.1/1e9:.1f}bn) ≈ {week*0.1/store:.1f} | {week*0.1/both:.1f} years of the programme")
-    print(f"- Defence comparison: ~£68bn ≈ £{68e9/POP:,.0f} per person a year vs £{store/POP:.2f} | "
+    print(f"- Defence comparison: ~£62bn (2025/26) ≈ £{62e9/POP:,.0f} per person a year vs £{store/POP:.2f} | "
           f"£{both/POP:.2f}")
 
 

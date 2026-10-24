@@ -130,8 +130,8 @@ Models: `research/model/reserve_basket.py` (cost of both pillars, sensitivity, p
 10. **A contingency ladder** above both pillars: fair rationing, a livestock destocking order, safe nitrogen. (19)
 11. **Per hectare, Britain is world-class; per person, it is land-poor.** Soils can recover. (17)
 12. **One carbon price, no free allowances, no subsidies for emitting.** (12, 18, 21)
-13. **Work and a food-producing nation:** ~3,500 funded permanent jobs across both pillars (a work-in-nature pilot would be separate and separately funded); farming as a prestigious career; grow a surplus of what Britain grows best, which works as a reserve only for crops already in surplus and with an export-licence trigger. (25)
-14. **The benefit first:** the plan insures a £153bn-a-year food system and 4.1 m jobs for under 0.5% of its output; it pays for itself if it avoids a 1%-of-GDP shock once in ~40 years, or lifts wellbeing by an unmeasurably small amount. (27)
+13. **Work and a food-producing nation:** up to ~3,600 gross jobs across both pillars (a work-in-nature pilot would be separate and separately funded); farming as a prestigious career; grow a surplus of what Britain grows best, which works as a reserve only for crops already in surplus and with an export-licence trigger. (25)
+14. **The benefit first:** the plan insures a £162bn-a-year (value added) food sector and 4.1 m jobs for under 0.5% of that value; it pays for itself if it avoids a 1%-of-GDP shock once in ~40 years, or lifts wellbeing by an unmeasurably small amount. (27)
 15. **Related concept:** Homes, Land and Livelihoods, clustered community-owned settlements with shared land, piloted on 2–3 sites first. Not part of the costed plan. (26)
 
 ### Open items
@@ -2481,11 +2481,11 @@ Planning estimates, not a labour-market study.
 | Strategic Food Reserve (store) | ~1,070 permanent | Agency ~65, stores ~280, labs ~40, haulage ~300, crispbread/biscuit/canning ~150, local planners ~135, training ~100 (`jobs()` in the model) |
 | Reserve construction | ~1,400 job-years a year for ~5 years | ~£0.7bn of new stores at ~£100k per job-year (temporary) |
 | Domestic Resilience programme (grow, ~£310m a year) | ~2,500 | Reservoir construction ~800, nutrient services ~500, seed and breeding ~400, advisers and farmer networks ~400, soil and water monitoring ~300, protein processing ~150 |
-| **Funded, permanent total** | **~3,500** | Gross, not net of displaced work |
+| **Funded total** | **up to ~3,600** | Gross, not net of displaced work; ~800 reservoir jobs are construction; many store and haulage jobs sit inside existing contracts |
 | Work-in-nature pilot | 10,000 places | **Not funded** in either pillar: ~£350m a year at ~£35k fully loaded would be a separate decision |
 | Regenerative and higher-output farming | Not estimated | More labour per hectare in organic and regenerative systems (~32% more per farm in one 2006 UK study) [P/S], but no UK study shows net jobs or better pay |
 
-Rows are not added into one grand total: permanent posts, temporary job-years and unfunded places are different things. The headline is ~3,500 funded permanent jobs. Not an answer to up to 8 m jobs exposed to AI in IPPR's worst case [P].
+Rows are not added into one grand total: permanent posts, temporary job-years and unfunded places are different things. The headline is up to ~3,600 gross jobs. Not an answer to up to 8 m jobs exposed to AI in IPPR's worst case [P].
 
 ### 3. Why the work matters: social benefits
 
@@ -2575,9 +2575,9 @@ The "no synthetic inputs" sack in the infographic is artistic licence. Regenerat
 | Letchworth (1903), Welwyn Garden City (1920) | Ebenezer Howard's garden-city model: planned towns with a green belt and community land value capture | [S] |
 | Milton Keynes (designated 1967) | A state-led new town at scale | [S] |
 | Cambourne, South Cambridgeshire | Permission 1996 for up to 3,300 homes, built from 1998; Upper Cambourne +950; West Cambourne approved 2017 for up to 2,350 | https://www.scambs.gov.uk/planning/new-communities/cambourne/ [P] |
-| Salt Cross garden village, West Oxfordshire | ~2,200 homes plus a science and business park north of the A40 near Eynsham; Area Action Plan adopted 25 Feb 2026 after examinations in 2023 and 2026; net-zero standards kept after a legal challenge; construction not before ~2029 | https://www.westoxon.gov.uk/media/a23naehb/aap-adoption-statement-february-2026.pdf [P]; Eynsham Parish Council [S] |
+| Salt Cross garden village, West Oxfordshire | ~2,200 homes plus a science and business park north of the A40 near Eynsham; Area Action Plan adopted 25 Feb 2026 after examinations in 2023 and 2026; strict operational-carbon standards (with defined exceptions) kept after a legal challenge; construction not before ~2029 | https://www.westoxon.gov.uk/media/a23naehb/aap-adoption-statement-february-2026.pdf [P]; Eynsham Parish Council [S] |
 | New Towns Taskforce (28 Sep 2025) | 12 recommended locations of ≥10,000 homes; 23 Mar 2026 statement proposed 7 of 13 shortlisted; final decisions pending | MHCLG [P/?] |
-| NPPF para 84 (Dec 2024) | Isolated homes allowed where there is an "essential need for a rural worker", incl. those taking majority control of a farm business | Council guidance quoting the NPPF [P/S] |
+| NPPF policy HO11 (Sep 2026; para 84 in Dec 2024) | Isolated homes allowed where there is an "essential need for a rural worker", incl. those taking majority control of a farm business | Council guidance quoting the NPPF [P/S] |
 | Class Q permitted development (from 21 May 2024) | Up to 10 homes, 1,000 m² total, 150 m² each, from agricultural buildings; prior approval still needed | Legislation summaries [S] |
 | Wales One Planet Development (TAN 6) | Low-impact, land-based homes with management and footprint tests; the food test is commonly oversimplified | Welsh Government [P] |
 | Community land trusts | Keep homes affordable for later occupants | [S] |
@@ -2591,7 +2591,7 @@ The "no synthetic inputs" sack in the infographic is artistic licence. Regenerat
 ### 4. Land arithmetic [E]
 
 - Four acres = 1.62 ha. 10,000 households × 1.62 ha ≈ 16,200 ha; 1 m households ≈ 1.62 Mha ≈ 9.6% of UK utilised agricultural area (16.8 Mha).
-- 1.5 m homes at ~35 dwellings per hectare ≈ 43,000 ha ≈ 0.26% of UK farmland, if all greenfield.
+- 1.5 m homes at ~35 dwellings per net hectare ≈ 43,000 ha (≈ 0.26% of UK farmland), or ~70,000–110,000 ha gross with roads, schools and open space, if all greenfield.
 - Gemini's check: 12–13 m Gen-Z people × 4 acres would exceed all UK farmland. A universal homestead grant is impossible; a targeted pilot is not.
 - Siting matters more than totals: avoid grade 1 land, Fen peat and mapped flood zones (chapter 2).
 
@@ -2652,17 +2652,17 @@ From `benefits()` in `research/model/reserve_basket.py`. Store = £718m a year; 
 
 | Currency | Basis | Store | Both pillars |
 |---|---|---|---|
-| Insurance premium | Agri-food sector GVA £153.2bn (2023), 4.1 m jobs (2025): Defra, *Food statistics in your pocket* [P] | 0.47% of output; ~£175 per food job a year | 0.67%; ~£250 |
+| Insurance premium | Agri-food sector GVA £162.3bn (2024), 4.1 m GB jobs (2025): Defra, *Food statistics in your pocket* [P] | 0.44% of value added; ~£175 per food job a year | 0.63%; ~£250 |
 | Peace of mind | HM Treasury Green Book wellbeing guidance (2021): £13,000 per WELLBY (range £10–16k), 2019 prices [P] | +0.0008 life-satisfaction points per person a year (~55,000 WELLBYs) | +0.0011 (~79,000) |
-| Lives | DfT value of preventing a fatality £1.8m (2016 prices) [P/S], uprated ~40% to ~£2.5m [E] | ~290 deaths a year, or ~11,500 once in 40 years | ~410, or ~16,400 |
+| Lives | DfT value of preventing a fatality £1.8m (2016 prices) [P/S], uprated ~40% to ~£2.5m [E] | ~290 deaths a year (≈ a 1-in-40 annual chance of preventing ~11,500) | ~410 (~16,400) |
 | The economy | GDP ~£2.9trn; one week ≈ £56bn | A week at 10% lower output ≈ 7.8 years of cost; a 1%-of-GDP shock avoided once in ~40 years | ~5.4 years |
-| Defence comparison | ~£68bn a year ≈ £980 per person | £10.33 | £14.79 |
+| Defence comparison | ~£62bn (MOD 2025/26, Commons Library CBP-8175) ≈ £890 per person | £10.33 | £14.79 |
 
 Sources: https://gov.uk/government/statistics/food-statistics-pocketbook/food-statistics-in-your-pocket ; https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1005388/Wellbeing_guidance_for_appraisal_-_supplementary_Green_Book_guidance.pdf ; DfT value of preventing a fatality (TAG data book; current-price value to confirm).
 
 ### 3. Benefits not priced [I]
 
-- Security and sovereignty (food as leverage), bargaining power in a crisis, protection of the next harvest, rural jobs (~3,500 funded), soil, water and climate co-benefits, health (tablets, fortified flour), trust and fairness (Bellemare 2015; the 2000 fuel blockade).
+- Security and sovereignty (food as leverage), bargaining power in a crisis, protection of the next harvest, rural jobs (up to ~3,600 gross), soil, water and climate co-benefits, health (tablets, fortified flour), trust and fairness (Bellemare 2015; the 2000 fuel blockade).
 
 ### 4. Honesty rules
 

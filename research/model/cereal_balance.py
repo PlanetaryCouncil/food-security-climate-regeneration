@@ -129,9 +129,9 @@ def reserve_needed(harvest_factors, feed_factor, other_hi_factor=0.25, years=2, 
         return 0.0
     lo, hi = 0.0, 30.0
     while not ok(hi):
-        lo, hi = hi, hi * 2
-        if hi > 200:
+        if hi >= 200:
             raise ValueError("no reserve up to 200 Mt meets the floor")
+        lo, hi = hi, min(hi * 2, 200.0)
     for _ in range(40):
         mid = (lo + hi) / 2
         r = run("probe", years, harvest_factors, other_hi_factor=other_hi_factor,

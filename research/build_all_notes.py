@@ -38,7 +38,8 @@ def main():
     for p in notes:
         parts.append("\n\n---\n")
         parts.append(f'<a id="note-{p.stem[:2]}"></a>\n')
-        text = p.read_text(encoding="utf-8")
+        # image paths are relative to research/notes/; the combined page sits one level up
+        text = p.read_text(encoding="utf-8").replace("](../../assets/", "](../assets/")
         parts.append("\n".join(("#" + l) if l.startswith("#") else l for l in text.splitlines()))
     OUT.write_text("\n".join(parts) + "\n", encoding="utf-8")
     print(f"Wrote {OUT} ({OUT.stat().st_size // 1024} KB, {len(notes)} notes)")

@@ -2448,7 +2448,7 @@ New money, alongside pointing existing farm support at resilience outcomes:
 
 Date: 24 October 2026. Feeds briefing chapter 12 (and the infographic in chapter 10). Labels as elsewhere: [P] primary, [S] secondary, [E] estimate, [I] interpretation, [?] unverified.
 
-![16 benefits of regenerative farming](../../assets/16-benefits-of-regenerative-farming.jpg)
+![16 benefits of regenerative farming](../assets/16-benefits-of-regenerative-farming.jpg)
 
 *Infographic: Planetary Council · Ministry of Memes and Better Propaganda (advocacy art; evidence labels in §4).*
 

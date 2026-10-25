@@ -109,6 +109,19 @@ h2 {
 }
 .story strong { color: var(--green); }
 
+/* section labels: every page reads chapter → title → why it matters → the facts */
+.story::before, .story + .grid::before {
+  display: block;
+  column-span: all;
+  font: 700 7pt "Inter", sans-serif;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1.6mm;
+}
+.story::before { content: "Why it matters"; }
+.story + .grid::before { content: "The facts"; }
+
 /* two-column card grid, read down the left column then the right */
 .grid {
   flex: none;

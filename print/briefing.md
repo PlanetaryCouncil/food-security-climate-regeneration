@@ -10,7 +10,7 @@ Store and grow: a simple plan to keep Britain fed
 :::
 
 ::: {.cover-lede}
-Everyone eats, every day. Britain grows just enough food in a normal year, keeps no food in reserve, and depends on a long chain of ships, gas, lorries and good weather. For about **£10 a person a year** we could keep a national food cupboard for everyone. For about **£4.50 more** we could look after the soil, water and seed that every future harvest needs.
+Everyone needs food, every day. Yet Britain grows just enough in a normal year, has no national food reserve, and relies on ships, gas, lorries and good weather. For about **£10 a person a year**, we could keep a national food cupboard for everyone. For about **£4.50 more**, we could care for the soil, water and seed that every future harvest needs. A meal today. A harvest tomorrow.
 :::
 
 ::: {.cover-pillars}
@@ -23,7 +23,7 @@ Everyone eats, every day. Britain grows just enough food in a normal year, keeps
 :::
 
 ::: {.cover-foot}
-Every number has a small footnote; the sources for each page are listed at its foot and are clickable. Our models, notes and the full evidence file: github.com/planetarycouncil/food-security-climate-regeneration. **Tell us where this breaks.**
+Want to check a number? Follow its footnote to the clickable sources at the bottom of the page. Our models, notes and full evidence file are open: github.com/planetarycouncil/food-security-climate-regeneration. **Tell us where this breaks.**
 :::
 :::
 
@@ -31,19 +31,19 @@ Every number has a small footnote; the sources for each page are listed at its f
 ::: {.head}
 [Before we start]{.chapter-no}
 
-## Why food comes first
+## It starts with the next meal
 
 ::: {.kicker}
-You can put off almost anything for a while. Not dinner.
+We all need to eat. So do the people we love.
 :::
 :::
 
 ::: {.story}
-Every one of us runs on food. An average woman needs about 2,000 calories a day and an average man about 2,500.^1^ We can wait for a new phone, a train, a pay rise. We cannot wait long for food, and neither can our children.
+Imagine sitting down to dinner and finding nothing to serve. Food keeps every one of us going. An average woman needs about 2,000 calories a day and an average man about 2,500.^1^ We can wait for a new phone, a train or a pay rise. We cannot wait long for food. Neither can our children.
 
-Most of us never think about where the next meal comes from, because it has always been there. The shops are full, the lorries come at night, the shelves are restocked by morning. But shops keep only about ten days of food.^2^ Our kitchens hold less. The food system works like a river, not a lake: it is safe only while it keeps flowing.
+Full shelves feel ordinary. The lorries arrive at night; by morning, the shelves are restocked. Most of us hardly think about where the next meal comes from, because it has always been there. Yet shops keep only about ten days of food.^2^ Our kitchens hold less. Think of our food supply as a river: we are safe only while it keeps flowing.
 
-The good news is that food, unlike electricity, can be **stored**. Dry grain kept cool and clean lasts for years. That is one of the oldest ideas we have. In the Bible's story, Joseph tells Pharaoh to save grain in seven good years to get Egypt through seven bad ones.^3^ Finland, Switzerland, Norway, Sweden, Germany, Japan and Singapore still do a version of this today.^4^ Britain does not.^5^
+We can prepare for that river slowing down. Unlike electricity, food can be **stored**. Dry grain lasts for years when kept cool and clean. The idea is ancient: in the Bible's story, Joseph tells Pharaoh to save grain in seven good years to feed Egypt through seven bad ones.^3^ Finland, Switzerland, Norway, Sweden, Germany, Japan and Singapore still do a version of this today.^4^ Britain does not.^5^
 :::
 
 ::: {.grid}
@@ -54,14 +54,14 @@ Alfred Henry Lewis, 1896^6^
 :::
 
 ::: {.card .stat}
-[~10 days]{.num} of food in the shops at any time. After that, everything depends on the next delivery.^2^
+[~10 days]{.num} of food in the shops at any time. Beyond that, we need the next delivery to arrive.^2^
 :::
 
 ::: {.card .spot}
 ![](../assets/spots/sack.jpg)
 
-#### :i-silo: A very old idea
-Store in good years, eat in bad ones. Grain, rice, oats and dried beans keep well. Japan keeps rice for about five years before selling it on.^4^
+#### :i-silo: Save some while we can
+Put food aside in good years for the bad ones. Grain, rice, oats and dried beans keep well. Japan keeps rice for about five years before selling it on.^4^
 :::
 
 ::: {.card .stat}
@@ -70,7 +70,7 @@ Store in good years, eat in bad ones. Grain, rice, oats and dried beans keep wel
 :::
 
 ::: {.thread}
-**So:** food is the one thing we cannot go without, and one of the few things we can save up. This briefing asks a simple question: should Britain save some?
+**So:** we need food every day, and it is one of the few essentials we can save up. Should Britain set some aside for everyone? Here is the plan.
 :::
 
 ::: {.refs}
@@ -87,32 +87,32 @@ Store in good years, eat in bad ones. Grain, rice, oats and dried beans keep wel
 ::: {.head}
 [The short version]{.chapter-no}
 
-## The whole story on one page
+## The plan on one page
 
 ::: {.kicker}
-Britain grows just enough. Just enough is not safe. Here is what we propose.
+Enough for a normal year leaves little room for a bad one. We can prepare.
 :::
 :::
 
 ::: {.story}
-In a normal year, British farms grow about as many calories as the country eats: 101% of what we need, a spare of 31 calories per person per day, less than half a slice of bread.^1^ That thin margin depends on things we do not control: fertiliser made from imported gas, animal feed from soya grown across the ocean, lorries that arrive just in time, and weather that is getting less reliable.
+In a normal year, British farms grow about as many calories as the country eats: 101% of what we need. That leaves 31 calories per person per day, less than half a slice of bread.^1^ Even that sliver depends on things we do not control: fertiliser made from imported gas, animal feed from soya grown across the ocean, lorries arriving just in time, and weather that is getting less reliable.
 
-When one link breaks, the shelves can empty in days. When several break together, a bad season can become a bad year. The government says it holds no national food stocks.^2^ So we propose two things, both cheap, both needed.
+Break one link and shelves can empty in days. Break several together and a bad season can become a bad year. The government says it holds no national food stocks.^2^ Our answer has two parts. Both are cheap. Both are needed.
 :::
 
 ::: {.grid}
 ::: {.card .pillar}
 #### :i-silo: 1 · STORE: a national food cupboard
-**~£10.33** per person a year.^3^ Enough wheat to bake bread for everyone for months. A three-day pack of food that needs no cooking, for every person in the country. Baby milk and special foods. Seed and fertiliser for next year's harvest. Rice, oil and sugar.
+**~£10.33** per person a year.^3^ Wheat to bake bread for everyone for months. A three-day pack of food that needs no cooking, for every person in the country. Baby milk and special foods for those who need them. Seed and fertiliser for next year's harvest. Rice, oil and sugar.
 
-*It protects us for weeks and months: blockades, power cuts, cyber attacks, failed imports.*
+*Food to see us through weeks and months of blockades, power cuts, cyber attacks or failed imports.*
 :::
 
 ::: {.card .pillar}
 #### :i-sprout: 2 · GROW: soil, water and seed
-**~£4.46** per person a year of new money, plus today's £4.87bn of farm support aimed at keeping us fed.^3,4^ Test and heal the soil, store winter rain, breed our own seed, reuse nutrients, grow more of our own protein.
+**~£4.46** per person a year of new money, plus, over time, more of today's £4.87bn of farm support directed towards keeping us fed.^3,4^ Test the soil and help it heal. Save winter rain. Breed our own seed. Reuse plant nutrients. Grow more of our own protein.
 
-*It protects us for years and decades: less dependence on imports, more ability to cope with drought.*
+*Stronger farms for years and decades, relying less on imports and coping better with drought.*
 :::
 
 ::: {.card .stat}
@@ -120,21 +120,21 @@ When one link breaks, the shelves can empty in days. When several break together
 :::
 
 ::: {.card}
-#### :i-ladder: A plan written in advance
-A clear, step-by-step plan for what happens in a crisis: who gets what, fair shares for all, decided calmly now, not in a panic later.
+#### :i-ladder: Decide before the crisis
+A clear plan, step by step: who gets what, and how everyone gets a fair share. Write it calmly now, so people know what to expect when a crisis comes.
 :::
 
 ::: {.card .key}
-#### :i-law: What to do now
+#### :i-law: Where we start
 1. Pass a law that sets a minimum food reserve and clear rules for releasing it.
-2. Check how the official statisticians would count the reserve in public debt, before buying anything.
-3. Test it: mills, local delivery, and a ration designed by dietitians.
+2. Before buying anything, ask the official statisticians how the reserve would count towards government debt.
+3. Test the mills and local deliveries. Have dietitians design the emergency food packs.
 4. Start testing soil and storing rainwater on farms.
 :::
 :::
 
 ::: {.thread}
-**How to read this.** Each page tells one part of the story and ends with a bold line that leads to the next. Numbers are in the boxes; sources are at the foot of each page.
+**How to read this.** Each page tells one part of the story. Its bold closing line takes you to the next. Look in the boxes for numbers and at the bottom of each page for sources.
 :::
 
 ::: {.refs}
@@ -149,53 +149,53 @@ A clear, step-by-step plan for what happens in a crisis: who gets what, fair sha
 ::: {.head}
 [Why bother?]{.chapter-no}
 
-## What safety is worth
+## What is a little peace of mind worth?
 
 ::: {.kicker}
-When safety works, nothing happens. That is exactly why it is easy to skip paying for it.
+When safety works, life carries on. It is easy to forget what made that possible.
 :::
 :::
 
 ::: {.story}
-A fire extinguisher that is never used looks like wasted money, until the day it is needed. A food reserve is the same. If it is never used, nothing happens, and nothing happening looks like nothing bought. The cost comes now; the disaster it prevents might come later and land on someone else. Mark Carney, the former Governor of the Bank of England, called this the "tragedy of the horizon".^1^
+A fire extinguisher may look like wasted money until the day it is needed. A food reserve works the same way. When it does its job, life carries on and the money seems to have bought nothing. We pay now to prevent a disaster that may arrive later and hurt someone else. Mark Carney, the former Governor of the Bank of England, called this the "tragedy of the horizon".^1^
 
-So we do not promise huge benefits. We ask a more honest question: **how small a benefit would be enough** to pay for it? The answers below are those break-even points, not forecasts. Each one alone would be enough, so they should never be added up. First number: store only. Second: store and grow.
+We cannot promise huge benefits. We ask: **how small a benefit would cover the cost?** The figures below give that answer, without predicting what will happen. Any one would be enough on its own, so never add them together. First number: store only. Second: store and grow.
 :::
 
 ::: {.grid}
 ::: {.card .stat}
 #### :i-factory: Protecting the food industry
-[0.44% · 0.63%]{.num} of what the food industry adds to the economy each year. It is worth £162bn and employs 4.1 million people.^2^
+[0.44% · 0.63%]{.num} of what the food industry adds to the economy each year would cover the cost. The industry is worth £162bn and employs 4.1 million people.^2^
 :::
 
 ::: {.card .stat}
-#### :i-people: Lives
-[~290 · ~410]{.num} deaths prevented a year, on average, would pay for it, using the value the government already uses for road safety.^3^
+#### :i-people: Lives protected
+[~290 · ~410]{.num} deaths prevented a year would cover the cost, at the value the government puts on lives saved on the roads.^3^
 :::
 
 ::: {.card .stat}
 #### :i-chart: A steady economy
-[~8 · ~5 years]{.num} of the plan cost the same as one week in which the country produces 10% less (about £5.6bn).^4^
+[~8 · ~5 years]{.num} of the plan cost the same as one week of the country producing 10% less (about £5.6bn).^4^
 :::
 
 ::: {.card .stat}
 #### :i-heart: Peace of mind
-Making people's lives feel even slightly better would pay for it, by an amount far too small to measure (Treasury wellbeing method).^5^
+Even a tiny improvement in how people feel about their lives would cover the cost: too small to measure, using the Treasury's method for valuing wellbeing.^5^
 :::
 
 ::: {.card}
 #### :i-alert: Calm streets
-Not counted in the numbers. In the 2000 fuel blockade, supermarkets warned they were days from running out.^6^ Rising prices and unfair treatment, more than empty fields, are what make people angry.
+Not counted in the figures. In the 2000 fuel blockade, supermarkets warned they were days from running out.^6^ Rising prices and unfair treatment do more to anger people than empty fields.
 :::
 
 ::: {.card .stat}
 #### :i-shield: Compared with defence
-[~1p : £1]{.num} Britain spends about £890 per person a year on defence.^7^ The food cupboard costs about £10: roughly 1p on food safety for every £1 on military safety.
+[~1p : £1]{.num} Britain spends about £890 per person a year on defence.^7^ The food cupboard costs about £10: roughly 1p to keep us fed for every £1 spent on military safety.
 :::
 :::
 
 ::: {.thread}
-**So:** the plan pays for itself even if its benefits are tiny. Now the real question: how likely is it that we will need it?
+**So:** even a small benefit would cover the cost. The next question is how likely we are to need that protection.
 :::
 
 ::: {.refs}
@@ -213,19 +213,19 @@ Not counted in the numbers. In the 2000 fuel blockade, supermarkets warned they 
 ::: {.head}
 [Chapter 1]{.chapter-no}
 
-## Just enough
+## Enough, with little to spare
 
 ::: {.kicker}
-On paper, Britain can feed itself. In practice, the margin is wafer-thin.
+Britain can feed itself on paper. There is little room for error.
 :::
 :::
 
 ::: {.story}
-Forty years ago, Britain grew more than 80% of the food it ate. Today it is about 60%.^1^ We grow plenty of milk, lamb, oats and barley. But we grow only 83% of our wheat, just over half of our fresh vegetables and about one piece of fresh fruit in seven.^1^
+Forty years ago, Britain grew more than 80% of the food it ate. Today it is about 60%.^1^ There is plenty of British milk, lamb, oats and barley. But we grow only 83% of our wheat, just over half of our fresh vegetables and about one piece of fresh fruit in seven.^1^
 
-Look closer at our animals. Pigs and chickens eat about 1.1 million tonnes of protein a year from soya shipped in from abroad.^2^ Cows and sheep use most of our farmland.^3^ If the soya ships stopped, the spare calories would shrink, as the government's own statisticians point out.^4^
+Even food grown here can depend on ships arriving. Pigs and chickens eat about 1.1 million tonnes of protein a year from imported soya.^2^ Cows and sheep use most of our farmland.^3^ If the soya ships stopped, our small calorie surplus would shrink, as the government's own statisticians point out.^4^
 
-And the people who grow our food are getting older. Four in ten farmers in England are over 65; only one in twenty is under 35.^5^ When food prices jumped in 2023, they rose by almost a fifth in a single year.^6^
+The people feeding us are getting older. Four in ten farmers in England are over 65; only one in twenty is under 35.^5^ Food prices jumped in 2023, rising by almost a fifth in a single year.^6^
 :::
 
 ::: {.grid}
@@ -234,24 +234,24 @@ And the people who grow our food are getting older. Four in ten farmers in Engla
 :::
 
 ::: {.card .stat}
-[101%]{.num} of the calories we need are grown here in a normal year: a spare of just 31 calories a day each.^4^
+[101%]{.num} of the calories we need are grown here in a normal year. That leaves just 31 calories a day each to spare.^4^
 :::
 
 ::: {.card .spot}
 ![](../assets/spots/wheat.jpg)
 
-#### :i-wheat: Strong and weak spots
+#### :i-wheat: What we grow, what we buy
 We grow **83%** of our wheat, **56%** of our fresh vegetables and **14%** of our fresh fruit.^1^
 :::
 
 ::: {.card .caveat}
-#### :i-alert: Read with care
-The 60% is measured in money, so it moves with import prices. The 101% assumes nothing is wasted.
+#### :i-alert: What these figures mean
+The 60% measures money, so changing import prices change the figure. The 101% assumes no food is wasted.
 :::
 :::
 
 ::: {.thread}
-**So:** Britain grows just enough, as long as gas, soya, lorries and weather all behave. What do we have to work with?
+**So:** we grow just enough while gas, soya, lorries and weather all hold up. To build a safer system, start with the land itself.
 :::
 
 ::: {.refs}
@@ -268,24 +268,24 @@ The 60% is measured in money, so it moves with import prices. The 101% assumes n
 ::: {.head}
 [Chapter 2]{.chapter-no}
 
-## Good land, but not much of it
+## A gift of good land
 
 ::: {.kicker}
-Britain is one of the best places on Earth to grow wheat and grass. There just isn't much land per person.
+Britain is one of the best places on Earth to grow wheat and grass. We have little land to spare per person.
 :::
 :::
 
 ::: {.story}
-Britain is mild and wet. It rains all year, it rarely freezes hard, and there is no dry season.^1^ That makes it superb for wheat and grass. A typical British wheat field grows about twice as much as the world average, and a farm in Lincolnshire holds the world record.^2,3^
+Our mild, wet weather is a gift to farming. Rain falls all year, hard freezes are rare, and there is no dry season.^1^ Wheat and grass thrive here. A typical British wheat field produces about twice the world average, and a farm in Lincolnshire holds the world record.^2,3^
 
-But we are a crowded island. Each of us has about a third as much cropland as a person in France.^4^ Much of our best land is in the east, which is getting drier, and in the Fens, where the dark peat soil is slowly wasting away. More than half of England's very best farmland lies where rivers or the sea can flood it.^5^
+But this gift has limits. Each of us has about a third as much cropland as a person in France.^4^ Much of our best land is in the east, where it is getting drier, and in the Fens, where dark peat soil is slowly wasting away. More than half of England's very best farmland is exposed to flooding from rivers or the sea.^5^
 
-There is hope in the soil itself. In a long-running experiment at Rothamsted, fields rested under grass and clover for some years slowly gained back carbon, the stuff that makes soil rich and spongy.^6^ Soil that has been worn out can recover, if we give it time.
+There is hope beneath our feet. At Rothamsted, a long-running experiment rested fields under grass and clover for some years. The soil slowly gained back carbon, which makes it rich and spongy.^6^ Worn-out soil can recover. It needs care, and it needs time.
 :::
 
 ::: {.grid}
 ::: {.card .stat}
-[2×]{.num} the world average: a typical British wheat harvest per hectare (~7.8 tonnes).^2^
+[2×]{.num} the world average: a typical British wheat harvest per hectare of land (~7.8 tonnes).^2^
 :::
 
 ::: {.card .stat}
@@ -300,12 +300,12 @@ There is hope in the soil itself. In a long-running experiment at Rothamsted, fi
 ![](../assets/spots/seedling.jpg)
 
 #### :i-sprout: Soil can heal
-At Rothamsted, rested fields raised topsoil carbon from **0.98% to 1.23%** over 28 years, then levelled off. Fields cropped every year lost carbon.^6^
+At Rothamsted, resting fields raised carbon in the topsoil from **0.98% to 1.23%** over 28 years, then it levelled off. Fields cropped every year lost carbon.^6^
 :::
 :::
 
 ::: {.thread}
-**So:** the land is good and the soil can heal, but there is little of it per person, and the weather it depends on is changing.
+**So:** our land is good and our soil can heal. We must look after it carefully: there is little per person, and the weather is changing.
 :::
 
 ::: {.refs}
@@ -323,7 +323,7 @@ At Rothamsted, rested fields raised topsoil carbon from **0.98% to 1.23%** over 
 ::: {.head}
 [Chapter 3]{.chapter-no}
 
-## The weather is changing
+## When bad weather piles up
 
 ::: {.kicker}
 One bad week rarely hurts a harvest. A whole season of bad weather does, and that is happening more often.
@@ -331,38 +331,38 @@ One bad week rarely hurts a harvest. A whole season of bad weather does, and tha
 :::
 
 ::: {.story}
-British wheat is tough. It can shrug off a cold snap or a wet week. What hurts is when the bad weather piles up across a whole season: an autumn too wet to sow, a spring too dry for the seed to grow, a summer too wet to harvest.^1^
+British wheat is tough. A cold snap or a wet week rarely defeats it. The trouble comes when bad weather follows bad weather: an autumn too wet to plant, a spring too dry for seeds to grow, a summer too wet to bring the harvest in.^1^
 
-That pile-up is becoming normal. Four of England's five worst harvests in the last forty years came between 2020 and 2026.^2^ 2025 was the warmest year ever recorded in the UK.^3^ New crop diseases and animal diseases are moving north as winters get warmer.^4,5^
+That pile-up is becoming normal. This year's UK harvest looks set to be the smallest on record, and four of the five worst on record have now come this decade.^2^ 2025 was the warmest year ever recorded in the UK.^3^ Warmer winters are also bringing new crop and animal diseases north.^4,5^
 
-And when Britain has a bad year, our neighbours often do too. In 2026 drought hit Britain, France and Germany at the same time.^6^ That matters, because the place we would normally buy from is having the same bad year. Trade cannot rescue us from a failure that everyone shares. A store of food can.
+Buying from a neighbour seems an obvious answer to a bad harvest. But in 2026, drought hit Britain, France and Germany together.^6^ Our neighbours often have bad years when we do. If the country we would buy from has the same problem, trade cannot rescue everyone. Food already in store can help us through.
 :::
 
 ::: {.grid}
 ::: {.card .stat}
-[4 of 5]{.num} of England's worst harvests since 1984 came in 2020–2026.^2^
+[4 of 5]{.num} of the UK's worst harvests on record are likely to have come this decade: 2020, 2024, 2025 and 2026.^2^
 :::
 
 ::: {.card .stat}
-[−11%]{.num} wheat harvest per field in 2026, compared with the last five years.^7^
+[−11%]{.num} wheat harvested per field in 2026, compared with the last five years.^7^
 :::
 
 ::: {.card .stat}
-[1.2%]{.num} a year: the chance that the world's main wheat regions all fail together. It used to be 0.3%.^8^
+[1.2%]{.num} a year: the chance of the world's main wheat-growing regions all failing together. It used to be 0.3%.^8^
 :::
 
 ::: {.card .stat}
-[~8 Mt]{.num} of grain lost in France alone in the 2026 drought.^6^
+[~8 million tonnes]{.num} of grain lost in France alone in the 2026 drought.^6^
 :::
 
 ::: {.card .caveat}
-#### :i-alert: Read with care
-Average harvests may hold up for decades; the danger is in the bad years. Some of 2026's losses came from farmers planting less because fertiliser was so expensive, not from weather alone.
+#### :i-alert: What the figures leave out
+Average harvests may hold up for decades. The danger lies in the bad years. Weather alone did not cause all of 2026's losses: farmers also planted less because fertiliser was so expensive.
 :::
 :::
 
 ::: {.thread}
-**So:** bad years are coming more often and hitting our neighbours at the same time. And a harvest needs much more than weather.
+**So:** bad years are coming more often, and neighbours are being hit together. Weather is only part of the story. Follow a loaf of bread to see the rest.
 :::
 
 ::: {.refs}
@@ -381,19 +381,19 @@ Average harvests may hold up for decades; the danger is in the bad years. Some o
 ::: {.head}
 [Chapter 4]{.chapter-no}
 
-## What a loaf really needs
+## The long journey to a loaf
 
 ::: {.kicker}
-A loaf of bread runs on gas, diesel, ships, electricity and computers.
+Before bread reaches the table, it needs gas, diesel, ships, electricity and computers.
 :::
 :::
 
 ::: {.story}
-Follow one loaf back to the field. The wheat grew because a farmer spread nitrogen fertiliser, and that fertiliser is made from natural gas. Britain no longer makes it in any quantity: its last big fertiliser factory, at Billingham, closed in 2023.^1^ All of Britain's phosphate, the other key plant food, is imported too.^2^
+Imagine following one loaf of bread back to its field. A farmer spread nitrogen fertiliser to help the wheat grow. That fertiliser is made from natural gas. Britain no longer makes it in any quantity: its last big fertiliser factory, at Billingham, closed in 2023.^1^ All our phosphate, another key plant food, is imported too.^2^
 
-The grain went by lorry, and modern lorries need a fluid called AdBlue, made from the same stuff as fertiliser. Without it, the lorry slows to the speed of a bicycle.^3^ The flour was milled with electricity. The loaf was ordered by computer. And much of the rest of our food has to be kept cold: more than half of what we eat is chilled or frozen.^4^
+Next comes the lorry. Modern lorries need AdBlue, a fluid made from the same stuff as fertiliser. Keep driving without it and, after warnings, the engine loses power; in the end the lorry is held to bicycle speed.^3^ Then the mill needs electricity to make flour, and a computer takes the bread order. Much of our other food needs cold storage too: more than half of what we eat is chilled or frozen.^4^
 
-Each of these links has already snapped somewhere. In 2025 a computer attack on one meat supplier stopped deliveries to most big supermarkets.^5^ That same spring, a blackout across Spain and Portugal stopped card payments, warehouses and fridges for 50–60 million people.^6^
+These links have already broken somewhere. In 2025, a computer attack on one meat supplier stopped deliveries to most big supermarkets.^5^ That same spring, a blackout in Spain and Portugal stopped card payments, warehouses and fridges for 50–60 million people.^6^
 :::
 
 ::: {.grid}
@@ -405,21 +405,21 @@ About **42%** of our imported dairy and eggs and **39%** of imported meat come a
 :::
 
 ::: {.card .stat}
-[>50%]{.num} of the food we eat must be kept chilled or frozen. No power, no cold.^4^
+[>50%]{.num} of the food we eat must be chilled or frozen. Keeping it cold depends on power.^4^
 :::
 
 ::: {.card .stat}
-[20 km/h]{.num} the top speed of a modern lorry once its AdBlue runs out.^3^
+[20 km/h]{.num} the limit a modern lorry is finally held to if it keeps running without AdBlue.^3^
 :::
 
 ::: {.card}
-#### :i-shield: Important, but not mapped
-Food is officially one of 13 "critical" national systems. But the government's spending watchdog says nobody has yet listed the mills, grain dryers and cold stores it depends on.^8^
+#### :i-shield: Find the places we depend on
+Food is officially one of 13 national systems classed as "critical". Yet the government's spending watchdog says nobody has listed the mills, grain dryers and cold stores it depends on.^8^
 :::
 :::
 
 ::: {.thread}
-**So:** the weak links are energy, fertiliser and transport, not land. The biggest single one is food for our animals.
+**So:** good land cannot feed us without energy, fertiliser and transport. Our biggest single weak link is the food our animals eat.
 :::
 
 ::: {.refs}
@@ -438,30 +438,32 @@ Food is officially one of 13 "critical" national systems. But the government's s
 ::: {.head}
 [Chapter 5]{.chapter-no}
 
-## Grain, animals and the sea
+## The grain we already have
 
 ::: {.kicker}
-Our grain is not the weak point. The soya we import for animals is. And the grain we feed to animals is a hidden reserve.
+Grain fed to animals can also feed people. Our bigger worry is the soya we import to feed those animals.
 :::
 :::
 
 ::: {.story}
-Here is a surprise: about half of the wheat, barley and oats grown in Britain is fed to animals, not people.^1^ That is not wasted, but it is costly. It takes several plates of grain to make one plate of meat from a grain-fed animal.^2^
+About half of Britain's wheat, barley and oats goes into animal feed.^1^ It comes back to us as food, but at a cost: a grain-fed animal needs several plates of grain to produce one plate of meat.^2^ In a shortage, we would need to think carefully about who eats that grain.
 
-In a crisis, that animal grain becomes a hidden reserve. Feed barley can become porridge, flatbread and wholegrain food, though not quite today's soft white loaf.^3^ Our model shows that if imports stopped in a normal year, British grain could keep both people and animals going, as long as we stopped turning grain into whisky and car fuel.^4^
+That makes animal feed a hidden reserve. Barley grown for feed can become porridge, flatbread and wholegrain food, though it cannot quite make today's soft white loaf.^3^ Our model shows that if imports stopped, British grain could keep people and animals going for two years, as long as we stopped most of the grain going into whisky and car fuel. Over three years, with a safety stock kept in hand, we would have to choose: feed animals about a tenth less, or store more grain.^4^
 
-The real gap is protein. Pigs and chickens rely on imported soya. Cows and sheep do best on grass, on hills and wet land where crops cannot grow.^5^ And around our coasts swim mackerel and herring we mostly sell abroad.^6^
+The real gap is protein. Pigs and chickens rely on imported soya. Cows and sheep do best on grass, on hills and wet land where crops cannot grow.^5^ There is food around our coasts too: we mostly sell our mackerel and herring abroad.^6^
 :::
 
 ::: {.grid}
 ::: {.card .wide}
 #### :i-chart: If imports stopped for three years (our grain model)^4^
+Grain for whisky and fuel cut by three-quarters; 1 million tonnes always kept back. The bread wheat in the cupboard is separate and does not fill these gaps.
+
 | What the harvests are like | Extra grain we would need |
 |---------|-------|
 | Normal harvests, animals fed as now | 2.3 million tonnes |
 | Two harvests 15% down, animals get 80% of their feed | 2.5 million tonnes |
 | A fertiliser shortage cuts one harvest by a third | 3.5 million tonnes |
-| Three harvests 30% down | 11.4 million tonnes: too much to store. We would also need fewer animals |
+| Three harvests 30% down, animals get 80% of their feed | 11.4 million tonnes: too much to store. With animal feed halved, almost nothing extra |
 :::
 
 ::: {.card .stat}
@@ -472,22 +474,22 @@ The real gap is protein. Pigs and chickens rely on imported soya. Cows and sheep
 ![](../assets/spots/sheep.jpg)
 
 #### :i-sheep: Animals on the right land
-Keep cattle and sheep on grass that nothing else can use. Match pig and chicken numbers to the protein we can grow at home.^5^
+Keep cattle and sheep on grass that nothing else can use. Keep pig and chicken numbers in line with the protein we can grow at home.^5^
 :::
 
 ::: {.card}
 #### :i-sprout: Growing our own protein
-Replacing all imported soya would take field beans on about a sixth of our cropland. A third within ten years is realistic.^4^
+Replacing all imported soya with field beans would take about a sixth of our cropland. Replacing a third within ten years is realistic.^4^
 :::
 
 ::: {.card .stat}
-#### :i-fish: The sea
-[40%]{.num} of the fish we eat is now caught or farmed in the UK; it was 89% in 1975.^6^
+#### :i-fish: Food from our own waters
+[40%]{.num} of the fish we ate in 2019 was caught or farmed in the UK; it was 89% in 1975.^6^
 :::
 :::
 
 ::: {.thread}
-**So:** grain is a safety buffer if we plan ahead; imported soya is the gap. Both depend on a world that is getting more dangerous.
+**So:** planning ahead lets grain feed us in a crisis. Imported soya leaves a gap. Now look at what is happening along the routes that bring our food and fertiliser here.
 :::
 
 ::: {.refs}
@@ -504,19 +506,19 @@ Replacing all imported soya would take field beans on about a sixth of our cropl
 ::: {.head}
 [Chapter 6]{.chapter-no}
 
-## When the world gets dangerous
+## Trouble abroad, prices at home
 
 ::: {.kicker}
-In 2026 two of the world's key sea routes were disrupted. Britain buys little directly through either, and still pays for both.
+In 2026 two key sea routes were disrupted. Britain buys little directly through either. We still feel the cost of both.
 :::
 :::
 
 ::: {.story}
-This year, the Strait of Hormuz, the narrow sea passage out of the Persian Gulf, was closed.^1^ Up to 30% of the world's traded fertiliser passes that way. At the same time, ships carrying grain on the Black Sea came under attack.^2^ Within weeks, the price of a common nitrogen fertiliser more than doubled.^3^ World food prices are now the highest in almost four years.^4^
+Events far away can reach our dinner tables. This year the Strait of Hormuz, the narrow sea passage out of the Persian Gulf, was closed.^1^ Up to 30% of the world's traded fertiliser passes through it. Grain ships on the Black Sea also came under attack.^2^ Within weeks, a common nitrogen fertiliser more than doubled in price.^3^ World food prices are now the highest in almost four years.^4^
 
-So far, British shoppers have barely noticed: food prices rose only 1.3% in the year to September.^5^ But fertiliser bought dear this winter shows up in next year's harvest and next year's prices.
+British shoppers have barely felt this yet: food prices rose only 1.3% in the year to September.^5^ But expensive fertiliser bought this winter feeds into next year's harvest and next year's food prices.
 
-History tells us what happens when food gets scarce. In 2022, 32 countries banned or limited food exports.^6^ When food is short, money matters less than having it already. Countries that hold stock do not have to panic-buy, and they can help their friends.
+Having money does not guarantee food is for sale. In 2022, 32 countries banned or limited food exports.^6^ In a shortage, food already in store matters more than money waiting to buy it. Countries with stocks can avoid panic buying and help their friends.
 :::
 
 ::: {.grid}
@@ -533,18 +535,18 @@ History tells us what happens when food gets scarce. In 2022, 32 countries banne
 :::
 
 ::: {.card .key}
-#### :i-shield: A reserve is also foreign policy
-A country with food in store can keep its own exports open, help partners, and in calm years sell old stock to aid agencies at prices agreed in advance.
+#### :i-shield: Food in store helps our friends too
+With food in store, a country can keep exporting and help its partners. In calm years it can sell older stock to aid agencies, at prices agreed in advance.
 :::
 
 ::: {.card .caveat}
-#### :i-alert: Read with care
-Contracts to buy food later can fail when countries ban exports, so food at home comes first. We could not confirm whether Hormuz was open in late October 2026.
+#### :i-alert: What we cannot be sure of
+A promise to sell us food later can fail if a country bans exports. Food held at home comes first. We could not confirm whether Hormuz was open in late October 2026.
 :::
 :::
 
 ::: {.thread}
-**So:** when food is short, stock beats money. And when food gets scarce or dear, people notice who is treated fairly.
+**So:** food in store matters more than money in a shortage. A plan must also say how everyone gets a fair share.
 :::
 
 ::: {.refs}
@@ -561,19 +563,19 @@ Contracts to buy food later can fail when countries ban exports, so food at home
 ::: {.head}
 [Chapter 7]{.chapter-no}
 
-## When food runs short, fairness matters
+## Everyone needs a fair share
 
 ::: {.kicker}
-People forgive shortage sooner than unfairness.
+People accept shortage more readily when the rules are fair.
 :::
 :::
 
 ::: {.story}
-When food gets dearer, people get angrier. Studies across many countries find that rising food prices are followed by more unrest.^1^ In a rich country like Britain, the first thing to fail is not the harvest but the delivery: in the 2000 fuel blockade, supermarkets warned they would run out within days.^2^
+When food gets dearer, people get angrier. Studies across many countries find that rising prices are followed by more unrest.^1^ In a rich country like Britain, deliveries can fail before harvests do. During the 2000 fuel blockade, supermarkets warned they would run out within days.^2^
 
-What turns a shortage into chaos is the feeling that it is unfair. In Egypt in 1977, cutting the bread subsidy caused riots in almost every big city; it was reversed in two days.^3^ In Japan in 2025, rice prices nearly doubled, the emergency rice reached shops too slowly, and the farm minister resigned.^4^ In Britain during the Second World War, rationing gave everyone the same basic share, and baby deaths actually fell.^5^
+A sense of unfairness can turn shortage into chaos. In Egypt in 1977, cutting support that kept bread cheap caused riots in almost every big city. The cut was reversed in two days.^3^ In Japan in 2025, rice prices nearly doubled, emergency rice reached shops too slowly, and the farm minister resigned.^4^ Britain offers another lesson: during the Second World War, rationing gave everyone the same basic share, and baby deaths fell.^5^
 
-Many families are already on the edge. One household in eight cannot always afford enough food.^6^ Only one in twenty-five has three days of water at home.^7^
+Many families have little room left for a crisis. One household in eight cannot always afford enough food.^6^ Only one in twenty-five has three days of water at home.^7^
 :::
 
 ::: {.grid}
@@ -582,22 +584,22 @@ Many families are already on the edge. One household in eight cannot always affo
 :::
 
 ::: {.card .stat}
-[2.6 m]{.num} emergency food parcels given out by food banks in 2025.^8^
+[2.6 million]{.num} emergency food parcels given out by food banks in 2025.^8^
 :::
 
 ::: {.card}
-#### :i-law: Britain is not ready
-The government's spending watchdog found local plans for food emergencies "insufficient", and no power for the government to direct food firms in a disaster.^9^ In October 2026 more than 150 experts wrote to the Prime Minister asking for national food stores.^10^
+#### :i-law: The gaps in Britain's plans
+The government's spending watchdog called local food emergency plans "insufficient". It also found the government has no power to direct food firms in a disaster.^9^ In October 2026, more than 150 experts wrote to the Prime Minister asking for national food stores.^10^
 :::
 
 ::: {.card .caveat}
-#### :i-alert: Read with care
-In Britain the likely problem is panic buying, empty shelves and lost trust, not riots. Unrest has many causes; prices are one.
+#### :i-alert: Keep the risk in perspective
+In Britain, the likely problems are panic buying, empty shelves and lost trust. Riots are not the likely outcome. Unrest has many causes; prices are one.
 :::
 :::
 
 ::: {.thread}
-**So:** being prepared, openly and fairly, keeps the peace. Other countries already do this.
+**So:** open, fair preparation helps keep the peace. Other countries already do this. We can learn from them.
 :::
 
 ::: {.refs}
@@ -618,17 +620,17 @@ In Britain the likely problem is panic buying, empty shelves and lost trust, not
 ::: {.head}
 [Chapter 8]{.chapter-no}
 
-## What other countries do
+## Our neighbours keep a cupboard
 
 ::: {.kicker}
-Many countries like ours keep food in reserve. Britain keeps none.
+Many countries like Britain put food aside for hard times. Britain has no national reserve.
 :::
 :::
 
 ::: {.story}
-Finland, a country that remembers hunger and war, keeps at least six months of bread grain.^1^ Switzerland requires its food firms to hold two to four months of staples on top of their normal stock.^2^ Norway is rebuilding a grain store it let go.^3^ Sweden passed a new law this year.^4^
+Britain would be following a familiar path. Finland remembers hunger and war, and keeps at least six months of bread grain.^1^ Switzerland makes food firms hold two to four months of everyday basics on top of their normal stock.^2^ Norway is rebuilding a grain store it let go.^3^ Sweden passed a new law this year.^4^
 
-None of this is exotic. It is ordinary, boring, careful government. And it works: in August 2026, when low rivers stopped barges reaching Switzerland, the Swiss simply released animal feed from their stores.^5^ The lesson from Japan is the opposite one: having food is not enough. You also need clear, fast rules for letting it out.^6^
+This is the quiet work of careful government. In August 2026, when low rivers stopped barges reaching Switzerland, the Swiss released animal feed from their stores.^5^ But food must be able to leave the warehouse as well as enter it. Japan's experience shows why clear rules for releasing it quickly matter.^6^
 :::
 
 ::: {.grid}
@@ -646,13 +648,13 @@ None of this is exotic. It is ordinary, boring, careful government. And it works
 :::
 
 ::: {.card .caveat}
-#### :i-alert: Read with care
-Finland's and Switzerland's costs also cover fuel and medicines, so they are not like-for-like prices for a UK food reserve.^10^ Much national reserve data is incomplete or secret.
+#### :i-alert: What we can compare
+Finland's and Switzerland's costs also cover fuel and medicines. They cannot tell us the cost of food stores alone in Britain.^10^ Much of the information about national reserves is incomplete or secret.
 :::
 :::
 
 ::: {.thread}
-**So:** keeping food in reserve is normal in countries like ours. Here is what a British one would hold and cost.
+**So:** keeping food for hard times is normal in countries like ours. What would we put in a British cupboard, and what would it cost?
 :::
 
 ::: {.refs}
@@ -676,22 +678,22 @@ Finland's and Switzerland's costs also cover fuel and medicines, so they are not
 ## STORE: a national food cupboard
 
 ::: {.kicker}
-About £10 per person a year, under 3p a day. Bread for everyone, a no-cook food pack for everyone, and the seed for next year. Nobody left out.
+About £10 per person a year, under 3p a day. Bread, food that needs no cooking, and seed for next year. Enough to include everyone. Nobody left out.
 :::
 :::
 
 ::: {.story}
-Imagine the power has been off for three days. Ovens are cold, card machines are dead, the shops are emptying. What do people actually need? We built the reserve backwards from that moment, starting with the meal.
+Imagine the power has been off for three days. Your oven is cold. You cannot pay by card. The shops are emptying. What will you eat? We built the reserve by starting with that meal, then working backwards.
 
-**First, bread.** Four million tonnes of good milling wheat, kept by millers and grain merchants on top of their normal stock, would keep the bakeries going for about ten months even with no imports and no harvest, as long as the mills have power and staff.^1,2^ **Second, food that needs no cooking**: a three-day pack of crispbread, biscuits and oatcakes for every single person, stored near where people live, plus vitamin tablets for 90 days. **Third, the people who need something different**: baby milk, medical foods, soft food. **Fourth, the next harvest**: seed, fertiliser stored safely, animal feed, and months of rice, oil and sugar.^1^
+**First, bread.** Four million tonnes of wheat suitable for flour, held by millers and grain merchants in addition to their normal stock. It would keep bakeries going for about ten months with no imports and no harvest, provided mills have power and staff. After about three months the strong wheat for today's soft sliced loaf runs out, and bread becomes heavier and more wholegrain.^1,2^ **Second, food that needs no cooking**: a three-day pack of crispbread, biscuits and oatcakes for every single person, stored close to home, plus vitamin tablets for 90 days. **Third, food for different needs**: baby milk, medical foods and soft food. **Fourth, the next harvest**: seed, safely stored fertiliser, animal feed, and months of rice, oil and sugar.^1^
 :::
 
 ::: {.grid}
 ::: {.card .spot}
 ![](../assets/spots/bread.jpg)
 
-#### :i-wheat: Always fresh
-About a fifth of the stock is used and replaced each year, so it never goes stale. Old stock goes to schools, the armed forces and food banks.
+#### :i-wheat: Use it and replace it
+About a fifth of the stock is used and replaced each year to keep it fresh. Older stock goes to schools, the armed forces and food banks.
 :::
 
 ::: {.card .aside}
@@ -701,8 +703,8 @@ Think of it as the National Insurance (not National Insurance).
 :::
 
 ::: {.card}
-#### :i-box: Who holds it
-Part is owned by the state and paid from taxes. The rest is extra stock that food firms must hold by law, as in Switzerland, with the cost added to food prices.^3^
+#### :i-box: Who owns it, who pays
+The state owns part, paid for through taxes. Food firms must hold the rest as extra stock by law, as they do in Switzerland. That cost is added to food prices.^3^
 :::
 
 ::: {.card .stat}
@@ -710,8 +712,8 @@ Part is owned by the state and paid from taxes. The rest is extra stock that foo
 :::
 
 ::: {.card .wide}
-#### :i-ladder: If money is short, build from the bottom up
-Total cost per person a year at each step.^1^
+#### :i-ladder: Start with the meal, build from there
+If money is short, build in stages. Total cost per person a year at each step.^1^
 
 | Up to | What it adds |
 |-|--------|
@@ -725,7 +727,7 @@ Total cost per person a year at each step.^1^
 :::
 
 ::: {.thread}
-**So:** the food cupboard starts with the meal and covers everyone. Here are the numbers.
+**So:** start with what people can eat, and make sure everyone is covered. Here is the full cupboard, with its price tag.
 :::
 
 ::: {.refs}
@@ -741,10 +743,10 @@ Total cost per person a year at each step.^1^
 ::: {.head}
 [Chapter 9 · Pillar 1 (continued)]{.chapter-no}
 
-## The food cupboard in numbers
+## What goes in, what it costs
 
 ::: {.kicker}
-£718m a year, about 6.8 million tonnes of food, and an honest answer to everything that could go wrong.
+£718m a year, about 6.8 million tonnes of food, and plain answers to the things that could go wrong.
 :::
 :::
 
@@ -752,14 +754,14 @@ Total cost per person a year at each step.^1^
 ::: {.card .wide}
 | What | How much | £ per person a year |
 |--------|--|--|
-| Milling wheat, 4 million tonnes (half in new stores), plus strong wheat for bread | 4.35 Mt | 2.62 |
-| No-cook food pack for everyone, 3 days (~500 g a day) | 104 kt | 0.40 |
+| Wheat for flour, 4 million tonnes (half in new stores), plus strong wheat for bread | 4.35 million tonnes | 2.62 |
+| No-cook food pack for everyone, 3 days (~500 grams a day) | 104 thousand tonnes | 0.40 |
 | Vitamin tablets, flour vitamins, sacks, 90 million litres of bottled water | – | 0.46 |
 | Running it: a small agency and inspectors (~£33m), local plans, fuel and power, delivery, security | – | 3.44 |
-| Baby milk (~7,000 t), medical foods, special no-cook food for 5 million people | – | 0.63 |
-| Next harvest: seed, safely stored nitrogen fertiliser, 10 weeks of soya feed | 1.21 Mt | 1.64 |
-| Imported basics: rice and oil (~4 months), sugar (~2 months), beans, oats, milk powder, tinned fish | 1.18 Mt | 1.14 |
-| **Total** | **~6.8 Mt** | **~£10.33 (£718m)** |
+| Baby milk (~7,000 tonnes), medical foods, special no-cook food for 5 million people | – | 0.63 |
+| Next harvest: seed, safely stored nitrogen fertiliser, 10 weeks of soya feed | 1.21 million tonnes | 1.64 |
+| Imported basics: rice and oil (~4 months), sugar (~2 months), beans, oats, milk powder, tinned fish | 1.18 million tonnes | 1.14 |
+| **Total** | **~6.8 million tonnes** | **~£10.33 (£718m)** |
 
 Source: our cost model.^1^
 :::
@@ -769,29 +771,29 @@ Source: our cost model.^1^
 :::
 
 ::: {.card .stat}
-[~£3.7bn]{.num} of food and stores to pay for up front, by the state and firms, over ~5 years.^1^
+[~£3.7bn]{.num} to buy the food and provide the stores at the start, paid by the state and firms over ~5 years.^1^
 :::
 
 ::: {.card .wide .range}
-**If things cost more:**^1^ cheapest case £9.40 · our central case **£10.33** · prices 30% higher £11.35 · firms borrow at 8% £11.92, at 10% £12.73 · grain and fertiliser prices double £13.73 · bad case £16.56 · very bad case £18.34.
+**If costs rise:**^1^ cheapest case £9.40 · our central case **£10.33** · prices 30% higher £11.35 · firms borrow at 8% £11.92, at 10% £12.73 · grain and fertiliser prices double £13.73 · bad case £16.56 · very bad case £18.34 · worst case tested £25.57.
 :::
 
 ::: {.card .wide}
-#### :i-alert: What could go wrong, and what we do about it
+#### :i-alert: Fair questions, clear answers
 | Worry | Answer |
 |----|--------|
-| It adds to government debt | Only the ~£0.72bn public part is meant to count. If the statisticians count the firms' stock too, debt rises by ~£2.2bn more. Ask them first |
-| Firms pretend normal stock is reserve | The duty is on top of a registered normal level, checked by independent inspectors (£8m a year) |
-| The first week fails without water and delivery | 90 million litres covers 10 million people for 3 days; water firms must cover the rest and practise it. A national food drop would cost ~£400m more |
-| The same wheat is counted twice | The 4 million tonnes is for bread only; feeding animals through two bad harvests needs ~2.5 million tonnes more^2^ |
-| Stored fertiliser explodes | We never store the explosive kind (ammonium nitrate, the Beirut chemical), only safer forms^3^ |
-| Refilling is costly | Refill within three years, when prices and quality are right; refilling 30% dearer costs ~£0.25bn |
-| It gets raided to fight inflation | Released only on published supply triggers, never to manage prices |
+| It adds to government debt | The ~£0.72bn public part counts. The firms' stock (~£2.2bn) may count too, especially if the state backs their borrowing. Ask the statisticians before buying; if firms borrow at normal rates, the cost is ~£12 a person |
+| Firms count normal stock as reserve | Require extra stock above a registered normal level. Independent inspectors check it (£8m a year) |
+| The first week fails without water and delivery | 90 million litres covers only about one person in seven for 3 days. The rest needs a published, tested water-company plan. Food packs must already be local; a national food drop would cost ~£400m more |
+| The same wheat is counted twice | The 4 million tonnes is for bread only. Feeding animals through two bad harvests needs ~2.5 million tonnes more^2^ |
+| Stored fertiliser explodes | Never store the explosive kind (ammonium nitrate, the Beirut chemical). Use only safer forms^3^ |
+| Refilling is costly | Refill within three years, when prices and quality are right. Refilling 30% dearer costs ~£0.25bn |
+| The reserve is used to fight inflation | Release only when published rules show a supply problem, never to manage prices |
 :::
 :::
 
 ::: {.thread}
-**So:** a store buys time, not independence. What we grow with that time is the second pillar.
+**So:** stored food buys breathing space. To rely less on imports, we also need to care for the next harvest. That is GROW, our second pillar.
 :::
 
 ::: {.refs}
@@ -808,25 +810,25 @@ Source: our cost model.^1^
 ## GROW: healthy soil, water and seed
 
 ::: {.kicker}
-A store buys time. Soil, water and seed decide what we can grow with it.
+Stored food buys time. Soil, water and seed turn that time into the next harvest.
 :::
 :::
 
 ::: {.story}
-A food cupboard gets us through a bad season. It cannot fix the deeper problem: every British harvest leans on imports and luck. Our farms used about 904,000 tonnes of nitrogen fertiliser last year, made from gas, and Britain no longer makes the key ingredient itself (chapter 4).^1^
+Once the cupboard opens, it begins to empty. It can see us through a bad season, but every British harvest still relies on imports and luck. Our farms used about 904,000 tonnes of nitrogen fertiliser last year, made from gas. Britain no longer makes the key ingredient itself (chapter 4).^1^
 
-So the second pillar looks after the things every harvest stands on. **Soil**: test it, measure how wet it is, and help it recover. **Water**: catch winter rain in farm reservoirs for dry summers. **Seed**: breed and multiply our own. **Nutrients**: use manure and waste wisely, and grow more beans and peas, which make their own nitrogen. Today about 50 stations measure soil moisture across the whole UK.^2^ We propose ten times as many.
+Our second pillar cares for what makes the next meal possible. **Soil**: test it, check how wet it is, help it recover. **Water**: catch winter rain in farm reservoirs for dry summers. **Seed**: breed and grow our own. **Plant nutrients**: use manure and waste wisely; grow more beans and peas, which make their own nitrogen. Today about 50 stations measure how wet the soil is across the whole UK.^2^ We propose ten times as many.
 :::
 
 ::: {.grid}
 ::: {.card .wide}
-| Area | What the money buys | £m a year |
+| Area | What the money buys | £ million a year |
 |---|-------|-|
-| **Soil and water checks** | ~500 soil-moisture stations (from ~50), satellite checks, a national soil-health map, regular field tests | 35 |
+| **Soil and water checks** | ~500 soil moisture stations (from ~50), satellite checks, national soil health map, regular field tests | 35 |
 | **Water storage** | Farm and local reservoirs that fill in winter | 100 |
-| **Seed** | Seed banks, growing our own seed (including beans and peas), public plant breeding | 40 |
-| **Nutrients** | Testing and careful use of manure; recovering phosphate; beans and peas; a pilot for making fertiliser with green power | 60 |
-| **Switching to soil-building farming** | Independent advice, farmer groups, payments to bridge the first lean years | 50 |
+| **Seed** | Seed banks; grow our own seed, including beans and peas; publicly funded plant breeding | 40 |
+| **Plant nutrients** | Testing and careful use of manure; recovering phosphate; beans and peas; a trial of making fertiliser with green power | 60 |
+| **Farming that rebuilds soil** | Independent advice, farmer groups, payments through the first lean years | 50 |
 | **Home-grown protein** | Mills and plants to process beans and peas | 25 |
 
 Source: our cost model.^3^
@@ -839,23 +841,23 @@ Source: our cost model.^3^
 ::: {.card .spot}
 ![](../assets/spots/drop.jpg)
 
-#### :i-drop: Small today
+#### :i-drop: Building on a small start
 Reservoir grants have been £10–15m a round.^4^ The UK's vegetable seed bank holds about **14,000** samples.^5^
 :::
 
 ::: {.card}
-#### :i-pound: Better use of money we already spend
-Britain already spends about **£4.87bn** a year on farm support, about £70 per person.^6^ We ask that it buy a safer food supply. Some farms will lose out, and that should be said openly.
+#### :i-pound: Make existing money work harder
+Britain already spends about **£4.87bn** a year supporting farms, about £70 per person.^6^ Some of it is tax relief or contracts already signed, so it cannot all move at once. Over time, we want more of it to help keep us fed. Some farms will lose out. Say so openly.
 :::
 
 ::: {.card .caveat}
-#### :i-alert: Read with care
-£310m is a start and a set of trials, not full independence. Soil-building farming often makes more profit after 3–5 years, but paying back the switch takes about nine without help.^7^ Pay for measured results, not labels.
+#### :i-alert: What this money can do
+£310m funds a start and a set of trials. It cannot buy full independence. Farming that rebuilds soil often becomes more profitable after 3–5 years, but takes about nine to repay the cost of switching without help.^7^ Pay for results we measure.
 :::
 :::
 
 ::: {.thread}
-**So:** grow money goes where we depend on others most. And it pays back beyond food.
+**So:** GROW invests where we rely most on others. Healthier soil can give us more than food. Here is what the evidence supports.
 :::
 
 ::: {.refs}
@@ -876,7 +878,7 @@ Britain already spends about **£4.87bn** a year on farm support, about £70 per
 ## Healthy soil pays back twice
 
 ::: {.kicker}
-Farming that rebuilds soil is said to do many good things. Some are proven, some depend on how it is done, some are about values. We say which is which.
+We hear many promises about farming that rebuilds soil. Some have good evidence. Others depend on how the farming is done, or express what we value. Here is the difference.
 :::
 :::
 
@@ -884,28 +886,28 @@ Farming that rebuilds soil is said to do many good things. Some are proven, some
 
 ::: {.grid}
 ::: {.card}
-#### :i-shield: Proven
-Healthier soil at the places studied; less soil washed away; more wildlife on hedges and field edges; better mood from outdoor work.^1,2^
+#### :i-shield: What studies show
+Healthier soil in the places studied. Less soil washed away. More wildlife in hedges and along field edges. Better mood from outdoor work.^1,2^
 :::
 
 ::: {.card}
-#### :i-scale: Depends how it is done
-Water held in the land; lower costs; coping with drought; cleaner air (only if less fertiliser is used); local jobs (more work per field, but no proof of more jobs overall).^3^
+#### :i-scale: It depends how we farm
+Land holding more water; lower costs; coping with drought; cleaner air, if less fertiliser is used. Local jobs: more work per field, but no proof of more jobs overall.^3^
 :::
 
 ::: {.card}
-#### :i-chart: Weak or limited
-More nutritious food: weak or mixed evidence. Carbon stored in soil: real but limited; it rises, then levels off.^1^
+#### :i-chart: Where the evidence has limits
+More nutritious food: evidence is weak or mixed. Soil can store carbon, but only so much: the amount rises, then levels off.^1^
 :::
 
 ::: {.card}
-#### :i-heart: Values, not measurements
-Learning, community, a sense of connection, and a duty to the people who come after us.
+#### :i-heart: What we value
+Learning, community, connection and a duty to the people who come after us.
 :::
 :::
 
 ::: {.thread}
-**So:** we promise only what the evidence supports. Next: who looks after all this.
+**So:** we promise what the evidence supports. Now we need people to make the plan work.
 :::
 
 ::: {.refs}
@@ -919,19 +921,19 @@ Learning, community, a sense of connection, and a duty to the people who come af
 ::: {.head}
 [Chapter 11]{.chapter-no}
 
-## Who looks after it
+## Who keeps the cupboard ready?
 
 ::: {.kicker}
-A small, open team, helped by machines. You cannot hide forty warehouses, so we do not try.
+A small team, helped by machines, working in the open. We cannot hide forty warehouses, so we make them visible.
 :::
 :::
 
 ::: {.story}
-A food reserve does not need a giant ministry. We propose a **small agency of about 65 people**, never more than 100 even in a crisis. Every job has a lead and two trained back-ups, so illness or holidays never stop anything.^1^ Independent inspectors check the stores.
+Someone has to be in charge. We propose a **small agency of about 65 people**, never more than 100 even in a crisis. Every job has a lead and two trained back-ups, so illness or holidays never stop the work.^1^ Independent inspectors check the stores.
 
-Machines do the watching. Sensors in every store check temperature and damp; computers track stock, prices, weather and shipping day and night. People make the decisions, check the work, and answer to Parliament. Two people must sign before any public stock is released.
+Machines watch; people decide. Sensors in every store check temperature and damp. Computers follow stock, prices, weather and shipping day and night. People make decisions, check the work and answer to Parliament. Two people must sign before any public stock is released.
 
-And everything is public by default: where the stores are, how much is in them each month, what it costs, and what went wrong. Anyone who finds a real weakness gets a reward. Only a short, published list stays secret, such as the exact sites of fuel, baby milk and fertiliser.
+People should see what they are paying for: store locations, monthly stock levels, costs and things that went wrong. Anyone finding a real weakness gets a reward. Everything is open by default. A short, published list sets out exceptions, such as the exact sites of fuel, baby milk and fertiliser.
 :::
 
 ::: {.grid}
@@ -939,7 +941,7 @@ And everything is public by default: where the stores are, how much is in them e
 ![](../assets/spots/sack.jpg)
 
 #### :i-silo: Near ports, near people
-**8–10 port stores** at grain ports such as Immingham, Liverpool and Avonmouth. **About 30 district stores** across all four nations, away from flood zones. **Thousands of local points** (schools, council depots) holding the no-cook food pack.
+**8–10 port stores** at grain ports such as Immingham, Liverpool and Avonmouth. **About 30 district stores** across all four nations, away from flood zones. **Thousands of local points**, including schools and council depots, holding food packs that need no cooking. **A guaranteed stock in Northern Ireland**, in case the ferries stop.
 :::
 
 ::: {.card .stat}
@@ -947,17 +949,17 @@ And everything is public by default: where the stores are, how much is in them e
 :::
 
 ::: {.card .stat}
-[~1,070]{.num} jobs across stores, labs, haulage and local planning.^1^
+[~1,070]{.num} jobs in stores, labs, road transport and local planning.^1^
 :::
 
 ::: {.card .caveat}
-#### :i-alert: Read with care
-65 is a starting team, to be resized once the real work is known. Computers can fail first in a blackout, so everything must also work on paper and radio, and be practised that way.
+#### :i-alert: It must work when computers fail
+65 is the starting team. Resize it when the real work is known. Computers can fail first in a blackout. Everything must also work on paper and radio, with practice to prove it.
 :::
 :::
 
 ::: {.thread}
-**So:** a small, visible team runs a big, boring network. Both pillars also create work worth having.
+**So:** a small, visible team keeps a large network ready. STORE and GROW also create work worth doing.
 :::
 
 ::: {.refs}
@@ -969,43 +971,43 @@ And everything is public by default: where the stores are, how much is in them e
 ::: {.head}
 [Chapter 12]{.chapter-no}
 
-## Good work on the land
+## A future in growing food
 
 ::: {.kicker}
-Make growing food a job people are proud of, let machines do the drudgery, and grow enough to sell in good years.
+Growing food should be work people are proud of. Let machines do the repetitive tasks, and grow enough to sell in good years.
 :::
 :::
 
 ::: {.story}
-Two things are happening at once. Computers and AI are taking over many first jobs in offices: graduate job adverts are at their lowest since 2016.^1^ Meanwhile our farmers are getting older, and few young people are following them.
+Two things are happening together. Computers and artificial intelligence (AI) are taking over many first jobs in offices: graduate job adverts are at their lowest since 2016.^1^ Meanwhile, farmers are getting older, with few young people following them.
 
-Both pillars need people: in stores and labs, and as soil testers, water engineers, seed breeders and bean processors. But today farm work is often lonely, seasonal and stressful. Nine in ten young farmers say poor mental health is the industry's biggest hidden problem.^2^ Slogans will not fix that. Pay, training, housing and teamwork will.
+STORE and GROW need store and lab staff, soil testers, water engineers, seed breeders and bean processors. Farm work is often lonely, seasonal and stressful. Nine in ten young farmers call poor mental health the industry's biggest hidden problem.^2^ Good pay, training, housing and teamwork can change that. Slogans alone cannot.
 
-There is good evidence that working outdoors helps. A review of studies found that structured outdoor activity clearly reduced depression and anxiety.^3^ In the 1930s, young Americans who worked in the Civilian Conservation Corps lived longer and earned more over their lives.^4^
+Outdoor work can help people too. A review of studies found that structured outdoor activity clearly reduced depression and anxiety.^3^ In the 1930s, young Americans who worked in the Civilian Conservation Corps lived longer and earned more over their lives.^4^
 :::
 
 ::: {.grid}
 ::: {.card .stat}
-[up to ~3,600]{.num} jobs across both pillars (before counting jobs lost elsewhere).^5^
+[up to ~3,600]{.num} jobs across both pillars, including temporary building work, before counting jobs lost elsewhere.^5^
 :::
 
 ::: {.card .stat}
-[5–11%]{.num} of fruit-picking jobs were filled by UK residents in the 2020 "Pick for Britain" campaign.^6^ Adverts alone do not move people.
+[11%]{.num} of the 2020 harvest workforce were UK residents, despite the "Pick for Britain" campaign.^6^ Adverts alone cannot make people move.
 :::
 
 ::: {.card .stat}
-#### :i-ship: A food-growing nation
+#### :i-ship: Grow what we grow best
 [£25.6bn]{.num} of food and drink exported in 2025, against £66.9bn imported.^7^ We could sell more of what we grow best: oats, barley, dairy, lamb, seed potatoes.
 :::
 
 ::: {.card .caveat}
-#### :i-alert: Read with care
-No study yet shows people who lose office jobs to AI moving into land work. Pride follows pay, land and housing, not slogans.
+#### :i-alert: What we cannot promise
+No study yet shows people losing office jobs to AI moving into land work. Pride in farming needs pay, land and housing. Slogans cannot create it.
 :::
 :::
 
 ::: {.thread}
-**So:** the people matter as much as the grain. Paying for all of it fairly needs honest prices.
+**So:** people matter as much as the grain. Looking after both fairly means being honest about who pays.
 :::
 
 ::: {.refs}
@@ -1023,19 +1025,19 @@ No study yet shows people who lose office jobs to AI moving into land work. Prid
 ::: {.head}
 [Chapter 13]{.chapter-no}
 
-## Paying the true price of food
+## The costs beyond the till
 
 ::: {.kicker}
-Charge for what does harm, pay for what protects, and give the money back to people.
+Charge for harm. Pay for protection. Give the money back to people.
 :::
 :::
 
 ::: {.story}
-Cheap food has costs we do not see at the till: polluted rivers, worn-out soil, illness from poor diets, and the gases that heat the planet. Farming makes about an eighth of Britain's greenhouse gases.^1^ Worldwide, these hidden costs add up to at least $10 trillion a year.^2^
+The price at the till is only part of the food bill. The rest appears in polluted rivers, worn-out soil, illness from poor diets and gases that heat the planet. Farming produces about an eighth of Britain's greenhouse gases.^1^ Worldwide, these hidden costs reach at least $10 trillion a year.^2^
 
-Our position is simple: **polluters pay, and people who clean up get paid.** One fair carbon price for everyone, with no free passes. The money goes back to farms and families, so nobody is made poorer for doing the right thing. Britain is already starting: from January 2027, imported fertiliser will carry a carbon charge at the border.^3^
+Our position is simple: **polluters pay, and people who clean up get paid.** One fair price on carbon pollution, with free passes phased out. Every pound raised can only be spent once, so the law must say plainly how much goes back to families and how much to farms. Britain is already starting: from January 2027, imported fertiliser will face a carbon charge at the border.^3^
 
-Denmark shows how to do it with farmers rather than against them. It will charge for livestock emissions from 2030, but give most of it back to farming.^4^ Europe's 2024 farmer protests showed the other way: change forced on farmers fails.^5^
+Farmers have to help shape the change. Denmark will charge for gases released by livestock from 2030, but let farms deduct 60% of it and spend the money on farming.^4^ That is a compromise, not a pure carbon price, and we say so. Europe's 2024 farmer protests showed what happens when change is forced on farmers: it fails.^5^
 :::
 
 ::: {.grid}
@@ -1044,22 +1046,22 @@ Denmark shows how to do it with farmers rather than against them. It will charge
 :::
 
 ::: {.card .stat}
-[£0.4–1bn]{.num} a year: Danish-style livestock charges applied in the UK, all of it given back (our estimate).^4^
+[£0.4–1bn]{.num} a year from Danish-style charges on livestock in the UK: about £6–14 per person (our estimate).^4^
 :::
 
 ::: {.card}
-#### :i-alert: Beware weak promises
-Payments for storing carbon in soil have been shown to follow rainfall more than farming in Australia.^6^ Pay for what is measured, not what is claimed.
+#### :i-alert: Pay for results we can check
+In Australia, payments for storing carbon in soil have been shown to follow rainfall more than farming.^6^ Pay for measured results.
 :::
 
 ::: {.card .caveat}
-#### :i-alert: Read with care
-Fair carbon prices raise food prices, so the money must go back to people. Charging British farms but not imports just moves the pollution abroad.
+#### :i-alert: Families must get the money back
+Fair carbon prices make food dearer, so the money must go back to people. If we charge British farms while leaving imports out, we simply move pollution abroad.
 :::
 :::
 
 ::: {.thread}
-**So:** honest prices pay for the change. Here is the plan, step by step.
+**So:** honest prices can fund the change, with money returned to people. Here is how to put the plan into action.
 :::
 
 ::: {.refs}
@@ -1076,47 +1078,47 @@ Fair carbon prices raise food prices, so the money must go back to people. Charg
 ::: {.head}
 [Chapter 14]{.chapter-no}
 
-## The plan, step by step
+## From words to action
 
 ::: {.kicker}
-Store and grow. Write the crisis rules now, in calm, not later, in panic.
+Store and grow together. Agree the crisis rules while there is time to think calmly.
 :::
 :::
 
 ::: {.grid}
 ::: {.card .wide}
-#### :i-clock: When
+#### :i-clock: What happens when
 | When | Store | Grow |
 |--|-----|-----|
-| **First year** | Pass the law, set a minimum reserve and release rules; check the debt question; buy grain only in good harvests; local food plans everywhere | Start soil testing and moisture stations; more reservoir grants; aim farm support at soil, water and protein |
-| **Years 1–3** | Firms start holding extra stock; build the public reserve and the no-cook food pack; agree and practise the crisis rules | Grow our own seed; first reservoirs filling; manure testing; bean and pea mills |
-| **Years 3–10** | A full, rotating, audited reserve in all four nations | A third less imported soya; a national soil map; a green-fertiliser pilot |
+| **First year** | Pass the law; set minimum stock and release rules; check debt rules; buy grain only in good harvests; local food plans everywhere | Start soil tests and stations checking soil moisture; increase reservoir grants; direct farm support to soil, water and protein |
+| **Years 1–3** | Firms start holding extra stock; build the public reserve and no-cook food packs; agree and practise crisis rules | Grow our own seed; first reservoirs filling; test manure; mills for beans and peas |
+| **Years 3–10** | A full reserve in all four nations, used, replaced and audited | A third less imported soya; a national soil map; a trial of fertiliser made with green power |
 :::
 
 ::: {.card .wide}
-#### :i-ladder: What happens in a crisis, level by level
+#### :i-ladder: Clear steps when a crisis comes
 | Level | What is going on | What we do |
 |---|----|-------|
-| 0 · Normal | Everyday life | Stock is used and replaced; monthly public report; practice drills |
-| 1 · Disruption | Days to weeks: fuel blockade, cyber attack, power cut | No-cook food; fuel and power for mills and depots first; limits on how much one shopper can buy |
-| 2 · Long shortage | Months: imports cut, fertiliser shortage, one failed harvest | Release stock in stages; animal grain to people; less grain to whisky and fuel; fewer animals bred |
-| 3 · Severe | Two bad harvests plus a fertiliser shortage | **Fair Shares Guarantee**: the same basic share for everyone, extra for those who need it, capped prices on basics, paper backup, a set end date |
-| 4 · Catastrophe | Big volcano, war, a global crop disease | All grain we can eat goes to people; help from and to other countries |
+| 0 · Normal | Everyday life | Use and replace stock; publish a monthly report; run practice drills |
+| 1 · Disruption | Days to weeks: fuel blockade, cyber attack, power cut | Food that needs no cooking; fuel and power for mills and depots first; limits on how much one shopper buys |
+| 2 · Long shortage | Months: imports cut, fertiliser shortage, one failed harvest | Release stock in stages; feed animal grain to people; use less grain for whisky and fuel; breed fewer animals |
+| 3 · Severe | Two bad harvests plus a fertiliser shortage | **Fair Shares Guarantee**: the same basic share for all, extra for those who need it, price limits on basics, paper backup, a set end date |
+| 4 · Catastrophe | Big volcano, war, a global crop disease | All grain we can eat goes to people; give and receive help across borders |
 :::
 
 ::: {.card}
 #### :i-sheep: Fewer animals, planned with care
-Written in advance with farmers and vets: stop new breeding first, keep processing simple, pay farmers fairly, and never let animals starve.
+Agree the plan with farmers and vets in advance. Stop new breeding first, so numbers fall without waste. Cut meat into simple bulk portions for schools and hospitals. Book freezer and abattoir space ahead. Pay farmers on recent prices, and never let animals starve.
 :::
 
 ::: {.card}
-#### :i-law: The law
-Today's emergency powers last only 30 days at a time.^1^ A Food Security Act should set up the reserve for the long term. The Cabinet Office decides when to release; Defra runs it, with all four UK governments involved.
+#### :i-law: Put the plan into law
+Today's emergency powers last only 30 days at a time.^1^ A Food Security Act should create a lasting reserve. Stock is released only when published triggers are met, never to hold down prices. The Cabinet Office gives the order; Defra runs it, with all four UK governments involved.
 :::
 :::
 
 ::: {.thread}
-**So:** store and grow, run by rules written in calm. One related idea sits outside the costed plan.
+**So:** build STORE and GROW together, with crisis rules agreed in calm times. One related idea adds homes alongside the work.
 :::
 
 ::: {.refs}
@@ -1131,26 +1133,26 @@ Today's emergency powers last only 30 days at a time.^1^ A Food Security Act sho
 ## Homes, land and a living
 
 ::: {.kicker}
-Build homes where the work is. Give a new generation a home, land to work and a reason to stay.
+A home, land to work and a reason to stay. Build places where a new generation can make a living.
 :::
 :::
 
 ::: {.story}
-Britain has built whole new places before: the garden cities of Letchworth and Welwyn, the post-war new towns, Milton Keynes, Cambourne near Cambridge,^1^ and now Salt Cross garden village in Oxfordshire, planned for about 2,200 homes.^2^ Since COVID, many people no longer have to live near an office.
+Britain has made new places to live before: Letchworth and Welwyn garden cities, the post-war new towns, Milton Keynes, Cambourne near Cambridge,^1^ and now Salt Cross garden village in Oxfordshire, planned for about 2,200 homes.^2^ Since COVID, many people no longer need to live near an office.
 
-The idea: build modern, warm, cheap-to-run homes in a cluster next to an existing village, with **shared** farmland around them. The land is owned by a community trust; tractors, a packing shed and a cold store are shared; residents can work in food and nature for some or all of the week. Not a plot each, but shared tools, skills and money to start.
+The idea is modern, warm homes that are cheap to run, clustered beside an existing village with **shared** farmland around them. A community trust owns the land. People share tractors, a packing shed and a cold store. Residents can work in food and nature for some or all of the week, sharing tools, skills and the money needed to start.
 :::
 
 ::: {.grid}
 ::: {.card .spot}
 ![](../assets/spots/home.jpg)
 
-#### :i-house: Ground rules
-Your home never depends on the farm job. Homes stay cheap through who owns them, not through labels. Keep the best land for food; never build on peat or flood plains. Test two or three sites first.
+#### :i-house: A secure home comes first
+Your home must never depend on keeping the farm job. How homes are owned keeps them affordable; a label cannot. Keep the best land for food. Never build on peat or flood plains. Test two or three sites first.
 :::
 
 ::: {.card .stat}
-[~9.6%]{.num} of UK farmland would go if a million homes each got four acres. That is why the land must be shared.^3^
+[~9.6%]{.num} of UK farmland would go if a million homes each got four acres. Sharing the land avoids giving everyone a separate plot.^3^
 :::
 
 ::: {.card .stat}
@@ -1158,13 +1160,13 @@ Your home never depends on the farm job. Homes stay cheap through who owns them,
 :::
 
 ::: {.card .caveat}
-#### :i-alert: Read with care
-More homes help prices locally, but national house prices depend mostly on interest rates.^4^ Planning is slow and contested.
+#### :i-alert: What building homes can change
+More homes help prices locally, but national house prices depend mostly on interest rates.^4^ Planning is slow and disputed.
 :::
 :::
 
 ::: {.thread}
-**So:** a pilot worth testing, not a promise. The last page lists what still needs checking.
+**So:** test this idea in a pilot. Before moving ahead, there are questions to answer. Here is our list.
 :::
 
 ::: {.refs}
@@ -1179,34 +1181,35 @@ More homes help prices locally, but national house prices depend mostly on inter
 ::: {.head}
 [Open to everyone]{.chapter-no}
 
-## Tell us where this breaks
+## Help us find the weak points
 
 ::: {.kicker}
-We publish our own doubts. Strong plans get stronger when people try to break them.
+We put our doubts in the open. Finding a weakness now gives us a chance to fix it.
 :::
 :::
 
 ::: {.story}
-Every number in this briefing has a source you can click, and every source has been through four rounds of checking by reviewers whose job was to find mistakes. In the full evidence file each claim carries a label: from an official source, from a secondary source, our own estimate, our opinion, or not yet checked.
+You should be able to check what we say. Every number has a clickable source, and every source has been through four rounds of checking by reviewers looking for mistakes. In the full evidence file, each claim is labelled: an official source, a report based on other sources, our estimate, our opinion, or not yet checked.
 
-Some questions can only be answered by doing. Before anyone spends real money, these need testing.
+Some answers need testing. Before anyone spends real money, do the following.
 :::
 
 ::: {.grid}
 ::: {.card .key}
-#### :i-alert: Still to check
-1. Whether official statisticians would count the firms' stock as government debt, and what firms would really pay to borrow for it.
-2. Whether each mill can switch to emergency flour mixes, with backup power.
-3. A no-cook food pack designed by dietitians, with versions for babies, pregnancy, coeliac disease, allergies and people who cannot chew.
-4. Door-to-door delivery and water, costed and tested in a real local drill.
-5. Real quotes for storage, new stores, reservoirs and fuel.
-6. Full UK 2026 harvest figures (due December 2026) and the government's reply to our information request.^1^
+#### :i-alert: The work still to do
+1. Ask official statisticians whether firms' stock counts as government debt, and check firms' real borrowing costs.
+2. Check each mill can make emergency flour mixes and run on backup power.
+3. Have dietitians design no-cook food packs for babies, pregnancy, coeliac disease, allergies and people who cannot chew, as well as everyone else.
+4. Work out delivery and water costs; test door-to-door provision in a real local drill.
+5. Get real quotes for storage, new stores, haulage, reservoirs and fuel.
+6. Plan for Northern Ireland if the ferries stop, and for abattoir and freezer space if animal numbers must fall.
+7. Check the full UK 2026 harvest figures (due December 2026) and the government's reply to our information request.^1^
 :::
 
 ::: {.card}
-#### :i-link: Everything is open
-- The full evidence file: every claim, source and counter-argument.^2^
-- Two models: the cost of both pillars, and month-by-month grain stocks.^3^
+#### :i-link: Read it, check it, challenge it
+- The full evidence file: every claim, source and argument against it.^2^
+- Two models: what both pillars cost, and grain stocks month by month.^3^
 - 27 research notes.^4^
 :::
 :::

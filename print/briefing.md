@@ -145,7 +145,7 @@ A clear plan, step by step: who gets what, and how everyone gets a fair share. W
 :::
 :::
 
-::: {.page}
+::: {.page .dense}
 ::: {.head}
 [Why bother?]{.chapter-no}
 
@@ -159,23 +159,23 @@ When safety works, life carries on. It is easy to forget what made that possible
 ::: {.story}
 A fire extinguisher may look like wasted money until the day it is needed. A food reserve works the same way. When it does its job, life carries on and the money seems to have bought nothing. We pay now to prevent a disaster that may arrive later and hurt someone else. Mark Carney, the former Governor of the Bank of England, called this the "tragedy of the horizon".^1^
 
-We cannot promise huge benefits. We ask: **how small a benefit would cover the cost?** The figures below give that answer, without predicting what will happen. Any one would be enough on its own, so never add them together. First number: store only. Second: store and grow.
+We cannot promise huge benefits. We ask: **how small a benefit would cover the cost?** The figures below give that answer, without predicting what will happen. Any one would be enough on its own, so never add them together. Each uses the food cupboard's cost, £718m a year; the figure for STORE and GROW together is in brackets.
 :::
 
 ::: {.grid}
 ::: {.card .stat}
 #### :i-factory: Protecting the food industry
-[0.44% · 0.63%]{.num} of what the food industry adds to the economy each year would cover the cost. The industry is worth £162bn and employs 4.1 million people.^2^
+[44p in £100]{.num} The food industry, farm to café, adds £162bn a year to the economy and employs 4.1 million people. The cupboard costs £718m: 44p for every £100 the industry adds (63p with GROW).^2^
 :::
 
 ::: {.card .stat}
 #### :i-people: Lives protected
-[~290 · ~410]{.num} deaths prevented a year would cover the cost, at the value the government puts on lives saved on the roads.^3^
+[~290 lives a year]{.num} To decide which road-safety schemes are worth paying for, the government values preventing one death at about £2.5m. £718m ÷ £2.5m ≈ 290. Preventing that many deaths a year, on average, would justify the cost by the government's own rule (~410 with GROW).^3^
 :::
 
 ::: {.card .stat}
 #### :i-chart: A steady economy
-[~8 · ~5 years]{.num} of the plan cost the same as one week of the country producing 10% less (about £5.6bn).^4^
+[1 week = 8 years]{.num} One week of the economy running 10% below normal costs about £5.6bn: as much as eight years of the cupboard (five with GROW).^4^
 :::
 
 ::: {.card .stat}

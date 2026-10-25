@@ -9,7 +9,7 @@ Both pillars create work: up to ~3,600 gross, mostly rural jobs, with farming as
 
 ![16 benefits of regenerative farming](assets/16-benefits-of-regenerative-farming.jpg)
 
-- `pdf/can-britain-feed-itself.pdf`: **the briefing (21 pages, one file)**, for MPs, officials and the public. Two-column card pages; every figure is footnoted to a clickable source listed at the foot of its page
+- `pdf/can-britain-feed-itself.pdf`: **the briefing (22 pages, one file)**, for MPs, officials and the public. Written in plain English: each page opens with a short story, then boxes with the key numbers; every figure is footnoted to a clickable source listed at the foot of its page
 - `print/`: the print source (`briefing.md`), stylesheet, icons and `build_pdf.py` (pandoc + Chromium; flags any page that overflows)
 - `assets/`: the cover and the small single-object illustrations (AI-generated)
 - `draft/briefing_full_context.md`: the briefing (14 chapters plus a related concept, sources, proactive criticism)

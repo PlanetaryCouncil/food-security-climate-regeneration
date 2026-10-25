@@ -39,7 +39,7 @@ html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 body {
   margin: 0;
   font-family: "Charter", "Bitstream Charter", "DejaVu Serif", serif;
-  font-size: 10pt;
+  font-size: 10.6pt;
   line-height: 1.42;
   color: var(--ink);
   background: #fff;
@@ -61,7 +61,7 @@ a { color: inherit; text-decoration: none; }
 }
 .page:last-child { break-after: auto; }
 
-.head { margin-bottom: 3.5mm; }
+.head { margin-bottom: 4.5mm; }
 .chapter-no {
   display: block;
   font-size: 7.2pt;
@@ -89,6 +89,26 @@ h2 {
 }
 .kicker p { margin: 0; }
 
+/* the story: plain prose that opens each page, set above the cards */
+.story {
+  flex: none;
+  column-count: 2;
+  column-gap: 6mm;
+  column-rule: 0.5pt solid var(--rule);
+  font-size: 11.6pt;
+  line-height: 1.5;
+  margin: 1mm 0 5mm;
+}
+.story p { margin: 0 0 1.8mm; }
+.story p:last-child { margin-bottom: 0; }
+.story > p:first-child::first-letter {
+  float: left;
+  font: 700 27pt/0.86 "Inter", sans-serif;
+  color: var(--wheat);
+  margin: 0.8mm 1.6mm 0 0;
+}
+.story strong { color: var(--green); }
+
 /* two-column card grid, read down the left column then the right */
 .grid {
   flex: none;
@@ -100,7 +120,7 @@ h2 {
   background: var(--card);
   border-radius: 2.2mm;
   padding: 3.2mm 3.6mm 3mm;
-  margin: 0 0 3.8mm;
+  margin: 0 0 4.5mm;
   overflow: hidden;
 }
 .card p { margin: 0 0 1.4mm; }
@@ -125,7 +145,7 @@ h4 {
 .stat { background: var(--green-soft); border-top: 2px solid var(--green); border-radius: 0 0 2.2mm 2.2mm; }
 .num {
   display: block;
-  font-size: 20pt;
+  font-size: 23pt;
   line-height: 1.05;
   font-weight: 750;
   color: var(--green);
@@ -285,10 +305,11 @@ sup.fn a { color: inherit; }
 .closing p { margin: 0; }
 
 /* tighter pages that carry tables */
-.dense { font-size: 9.2pt; line-height: 1.36; }
+.dense { font-size: 9.4pt; line-height: 1.36; }
 .dense .card { padding: 2.6mm 3.1mm 2.4mm; margin-bottom: 3mm; }
 .dense table { font-size: 7.6pt; }
 .dense td { padding: 0.9mm 1.6mm; }
 .dense th { padding: 1mm 1.6mm; }
 .dense .num { font-size: 17pt; }
 .dense .kicker { font-size: 10pt; }
+.dense .story { font-size: 9.8pt; line-height: 1.4; margin-bottom: 3mm; }

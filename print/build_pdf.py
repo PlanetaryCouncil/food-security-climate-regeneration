@@ -1,6 +1,7 @@
-"""Build the print PDF: pdf/can-britain-feed-itself.pdf (one file, from print/briefing.md).
+"""Build the print PDFs from markdown in print/:
+  briefing.md  -> pdf/can-britain-feed-itself.pdf (22 pages, references at the foot of each page)
+  one-pager.md -> pdf/uk-food-reserve-at-a-glance.pdf (one page, then all sources and working)
 
-Each page is a two-column grid of cards with numbered references at its foot.
 In briefing.md, ^1^ or ^1,2^ marks a reference to item 1 (and 2) of that page's
 ::: {.refs} list, and :i-name: inserts an icon from print/icons.py.
 
@@ -19,8 +20,13 @@ from icons import svg  # noqa: E402
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 PRINT = ROOT / "print"
 OUT = ROOT / "pdf"
-PDF = OUT / "can-britain-feed-itself.pdf"
 CSS = (PRINT / "style.css").read_text()
+DOCS = [
+    ("briefing.md", "can-britain-feed-itself.pdf", "Can Britain Feed Itself? Store and grow", ""),
+    ("one-pager.md", "uk-food-reserve-at-a-glance.pdf", "Strategic Food Reserve and Food Independence",
+     '@page { @bottom-left { content: "Strategic Food Reserve and Food Independence: sources and working"; } }'
+     '@page :first { @bottom-left { content: "Strategic Food Reserve and Food Independence · sources and working from page 2"; } }'),
+]
 
 PAGE = """<!doctype html>
 <html lang="en-GB"><head><meta charset="utf-8">
@@ -84,15 +90,17 @@ const {{ chromium }} = require('playwright');
 
 def main():
     OUT.mkdir(exist_ok=True)
-    body = md_to_html(preprocess((PRINT / "briefing.md").read_text()))
-    html = PRINT / "briefing.html"
-    html.write_text(PAGE.format(title="Can Britain Feed Itself? Store and grow", css=CSS, body=body))
-    over = render(html, PDF)
-    for page, px, title in over:
-        print(f"OVERFLOW page {page} ({title}): {px}px")
-    info = subprocess.run(["pdfinfo", str(PDF)], capture_output=True, text=True).stdout
-    n = [l for l in info.splitlines() if l.startswith("Pages:")][0].split()[-1]
-    print(f"{PDF.relative_to(ROOT)}: {n} pages, {PDF.stat().st_size/1e6:.1f} MB")
+    for src, out, title, extra_css in DOCS:
+        pdf = OUT / out
+        body = md_to_html(preprocess((PRINT / src).read_text()))
+        html = PRINT / src.replace(".md", ".html")
+        html.write_text(PAGE.format(title=title, css=CSS + extra_css, body=body))
+        over = render(html, pdf)
+        for page, px, t in over:
+            print(f"OVERFLOW page {page} ({t}): {px}px")
+        info = subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout
+        n = [l for l in info.splitlines() if l.startswith("Pages:")][0].split()[-1]
+        print(f"{pdf.relative_to(ROOT)}: {n} pages, {pdf.stat().st_size/1e6:.1f} MB")
 
 
 if __name__ == "__main__":

@@ -9,8 +9,9 @@ Both pillars create work: up to ~3,600 gross, mostly rural jobs, with farming as
 
 ![16 benefits of regenerative farming](assets/16-benefits-of-regenerative-farming.jpg)
 
+- `pdf/uk-food-reserve-at-a-glance.pdf`: **the one-pager**: where the UK stands and what a reserve would hold, cost and employ, on one A4 page, followed by every source and the working behind each number (43 notes)
 - `pdf/can-britain-feed-itself.pdf`: **the briefing (22 pages, one file)**, for MPs, officials and the public. Written in plain English: each page opens with a short story, then boxes with the key numbers; every figure is footnoted to a clickable source listed at the foot of its page
-- `print/`: the print source (`briefing.md`), stylesheet, icons and `build_pdf.py` (pandoc + Chromium; flags any page that overflows)
+- `print/`: the print sources (`briefing.md`, `one-pager.md`), stylesheet, icons and `build_pdf.py` (pandoc + Chromium; flags any page that overflows)
 - `assets/`: the cover and the small single-object illustrations (AI-generated)
 - `draft/briefing_full_context.md`: the briefing (14 chapters plus a related concept, sources, proactive criticism)
 - `draft/fact_check_pack.txt`: one file for reviewers (instructions, briefing, both models)

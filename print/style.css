@@ -359,7 +359,7 @@ sup.fn a { color: inherit; }
 .op-col h3 .ico { width: 4mm; height: 4mm; }
 .op-col p {
   margin: 0;
-  padding: 0.75mm 0 0.75mm 19.5mm;
+  padding: 0.6mm 0 0.6mm 19.5mm;
   text-indent: -19.5mm;
   border-bottom: 0.5pt solid var(--rule);
 }
@@ -405,3 +405,7 @@ sup.fn a { color: inherit; }
 .refbook .refs ol { column-count: 2; column-gap: 7mm; padding-left: 5mm; }
 .refbook .refs li { margin-bottom: 2.2mm; }
 .refbook .refs strong { color: var(--green); }
+
+/* bracket footnote numbers so copied text reads "over 65[4]", not "over 654" */
+sup.fn::before { content: "["; }
+sup.fn::after { content: "]"; }

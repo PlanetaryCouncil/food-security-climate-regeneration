@@ -131,7 +131,7 @@ h2 {
 .card {
   break-inside: avoid;
   background: var(--card);
-  border-radius: 2.2mm;
+  border-radius: 0;
   padding: 3.2mm 3.6mm 3mm;
   margin: 0 0 4.5mm;
   overflow: hidden;
@@ -155,7 +155,7 @@ h4 {
 .ico { width: 4.8mm; height: 4.8mm; flex: none; color: var(--wheat); }
 
 /* stat cards: one big number */
-.stat { background: var(--green-soft); border-top: 2px solid var(--green); border-radius: 0 0 2.2mm 2.2mm; }
+.stat { background: var(--green-soft); border-top: 2px solid var(--green); border-radius: 0; }
 .num {
   display: block;
   font-size: 23pt;
@@ -335,7 +335,7 @@ sup.fn a { color: inherit; }
   color: #f1f6f2;
   margin: 0 0 3.2mm;
   padding: 4.5mm 6mm 4mm;
-  border-radius: 2.2mm;
+  border-radius: 0;
 }
 .op-top { font-size: 7pt; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #e8c983; }
 .op-head h1 { font-size: 18.5pt; line-height: 1.08; font-weight: 800; letter-spacing: -0.015em; margin: 1.2mm 0 1.6mm; color: #fff; }
@@ -379,13 +379,13 @@ sup.fn a { color: inherit; }
   text-indent: 0;
   background: var(--wheat-soft);
   border: none;
-  border-radius: 1.4mm;
+  border-radius: 0;
   font-size: 8.4pt;
 }
 .op-price strong { font-size: 11pt; color: var(--green); }
 .op-foot { flex: none; margin-top: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
 .op-foot p { margin: 0; }
-.op-total, .op-act { padding: 2.6mm 3.2mm; border-radius: 2mm; font-size: 8pt; line-height: 1.35; }
+.op-total, .op-act { padding: 2.6mm 3.2mm; border-radius: 0; font-size: 8pt; line-height: 1.35; }
 .op-total { background: var(--green); color: #f1f6f2; }
 .op-total strong { color: #f0cf86; font-size: 9.6pt; }
 .op-act { background: var(--green-soft); border-left: 3px solid var(--green); }
@@ -423,7 +423,7 @@ sup.fn::after { content: "]"; }
 .faq {
   background: var(--card);
   border-top: 2px solid var(--wheat);
-  border-radius: 0 0 1.6mm 1.6mm;
+  border-radius: 0;
   padding: 2mm 2.4mm;
   font-size: 7.4pt;
   line-height: 1.32;
@@ -445,7 +445,7 @@ sup.fn::after { content: "]"; }
   margin-top: 6mm;
   border: 1.5px solid var(--green);
   border-top: 5px solid var(--wheat);
-  border-radius: 2.4mm;
+  border-radius: 0;
   padding: 4mm 5mm;
   background: var(--green-soft);
   font-family: "Inter", sans-serif;
@@ -463,7 +463,7 @@ sup.fn::after { content: "]"; }
   margin-top: 5mm;
   background: var(--green);
   color: #f1f6f2;
-  border-radius: 2.4mm;
+  border-radius: 0;
   padding: 4mm 5mm;
   font-family: "Inter", sans-serif;
 }
@@ -476,3 +476,16 @@ sup.fn::after { content: "]"; }
 .author-box p { margin: 0; font-size: 8.4pt; line-height: 1.45; }
 .author-box strong { color: var(--green); }
 .author-box a { color: var(--green-mid); text-decoration: underline; }
+
+/* final word */
+.bottom-line {
+  break-inside: avoid;
+  margin-top: 5mm;
+  padding: 4mm 5mm;
+  border-top: 4px solid var(--green);
+  border-bottom: 1px solid var(--green);
+  font-family: "Inter", sans-serif;
+}
+.bottom-line p { margin: 0 0 1.8mm; font-size: 10pt; line-height: 1.45; color: var(--ink); }
+.bottom-line p:last-child { margin: 0; font-size: 11pt; }
+.bottom-line strong { color: var(--green); }

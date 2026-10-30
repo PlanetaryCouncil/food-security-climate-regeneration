@@ -115,10 +115,10 @@ Food is the one thing nobody can live without. Britain is better placed to grow 
 :::
 
 ::: {.refbook}
-## Sources and working
+## Sources and references
 
 ::: {.rb-intro}
-Every number on page 1 has an entry below: what it says, where it comes from, and how we did the arithmetic when it is ours. **[P]** official statistics or peer-reviewed research · **[S]** secondary or press source · **[E]** our estimate or model. Check any of it yourself, or paste these pages into an AI and ask it to. Models, research notes and the full evidence file: [github.com/planetarycouncil/food-security-climate-regeneration](https://github.com/planetarycouncil/food-security-climate-regeneration/tree/claude/focused-mendel-5qswh8).
+Every number on page 1 has an entry below: what it says, where it comes from, and our arithmetic where the number is ours. **[P]** official statistics or peer-reviewed research · **[S]** secondary or press source · **[E]** our estimate or model. Check any of it yourself, or paste these pages into an AI and ask it to. Models, research notes and the full evidence file: [github.com/planetarycouncil/food-security-climate-regeneration](https://github.com/planetarycouncil/food-security-climate-regeneration/tree/claude/focused-mendel-5qswh8).
 :::
 
 ::: {.rb-ai}
@@ -205,9 +205,15 @@ An independent group of citizens working on food security, climate and regenerat
 
 **Email** [planetarycouncil@protonmail.com](mailto:planetarycouncil@protonmail.com)
 
-**Open materials** [github.com/planetarycouncil](https://github.com/planetarycouncil/food-security-climate-regeneration)
+**Open materials** [github.com/planetarycouncil/food-security-climate-regeneration](https://github.com/planetarycouncil/food-security-climate-regeneration)
 
 **Also read** [the business case for farming that rebuilds soil](https://github.com/planetarycouncil/food-security-climate-regeneration/blob/claude/focused-mendel-5qswh8/pdf/regenerative-farming-business-case.pdf)
 :::
 :::
+:::
+
+::: {.bottom-line}
+**The question:** can Britain feed itself, and stay standing when the world stops trading?
+
+**Bottom line:** we believe the UK has the land, the climate and the water to feed itself and to be strategically food independent, if it plans for it. Store and grow is the best long-term insurance policy we know: one that helps the United Kingdom thrive and survive for the next thousand years.
 :::

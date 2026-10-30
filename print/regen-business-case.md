@@ -89,7 +89,7 @@ UK farms spend **£3.75bn a year on fertiliser, fuel and sprays: a sum equal to 
 :::
 
 ::: {.refbook}
-## Sources and working
+## Sources and references
 
 ::: {.rb-intro}
 Every number on page 1 has an entry below. **[P]** official statistics or peer-reviewed research · **[S]** secondary, trade press or industry source · **[M]** a model or projection · **[E]** our arithmetic.
@@ -133,7 +133,7 @@ An independent group of citizens working on food security, climate and regenerat
 
 **Email** [planetarycouncil@protonmail.com](mailto:planetarycouncil@protonmail.com)
 
-**Open materials** [github.com/planetarycouncil](https://github.com/planetarycouncil/food-security-climate-regeneration)
+**Open materials** [github.com/planetarycouncil/food-security-climate-regeneration](https://github.com/planetarycouncil/food-security-climate-regeneration)
 :::
 :::
 :::

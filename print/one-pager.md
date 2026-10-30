@@ -184,6 +184,8 @@ An independent group of citizens working on food security, climate and regenerat
 **Email** [planetarycouncil@protonmail.com](mailto:planetarycouncil@protonmail.com)
 
 **Open materials** [github.com/planetarycouncil](https://github.com/planetarycouncil/food-security-climate-regeneration)
+
+**Also read** [the business case for farming that rebuilds soil](https://github.com/planetarycouncil/food-security-climate-regeneration/blob/claude/focused-mendel-5qswh8/pdf/regenerative-farming-business-case.pdf)
 :::
 :::
 :::

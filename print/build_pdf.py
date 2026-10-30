@@ -1,6 +1,7 @@
 """Build the print PDFs from markdown in print/:
   briefing.md  -> pdf/can-britain-feed-itself.pdf (22 pages, references at the foot of each page)
   one-pager.md -> pdf/uk-food-reserve-at-a-glance.pdf (one page, then all sources and working)
+  regen-business-case.md -> pdf/regenerative-farming-business-case.pdf (same format)
 
 In briefing.md, ^1^ or ^1,2^ marks a reference to item 1 (and 2) of that page's
 ::: {.refs} list, and :i-name: inserts an icon from print/icons.py.
@@ -25,6 +26,9 @@ DOCS = [
     ("briefing.md", "can-britain-feed-itself.pdf", "Can Britain Feed Itself? Store and grow", ""),
     ("one-pager.md", "uk-food-reserve-at-a-glance.pdf", "Strategic Food Reserve and Food Independence",
      '@page { @bottom-left { content: "Strategic Food Reserve and Food Independence · Planetary Council · planetarycouncil@protonmail.com"; } }'
+     '@page :first { @bottom-left { content: "Planetary Council · planetarycouncil@protonmail.com · sources and working from page 2"; } }'),
+    ("regen-business-case.md", "regenerative-farming-business-case.pdf", "Farming That Rebuilds Soil: The Business Case",
+     '@page { @bottom-left { content: "Farming That Rebuilds Soil · Planetary Council · planetarycouncil@protonmail.com"; } }'
      '@page :first { @bottom-left { content: "Planetary Council · planetarycouncil@protonmail.com · sources and working from page 2"; } }'),
 ]
 

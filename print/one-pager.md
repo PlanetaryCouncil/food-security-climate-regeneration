@@ -169,3 +169,21 @@ Every number on page 1 has an entry below: what it says, where it comes from, an
 41. **Decisions.** The law: emergency regulations under the Civil Contingencies Act lapse after 30 days, so a standing reserve needs its own Act ([Civil Contingencies Act 2004, Part 2](https://www.legislation.gov.uk/ukpga/2004/36/part/2)). No power to direct food firms today, and local planning found "insufficient" ([NAO, Sep 2026](https://www.nao.org.uk/reports/resilience-of-the-food-supply-chain-to-disruptions/)). Comparable countries already hold reserves: Finland at least 6 months of bread grain; Switzerland 2–4 months of staples, held by firms by law ([réservesuisse](https://www.reservesuisse.ch/compulsory-stocks/?lang=en)). The full 22-page briefing sets out the case chapter by chapter: [`pdf/can-britain-feed-itself.pdf`](https://github.com/planetarycouncil/food-security-climate-regeneration/blob/claude/focused-mendel-5qswh8/pdf/can-britain-feed-itself.pdf)
 :::
 :::
+
+::: {.pc-box}
+### Who is Planetary Council?
+
+::: {.pc-cols}
+::: {.pc-about}
+An independent group of citizens working on food security, climate and regenerating the land. We publish our working in the open: every number sourced, every model public, every critique welcome. **Resilience through transparency: tell us where this breaks.**
+:::
+
+::: {.pc-contact}
+**Open to** collaboration, consultancy, research and conversation.
+
+**Email** [planetarycouncil@protonmail.com](mailto:planetarycouncil@protonmail.com)
+
+**Open materials** [github.com/planetarycouncil](https://github.com/planetarycouncil/food-security-climate-regeneration)
+:::
+:::
+:::

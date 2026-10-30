@@ -438,3 +438,21 @@ sup.fn::after { content: "]"; }
   line-height: 1.42;
 }
 .rb-ai p { margin: 0; }
+
+/* closing frame: who we are and how to reach us */
+.pc-box {
+  break-inside: avoid;
+  margin-top: 6mm;
+  border: 1.5px solid var(--green);
+  border-top: 5px solid var(--wheat);
+  border-radius: 2.4mm;
+  padding: 4mm 5mm;
+  background: var(--green-soft);
+  font-family: "Inter", sans-serif;
+}
+.pc-box h3 { margin: 0 0 2.4mm; font-size: 12pt; color: var(--green); }
+.pc-cols { display: grid; grid-template-columns: 1.4fr 1fr; gap: 6mm; }
+.pc-box p { margin: 0 0 1.6mm; font-size: 8.8pt; line-height: 1.45; }
+.pc-contact { border-left: 1px solid var(--rule); padding-left: 5mm; }
+.pc-contact strong { color: var(--green); }
+.pc-box a { color: var(--green-mid); text-decoration: underline; }

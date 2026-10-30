@@ -170,6 +170,28 @@ Every number on page 1 has an entry below: what it says, where it comes from, an
 :::
 :::
 
+::: {.fringe-box}
+### This is not a fringe concern
+
+::: {.fr-cols}
+::: {.fr-col}
+**Asked five times in Parliament in 2026.** [Dr Roz Savage MP](https://questions-statements.parliament.uk/written-questions/detail/2026-01-27/109013) (February), [Lord Truscott](https://questions-statements.parliament.uk/written-questions/detail/2026-03-20/hl15829) (March), [Tim Farron MP](https://questions-statements.parliament.uk/written-questions/detail/2026-04-10/124514) and [Baroness Bennett](https://questions-statements.parliament.uk/written-questions/detail/2026-03-25/hl15962) (April), [David Reed MP](https://questions-statements.parliament.uk/written-questions/detail/2026-07-07/16806) (July). Each time: no national stockpile and no plans for one. Asked how many days of food the country holds, ministers gave no number.
+
+**Households are told to stockpile; the nation is not.** Government guidance asks every home to keep [3 days of non-perishable food](https://prepare.campaign.gov.uk/get-prepared-for-emergencies/). The country keeps none.
+:::
+
+::: {.fr-col}
+**The warnings keep coming.** May: food experts write to ministers that Britain is ["sleepwalking into a food crisis"](https://www.theguardian.com/environment/2026/may/28/britain-sleepwalking-into-a-food-crisis-without-urgent-action-experts-say). June: the Cold Chain Federation calls food disruption an ["immediate national priority"](https://www.theguardian.com/business/2026/jun/06/ministers-uk-food-supply-immediate-national-priority-trade-body-urges). September: the [National Audit Office](https://www.nao.org.uk/reports/resilience-of-the-food-supply-chain-to-disruptions/) finds the food supply chain unprepared for catastrophic disruption. October: [over 150 experts](https://www.globalgovernmentforum.com/create-department-for-food-security-to-address-uk-government-complacency-on-impending-shocks-say-experts/) write to the Prime Minister asking for national food stores.
+
+**Jets, yes. Food, no.** On 20 October the Defence Secretary told Parliament that instability around the Red Sea "has direct consequences for the United Kingdom" and announced RAF Typhoon operations in the region ([HCWS394](https://questions-statements.parliament.uk/written-statements/detail/2026-10-20/hcws394)). The same trade routes carry our food and fertiliser.
+:::
+:::
+:::
+
+::: {.author-box}
+**About the author.** Mars Robertson wrote this proposal and filed the Freedom of Information request ["Strategic food reserves and compound risk"](https://www.whatdotheyknow.com/request/strategic_food_reserves_and_comp) with Defra on 21 October 2026; the reply is due by 18 November. Read everything, models included, on [GitHub](https://github.com/planetarycouncil/food-security-climate-regeneration).
+:::
+
 ::: {.pc-box}
 ### Who is Planetary Council?
 

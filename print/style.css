@@ -456,3 +456,23 @@ sup.fn::after { content: "]"; }
 .pc-contact { border-left: 1px solid var(--rule); padding-left: 5mm; }
 .pc-contact strong { color: var(--green); }
 .pc-box a { color: var(--green-mid); text-decoration: underline; }
+
+/* closing evidence frame on the last page: "not a fringe concern" */
+.fringe-box {
+  break-inside: avoid;
+  margin-top: 5mm;
+  background: var(--green);
+  color: #f1f6f2;
+  border-radius: 2.4mm;
+  padding: 4mm 5mm;
+  font-family: "Inter", sans-serif;
+}
+.fringe-box h3 { margin: 0 0 2.4mm; font-size: 13pt; color: #f0cf86; }
+.fr-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+.fringe-box p { margin: 0 0 2mm; font-size: 8.4pt; line-height: 1.45; }
+.fringe-box strong { color: #fff; }
+.fringe-box a { color: #e8c983; text-decoration: underline; text-decoration-color: rgba(232,201,131,0.5); }
+.author-box { break-inside: avoid; margin-top: 3mm; padding: 2.6mm 4mm; border-left: 3px solid var(--wheat); background: var(--wheat-soft); font-family: "Inter", sans-serif; }
+.author-box p { margin: 0; font-size: 8.4pt; line-height: 1.45; }
+.author-box strong { color: var(--green); }
+.author-box a { color: var(--green-mid); text-decoration: underline; }

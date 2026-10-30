@@ -79,7 +79,7 @@ Food is the one thing nobody can live without. Britain is better placed to grow 
 **£4.46** a person a year (£310m) of new money^31^
 :::
 
-[500]{.n} soil-moisture stations, up from 50, and a free soil test for every field every 5 years^32^
+[500]{.n} stations measuring how wet the soil is (up from ~50), to warn farmers of drought early; and a free soil test for every field every 5 years^32^
 
 [£100m]{.n} a year for farm reservoirs that store winter rain for dry summers (today ~£15m a round)^33^
 

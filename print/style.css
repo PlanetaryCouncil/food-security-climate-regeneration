@@ -328,7 +328,7 @@ sup.fn a { color: inherit; }
 .dense .story { font-size: 9.8pt; line-height: 1.4; margin-bottom: 3mm; }
 
 /* ---------- one-pager: at a glance, then sources and working ---------- */
-.onepager { font-family: "Inter", sans-serif; font-size: 7.9pt; line-height: 1.3; }
+.onepager { font-family: "Inter", sans-serif; font-size: 7.75pt; line-height: 1.3; }
 .op-head {
   flex: none;
   background: var(--green);
@@ -339,7 +339,7 @@ sup.fn a { color: inherit; }
 }
 .op-top { font-size: 7pt; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #e8c983; }
 .op-head h1 { font-size: 18.5pt; line-height: 1.08; font-weight: 800; letter-spacing: -0.015em; margin: 1.2mm 0 1.6mm; color: #fff; }
-.op-lede p { margin: 0; font-size: 9.6pt; line-height: 1.38; }
+.op-lede p { margin: 0; font-size: 9.2pt; line-height: 1.36; }
 .op-lede strong { color: #f0cf86; }
 .op-cols { flex: none; display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
 .op-col h2 {
@@ -409,3 +409,12 @@ sup.fn a { color: inherit; }
 /* bracket footnote numbers so copied text reads "over 65[4]", not "over 654" */
 sup.fn::before { content: "["; }
 sup.fn::after { content: "]"; }
+.op-goal p {
+  margin: 2mm 0 0;
+  padding-top: 1.8mm;
+  border-top: 0.75pt solid rgba(232,201,131,0.55);
+  font-size: 10.4pt;
+  line-height: 1.3;
+  color: #fff;
+}
+.op-goal strong { color: #f0cf86; }

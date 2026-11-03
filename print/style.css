@@ -489,3 +489,5 @@ sup.fn::after { content: "]"; }
 .bottom-line p { margin: 0 0 1.8mm; font-size: 10pt; line-height: 1.45; color: var(--ink); }
 .bottom-line p:last-child { margin: 0; font-size: 11pt; }
 .bottom-line strong { color: var(--green); }
+.signature { margin-top: 3mm; font-family: "Inter", sans-serif; }
+.signature p { margin: 0; font-size: 7.2pt; line-height: 1.4; color: var(--muted); font-style: italic; }

@@ -215,3 +215,7 @@ An independent group of citizens working on food security, climate and regenerat
 
 **Bottom line:** we believe the UK has the land, the climate and the water to feed itself and to be strategically food independent, if it plans for it. Store and grow is the best long-term insurance policy we know: one that helps the United Kingdom thrive and survive for the next thousand years.
 :::
+
+::: {.signature}
+Drafted with Claude (Anthropic) · fact-checked by ChatGPT, Gemini and Grok, November 2026 · fact-checks from AI models built outside the US (for example Mistral, DeepSeek or Qwen) particularly welcome.
+:::

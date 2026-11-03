@@ -25,8 +25,7 @@ CSS = (PRINT / "style.css").read_text()
 DOCS = [
     ("briefing.md", "can-britain-feed-itself.pdf", "Can Britain Feed Itself? Store and grow", ""),
     ("one-pager.md", "uk-food-reserve-at-a-glance.pdf", "Strategic Food Reserve and Food Independence",
-     '@page { @bottom-left { content: "Strategic Food Reserve and Food Independence · v0.2 · Planetary Council · planetarycouncil@protonmail.com"; } }'
-     '@page :first { @bottom-left { content: "v0.2 · Planetary Council · planetarycouncil@protonmail.com · sources and references from page 2"; } }'),
+     '@page { @bottom-left { content: "Strategic Food Reserve and Food Independence · Planetary Council · planetarycouncil@protonmail.com • version 2026-11-03"; } }'),
     ("regen-business-case.md", "regenerative-farming-business-case.pdf", "Farming That Rebuilds Soil: The Business Case",
      '@page { @bottom-left { content: "Farming That Rebuilds Soil · Planetary Council · planetarycouncil@protonmail.com"; } }'
      '@page :first { @bottom-left { content: "Planetary Council · planetarycouncil@protonmail.com · sources and references from page 2"; } }'),

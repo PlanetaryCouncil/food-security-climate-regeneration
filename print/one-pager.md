@@ -217,5 +217,5 @@ An independent group of citizens working on food security, climate and regenerat
 :::
 
 ::: {.signature}
-Drafted with Claude (Anthropic) · fact-checked by ChatGPT, Gemini and Grok, November 2026 · fact-checks from AI models built outside the US (for example Mistral, DeepSeek or Qwen) particularly welcome.
+Drafted with Claude (Anthropic) · fact-checked by ChatGPT, Gemini and Grok, November 2026 · fact-checks from AI models built outside the US particularly welcome.
 :::

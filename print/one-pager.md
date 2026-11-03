@@ -56,10 +56,10 @@ Food is the one thing nobody can live without. Britain is better placed to grow 
 ### :i-silo: STORE · the insurance policy
 
 ::: {.op-price}
-**£10.33** a person a year (£718m) for ~6.8 m tonnes of food and farm supplies^18^
+**About £10** a person a year, our design budget: £10.33 for ~6.8 m tonnes^18^
 :::
 
-[4.35 Mt]{.n} of bread wheat: flour for ~10 months at today's use, or ~84 days of everyone's calories^19^
+[4.35 Mt]{.n} of bread wheat: flour for ~10 months at today's use, or ~84 days of everyone's raw calories^19^
 
 [3 days]{.n} of ready-to-eat food (no cooking) for every person, ~2,000 kcal a day, stored locally^20^
 
@@ -71,7 +71,7 @@ Food is the one thing nobody can live without. Britain is better placed to grow 
 
 [~40]{.n} stores at grain ports (e.g. Immingham, Liverpool, Belfast) and in every region, plus local points in schools and depots^28^
 
-[£3.69bn]{.n} up front over ~5 years, mostly the food itself; a small open agency (~65 staff, £33m a year) runs it^29,30^
+[£3.69bn]{.n} up front over ~5 years, mostly the food; run by a small open agency (~65 staff)^29,30^
 
 ### :i-sprout: GROW · build the surplus
 
@@ -105,11 +105,11 @@ Food is the one thing nobody can live without. Britain is better placed to grow 
 
 ::: {.op-foot}
 ::: {.op-total}
-**Store and grow together: £14.79 a person a year, about 4p a day, under 2% of the defence budget.**^39^ Our model's central estimate; range £9.40 to £18.34, worst case tested £25.57.^40^
+**We started from a budget: £10 a person a year** (National Insurance, not National Insurance). With GROW, £14.79: 4p a day, under 2% of defence.^39^ Estimates only; knock-on costs could take the reserve to £12–17.^40^
 :::
 
 ::: {.op-act}
-**Next steps:** an independent check of our model · a pilot of mills, local delivery and the food pack · a law setting a minimum reserve and clear release rules.^41^
+**Next steps:** an independent audit of our two models · a regional pilot with one mill, a few councils and the food pack · a formal appraisal against the Government's current approach.^41^
 :::
 :::
 :::
@@ -134,7 +134,7 @@ Every number on page 1 has an entry below: what it says, where it comes from, an
 6. **446,200 work in farming; 40% of English farm holders over 65, 5% under 35.** [P] [Defra, *Farming evidence pack* (Sep 2026)](https://www.gov.uk/government/publications/farming-evidence-pack-a-high-level-overview-of-the-uk-agricultural-industry)
 7. **112% of calories over ten years; 105% over five; 101% in 2025.** [P] Farm output equal to 2,150 kcal per person a day against an average need of 2,119 (a margin of 31 kcal), before waste and processing losses; 105% on average over five years, 112% over ten. Defra notes the margin would shrink if imported feed stopped. 31 kcal is less than half a slice of bread (a medium slice is ~80–100 kcal: our comparison). [Defra, *Nutritional supply of agriculture in the UK 2025* (15 Oct 2026)](https://www.gov.uk/government/statistics/nutritional-supply-of-agriculture-in-the-uk-2025/nutritional-supply-of-agriculture-in-the-uk-2025)
 8. **~52% of cereals to animal feed; livestock use 84% of farmland.** [P] Feed share from Defra cereal usage statistics (2023 data); the land share counts grazing plus feed crops, under Defra's stated assumptions, and livestock supply ~31% of farm calories. [Defra, *Agriculture in the UK 2025*, ch. 2](https://www.gov.uk/government/statistics/agriculture-in-the-united-kingdom-2025/chapter-2-structure-of-industry)
-9. **~170 kcal per person per day if animals got 10% less grain.** [E] Our arithmetic: UK livestock eat ~13.4 Mt of cereals a year ([AHDB cereal supply and demand, 2025/26](https://ahdb.org.uk/end-of-season-uk-cereal-supply-and-demand-september-2026)). 10% is 1.34 Mt × ~3.3 m kcal a tonne ÷ 69.5 m people ÷ 365 ≈ 174 kcal, about five times the 2025 margin of 31 kcal. Grain is not a whole diet, and less feed means less meat, milk and eggs. Our grain model shows that with feed at 90% of today, normal harvests carry the UK through three years without imports and without extra reserve ([`cereal_balance.py`](https://github.com/planetarycouncil/food-security-climate-regeneration/blob/claude/focused-mendel-5qswh8/research/model/cereal_balance.py)).
+9. **~170 kcal per person per day if animals got 10% less grain.** [E] Our arithmetic: UK livestock eat ~13.4 Mt of cereals a year ([AHDB cereal supply and demand, 2025/26](https://ahdb.org.uk/end-of-season-uk-cereal-supply-and-demand-september-2026)). 10% is 1.34 Mt × ~3.3 m kcal a tonne ÷ 69.5 m people ÷ 365 ≈ 174 kcal, about five times the 2025 margin of 31 kcal. Grain is not a whole diet, and less feed means less meat, milk and eggs. In our grain model (a scenario, not a demonstrated capability), with feed at 90% of today, normal harvests carry the UK through three years without imports and without extra reserve ([`cereal_balance.py`](https://github.com/planetarycouncil/food-security-climate-regeneration/blob/claude/focused-mendel-5qswh8/research/model/cereal_balance.py)).
 10. **2.39 Mt soya meal, ~1.1 Mt protein.** [S/E] Import tonnage from the AIC soya report (2024); protein is our arithmetic at ~46% crude protein.
 11. **No large-scale UK ammonia production; all phosphate imported.** [P] CF Fertilisers idled the Billingham ammonia plant in August 2022 and proposed permanent closure in July 2023; fertiliser is still made there from imported ammonia ([CF Industries (Jul 2023)](https://cfindustries.com/newsroom/2023/billingham-ammonia-plant)). Also [Defra, *UK Food Security Report 2024*, theme 3](https://www.gov.uk/government/statistics/united-kingdom-food-security-report-2024/united-kingdom-food-security-report-2024-theme-3-food-supply-chain-resilience). Phosphate: ~174 kt of phosphorus imported a year, under half used productively. [Lancaster University, UK Phosphorus Transformation Strategy (2022)](https://www.lancaster.ac.uk/news/scientists-release-uk-roadmap-for-managing-key-ingredient-behind-all-the-food-we-eat)
 12. **904 kt of fertiliser nitrogen, 2025.** [P] [Defra, British Survey of Fertiliser Practice 2025](https://assets.publishing.service.gov.uk/media/6aa3fb1dc5796a7a179c6728/BSFP_2025_Stats_Notice.pdf)
@@ -143,8 +143,8 @@ Every number on page 1 has an entry below: what it says, where it comes from, an
 15. **1.514 Mt of wheat at the pre-harvest low ≈ 39 days.** [P/E] Commercial stocks at end of season; days are our arithmetic against total UK wheat use. [AHDB, end-of-season UK cereal supply and demand (Sep 2026)](https://ahdb.org.uk/end-of-season-uk-cereal-supply-and-demand-september-2026)
 16. **Four of the UK's five worst harvests on record likely this decade** (2020, 2024, 2025, 2026). [S] ECIU's analysis of key-crop volume from AHDB and Defra data, before final 2026 figures (due December); it expects 2026 to be the smallest on record. [ECIU (Oct 2026)](https://eciu.net/media/press-releases/uk-harvest-even-worse-than-previously-thought-new-data)
 17. **No national strategic food reserve, "no plans to create these".** [P] Firms hold working stock (note 15); the government relies on commercial supply chains. [UK Parliament, written answer HL15829 (31 Mar 2026)](https://questions-statements.parliament.uk/written-questions/detail/2026-03-20/HL15829/)
-18. **£10.33 per person a year, £718m, ~6.8 Mt.** [E] Our cost model: £375m carrying cost of compulsory commercial stocks (6.7 Mt, held by firms, cost passed through food prices: £5.40 a person) plus £343m for the public tranche and operations (taxes: £4.93). Carrying cost = finance + storage + rotation losses, not the purchase price. [`reserve_basket.py`](https://github.com/planetarycouncil/food-security-climate-regeneration/blob/claude/focused-mendel-5qswh8/research/model/reserve_basket.py)
-19. **4 Mt food-grade wheat + 0.35 Mt high-protein wheat; ~10 months of bread; ~84 days of calories.** [E] 4 Mt ÷ UK mill intake (4.8 Mt a year, [UK Flour Millers](https://www.ukflourmillers.org/the-industry/annual-review)) ≈ 304 days, if mills have power, staff and the right mix. The strong wheat for today's sliced loaf lasts ~90 days; after that bread becomes heavier. As raw energy: 4 Mt × ~3.3 m kcal/t ÷ (69.5 m × 2,250 kcal) ≈ 84 days. Annual cost £182m. Same model as note 18.
+18. **£10.33 per person a year, £718m, ~6.8 Mt.** [E] An economic cost, not one government bill: £4.93 a person through taxes, £5.40 through food prices. Not yet checked against supplier quotes. Our cost model: £375m carrying cost of compulsory commercial stocks (6.7 Mt, held by firms, cost passed through food prices: £5.40 a person) plus £343m for the public tranche and operations (taxes: £4.93). Carrying cost = finance + storage + rotation losses, not the purchase price. [`reserve_basket.py`](https://github.com/planetarycouncil/food-security-climate-regeneration/blob/claude/focused-mendel-5qswh8/research/model/reserve_basket.py)
+19. **4 Mt food-grade wheat + 0.35 Mt high-protein wheat; ~10 months of bread; ~84 days of calories.** [E] Raw energy, before milling losses and waste, and not a complete diet. 4 Mt ÷ UK mill intake (4.8 Mt a year, [UK Flour Millers](https://www.ukflourmillers.org/the-industry/annual-review)) ≈ 304 days, if mills have power, staff and the right mix. The strong wheat for today's sliced loaf lasts ~90 days; after that bread becomes heavier. As raw energy: 4 Mt × ~3.3 m kcal/t ÷ (69.5 m × 2,250 kcal) ≈ 84 days. Annual cost £182m. Same model as note 18.
 20. **No-cook pack: 104 kt.** [E] 3 days × 69.5 m × ~500 g of crispbread, biscuits and oatcakes ≈ 104,000 t, ~2,000 kcal a day at 4 kcal/g; stored near where people live, rotated into schools, forces and food banks every ~2 years. £28m a year. Not yet designed by dietitians. Model as note 18.
 21. **90 days of supplements.** [E] The model budgets vitamins A (as beta-carotene), C and D plus zinc for 69.5 m, £19m a year. One formula will not suit everyone: high-dose beta-carotene raised lung-cancer risk in smokers in two large trials ([ATBC, *NEJM* 1994](https://doi.org/10.1056/NEJM199404143301501); [CARET, *NEJM* 1996](https://doi.org/10.1056/NEJM199605023341802)), and children and pregnancy need their own doses. Formulas must be set by public-health nutritionists. Model as note 18.
 22. **Infant formula ~7 kt; medical foods; 7-day specialist pack for 5 m people.** [E] Formula held by manufacturers; specialist pack for people who cannot use the standard ration (allergies, coeliac disease, texture needs). £44m a year together. Model as note 18.
@@ -165,8 +165,8 @@ Every number on page 1 has an entry below: what it says, where it comes from, an
 37. **60% of food by value; over 80% in the 1980s; wheat 83%, fresh vegetables 56%, fresh fruit 14%.** [P] "Production to supply ratio", 2025. The 60% is by money value, so it moves with import prices; it is not a calorie share. The crop shares are by volume. [Defra, *Agriculture in the UK 2025*, ch. 14](https://www.gov.uk/government/statistics/agriculture-in-the-united-kingdom-2025/chapter-14-the-food-chain)
 38. **The Netherlands; greenhouses.** [P/I] Dutch farm exports were €137.5bn in 2025: €88.4bn of Dutch produce and €49.1bn of re-exports ([Statistics Netherlands, Mar 2026](https://www.cbs.nl/en-gb/news/2026/03/value-of-agricultural-exports-up-by-over-8-percent-in-2025)). On balance the Netherlands imports more calories and protein than it exports ([Wageningen University](https://www.wur.nl/en/news/does-netherlands-feed-world-study-challenges-familiar-view-dutch-agriculture)). In 2022 greenhouse gas costs rose from about €0.80 to €2.50 a cubic metre and some growers shut down completely ([New Zealand MFAT market report, Sep 2022](https://www.mfat.govt.nz/en/trade/mfat-market-reports/the-dutch-horticulture-sector-an-innovative-sector-facing-an-energy-crisis-and-rising-costs-september-2022)). Lesson: copy the skills and technology, not the dependence on imported feed and gas. Waste-heat greenhouses and a skilled-career push are our proposals, not costed in the plan.
 39. **£14.79 a person a year; under 2% of defence.** [P/E] £10.33 + £4.46 = £14.79 ÷ 365 ≈ 4p a day. In total £14.79 × 69.5 m ≈ £1.03bn a year, 1.7% of Ministry of Defence spending of ~£62bn (2025/26; the departmental measure, not NATO's wider one), which is ~£890 a person. [House of Commons Library, CBP-8175](https://researchbriefings.files.parliament.uk/documents/CBP-8175/CBP-8175.pdf)
-40. **Range £9.40 to £25.57.** [E] These are annual carrying costs, including finance; the £3.69bn up front (note 29) is financed within them, not added on top. Low: finance 3.5%, storage −10% (£9.40). Prices +30% (£11.35). Firms financing at 8% without a state facility (£11.92) or 10% (£12.73). Grain and fertiliser prices doubled (£13.73). Stress (£16.56); severe (£18.34); extreme (£25.57). If the ONS counts firms' stock as public, government debt rises by ~£2.2bn. Model as note 18.
-41. **Decisions.** The law: emergency regulations under the Civil Contingencies Act lapse after 30 days, so a standing reserve needs its own Act ([Civil Contingencies Act 2004, Part 2](https://www.legislation.gov.uk/ukpga/2004/36/part/2)). No power to direct food firms today, and local planning found "insufficient" ([NAO, Sep 2026](https://www.nao.org.uk/reports/resilience-of-the-food-supply-chain-to-disruptions/)). Comparable countries already hold reserves: Finland at least 6 months of bread grain; Switzerland 2–4 months of staples, held by firms by law ([réservesuisse](https://www.reservesuisse.ch/compulsory-stocks/?lang=en)). The full 22-page briefing sets out the case chapter by chapter: [`pdf/can-britain-feed-itself.pdf`](https://github.com/planetarycouncil/food-security-climate-regeneration/blob/claude/focused-mendel-5qswh8/pdf/can-britain-feed-itself.pdf)
+40. **£10 as a design budget; range £9.40 to £25.57.** [E] We asked what about £10 a person a year could buy, then built up to it: bread first, then no-cook food, running costs, special diets, next harvest, staples. Central estimate £10.33; firms borrowing at 8% £11.92; stress case £16.56, hence "£12–17". Not yet independently validated. These are annual carrying costs, including finance; the £3.69bn up front (note 29) is financed within them, not added on top. Low: finance 3.5%, storage −10% (£9.40). Prices +30% (£11.35). Firms financing at 8% without a state facility (£11.92) or 10% (£12.73). Grain and fertiliser prices doubled (£13.73). Stress (£16.56); severe (£18.34); extreme (£25.57). If the ONS counts firms' stock as public, government debt rises by ~£2.2bn. Model as note 18.
+41. **Decisions.** Next steps from independent AI fact-checks: audit our two models; pilot one region; test a 30-day port closure, a 90-day trade and energy shock and several poor harvests; appraise against alternatives (Green Book). The law: emergency regulations under the Civil Contingencies Act lapse after 30 days, so a standing reserve needs its own Act ([Civil Contingencies Act 2004, Part 2](https://www.legislation.gov.uk/ukpga/2004/36/part/2)). No power to direct food firms today, and local planning found "insufficient" ([NAO, Sep 2026](https://www.nao.org.uk/reports/resilience-of-the-food-supply-chain-to-disruptions/)). Comparable countries already hold reserves: Finland at least 6 months of bread grain; Switzerland 2–4 months of staples, held by firms by law ([réservesuisse](https://www.reservesuisse.ch/compulsory-stocks/?lang=en)). The full 22-page briefing sets out the case chapter by chapter: [`pdf/can-britain-feed-itself.pdf`](https://github.com/planetarycouncil/food-security-climate-regeneration/blob/claude/focused-mendel-5qswh8/pdf/can-britain-feed-itself.pdf)
 :::
 :::
 
@@ -188,16 +188,14 @@ Every number on page 1 has an entry below: what it says, where it comes from, an
 :::
 :::
 
-::: {.author-box}
-**About the author.** Mars Robertson wrote this proposal and filed the Freedom of Information request ["Strategic food reserves and compound risk"](https://www.whatdotheyknow.com/request/strategic_food_reserves_and_comp) with Defra on 21 October 2026; the reply is due by 18 November. Read everything, models included, on [GitHub](https://github.com/planetarycouncil/food-security-climate-regeneration).
-:::
-
 ::: {.pc-box}
 ### Who is Planetary Council?
 
 ::: {.pc-cols}
 ::: {.pc-about}
 An independent group of citizens working on food security, climate and regenerating the land. We publish our working in the open: every number sourced, every model public, every critique welcome. **Resilience through transparency: tell us where this breaks.**
+
+**About the author.** Mars Robertson wrote this proposal and filed the Freedom of Information request ["Strategic food reserves and compound risk"](https://www.whatdotheyknow.com/request/strategic_food_reserves_and_comp) with Defra on 21 October 2026; the reply is due by 18 November. Read everything, models included, on [GitHub](https://github.com/planetarycouncil/food-security-climate-regeneration).
 :::
 
 ::: {.pc-contact}

@@ -385,7 +385,7 @@ sup.fn a { color: inherit; }
 .op-price strong { font-size: 11pt; color: var(--green); }
 .op-foot { flex: none; margin-top: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
 .op-foot p { margin: 0; }
-.op-total, .op-act { padding: 2.6mm 3.2mm; border-radius: 0; font-size: 8pt; line-height: 1.35; }
+.op-total, .op-act { padding: 2.1mm 3mm; border-radius: 0; font-size: 8pt; line-height: 1.35; }
 .op-total { background: var(--green); color: #f1f6f2; }
 .op-total strong { color: #f0cf86; font-size: 9.6pt; }
 .op-act { background: var(--green-soft); border-left: 3px solid var(--green); }
@@ -452,7 +452,7 @@ sup.fn::after { content: "]"; }
 }
 .pc-box h3 { margin: 0 0 2.4mm; font-size: 12pt; color: var(--green); }
 .pc-cols { display: grid; grid-template-columns: 1.4fr 1fr; gap: 6mm; }
-.pc-box p { margin: 0 0 1.6mm; font-size: 8.8pt; line-height: 1.45; }
+.pc-box p { margin: 0 0 1.2mm; font-size: 8.4pt; line-height: 1.4; }
 .pc-contact { border-left: 1px solid var(--rule); padding-left: 5mm; }
 .pc-contact strong { color: var(--green); }
 .pc-box a { color: var(--green-mid); text-decoration: underline; }
@@ -469,7 +469,7 @@ sup.fn::after { content: "]"; }
 }
 .fringe-box h3 { margin: 0 0 2.4mm; font-size: 13pt; color: #f0cf86; }
 .fr-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
-.fringe-box p { margin: 0 0 2mm; font-size: 8.4pt; line-height: 1.45; }
+.fringe-box p { margin: 0 0 1.6mm; font-size: 8.1pt; line-height: 1.4; }
 .fringe-box strong { color: #fff; }
 .fringe-box a { color: #e8c983; text-decoration: underline; text-decoration-color: rgba(232,201,131,0.5); }
 .author-box { break-inside: avoid; margin-top: 3mm; padding: 2.6mm 4mm; border-left: 3px solid var(--wheat); background: var(--wheat-soft); font-family: "Inter", sans-serif; }
@@ -480,7 +480,7 @@ sup.fn::after { content: "]"; }
 /* final word */
 .bottom-line {
   break-inside: avoid;
-  margin-top: 5mm;
+  margin-top: 3.5mm;
   padding: 4mm 5mm;
   border-top: 4px solid var(--green);
   border-bottom: 1px solid var(--green);

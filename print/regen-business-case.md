@@ -1,6 +1,6 @@
 ::: {.page .onepager}
 ::: {.op-head}
-[United Kingdom · The business case · October 2026]{.op-top}
+[United Kingdom · The business case · Version 0.2, November 2026]{.op-top}
 
 # Farming That Rebuilds Soil
 

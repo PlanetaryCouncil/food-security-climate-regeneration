@@ -398,8 +398,8 @@ sup.fn a { color: inherit; }
   margin-top: 0;
   padding-top: 3mm;
   border-top: 1.5px solid var(--green);
-  font-size: 7.8pt;
-  line-height: 1.42;
+  font-size: 7.5pt;
+  line-height: 1.38;
   color: var(--ink);
 }
 .refbook .refs ol { column-count: 2; column-gap: 7mm; padding-left: 5mm; }
